@@ -1,0 +1,74 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-13T15:26:18Z",
+  "claims": [
+    {
+      "claim": "活発で自律的なコミュニティが成功の最大要因である。",
+      "evidence": "DogecoinやShiba Inuなどの成功例は、バイラルなミーム文化と、価格変動時も保持し続ける（HODL）強力なコミュニティ基盤を持つ。コミュニティの関与（投票、ミーム生成）が寿命を決定づける。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "OKX Learn: Memecoins Unleashed",
+        "source_locator": "https://www.okx.com/learn/memecoins-community-tokenomics-social-media",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "希少性と公平な分配メカニズムが長期的な価値を支える。",
+      "evidence": "成功したプロジェクトは、供給量の上限設定（例: PEPEの420T上限）、デフレメカニズム（Burn）、またはステーク報酬などのインセンティブを導入している。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Blofin: What Makes a Good Memecoin?",
+        "source_locator": "https://blofin.com/en/academy/blofin-courses/what-makes-a-good-memecoin",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "ロックされた流動性と透明性が信頼の必須条件である。",
+      "evidence": "持続的な買い支え（Buy-side liquidity）と、開発者が流動性を引き出せない「Liquidity Lock」が確認できるプロジェクトは生存率が高い。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "MEXC Blog: The Mechanics of Memecoins",
+        "source_locator": "https://blog.mexc.com/news/the-mechanics-of-memecoins-creation-liquidity-cycles-community-power-and-market-psychology/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "内部関係者による流動性の引き抜きや売却制限が最も一般的な失敗要因である。",
+      "evidence": "失敗したコインの多くで、開発者が流動性をロックしていない、またはスマートコントラクトに「Mint（無限発行）」や「Honeypot（売却不可）」機能が含まれていた。Solana上の\"PumpFun\"などのランチパッドでは、約99%がラグプルまたはPump-and-Dumpの特徴を示したというデータもある。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "AmbCrypto: How to spot a 'rug pull'",
+        "source_locator": "https://eng.ambcrypto.com/how-to-spot-a-rug-pull-5-on-chain-signs-a-memecoin-is-about-to-die/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "流動性が薄い（Thin Liquidity）ため、少額の売却で価格が崩壊する。",
+      "evidence": "初期段階で流動性が十分に供給されていないプロジェクトは、クジラ（大口保有者）の売却に耐えられず、価格がゼロに向かう。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "MEXC Blog: The Mechanics of Memecoins",
+        "source_locator": "https://blog.mexc.com/news/the-mechanics-of-memecoins-creation-liquidity-cycles-community-power-and-market-psychology/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "短期的な誇大宣伝（Hype）のみに依存し、実用性や長期計画がないプロジェクトは1年以内に消滅する。",
+      "evidence": "2024年以降にローンチされたミームコインの約97%が失敗しており、その多くは平均寿命が1年未満である。開発チームが匿名で、ロードマップが存在しない場合、誇大宣伝が収束すると同時に放置される（Dead coins）。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Crypto News: 97% of Meme Coins Don't Last a Year",
+        "source_locator": "https://cryptonews.com/news/97-percent-of-meme-coins-dont-last-a-year-study-finds/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    }
+  ]
+}

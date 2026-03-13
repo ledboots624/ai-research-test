@@ -1,0 +1,107 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-13T15:01:11Z",
+  "claims": [
+    {
+      "claim": "DeepSeek R2はHybrid Mixture-of-Experts (MoE) 3.0アーキテクチャを採用し、推論効率を極限まで高めている",
+      "evidence": "総パラメータ数は約1.2兆と推測されるが、推論時のアクティブパラメータは78-96B（約6-8%）に抑えられている。Multi-head Latent Attention (MLA) 技術により、最大128Kトークンの長いコンテキストでもKVキャッシュのメモリ使用量を大幅に削減している",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek R2 Release Date & Features; DeepSeek R2 Community Updates",
+        "source_locator": "Toolkitly/TechHounder (2025-2026)",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DeepSeek R2はネイティブマルチモーダル対応と多言語対応が強化されている",
+      "evidence": "テキストに加え画像の理解・生成をネイティブサポート（将来的に音声も計画）。英語・中国語に加え、ロシア語、アラビア語、ヒンディー語などで性能向上が図られている",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek R2 vs OpenAI; Smile.eu Report",
+        "source_locator": "Aitechtonic (2026); Smile.eu",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DeepSeek R2は特定タスク（数学・コーディング）においてOpenAI o1/GPT-4oと拮抗または凌駕するが、汎用性では及ばない可能性がある",
+      "evidence": "数学(GSM8K): リーク情報で92.2%（GPT-4クラスを上回るスコア）。コーディング(HumanEval): 81.1%（Claude 3.7やGPT-4oと競争力あり）。汎用(MMLU): 78.5%程度と予測され、GPT-5等の最上位モデルに一歩譲る傾向",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DeepSeek R2 Performance Leaks; Sustainable Tech Partner Analysis",
+        "source_locator": "DeepSeekR2.space",
+        "access_date": "unknown"
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "DeepSeek R2は圧倒的な推論コストの安さにより価格破壊（\"Cost Efficiency Revolution\"）をもたらす",
+      "evidence": "独自のMoEアーキテクチャとHuawei Ascend 910Bチップへの最適化により、GPT-4クラスと比較して推論コストを最大97%削減（入力 $0.07/1Mトークン等）できるとされる",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek vs OpenAI API Pricing; Altagic Blog",
+        "source_locator": "MyDeepSeekAPI (2025)",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DeepSeek R2は商用利用における「安価な代替手段」としての地位を確立する",
+      "evidence": "MITライセンス（予定）によるオープンソース提供とAPIの安さにより、コストに敏感なスタートアップや、オンプレミス構築を望む企業への導入が進むと予測される",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek R2: The AI Model That Could Disrupt the Industry",
+        "source_locator": "Altagic",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DeepSeek R2はR1からの正統進化モデルである",
+      "evidence": "R1が推論特化・テキスト/コード中心・英語/中国語中心だったのに対し、R2は「マルチモーダル化」「多言語対応の拡大」「さらなる推論効率化」が差別化要因となる",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DeepSeek Model Comparison",
+        "source_locator": "SourceForge",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DeepSeek R2はOpenAI o1やClaude 3.5/3.7に対抗する「超低コスト・高推論能力」モデルとして位置づけられる",
+      "evidence": "結論セクションにおける著者の総括的評価。上記のコスト削減（最大97%）および数学・コーディングでのベンチマーク結果（GSM8K 92.2%, HumanEval 81.1%）を根拠としている",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本調査レポート（著者結論）",
+        "source_locator": "unknown",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DeepSeek R2の最大の武器は「GPT-4級の性能を1/10以下のコストで提供する」経済的インパクトである",
+      "evidence": "性能の絶対値よりもコスト効率が主な競争優位とされている。ただし具体的な根拠数値は上記のコスト比較（最大97%削減）から導かれており、「1/10以下」という表現は独自の言い換えを含む",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本調査レポート（著者結論）",
+        "source_locator": "unknown",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DeepSeek R2は2026年3月時点で未リリースであり、商用採用の検討には正式リリース後のセキュリティ評価（検閲・脆弱性）を待つ必要がある",
+      "evidence": "公式発表は行われておらず、DeepSeek公式サイトやコミュニティでは \"Coming Soon\" とされている。情報の多くはリークに基づいているため、セキュリティリスクの評価が未確定",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本調査レポート（著者注記）",
+        "source_locator": "unknown",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    }
+  ]
+}

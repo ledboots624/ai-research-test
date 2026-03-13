@@ -1,0 +1,162 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T15:30:05Z",
+  "claims": [
+    {
+      "claim": "ミームコイン市場は2024年以降に急拡大したが、97%以上のプロジェクトが1年以内に失敗するという極めてハイリスクな市場である。",
+      "evidence": "CryptoNewsの報道によれば97%のミームコインが1年未満で失敗。Fybit調査でも同様の傾向を確認。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Crypto News: 97% of Meme Coins Don't Last a Year",
+        "source_locator": "https://cryptonews.com/news/97-percent-of-meme-coins-dont-last-a-year-study-finds/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "成功するプロジェクトに共通するのは、強固なコミュニティ基盤・透明なTokenomics・ロックされた流動性の3要素であり、これらが欠如するプロジェクトはRug Pullや流動性崩壊によって急速に価値を失う。",
+      "evidence": "not_stated（Executive Summaryにおける複数Findingsの総合的結論として提示されており、単一の直接的根拠は明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Solanaチェーン上のPumpFunに代表されるように、ローンチパッドの普及が詐欺的プロジェクトの参入障壁を大幅に下げており、投資家リスクは増大傾向にある。",
+      "evidence": "PumpFun上のプロジェクトの約99%がRug PullまたはPump-and-Dumpの特徴を示すというコミュニティデータが存在。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Flintr: Anatomy of a rug pull",
+        "source_locator": "https://www.flintr.io/articles/anatomy-of-a-rug-pull-identify-scams-on-pumpfun",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "自律的かつ継続的に活動するコミュニティを持つプロジェクトは、長期的に生存する確率が著しく高い。",
+      "evidence": "DogecoinおよびShiba Inuは、価格下落局面でもHODL文化とミーム生成によるコミュニティ活動が継続し、数年単位での生存を実現。コミュニティの投票・ガバナンス参加がプロジェクト寿命に正の相関を示す。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "OKX Learn: Memecoins Unleashed",
+        "source_locator": "https://www.okx.com/learn/memecoins-community-tokenomics-social-media",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "自律的かつ継続的に活動するコミュニティを持つプロジェクトは、長期的に生存する確率が著しく高い。",
+      "evidence": "DogecoinおよびShiba Inuは、価格下落局面でもHODL文化とミーム生成によるコミュニティ活動が継続し、数年単位での生存を実現。コミュニティの投票・ガバナンス参加がプロジェクト寿命に正の相関を示す。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Ainvest: The Alchemy of Memecoins",
+        "source_locator": "https://www.ainvest.com/news/alchemy-memecoins-decoding-community-hype-tokenomics-explosive-growth-2025-2509/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "流動性のロック状況はプロジェクトの安全性を評価する最も即効性のある指標であり、ロックなしのプロジェクトはRug Pullリスクが極めて高い。",
+      "evidence": "流動性がロックされていないプロジェクトでは、開発者が任意のタイミングで資金を引き抜くことが可能。Buy-side liquidityの持続的供給があるプロジェクトはクジラの売却圧力にも耐性を持つ。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "MEXC Blog: The Mechanics of Memecoins",
+        "source_locator": "https://blog.mexc.com/news/the-mechanics-of-memecoins-creation-liquidity-cycles-community-power-and-market-psychology/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "ローンチパッドの普及により参入障壁が極端に低下し、2024年以降のミームコインの97%以上が1年以内に消滅している。",
+      "evidence": "CryptoNewsの報道によれば97%のミームコインが1年未満で失敗。Fybit調査でも同様の傾向を確認。匿名チームとロードマップ不在がDead Coins化の主要パターン。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Crypto News: 97% of Meme Coins Don't Last a Year",
+        "source_locator": "https://cryptonews.com/news/97-percent-of-meme-coins-dont-last-a-year-study-finds/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "ローンチパッドの普及により参入障壁が極端に低下し、2024年以降のミームコインの97%以上が1年以内に消滅している。",
+      "evidence": "Fybit調査で97%のミームコインが失敗という傾向を確認。匿名チームとロードマップ不在がDead Coins化の主要パターン。2つのソースが同数値を示すが独立性の確認が不完全。",
+      "source": {
+        "source_type": "blog",
+        "source_title": "Fybit: A Shocking Number of Meme Coins Have Failed",
+        "source_locator": "https://blog.fybit.com/2024-08-18-a-shocking-number-of-meme-coins-have-failed-in-2024-study/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "供給量上限・Burnメカニズム・ステーク報酬などのTokenomics設計は長期的価値維持に寄与するが、効果の定量的検証は限定的。",
+      "evidence": "PEPEの420T上限設定などデフレ設計を持つプロジェクトが市場での持続性を示す事例あり。ただし因果関係の定量的証拠は単一ソース由来。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Blofin: What Makes a Good Memecoin?",
+        "source_locator": "https://blofin.com/en/academy/blofin-courses/what-makes-a-good-memecoin",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "供給量上限・Burnメカニズム・ステーク報酬などのTokenomics設計は長期的価値維持に寄与するが、効果の定量的検証は限定的。",
+      "evidence": "PEPEの420T上限設定などデフレ設計を持つプロジェクトが市場での持続性を示す事例あり。ただし因果関係の定量的証拠は単一ソース由来。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Black Tokenomics: Tokenomics for Meme Coins",
+        "source_locator": "https://blacktokenomics.com/tokenomics-for-meme-coins/",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "スマートコントラクトのMint機能・Honeypot機能・流動性未ロックは、オンチェーンデータで事前検出可能な詐欺シグナルである。",
+      "evidence": "AmbCryptoがオンチェーンシグナル5項目を具体的に提示。PumpFun上のプロジェクトの約99%がRug PullまたはPump-and-Dumpの特徴を示すというコミュニティデータが存在（独立検証が必要）。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "AmbCrypto: How to spot a 'rug pull'",
+        "source_locator": "https://eng.ambcrypto.com/how-to-spot-a-rug-pull-5-on-chain-signs-a-memecoin-is-about-to-die/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "スマートコントラクトのMint機能・Honeypot機能・流動性未ロックは、オンチェーンデータで事前検出可能な詐欺シグナルである。",
+      "evidence": "PumpFun上のプロジェクトの約99%がRug PullまたはPump-and-Dumpの特徴を示すというコミュニティデータが存在。ただしコミュニティデータであり独立検証が必要。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Flintr: Anatomy of a rug pull",
+        "source_locator": "https://www.flintr.io/articles/anatomy-of-a-rug-pull-identify-scams-on-pumpfun",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Etherscan / Solscan等のツールを用いたデューデリジェンスが有効な防衛手段である。",
+      "evidence": "スマートコントラクトのMint機能・Honeypot機能・流動性ロック状況のオンチェーン検証が詐欺回避に有効とされる。Conclusionにて高確信度と明示。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "AmbCrypto: How to spot a 'rug pull'",
+        "source_locator": "https://eng.ambcrypto.com/how-to-spot-a-rug-pull-5-on-chain-signs-a-memecoin-is-about-to-die/",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "トークン保有分布において上位10アドレスで50%超の集中がある場合はRug Pullリスクが高い。",
+      "evidence": "not_stated（Recommended Actionsセクションで「上位10アドレスで50%超の場合は回避」と記載されているが、直接的な根拠データは本文中に明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

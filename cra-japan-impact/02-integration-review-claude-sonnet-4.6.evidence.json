@@ -1,0 +1,74 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T15:16:17Z",
+  "claims": [
+    {
+      "claim": "CRAは2024年12月に発効済みであり、段階的に義務が強化され2027年末に完全適用となる。",
+      "evidence": "発効日: 2024年12月10日。脆弱性・インシデント報告義務: 2026年9月11日（発効21ヶ月後）。SBOM含む全要件の完全適用: 2027年12月11日（発効36ヶ月後）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847; European Commission - Horizontal Cybersecurity Requirements Summary",
+        "source_locator": "eur-lex.europa.eu",
+        "access_date": "2024-12"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "2027年12月11日以降、対象製品すべてで機械可読SBOMの作成・維持・更新が法的義務となる。",
+      "evidence": "少なくともトップレベルの依存関係を含むSBOM作成が必須。対応フォーマット: CycloneDX、SPDX 1.5+など標準的な機械可読形式。記載必須項目: コンポーネント名・バージョン、サプライヤー識別子、依存関係、暗号チェックサム、ライセンス情報。SBOMの公開義務はないが、EU当局からの求めに応じて提出義務あり。製品・ソフトウェアの更新に伴い、SBOMも随時更新が必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "eur-lex.europa.eu",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "商用製品に組み込まれたOSSについては、純粋なOSSプロジェクト自体は規制対象外だが、それを利用した最終製品の製造者が当該OSSコンポーネントのセキュリティについて全責任を負う。",
+      "evidence": "非営利・開発者向けの純粋なOSSプロジェクトは規制対象外（CRA Recitals明記）。商用製品の一部として販売・配布された場合、そのOSSコンポーネントのセキュリティ確保は製造者の義務。「OSSを使ったから知らなかった」はCRA違反の免責事由にならない。サプライチェーン全体のデューデリジェンスが求められる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "CRA Final Text Recitals",
+        "source_locator": "eur-lex.europa.eu",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "製造者は製品の予想使用期間（または最低5年が実質的指標）にわたり、脆弱性対応のセキュリティアップデートを無償提供する義務を負い、サポート終了日（EOL）の明示も必須。",
+      "evidence": "製品の「予想使用期間」中は脆弱性発見次第、迅速なパッチ提供が義務。工業製品・IoT機器では最低5年が業界実務上の実質的基準とされることが多い（法律上の明文規定ではなくガイダンス上の目安）。EOL日時の消費者への明示義務あり。なお「5年」の数値はガイダンス的目安であり、法律上の明文規定は「予想使用期間」のため、製品カテゴリ別の具体的解釈は今後の委任規則等で確定見込み（Evidence Strength: moderate）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "European Commission - Cyber Resilience Act Q&A",
+        "source_locator": "digital-strategy.ec.europa.eu",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "2025年3月、METIがJC-STARを正式ローンチ。EU当局との対話でCRAとの概念的整合性は「高い」と評価されたが、相互認証の制度的着地点は未確定。",
+      "evidence": "2025年3月: METI/IPA、IoT製品セキュリティラベリングスキーム「JC-STAR」を正式公開（任意参加、4段階ティア制）。EU-日本当局間の技術的対話で「概念的整合性が高い」と確認。ただしCRAは法的強制義務、JC-STARは任意の認証スキームであり執行メカニズムが異なる。JC-STAR認証はEU当局からの審査において補強材料となる可能性があるが、CRA義務の代替にはならない。制度的相互認証の着地点は交渉継続中。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "METI Press Release - Launch of IoT Product Security Labeling Scheme (JC-STAR)",
+        "source_locator": "meti.go.jp/english/press/2025/0325_006.html",
+        "access_date": "2025-03"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "CRA違反時の制裁金は最大1,500万ユーロまたは全世界年間売上高の2.5%の高い方であり、違反はCEマーク取得不可によりEU市場からの事実上の排除につながる。",
+      "evidence": "制裁金上限: €15,000,000 または全世界売上高の2.5%（高い方が適用）。重要製品（Annex I Class II）など高リスク製品は第三者認証機関（Notified Body）による適合性評価が義務。CEマーク未取得製品のEU市場流通は不可。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847, Article 64",
+        "source_locator": "eur-lex.europa.eu",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    }
+  ]
+}

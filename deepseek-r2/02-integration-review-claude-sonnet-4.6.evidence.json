@@ -1,0 +1,96 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T15:04:35Z",
+  "claims": [
+    {
+      "claim": "DeepSeek R2は2025年以降複数回リリース予測が出たが、いずれも否定されており、2026年3月現在も正式リリースは未確認。",
+      "evidence": "DeepSeek側が2025年3月・8月の特定タイムラインを明示的に否定。2026年1月時点でもDataconomyが「ローンチタイミング非公開」と報道。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek V4 and R2 launch timing stays hidden",
+        "source_locator": "https://dataconomy.com/2026/01/15/deepseek-v4-and-r2-launch-timing-stays-hidden/",
+        "access_date": "2026-01-15"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "総パラメータ1.2兆・推論時アクティブ78B程度のHybrid MoE 3.0構成により、大規模モデルに匹敵する品質を低コスト・低レイテンシで実現。",
+      "evidence": "MLA（Multi-head Latent Attention）でKVキャッシュを90%以上削減、128Kトークンのコンテキスト対応。GRPO・GRMによるRL強化で人間フィードバック依存を低減。「Engram」記憶技術・mHCによるGPUメモリ制約下でのスケーラブルトレーニングも報告。ただし公式技術文書は未発行であり、情報源はサードパーティ分析に限られる。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek R2 Technical Deep Dive",
+        "source_locator": "https://deepseekr2.space/technology",
+        "access_date": "2026-03"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "数学・コーディング・中国語タスクではGPT-4クラスと競合水準にあるが、英語汎用推論・創造的タスクではOpenAI/Anthropicの上位モデルに劣る。",
+      "evidence": "GSM8K 92.2%、HumanEval 81.1%、MMLU 78.5%（リーク値）。実際のビジネスタスク評価ではClaude Sonnet 9.8/10・GPT-4.1 9.4/10に対しDeepSeek R1が8.4/10（R2は未測定）。公式ベンチマーク未公開であり、数値はR1比較・リーク情報に依存。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DeepSeek R2 Performance & Benchmarks",
+        "source_locator": "https://deepseekr2.space/performance",
+        "access_date": "2026-03"
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "入力トークン単価が$0.07〜$0.14/1Mトークン程度で、OpenAI ($15/1M) やAnthropic ($10〜$25/1M) と比較して桁違いに安価。",
+      "evidence": "DeepSeek V3/R1での実績から低コスト路線は実証済み。MoE構造・Huawei Ascend最適化により計算効率を最大化。R1/V3の実績に基づく延長予測として信頼性が高い。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek vs OpenAI (2026): A Comparative Analysis",
+        "source_locator": "https://aitechtonic.com/deepseek-vs-openai/",
+        "access_date": "2026-03"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "ジェイルブレーク・エージェントハイジャック攻撃への脆弱性が高く、政治的センシティブなクエリで国家整合的な回答傾向が確認されている。",
+      "evidence": "NISTのCenter for AI Standards and Innovationによる評価レポートで、DeepSeekモデルはGPT-5・Claude Opus 4+に対してセキュリティと堅牢性の両面で明確に劣ると評価された。NISTによる一次評価レポートであり信頼性が高い。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "NIST CAISI Evaluation of DeepSeek AI Models",
+        "source_locator": "https://www.nist.gov/document/caisi-evaluation-deepseek-ai-models-report",
+        "access_date": "2026-03"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MITライセンスでの公開（予定）によりスタートアップ・オンプレミス需要を取り込み、OpenAI/Anthropicのクローズドモデル依存からの脱却を促進する。",
+      "evidence": "DeepSeek V3/R1はすでにオープンソースで広く利用されており、R2もその路線を踏襲すると予測される。コスト感応度の高い開発者・企業にとって最有力な代替候補とされる。ただしR2のライセンス詳細は未公式。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "DeepSeek R2: The AI Model That Could Disrupt the Industry",
+        "source_locator": "Altagic Blog",
+        "access_date": "2026-03"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DeepSeek R2はGPT-4クラスを上回るスコアを達成している。",
+      "evidence": "コミュニティ情報に基づく主張。「汎用タスクではGPT-4.1・Claude Sonnetに劣る」という実用評価と矛盾しており、タスク特化 vs. 汎用性の比較軸の違いによる可能性が高い。未解決の矛盾として文書内に記載されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "DeepSeek R2の利用により最大97%のコスト削減が可能である。",
+      "evidence": "一部報道による主張。「10〜40倍安価」とする別の報道と数値が異なるが、削減率の計算基準（比較対象モデル・入出力比率）が異なるためと説明されており、大幅な低価格であることは両報道で一致している。部分的に解決済みの矛盾として文書内に記載されている。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T15:10:48Z",
+  "claims": [
+    {
+      "claim": "ASMLのHigh-NA EUV量産機EXE:5200Bは2025年末時点で「量産対応宣言（Production-Ready）」を達成しており、出荷が進んでいる。ただし年産能力は5〜6台程度と極めて限定的。",
+      "evidence": "装置は500,000枚超のウェーハ処理実績・稼働率80%（2026年末に90%目標）を達成。単価は約3.8〜4億ドル（約580億円〜）。供給側の制約により、導入できるファウンドリ・IDMは事実上Intel・Samsung・TSMC・SK Hynixの数社に限定される。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "ASML Declares High-NA EUV Systems Production-Ready",
+        "source_locator": "circlo.io",
+        "access_date": "2025-12-18"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "IntelはHigh-NA EUVを「Intel 14A（1.4nm級）」プロセスで業界初めて量産採用する計画であり、2026年後半のリスク生産開始に向けて順調に進んでいる。",
+      "evidence": "オレゴン州D1X工場にEXE:5000/5200を導入済み。フィールドスティッチング（露光フィールド間の接合技術）のデモンストレーションに成功。Intel 14Aは前世代18Aと比べ歩留まり改善の報告あり。2026年2月時点でIntel自身が「on-time」を宣言。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Intel boasts on-time chip roadmap, 14a node in late 2026",
+        "source_locator": "fiercelectronics.com",
+        "access_date": "2026-02-10"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Samsungは2026年前半までにHigh-NA EUV装置2台を華城キャンパスに導入し、2027年の2nm/1.4nmロジック量産およびDRAM次世代製品への適用を目指している。",
+      "evidence": "1台目は2025年後半、2台目は2026年前半に納入予定（TrendForce・TechPowerUp報道）。Exynos 2600やAIアクセラレータ、次世代垂直チャネルトランジスタDRAMへの活用計画が確認されている。TSMCに先んじる意図が明確。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Samsung Reportedly Purchasing Two ASML High-NA EUV Tools",
+        "source_locator": "trendforce.com",
+        "access_date": "2025-10-16"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "TSMCはA14（1.4nm）の初期量産にHigh-NA EUVを採用しないことを確定。2028年以降の改良版「A14P」または次世代ノードまで導入を延期する方針。",
+      "evidence": "既存EUV（NA 0.33）＋マルチパターニングでA14の性能目標を達成できると判断。A14リスク生産は2026年前半開始予定だがHigh-NAなし。TSMCはHigh-NAの投資対効果（ROI）が現時点で合わないと明言。$490億の設備投資計画でもHigh-NA EUVは当面の優先課題に含まれない。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "TSMC reiterates it doesn't need High-NA EUV for 1.4nm-class process",
+        "source_locator": "Tom's Hardware",
+        "access_date": "2026-01-18"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "High-NA EUV量産化における主要障壁は①装置・プロセスコストの大幅増加、②露光フィールドサイズ縮小（従来の半分）によるチップ設計制約、③レジスト・マスク・検査装置等エコシステムの未成熟、の3点である。",
+      "evidence": "解像度は~13nm（標準EUV）から~8nm（High-NA）へ向上するがフィールドサイズは従来比約半分（アナモルフィック光学系の特性）。フィールドスティッチング技術は実証されているが量産での歩留まりへの影響は未確定。メタルオキサイドレジスト等の次世代材料の量産適用はまだ成熟途上。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "High-NA EUV Enters the Battlefield",
+        "source_locator": "aminext.blog",
+        "access_date": "2025-11-02"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "SK HynixがHigh-NA EUV採用を検討・計画している可能性がある。",
+      "evidence": "TrendForce（2026-02-16）の記事でIntel・Samsung・SK Hynixを「大きく賭けている（Betting Big）」プレイヤーとして言及。ただし具体的な導入スケジュールや装置発注の公式確認は見当たらない。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "ASML's High-NA EUV for 2027-28: Which Giants Are Betting Big — Intel, Samsung, SK Hynix or TSMC?",
+        "source_locator": "trendforce.com",
+        "access_date": "2026-02-16"
+      },
+      "confidence": "low"
+    }
+  ]
+}

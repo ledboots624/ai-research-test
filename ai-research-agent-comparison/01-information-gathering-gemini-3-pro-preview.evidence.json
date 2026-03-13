@@ -1,0 +1,96 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-13T15:32:47Z",
+  "claims": [
+    {
+      "claim": "最小単位のコンポーネント（Prompt, Model, Tool）を「Chain」として結合し、複雑なワークフローを構築する設計思想。",
+      "evidence": "プロンプト管理、メモリ、ツール操作がモジュール化されており、開発者は必要な部品を組み合わせて独自のエージェントを設計可能。ステートフルなグラフ構造（LangGraph）により、ループや条件分岐を含む高度な制御を実現する。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "AI Agent Framework Comparison: LangChain vs AutoGPT vs CrewAI",
+        "source_locator": "fast.io",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "汎用性とエコシステム連携を重視し、特定のモデルやプロバイダーに依存しない抽象化層を持つ。",
+      "evidence": "\"Model Layer\"によるLLMの切り替え容易性と、LangSmithによる可観測性（Observability）の統合。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Philosophy - Docs by LangChain",
+        "source_locator": "docs.langchain.com",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "人間の組織構造を模倣し、各エージェントに明確な「役割（Role）」と「目標（Goal）」を与えることで協調動作させる思想。",
+      "evidence": "\"Crew\"という単位でエージェントをグループ化し、Sequential（順次）またはHierarchical（階層的）なプロセスでタスクを実行する。各エージェントは独立したバックストーリーと専門性を持つ。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Framework Deep Dive: CrewAI",
+        "source_locator": "turion.ai",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "複雑なオーケストレーションを抽象化し、チーム編成のような直感的な定義でマルチエージェントシステムを構築可能にする。",
+      "evidence": "LangChainのような低レイヤーの制御よりも、高レベルな「誰が何をやるか」の定義に注力する設計。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "CrewAI: The Revolutionary Multi-Agent Framework",
+        "source_locator": "blog.brightcoding.dev",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "人間の介入を最小限にし、目標達成まで自律的に思考・実行・修正を繰り返す「Set-and-Forget」型の設計。",
+      "evidence": "\"Plan, Criticize, Act, Read Feedback, Re-plan\"というサイクルを回し、自己批判（Self-Correction）機能により軌道修正を行う。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "AutoGPT: An Introduction to Autonomous AI Agents",
+        "source_locator": "atoms.dev",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "短期・長期メモリ（Vector DB）を活用し、継続的なタスク実行とコンテキスト保持を行う。",
+      "evidence": "以前のアクション結果を記憶し、次の意思決定に活用する永続化の仕組みがアーキテクチャの中核にある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "AutoGPT: Architecture, Performance, & Applications",
+        "source_locator": "labellerr.com",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "開発者がコンテキスト管理や履歴保持を行う必要がない「ステートフル（Stateful）」なAPI設計。",
+      "evidence": "\"Thread\"オブジェクトが会話履歴をサーバー側で保持し、トークン管理や切り捨てを自動化する。これによりクライアント側の実装負荷を大幅に軽減している。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Assistants API Overview",
+        "source_locator": "OpenAI Cookbook",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "インフラ管理不要で、Code InterpreterやFile Searchなどのツールをサーバーサイドで実行・統合する。",
+      "evidence": "関数呼び出し（Function Calling）やサンドボックス実行環境がAPIの一部として提供され、スケーラビリティとセキュリティがプラットフォーム側で担保される。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "OpenAI Assistants API Enterprise Application Guide",
+        "source_locator": "dev.to",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    }
+  ]
+}

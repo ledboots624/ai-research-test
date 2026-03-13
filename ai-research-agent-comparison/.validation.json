@@ -1,0 +1,13 @@
+{
+  "validated_at": "2026-03-13T15:38:27Z",
+  "result": "PARTIAL",
+  "total_claims": 13,
+  "claims_without_evidence": 0,
+  "evidence_without_source": 1,
+  "claims_without_confidence": 0,
+  "confidence_distribution": {
+    "high": 10,
+    "medium": 3,
+    "low": 0
+  }
+}

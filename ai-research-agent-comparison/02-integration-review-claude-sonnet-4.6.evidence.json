@@ -1,0 +1,63 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T15:37:52Z",
+  "claims": [
+    {
+      "claim": "最小単位コンポーネントをChainとして結合する「構成可能性と制御」を設計原則とし、LangGraphによりループ・条件分岐を含む高度なワークフローを実現する。",
+      "evidence": "任意のLLMプロバイダーを差し替え可能な抽象化層（Model Layer）とLangSmithによる可観測性の統合。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Philosophy - Docs by LangChain",
+        "source_locator": "docs.langchain.com",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "人間の組織構造を模倣し、各エージェントに役割・目標・バックストーリーを与えてチームとして協調させる「Role-Based Team Collaboration」を設計原則とする。",
+      "evidence": "Crew / Agent / Task / Process の4要素でシステムを定義。Sequential / Hierarchical プロセスで分業実行。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Framework Deep Dive: CrewAI",
+        "source_locator": "turion.ai",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "「Plan → Criticize → Act → Read Feedback → Re-plan」の自己批判ループと Vector DB による永続メモリを核に持つ「Set-and-Forget」型の自律エージェント。",
+      "evidence": "複数の独立したレポートで一致して、Vector DBによるコンテキスト保持と自己批判機能が確認されている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "AutoGPT: Architecture, Performance, & Applications",
+        "source_locator": "labellerr.com",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "会話履歴をサーバー側の「Thread」で管理するステートフルAPI設計により、開発者のコンテキスト管理・トークン管理の負荷を根本的に排除する。",
+      "evidence": "公式ドキュメントで Thread / Run / Assistant オブジェクトの設計が確認済み。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Assistants API Overview",
+        "source_locator": "OpenAI Cookbook",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "4フレームワークは「低レイヤー（高自由度）→ 高レイヤー（低自由度）」の順で LangChain → CrewAI → OpenAI Agents ≈ AutoGPT という階層を形成し、「制御性 vs 利便性」のトレードオフを体現している。",
+      "evidence": "各フレームワークの抽象化単位（コンポーネント/役割/APIコール/目標）の差異から統合分析で導出。直接的な比較研究なし、統合判断による。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "上記全ソースの統合分析",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-13T15:13:14Z",
+  "claims": [
+    {
+      "claim": "2024年12月に発効済み。完全適用は2027年後半から。",
+      "evidence": "発効日: 2024年12月10日; 脆弱性報告義務開始: 2026年9月11日（発効から21ヶ月後）; 全要件適用（SBOM含む）: 2027年12月11日（発効から36ヶ月後）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "European Commission - Cyber Resilience Act",
+        "source_locator": "digital-strategy.ec.europa.eu",
+        "access_date": "2024-12"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "すべての対象製品で、機械可読なSBOMの作成と維持が必須となる。",
+      "evidence": "デジタル要素を含む製品は、少なくともトップレベルの依存関係を含むSBOMを作成する必要がある。フォーマットはCycloneDXまたはSPDXなどの機械可読形式が求められる。製品のバージョンアップごとにSBOMも更新が必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "eur-lex.europa.eu",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "商用製品に組み込まれたOSSについては、最終製品の製造者が全責任を負う。",
+      "evidence": "純粋なOSSプロジェクト（非営利・開発者向け）は規制対象外だが、商用製品の一部として販売される場合、そのOSSコンポーネントのセキュリティ確保は製造者の義務となる。「OSSだから知らなかった」は通用せず、サプライチェーン全体のデューデリジェンスが求められる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "CRA Final Text Recitals",
+        "source_locator": "unknown",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "「期待される製品寿命」に基づいた期間中、セキュリティアップデートを無償で提供し続ける必要がある。",
+      "evidence": "製造者は「サポート期間」を定義し、その期間中は脆弱性が発見され次第、迅速に対処・修正パッチを提供する義務がある。多くの工業製品・IoT機器では最低5年間のサポートが実質的なベンチマークとされることが多いが、法律上は「製品の予想使用期間」が基準。サポート終了日（EOL）を消費者に明示する必要がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "European Commission - Cyber Resilience Act Q&A",
+        "source_locator": "unknown",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "日本の製造業は「CEマーク」取得の要件としてCRA準拠が必須化され、日欧間の基準調和が進められている。",
+      "evidence": "EUに輸出する全デジタル製品にCEマーク必須。CRA不適合ならCEマーク貼付不可＝輸出不可。違反時の制裁金は最大1500万ユーロまたは全世界売上高の2.5%の高い方。日本政府（METI/Digital Agency）とEUは、日本のIoTセキュリティ適合性評価制度「JC-STAR」とCRAの相互運用性について協議中。基準調和の具体的な着地点は協議中のため確度がやや低い。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "JETRO - 新たなセキュリティー規則、サイバーレジリエンス法施行",
+        "source_locator": "jetro.go.jp",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-13T15:18:37Z",
+  "claims": [
+    {
+      "claim": "OpenAIは「Operator」と「AgentKit」によるエージェントの民主化とOS化を推進している。",
+      "evidence": "2025年初頭に「Operator」(Computer-Using Agent: CUA) を投入しGUI操作の自律化を実現。「AgentKit」(2025年10月) と「Responses API」によりエージェント開発のライフサイクルを標準化。ChatGPTをアプリケーションOSとして再定義し、外部開発者がアプリを統合できるエコシステムを構築。最新モデル「GPT-5.2-Codex」を投入。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "OpenAI Just Laid Out Its 2026 Roadmap",
+        "source_locator": "eWeek, 2025-10-25",
+        "access_date": "2025-10-25"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Anthropicは企業向け信頼性と「Computer Use」の実用化で差別化している。",
+      "evidence": "「Computer Use」機能の拡張と「Artifacts」の進化により、企業内でのノーコード・エージェント構築をリード。金融・法務などの規制産業での採用が強く、透明性と安全性を重視。2026年には調査対象企業の80%がクロスファンクショナルなエージェントワークフローを計画。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The 2026 State of AI Agents Report",
+        "source_locator": "Rivista AI, 2025-12",
+        "access_date": "2025-12"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "GoogleはGemini 2.0とAstraを核とした、マルチモーダルかつ企業規模でのエージェント展開を進めている。",
+      "evidence": "「Gemini 2.0」はエージェント機能（ツール使用、マルチモーダル入出力）に特化。「Vertex AI Agent Builder」と「Gemini Enterprise」により、企業の基幹業務への深い統合（AI-first business reengineering）を推進。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "AI agent trends 2026 report",
+        "source_locator": "Google Cloud, 2026",
+        "access_date": "2026"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "OSSコミュニティでは「主権AI (Sovereign AI)」と「ローカルファースト」への回帰およびエコシステムの多様化が進んでいる。",
+      "evidence": "CrewAI, LangGraph, OpenClaw, AutoGPT-Next等が台頭し120以上のツールが存在。Llama 4やQwen3などのオープンモデルを用いたローカル環境での自律動作によりプライバシーとベンダーロックイン回避を実現。Agent Marketplace（ClawHubなど）やエージェント間SNS（MoltBook）が出現。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Awesome AI Agents 2026",
+        "source_locator": "GitHub, 2026-03",
+        "access_date": "2026-03"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "API・SaaSモデルにおける基本的な収益源はトークンまたはエージェント実行単位の課金である。",
+      "evidence": "OpenAI, Anthropic等はAPIコールごとの課金に加え、信頼性とサポートを付加価値としたエンタープライズサブスクリプションを提供。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "AI Agents Market Size, Share & Trends",
+        "source_locator": "DemandSage, 2026",
+        "access_date": "2026"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "PaaSモデルではエージェントの開発・展開・監視基盤の提供による収益化が行われている。",
+      "evidence": "Google (Vertex AI), Microsoft (Azure AI Studio) は、エージェントを構築・運用するための統合環境を「シート課金」や「ライセンス」で提供。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Top Companies in AI Agents Industry",
+        "source_locator": "MarketsandMarkets, 2026",
+        "access_date": "2026"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Verticalized Solutions・Marketplacesモデルでは特定業界向けエージェントおよびモジュール販売が行われている。",
+      "evidence": "医療、法務、カスタマーサポートなどに特化した「既製エージェント」のSaaS販売。エージェント用プラグインやスキルを売買するマーケットプレイスでのレベニューシェアモデル。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Top AI Agent Companies: Industry Leaders to Watch in 2026",
+        "source_locator": "Designveloper, 2026",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "AIエージェント市場は2025年の78億ドルから2030年代初頭には520億〜2360億ドル規模に急成長すると予測される。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "2026年の主要トレンドは「Show me the money」であり、単なる導入実験から具体的なROI実証へとフェーズが移行している。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "GitHub 'Agent HQ' のように、異なるプロバイダーのエージェントを一元管理・連携させる相互運用性の動きが加速している。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "2026年の市場はモデルの性能競争から「エージェントの実用性と統合」へと競争軸がシフトしており、最大の課題は導入効果(ROI)の証明とセキュリティである。",
+      "evidence": "OpenAIはOS化、Anthropicは実務遂行能力、Googleは企業インフラ化、OSSはローカル/特化型需要と、各プレイヤーの棲み分けが明確化しつつある。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    }
+  ]
+}
