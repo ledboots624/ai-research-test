@@ -1,0 +1,56 @@
+{
+  "topic": "jeff-beck",
+  "description": "ギタリストJeff Beckの音楽的功績、奏法の革新性、影響を受けたアーティストと後世への影響を調査",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "step1_comprehensive_gathering",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "Jeff Beckのキャリア全般（Yardbirds時代からJeff Beck Group、ソロ活動まで）における主要なアルバム、ライブパフォーマンス、使用機材の変遷、および批評家による評価を、信頼できる音楽メディアやインタビュー記事から網羅的に収集する。",
+      "depends_on": []
+    },
+    {
+      "id": "step2_technique_analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "Jeff Beckの奏法の特異性（フィンガーピッキングへの移行、ボリューム・トーン奏法、アーミング技術など）がギターという楽器の表現力をどう拡張したかについて、具体的な楽曲をエビデンスとして詳細に分析する。",
+      "depends_on": [
+        "step1_comprehensive_gathering"
+      ]
+    },
+    {
+      "id": "step3_influence_mapping",
+      "step": 3,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "彼が影響を受けたアーティスト（Les Paul, Cliff Gallup等）との比較分析と、彼が後世のギタリストやジャンル（フュージョン、ハードロック等）に与えた具体的な影響関係を、アーティストの証言や楽曲の引用関係に基づいて体系化する。",
+      "depends_on": [
+        "step1_comprehensive_gathering"
+      ]
+    },
+    {
+      "id": "step4_critical_review",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "これまでの分析における「革新性」や「影響力」の主張に対し、過度な伝説化やバイアスが含まれていないか、また技術的な説明に誤解がないか論理的矛盾やエビデンス不足を厳しく検証する。",
+      "depends_on": [
+        "step2_technique_analysis",
+        "step3_influence_mapping"
+      ]
+    },
+    {
+      "id": "step5_final_synthesis",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "検証済みのエビデンスを統合し、Jeff Beckがポピュラー音楽史において果たした役割と、その特異な奏法が遺した功績について、客観的かつ包括的な最終結論を導き出す。",
+      "depends_on": [
+        "step4_critical_review"
+      ]
+    }
+  ]
+}

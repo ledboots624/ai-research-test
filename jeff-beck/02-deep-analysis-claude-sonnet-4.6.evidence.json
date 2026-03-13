@@ -1,0 +1,118 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T16:58:38Z",
+  "claims": [
+    {
+      "claim": "Beckのフィンガーピッキングへの完全移行（1980年代以降）は、単なる奏法変更ではなく、ピックが強制する均一なアタックという物理的制約からの解放であった。",
+      "evidence": "Jeff Beck GroupおよびBlow by Blow制作期（1975年）から指弾きの比重が増し1980年代に完全移行。親指と人差し指を主軸に爪先・指腹の使い分けでアタック特性を瞬時に切り替え可能となった。「Cause We've Ended as Lovers」（Blow by Blow, 1975）にてバラードの感情的起伏を右手の指圧変化のみで表現しており、ピック奏法では物理的に不可能な芸当とされる。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "How to Play Guitar Like Jeff Beck",
+        "source_locator": "GuitarPlayer.com",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "BeckのフィンガーピッキングはChet Atkins流のカントリー・スタイルと、ジャズ・ピアニスト的な右手独立性を融合した独自モデルであり、ロックギターの右手概念を根本的に再定義した。",
+      "evidence": "「Where Were You」（Guitar Shop, 1989）にて右手親指でベース音、人差し指でハーモニクスを発生させるChet Atkins型奏法を採用し、右手が同時にハーモニクス・ピッキング・ワーミーバー操作を担う多機能状態を実現。Rick Beatoがlex Fridmanポッドキャストで「ジャズ・クラシックの奏法に最も近いロックギタリスト」と評している。「最高峰」という評価は主観的判断を含む。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Transcript for Rick Beato: Greatest Guitarists of All Time",
+        "source_locator": "lexfridman.com/rick-beato-transcript",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "小指によるリアルタイムのボリュームノブ操作は、ギターに本来存在する「弦を弾く瞬間の物理的ノイズ（ピッキング・トランジェント）」を消去し、バイオリン・チェロのような「音量がゼロから増大するエンベロープ」をギターで実現した。これは電子楽器なしに弦楽器のエンベロープ特性を複製した最初期の事例の一つである。",
+      "evidence": "「Cause We've Ended as Lovers」にて各フレーズ冒頭でボリュームを絞り弦を弾いた直後に小指で急速にボリュームを開く操作を繰り返し、出音が「音が空から降ってくる」ような持続音として知覚される。「The Final Peace」（There and Back, 1980）ではフロート型トレモロとの組み合わせでさらに精緻化。Premier Guitarは「ピックを使わないからこそ右手が同時にボリュームノブ・トレモロアーム・ピックアップセレクターを操作できる」と明記している。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Jeff Beck and the Magic Volume Knob",
+        "source_locator": "premierguitar.com/jeff-beck-and-the-magic-volume-knob",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "ボリューム操作に加え、トーンノブのリアルタイム操作によって「一つのサステイン音の中で音色スペクトルを移動させる」表現が可能となり、これはシンセサイザーのフィルタースイープに相当する効果をアナログ・メカニズムで実現したものである。",
+      "evidence": "Beckは演奏中にトーンノブを絞ることで高域成分を段階的に消去し、音が「遠ざかる」または「水中に沈む」ような音色変化を演出した。この手法はYardbirds期にワウペダルで実施されていたが、その後ギター本体のトーンコントロールに内在化された。楽曲単位の詳細検証は文献依存度が高い。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "He was a '60s blues firebrand...",
+        "source_locator": "Guitar World (guitarworld.com)",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "Beckは1970年代後半以降、Stratocasterのトレモロをボディから約3mm浮かせる「フローティング」設定を採用し、ピッチを「上下双方向」にリアルタイムで変形できる環境を構築した。これにより、西洋音楽の12半音体系では記譜不能な「音程の隙間（マイクロトーン）」を自在に通過するフレージングが可能となった。",
+      "evidence": "「Blue Wind」（Wired, 1976）にてアーミングによるスライド効果を多用し、各フレーズのノート間をアームで滑らかに接続することでペダルスティール・スライドギターを模倣。「Star Cycle」（There and Back, 1980）ではアームによるグライドがメロディラインの骨格をなし通常のベンドでは到達不能な「音程の連続変形」を実現。Bulgarian State Radio & Television Female Vocal Choirからの影響を受けた非西洋的マイクロトーン語法の表れとする分析がGuitarPlayerに掲載されている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Behind Jeff Beck's Microtonal Guitar Approach",
+        "source_locator": "guitarplayer.com/guitarists/jeff-becks-microtonal-guitar-approach",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "最も技術的に特異な点は、右手が「ピッキング・ボリュームノブ操作・アーム操作」を同時並行で実行するという身体的構造であり、これはピック奏者には物理的に不可能な多変数同時制御を実現している。",
+      "evidence": "「Where Were You」（Guitar Shop, 1989）にて親指でピッキング→人差し指でハーモニクス・ノードを押さえながら→同時にアームを微妙に操作という3段階が右手3本の指で同時進行する。Premier Guitarはこの技術を「ギターという楽器に先天的に与えられた制約を最も大胆に再解釈した事例」と評価。Beckのライブ映像（Live at Ronnie Scott's, 2007）のクローズアップで右手の動きが視覚的に確認可能。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Tao of Jeff Beck",
+        "source_locator": "premierguitar.com/lessons/rock/tao-of-jeff-beck-guitar",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Beckの人工ハーモニクス奏法は、Chet Atkins由来の手法をエレクトリック・ロック/フュージョンの文脈に移植した最初期かつ最も影響力のある事例であり、ギターの可聴音域を実質的に拡張した。",
+      "evidence": "「Brush with the Blues」（Who Else!, 1999）にて左手フレット押弦状態で右手人差し指が弦のノード点に軽く接触し右手中指か親指で弦を弾くことで通常ピッチの1オクターブ上の倍音を「鈴のような」チャイム音として発生させる。さらにハーモニクス音を維持したままアームで微小ピッチ操作を加え倍音列上の音を滑らかに歌わせる複合技術を北海ジャズ祭（2006年）のライブ映像で確認可能。",
+      "source": {
+        "source_type": "video_content",
+        "source_title": "Jeff Beck - 'Brush With The Blues' | North Sea Jazz 2006",
+        "source_locator": "youtube.com/watch?v=DUY7B3R6D08",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Beckのボリューム奏法とフィンガーピッキングの組み合わせは弦楽器が本質的に持つ「音量が急激に立ち上がり指数関数的に減衰する」エンベロープという物理的制約を克服し、バイオリン・チェロ・人間の声に見られる「ゆっくりと立ち上がり持続する」エンベロープをギターに付与した最初の体系的試みである。",
+      "evidence": "技術的論理として妥当とされるが、「最初の体系的試み」という表現には他プレイヤーとの比較研究が不足しており推測を含む。本文中に明示的な外部ソースの引用なし。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "Beckは一本のギターで6種類の物理パラメータ（指圧変化・ボリュームノブ・トーンノブ・フローティング・アーム下方・フローティング・アーム上方・人工ハーモニクス）をリアルタイムで制御するシステムを構築しており、これはシンセサイザーの多変数音色制御に機能的に相当する。",
+      "evidence": "各奏法要素が個別に裏付けられており、その統合的整理として妥当とされる。指圧変化→ダイナミクス変化、ボリュームノブ→バイオリン的立ち上がり、トーンノブ→フィルタースイープ的音色移動、アーム下方→ポルタメント・ダウン、アーム上方→ポルタメント・アップ、人工ハーモニクス→1〜2オクターブ上昇のチャイム的音色の対応関係を表により整理。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "上記各節のソースを総合",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Jeff Beckの奏法革新の本質は「ギターのシグナル・チェーン全体を指先に内在化したこと」にある。一般的なギタリストがエフェクター・ペダルボード・外部機器に依存して音色変化を実現するのに対し、Beckはその大部分を「ピックを持たない右手の身体的構造」に集約した。",
+      "evidence": "「Cause We've Ended as Lovers」がボリューム奏法+フィンガーピッキング統合による「バイオリン化」を実証。「Where Were You」が人工ハーモニクス+アーミング+フィンガーピッキングの同時制御を記録。「Blue Wind」「Star Cycle」がマイクロトーン表現によるギターの音律的枠組みからの解放を示す。本文中に明示的な単一外部ソースの引用なし。文脈および全節の証拠の総合から高信頼度と判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    }
+  ]
+}
