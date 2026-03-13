@@ -1,0 +1,56 @@
+{
+  "topic": "sanae-token",
+  "description": "Sanae Tokenの総合分析：トークノミクス、技術基盤、市場動向、リスク評価",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "step1_info_gathering",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "Sanae Tokenに関する基本情報の網羅的収集。公式サイト、ホワイトペーパー、開発チームの背景、ロードマップ、主要な取引所への上場状況、および最新のニュースやソーシャルメディアでの言及を調査する。",
+      "depends_on": []
+    },
+    {
+      "id": "step2_tech_analysis",
+      "step": 2,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "技術基盤の評価。スマートコントラクトのコード（公開されている場合）、ブロックチェーンの選択理由、GitHubのアクティビティ、セキュリティ監査レポートの有無と内容、および技術的な独自性を分析する。",
+      "depends_on": [
+        "step1_info_gathering"
+      ]
+    },
+    {
+      "id": "step3_tokenomics_market",
+      "step": 3,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "トークノミクスと市場動向の詳細分析。トークン供給量、配分モデル、ユーティリティ、インフレ/デフレメカニズム、ベスティングスケジュール、および競合プロジェクトとの比較分析を行う。",
+      "depends_on": [
+        "step1_info_gathering"
+      ]
+    },
+    {
+      "id": "step4_risk_assessment",
+      "step": 4,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "包括的なリスク評価。規制リスク、市場ボラティリティ、中央集権化のリスク、およびプロジェクトの持続可能性に関する潜在的な課題を洗い出し、影響度を評価する。",
+      "depends_on": [
+        "step2_tech_analysis",
+        "step3_tokenomics_market"
+      ]
+    },
+    {
+      "id": "step5_final_review",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの調査結果を統合し、Sanae Tokenの総合的な評価レポートを作成する。投資家および開発者の視点から、プロジェクトの将来性と信頼性について最終的な結論を提示する。",
+      "depends_on": [
+        "step4_risk_assessment"
+      ]
+    }
+  ]
+}
