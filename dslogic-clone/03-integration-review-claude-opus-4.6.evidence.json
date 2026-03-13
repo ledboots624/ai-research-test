@@ -1,0 +1,151 @@
+{
+  "step": 3,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-13T17:56:04Z",
+  "claims": [
+    {
+      "claim": "2023年以降に製造されたDSLogic Plus/U2Basicは、内部FPGAがXilinx Spartan-6からPangoMicro PGL12Gに変更されている。この変更により、sigrok公式のlibsigrokでは2026年3月時点でも正式サポートされていない。ただし、コミュニティ提供のファームウェアファイル（cantclosevi/sigrok-firmware）を手動配置することで、部分的な動作は可能になりつつある。",
+      "evidence": "USB PIDが旧版0x0020からPango版0x0030/0x0034/0x0035に変更。sigrok公式のSupported hardwareリストにPango版は未掲載（2026年3月時点）。cantclosevi/sigrok-firmwareリポジトリでdreamsourcelab-dslogic-plus-v3-fpga.fw（PID 0x0034対応）が提供されている。コミュニティ報告では手動ファームウェア配置で動作する事例あり、ただし不安定性やチャンネルエラーの報告も存在。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic Plus - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/DreamSourceLab_DSLogic_Plus",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "旧Xilinx版DSLogicはsigrokで完全対応、Pango版はコミュニティファームウェアで部分対応であり、「条件付きサポート」が正確な表現である。",
+      "evidence": "Contradictory Claimsセクションにおいて、information-gatheringの「high confidenceでサポートあり」とdeep-analysisの「Pango版非対応」の矛盾を解決した結論として明示。Finding 1のPID変更・コミュニティファームウェア報告により裏付けられる。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DSlogic Plus Pango Version (2023) - EEVblog",
+        "source_locator": "https://www.eevblog.com/forum/testgear/dslogic-plus-pango-version-(2023)/25/",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "deep-analysisステップが報告した「¥19,000〜¥20,000」は一部の時期・リスティングに限定された可能性があり、2025年〜2026年の複数ソースを統合すると¥30,000〜¥38,000が主流価格帯である。ただし価格変動は大きく、タイミングにより¥20,000台で購入できる場合もありうる。",
+      "evidence": "VCHICSブランド¥29,943、DFPIOOブランド¥32,531、OPUIHOブランド¥35,027、BAIWEISHAブランド¥38,178が確認された。information-gatheringステップの¥32,000〜¥38,000と概ね整合。deep-analysisステップが参照した¥19,000〜¥20,000のASINは、タイムセールまたは旧リスティングの可能性。",
+      "source": {
+        "source_type": "merchant_data",
+        "source_title": "Amazon.co.jp U2BASIC VCHICSブランド",
+        "source_locator": "https://www.amazon.co.jp/dp/B0D1XWWBK5",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "AliExpressで流通するDSLogic Plus相当品は、平均評価4.9/5.0と高評価であり、金属筐体・シールドケーブル付きモデルはハードウェア品質が安定している。ただし付属テストクリップの品質が低く、SDRAMが未搭載の偽Plus品が混在するリスクがある。",
+      "evidence": "AliExpress商品ページの平均評価4.9/5.0。金属筐体はノイズ耐性・放熱で利点。「Plus」名称でもSDRAMが実装されていない製品の報告あり（EEVblog）。付属クリップの質が低いという複数のユーザーレビュー。",
+      "source": {
+        "source_type": "merchant_data",
+        "source_title": "AliExpress DSLogic Plus product page",
+        "source_locator": "https://www.aliexpress.com/item/1005008678612512.html",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "DreamSourceLab純正のDSViewソフトウェアは、旧Xilinx版・新Pango版を問わず全DSLogicハードウェアで安定して動作し、クロスプラットフォーム対応（Windows/macOS/Linux）である。sigrokに依存しない運用であれば、ハードウェアバリアントの問題は発生しない。",
+      "evidence": "DSViewはGitHubでOSS公開（GPLv3）。Pango版のPIDはDSView側で先行サポート。多プロトコルデコード機能を内蔵。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "GitHub DreamSourceLab/DSView",
+        "source_locator": "https://github.com/DreamSourceLab/DSView",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "sigrok/PulseViewの安定利用を最優先とする場合、DSLogicシリーズよりもKingst LAシリーズ（LA2016/LA5016）が構造的に優れた選択肢である。sigrok公式サポートが安定しており、FPGAバリアント問題のリスクがない。",
+      "evidence": "Kingst LA2016: 16ch, 200MHz, 1Gbit RAM, AliExpress $70〜$120。Kingst LA5016: 16ch, 500MHz, 2Gbit RAM, AliExpress $180〜$357, Amazon.co.jp ¥47,675。sigrok公式Supported hardwareリストに掲載済み、LA2016/LA5016ともに動作確認済み。メモリ容量でDSLogic Plus（256Mbit）を大幅に上回る（LA2016: 1Gbit、LA5016: 2Gbit）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA Series - sigrok",
+        "source_locator": "https://sigrok.org/wiki/Kingst_LA_Series",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSLogicシリーズをsigrokで使用する場合、FPGAビットストリームおよびFX2ファームウェアの抽出・配置は「オプション」ではなく必須手順である。sigrokパッケージにはこれらのファイルが同梱されていない。",
+      "evidence": "sigrok Wikiにsigrok-fwextract-dreamsourcelab-dslogicスクリプトの使用手順が記載。必要ファイル: DSLogic50.bin→dreamsourcelab-dslogic-fpga-5v.fw、DSLogic33.bin→dreamsourcelab-dslogic-fpga-3v3.fw、DSLogic.fw→dreamsourcelab-dslogic-fx2.fw。Pango版の場合はcantclosevi/sigrok-firmwareからv3ファームウェアの配置が必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/DreamSourceLab_DSLogic",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DreamSourceLab公式サイトでのDSLogic Plusの販売価格は$149 USD（定価$199 USDからのセール価格）。AliExpressクローンは公式価格の約60〜70%、Amazon.co.jp U2BASICは公式価格の約130〜170%の価格帯となる。",
+      "evidence": "公式: $149 USD（≒約¥22,000〜¥23,000 @1USD=150円換算）。AliExpress: ¥13,000〜¥16,000（公式の約60〜70%）。Amazon.co.jp U2BASIC: ¥30,000〜¥38,000（公式の約130〜170%）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DSLogic Plus - DreamSourceLab Shop",
+        "source_locator": "https://www.dreamsourcelab.com/shop/logic-analyzer/dslogic-plus/",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSLogic Plusは16ch/400MHz/256Mbit RAMの組み合わせでコストパフォーマンスの高いロジックアナライザである。Basic版との差別化要因はオンボードSDRAMであり、これは必須要件として選定すべきである。",
+      "evidence": "Conclusionセクション（確定的結論1）に記載。具体的な比較データはFinding 5のKingst LAとのスペック比較およびFinding 7の価格比較から導出。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSView（純正ソフト）利用を前提とするならば、現行流通品（Pango版含む）を安心して購入できる。",
+      "evidence": "Finding 4の内容を統合。DSView側でPango版のPIDを先行サポートしており、全ハードウェアバリアントで安定動作が確認されている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "GitHub DreamSourceLab/DSView",
+        "source_locator": "https://github.com/DreamSourceLab/DSView",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "sigrok/PulseViewの安定利用を最優先する場合、DSLogicシリーズは構造的リスクを抱えており、Kingst LA2016（$70〜$120、sigrok正式対応、1Gbit RAM）が代替として優位である。",
+      "evidence": "Finding 1（Pango版のsigrok非対応）およびFinding 5（Kingst sigrok正式サポート・大容量RAM）の統合から導出。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA Series - sigrok",
+        "source_locator": "https://sigrok.org/wiki/Kingst_LA_Series",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "AliExpressのDSLogic Plus相当品（¥13,000〜¥16,000）はコスト最優先かつDSView利用の場合に推奨される。品質は概ね良好だがバラつきあり。",
+      "evidence": "Finding 3のAliExpress品質評価（平均4.9/5.0、金属筐体モデルの安定性）およびFinding 7の価格比較から導出。条件付き結論として分類。",
+      "source": {
+        "source_type": "merchant_data",
+        "source_title": "AliExpress DSLogic Plus product page",
+        "source_locator": "https://www.aliexpress.com/item/1005008678612512.html",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "Amazon.co.jpのU2BASIC（¥30,000〜¥38,000）は納期・返品保証重視の場合に選択肢となるが、AliExpressの約2倍の価格差がある。",
+      "evidence": "Finding 2のAmazon.co.jp価格調査（¥29,943〜¥38,178）とAliExpress価格¥13,000〜¥16,000との比較による。条件付き結論として分類。",
+      "source": {
+        "source_type": "merchant_data",
+        "source_title": "Amazon.co.jp U2BASIC VCHICSブランド",
+        "source_locator": "https://www.amazon.co.jp/dp/B0D1XWWBK5",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-13T17:50:29Z",
+  "claims": [
+    {
+      "claim": "2023年以降に製造・出荷されている DSLogic Plus には、内部 FPGA が Xilinx Spartan-6 から PangoMicro PGL12G（中国製 FPGA）に変更された「Pango バリアント」が存在し、sigrok/PulseView と完全に非互換である。",
+      "evidence": "USB VID:PID が 2a0e:0020（旧 Xilinx 版）から 2a0e:0030（Pango 版）に変更されており libsigrok 側でデバイスが認識されないか正常動作しない。AliExpress や Amazon で現在販売されているユニットが旧版・新版のどちらかを判別する確実な方法は存在せず製品写真や説明文からは判断不可能。sigrok コミュニティでは Pango バリアントの逆解析・対応作業が議論されているが 2026年3月時点でマージされた対応は存在しない。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic Plus - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/DreamSourceLab_DSLogic_Plus",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Amazon.co.jp では DSLogic Plus（U2BASIC）が約32,000〜38,000円で販売されている（前ステップの主張）。",
+      "evidence": "前ステップ調査による報告。根拠となる一次ソースは本文中に記載なし。上位グレード製品（Pro系・U3Pro等）の価格と混同している可能性が指摘されている。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "Amazon.co.jp の実際のリスティングでは DSLogic Plus（U2BASIC）は ¥19,000〜¥20,000 前後の価格帯で販売されている。",
+      "evidence": "Amazon.co.jp ASIN B0DZMJWXFP（U2BASIC）および ASIN B09VK5WM8L の両リスティングで ¥19,000〜¥20,000 前後のプライシングが確認されている。前ステップが提示した「32,000〜38,000円」はより上位グレード製品の価格と混同している可能性が高い。",
+      "source": {
+        "source_type": "merchant_data",
+        "source_title": "Amazon.co.jp ASIN B0DZMJWXFP",
+        "source_locator": "https://www.amazon.co.jp/-/en/Oscilloscope-U2BASIC-Analyzer-Channel-Sampling/dp/B0DZMJWXFP",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "sigrok/PulseView での利用を主目的とする場合と DSView での利用を前提とする場合では購入すべき製品ロットが根本的に異なる。両者を「併用できる」と前ステップが示唆しているのは過度に楽観的な評価である。",
+      "evidence": "DSView のみ利用の場合は最新 Pango 版を含む全ロット対応でリスクなし。sigrok/PulseView 利用には旧 Xilinx Spartan-6 版（VID:PID 2a0e:0020）が必須であり購入時にロットが選べないリスクがある。sigrok＋DSView 併用には旧 Xilinx 版のみ対応かつファームウェア抽出作業が必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic Plus - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/DreamSourceLab_DSLogic_Plus",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DreamSourceLab は当初 GPL 違反の疑い（DSView が PulseView のリスキン）を受けており、コミュニティからの圧力を受けた後に DSView を OSS 公開した経緯がある。この背景が sigrok 開発者側の DSLogic サポートに対する消極姿勢に影響している。",
+      "evidence": "DSView は PulseView（GPLv3）をベースとしていながら当初クローズドソースとして配布し GPL 違反を指摘されたのちに GitHub にてソース公開した。sigrok 開発者側は DSLogic の新ハードウェア（Pango 版・U3Pro16 等）への対応に積極的ではなくコミュニティ頼みの状況。U3Pro16 の sigrok 対応は API 変更の問題で停滞中（2023年時点）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "GitHub DreamSourceLab/DSView repository",
+        "source_locator": "https://github.com/DreamSourceLab/DSView",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "旧 Xilinx 版 DSLogic Plus を sigrok で使用する場合でも、ファームウェア抽出作業（sigrok-fwextract-dreamsourcelab-dslogic スクリプトの実行）は任意ではなく必須である。",
+      "evidence": "DSLogic シリーズの FPGA ビットストリームおよび FX2 ファームウェアは sigrok パッケージに同梱されておらず DreamSourceLab の DSView リポジトリから取得・配置する必要がある。必要ファイルのマッピング: DSLogic50.bin → dreamsourcelab-dslogic-fpga-5v.fw、DSLogic33.bin → dreamsourcelab-dslogic-fpga-3v3.fw、DSLogic.fw → dreamsourcelab-dslogic-fx2.fw。これらのファイルがない状態では PulseView を起動してもデバイスが正常にロードされない。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/DreamSourceLab_DSLogic",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "AliExpress で販売される DSLogic クローンは、ハードウェア品質・ファームウェア整合性・長期信頼性において genuine 品と比較して実質的なリスクがある。「最安値で十分」という前ステップの推奨はリスクを過小評価している。",
+      "evidence": "シールド・ケーブル・コネクタ品質が劣るため高速取得（100MHz+）時の S/N 比が低下するリスクがある。クローン品は VID:PID をコピーしている場合とそうでない場合がありファームウェアの適用可否が不定。一部クローンが数ヶ月で動作不良になったというコミュニティ報告がある。USB 電源設計の品質不足による PC 側リスクも構造上存在する（未確認）。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Best <$50 USB Logic Analyzer compatible with sigrok - EEVblog",
+        "source_locator": "https://www.eevblog.com/forum/testgear/best-lt$50-or-$lt100-usb-logic-analyzer-compatible-with-sigrok/",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

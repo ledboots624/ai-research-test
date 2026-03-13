@@ -1,0 +1,32 @@
+{
+  "topic": "dslogic-clone",
+  "description": "DSLogic（ロジックアナライザ）のクローン製品調査。格安かつ品質の良い製品を特定し、日本から購入可能な入手経路（AliExpress、Amazon.co.jp等）を調査する。対象スペック、互換性、sigrok/PulseView対応状況も含む",
+  "generated_by": "default-standard",
+  "mode": "standard",
+  "steps": [
+    {
+      "id": "research",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "dslogic-cloneに関する包括的な情報収集。背景、現状、主要な論点を整理する。情報源を可能な限り明記すること。",
+      "depends_on": []
+    },
+    {
+      "id": "analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集された情報の深層分析。矛盾点、ギャップ、重要な洞察を抽出する。各主張にエビデンスと確信度を付与すること。",
+      "depends_on": ["research"]
+    },
+    {
+      "id": "review",
+      "step": 3,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの成果を統合し、エビデンスに基づく結論と推奨事項をまとめる。不確実な点は明示的に「未確定」とマークすること。",
+      "depends_on": ["research", "analysis"]
+    }
+  ]
+}

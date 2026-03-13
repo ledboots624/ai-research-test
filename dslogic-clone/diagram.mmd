@@ -1,0 +1,49 @@
+graph TB
+    subgraph 製品ライン
+        B[DSLogic Basic]
+        P[DSLogic Plus / U2BASIC]
+    end
+
+    subgraph FPGAバリアント
+        X[Xilinx Spartan-6版\n旧モデル]
+        PG[PangoMicro PGL12G版\n2023年以降]
+    end
+
+    subgraph sigrok互換性
+        LIB[libsigrok 公式]
+        FW[コミュニティ版ファームウェア\ncantclosevi/sigrok-firmware]
+        PV[PulseView]
+    end
+
+    subgraph 代替製品
+        K1[Kingst LA2016]
+        K2[Kingst LA5016]
+    end
+
+    subgraph 購入経路
+        ALI[AliExpress\n約1.3〜1.6万円]
+        AMZ[Amazon.co.jp\n約3万円前後]
+    end
+
+    DSV[DSView 公式ソフト]
+
+    P -->|搭載 32MB SDRAM| X
+    P -->|搭載 32MB SDRAM| PG
+    B -->|ストリーミングのみ USB依存| X
+
+    X -->|VID-PID 2a0e-0020 正式対応| LIB
+    PG -->|VID-PID 2a0e-0030 非対応| LIB
+    PG -->|部分動作可能| FW
+    FW -->|手動配置で利用| PV
+    LIB -->|対応済み| PV
+
+    P -->|全バリアント対応| DSV
+
+    ALI -->|主にPango版流通| P
+    AMZ -->|U2BASIC名義| P
+
+    K1 -->|sigrok公式対応| LIB
+    K2 -->|sigrok公式対応| LIB
+
+    PG -.->|sigrok重視なら代替推奨| K1
+    PG -.->|sigrok重視なら代替推奨| K2

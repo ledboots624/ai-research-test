@@ -1,0 +1,162 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-13T17:46:51Z",
+  "claims": [
+    {
+      "claim": "DSLogic Plus相当のハードウェアスペック（特に256Mbit SDRAM搭載）を持つクローン製品が、コストパフォーマンスとsigrok互換性の観点で推奨される。",
+      "evidence": "Executive Summaryで結論として明示されている。具体的根拠は後続セクションのBasic vs Plus比較および互換性調査に基づく。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本調査レポート（Executive Summary）",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "AliExpressがDSLogicクローン製品の最安購入経路であり、価格は約13,000〜16,000円（約1.3〜1.6万円）である。",
+      "evidence": "AliExpressの検索結果において「DSLogic Plus」として販売されている製品の価格帯が約13,000円〜16,000円（送料無料が多い）であることが確認されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "AliExpress Search Results for \"DSLogic Plus\"",
+        "source_locator": "AliExpress",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Amazon.co.jpで「U2BASIC」という名称で販売されている製品は、スペック上はDSLogic Plus相当（256Mbit SDRAM搭載）である可能性が高い。",
+      "evidence": "Amazonの製品説明において「256Mbit SDRAM」「400Mサンプリング」という記述が確認された。これは本来「Plus」モデルのスペックであり、Basicモデル（バッファなし）とは異なる。ただし販売者による表記揺れの可能性があるため確実ではない。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DSLogic U2Basic Logic Analyzer With 16 Channel 400M Sampling",
+        "source_locator": "Amazon.com/Amazon.co.jp",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "クローン製品を購入する場合、DSLogic Plus相当のモデル（またはAmazonでのU2BASIC）を強く推奨する。Basic版との決定的な違いはオンボードメモリの有無である。",
+      "evidence": "DSLogic BasicはストリーミングのみでUSB帯域に依存し高サンプリングレートでの長時間キャプチャが困難。DSLogic Plus（U2BASIC）は256Mbit（32MB）SDRAMバッファを搭載し、最大400MSa/sでのバースト転送や100MHz帯域幅での安定したキャプチャが可能。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DSLogic Basic vs Plus hardware difference",
+        "source_locator": "EEVblog",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSLogic Basicはストリーミング転送のみでUSB帯域に依存するため、高サンプリングレートでの長時間キャプチャが困難である。",
+      "evidence": "EEVblogのコミュニティデータおよびAmazon製品説明においてBasicモデルにはオンボードバッファが存在しないことが確認されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "DSLogic Basic vs Plus hardware difference",
+        "source_locator": "EEVblog",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSLogic Plus（U2BASIC）は256Mbit（32MB）SDRAMバッファを搭載しており、最大400MSa/sでのバースト転送や100MHz帯域幅での安定したキャプチャが可能である。",
+      "evidence": "Amazon U2BASIC製品説明に「256Mbit SDRAM」「400Mサンプリング」の記述が確認され、EEVblogコミュニティでもPlus相当スペックとして認識されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Amazon U2BASIC Product Description",
+        "source_locator": "Amazon.co.jp",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "国内在庫と返品保証を重視する場合、Amazon.co.jpの「U2BASIC」が選択肢となるが、AliExpressの約2倍の割高な価格（約32,000〜38,000円）である。",
+      "evidence": "Amazon.co.jpの検索結果において「U2BASIC」の価格帯が約32,000〜38,000円と確認された。国内配送による短納期とAmazonの返品ポリシーが適用されるメリットがある。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Amazon.co.jp Search Results for \"U2BASIC\"",
+        "source_locator": "Amazon.co.jp",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSLogicシリーズ（Basic/Plus/Pro/U2Basic）は、オープンソースのロジックアナライザソフトウェアsigrok（PulseView）でサポートされている。",
+      "evidence": "sigrokのハードウェア互換性リストに「DreamSourceLab DSLogic」シリーズが掲載されており、fx2lafwドライバまたは専用ドライバで動作する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Supported hardware - sigrok",
+        "source_locator": "sigrok.org",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "DSLogic Plus相当の機能（FPGAビットストリームを必要とする高機能モード）をsigrokで使用するには、純正ソフトウェア（DSView）からファームウェアファイルを抽出・配置する作業が必要になる場合がある。",
+      "evidence": "sigrokのWikiには、DreamSourceLabの公式インストーラからファームウェアとFPGAビットストリームを抽出するためのスクリプト（sigrok-fwextract-dreamsourcelab-dslogic）や手順が記載されている。これを行わない場合、Basic相当の機能に制限される可能性がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic - sigrok Wiki",
+        "source_locator": "sigrok.org",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "Windows環境でsigrokを使用する場合、ZadigツールでWinUSBドライバを割り当てるUSBドライバの差し替えが必要である。",
+      "evidence": "デフォルトのドライバまたは純正DSView用ドライバではsigrokからデバイスを認識できず、Zadigツールを使用してWinUSBドライバを割り当てることで認識可能になることがArduinoフォーラム等のコミュニティで報告されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Hobby Components' LOGIC ANALYZER not recognized by SIGROK",
+        "source_locator": "Arduino Forum",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "「Air」という名称のモデルや、明示的にSDRAM搭載を謳っていない安価なモデルは避けるべきである。",
+      "evidence": "「U2Basic Air」などの名称は公式ラインナップに見当たらず、スペックダウンされた廉価版や品質の劣るクローンの可能性がある。バッファメモリがないと高サンプリングレート時にサンプル落ちが頻発し、ロジックアナライザとしての実用性が著しく低下する。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "EEVblog forum discussions on DSLogic clones",
+        "source_locator": "EEVblog",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "安価なBasicモデルにSDRAMチップをはんだ付けしEEPROMを書き換えてPlus相当にする改造手法が存在するが、推奨しない。",
+      "evidence": "成功報告は多数あるが、微細なはんだ付け技術が必要であり、失敗リスクやEEPROMのPID変更の手間を考慮すると、最初からPlus相当品を購入する方がコストパフォーマンスが良いと判断される。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Upgrading DSLogic Basic to Plus without EEPROM modification",
+        "source_locator": "EEVblog",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "最も推奨される購入先はAliExpressで「DSLogic Plus」（16Ch、400MHz、256Mbit RAM、Metal Case）を約1.5万円で購入することである。",
+      "evidence": "Conclusionセクションで「Best Buy」として明示されている。AliExpressの価格帯調査（約13,000〜16,000円）と整合する。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "AliExpress Search Results for \"DSLogic Plus\"",
+        "source_locator": "AliExpress",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "基本は純正ソフトDSViewを使用しつつ、必要に応じてファームウェアを抽出してsigrok/PulseViewを併用する運用が最も安定的である。",
+      "evidence": "Conclusionセクションで「Software」として推奨されている。sigrokでのFPGA機能利用にはファームウェア抽出が必要という前述の知見に基づく。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DreamSourceLab DSLogic - sigrok Wiki",
+        "source_locator": "sigrok.org",
+        "access_date": "2026-03-13"
+      },
+      "confidence": "high"
+    }
+  ]
+}
