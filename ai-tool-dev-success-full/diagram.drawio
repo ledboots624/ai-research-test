@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="draw.io">
+  <diagram name="AI Tool Development Pipeline" id="AI_Tool_Dev_Success">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title Bar -->
+        <mxCell id="title" value="AIツール開発成功パイプライン：フルスタックエンジニア視点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=22;fontStyle=1;shadow=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1080" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Background Groups -->
+        <!-- Group 1: Problem Context -->
+        <mxCell id="bg1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#e2e8f0;dashed=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="280" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="head1" value="01. 核心的対立構造 (Tension)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4a5568;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Group 2: Strategic Core -->
+        <mxCell id="bg2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf8ff;strokeColor=#bee3f8;dashed=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="head2" value="02. 統合戦略 (Integration Strategy)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2b6cb0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Group 3: Execution -->
+        <mxCell id="bg3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#c6f6d5;dashed=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="800" y="130" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="head3" value="03. 実装パイプライン (Execution)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2f855a;" vertex="1" parent="1">
+          <mxGeometry x="800" y="140" width="320" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Nodes: Group 1 (Context) -->
+        <mxCell id="node_hw" value="ハードウェア工学&#xa;(決定論的・Deterministic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf2f7;strokeColor=#a0aec0;fontColor=#2d3748;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_ai" value="AI / LLM&#xa;(確率論的・Probabilistic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#c53030;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_conflict" value="概念の不一致&#xa;(Integrity Risk)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#744210;size=15;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Nodes: Group 2 (Strategy) -->
+        <!-- Central Hero Node -->
+        <mxCell id="node_edge_first" value="エッジファースト設計&#xa;(Edge-First Design)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;strokeWidth=3;fontColor=#2c5282;fontSize=16;fontStyle=1;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_sdd" value="仕様駆動開発 (SDD)&#xa;Single Source of Truth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#22543d;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_context" value="階層型コンテキスト&#xa;(Context Engineering)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#22543d;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Nodes: Group 3 (Execution) -->
+        <mxCell id="node_sensor" value="センサー/MQTT入力&#xa;(Trace Context付与)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6fffa;strokeColor=#38b2ac;fontColor=#234e52;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="860" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_gate" value="決定論的ゲート&#xa;(Deterministic Gate)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#fc8181;fontColor=#c53030;fontSize=12;fontStyle=1;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="860" y="285" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_ui" value="信頼されたUI/Actuation&#xa;(Verified Output)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#5a67d8;fontColor=#434190;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="860" y="390" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Bar -->
+        <mxCell id="footer" value="結論: 確率的なAIの挙動を、ハードウェアの決定論的制約（エッジ）でアンカーすることで、信頼性と安全性を担保する" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;shadow=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="1080" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Edges -->
+        <!-- Hardware -> Conflict -->
+        <mxCell id="edge1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#a0aec0;" edge="1" parent="1" source="node_hw" target="node_conflict">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- AI -> Conflict -->
+        <mxCell id="edge2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#a0aec0;" edge="1" parent="1" source="node_ai" target="node_conflict">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Conflict -> Edge First -->
+        <mxCell id="edge3" value="統合アプローチ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#4a5568;" edge="1" parent="1" source="node_conflict" target="node_edge_first">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Edge First <-> SDD -->
+        <mxCell id="edge4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#3182ce;dashed=1;" edge="1" parent="1" source="node_edge_first" target="node_sdd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Edge First <-> Context -->
+        <mxCell id="edge5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#3182ce;dashed=1;" edge="1" parent="1" source="node_edge_first" target="node_context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Sensor -> Gate -->
+        <mxCell id="edge6" value="Data" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#38b2ac;" edge="1" parent="1" source="node_sensor" target="node_gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Edge First -> Gate (Control) -->
+        <mxCell id="edge7" value="制約適用" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#3182ce;" edge="1" parent="1" source="node_edge_first" target="node_gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Gate -> UI -->
+        <mxCell id="edge8" value="Verified" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;strokeColor=#38a169;" edge="1" parent="1" source="node_gate" target="node_ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Implicit connections between strategy components to show unity -->
+        <mxCell id="edge9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=1;strokeColor=#bee3f8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node_sdd" target="node_sensor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+               <mxPoint x="750" y="205" />
+               <mxPoint x="750" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

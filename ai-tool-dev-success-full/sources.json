@@ -1,0 +1,514 @@
+{
+  "generated_at": "2026-03-14T06:51:49Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 27,
+  "tier_summary": {
+    "tier1": 8,
+    "tier2": 7,
+    "tier3": 8,
+    "tier4": 4
+  },
+  "primary_source_count": 16,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "industry_report",
+      "title": "AI Code Generation in Embedded Systems | Real Constraints",
+      "locator": "https://www.wedolow.com/resources/vibe-coding-ai-code-generation-embedded-systems",
+      "url": "https://www.wedolow.com/resources/vibe-coding-ai-code-generation-embedded-systems",
+      "access_date": "2025-02-21",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "機能安全規格（ISO 26262 / DO-178C）が適用される組み込みドメインでは、AIが生成したコードを本番に投入する前の人間検証はMUSTである。AIのコード生成は「仕様書の自動変換ツール」と..."
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "industry_report",
+      "title": "Balancing Probabilistic and Deterministic Intelligence",
+      "locator": "https://www.acceldata.io/blog/balancing-probabilistic-and-deterministic-intelligence-the-new-operating-model-for-ai-driven-enterprises",
+      "url": "https://www.acceldata.io/blog/balancing-probabilistic-and-deterministic-intelligence-the-new-operating-model-for-ai-driven-enterprises",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ハードウェアからWebまで横断する技術スタックを持つエンジニアは、「AI = 確率的コプロセッサ」モデルを採用することで、全レイヤーに一貫した設計哲学を適用できる。"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "industry_report",
+      "title": "Barr Group - Software Bug Statistics",
+      "locator": "https://barrgroup.com/blog/software-bug-statistics",
+      "url": "https://barrgroup.com/blog/software-bug-statistics",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "先行調査のPhase 1〜4（各2〜3週間、合計約10週間）はWeb開発の工数感であり、ハードウェア検証・EMC試験・認証取得を含むエッジ開発ではx3〜x5のバッファが必要。フルスタックエンジニアであ..."
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "industry_report",
+      "title": "Context Engineering for Reliable AI Agents",
+      "locator": "https://www.kubiya.ai/blog/context-engineering-ai-agents",
+      "url": "https://www.kubiya.ai/blog/context-engineering-ai-agents",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "AIへの指示における曖昧性は4種類（意味的・範囲的・優先度・暗黙的前提）に分類でき、各類型に対して異なる排除戦略が必要である。ハードウェア設計で言えば「信号の未定義状態（X状態）」を全て規定するプロセ..."
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "industry_report",
+      "title": "Deterministic vs Probabilistic: The Mental Model That Changes How You Use AI",
+      "locator": "https://gadociconsulting.com/articles/deterministic-vs-probabilistic-mental-model-for-ai",
+      "url": "https://gadociconsulting.com/articles/deterministic-vs-probabilistic-mental-model-for-ai",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "RTL設計〜ファームウェア開発を経験したエンジニアは、「仕様を完全に記述すれば実装は一意に決まる」という思考モデルを深く内面化している。このメンタルモデルをAI開発にそのまま適用すると、「なぜ同じプロ..."
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "official_document",
+      "title": "EU CRA Implementation - European Commission",
+      "locator": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "EU CRAにおけるSHOULD要件は事実上「comply or explain」方式であり、EU適合宣言（DoC）において不実装の正当化が必要であり、正当化が不十分な場合は市場監視当局（MSA）によ...",
+        "EU CRA（Regulation 2024/2847）の施行スケジュール—2026年9月に脆弱性報告義務開始、2027年12月に完全準拠義務—が、AIツール搭載IoT製品のロードマップにおける最も硬..."
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "official_document",
+      "title": "Effective context engineering for AI agents - Anthropic",
+      "locator": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "コンテキスト基盤は「Write/Select/Compress/Isolate」方式で設計し、生ログを直接LLMに渡さず、選別済みスナップショットを渡すべき。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "official_document",
+      "title": "Effective context engineering for AI agents — Anthropic",
+      "locator": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "AI Agentのメモリ設計は、組み込みシステムのメモリマップ設計と構造的に対応する。この対応関係を意識することで、ハードウェア経験者はコンテキスト設計の意図を直感的に把握できる。",
+        "Anthropicは効果的なコンテキストエンジニアリングを「Write（書く）・Select（選択）・Compress（圧縮）・Isolate（隔離）」の4操作で定式化している。これはDSP設計におけ..."
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "official_document",
+      "title": "IEC 61508 Functional Safety",
+      "locator": "https://www.iec.ch/functional-safety",
+      "url": "https://www.iec.ch/functional-safety",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "安全クリティカル制御パスにおいて、LLMの直接出力を実行に使用してはならない。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "official_document",
+      "title": "ISA/IEC 62443 Series",
+      "locator": "https://www.isa.org/standards-and-publications/isa-iec-62443-series-of-standards",
+      "url": "https://www.isa.org/standards-and-publications/isa-iec-62443-series-of-standards",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "IEC 62443-3-3のゾーン/コンジット要件（SR 5.1〜5.4）を満たすには、MQTT over TLSに加えて、①セキュリティゾーン定義とSL割当、②コンジットにおけるトピック/ペイロード...",
+        "IEC 62443におけるSHOULD要件の解釈はSecurity Level Target（SL-T）に依存し、SL3以上では実質MUST相当に昇格する。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "official_document",
+      "title": "JSON Schema Draft 2020-12",
+      "locator": "https://json-schema.org/draft/2020-12",
+      "url": "https://json-schema.org/draft/2020-12",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "AI実装はSchema-first（JSON Schema 2020-12）+ Strict Structured Output/Function Callingを採用しないと、運用で破綻しやすい。"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "official_document",
+      "title": "MLPerf Tiny v1.3 Results",
+      "locator": "https://mlcommons.org/2025/09/mlperf-tiny-v1-3-results/",
+      "url": "https://mlcommons.org/2025/09/mlperf-tiny-v1-3-results/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "AIツール開発において、MCUリソース制約を設計の出発点とし、クラウドLLM統合を段階的に追加する「エッジファースト」アプローチが、フルスタックエンジニアの強みを最大限に活かしつつリスクを最小化する唯..."
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "MQTT Version 5.0 - OASIS",
+      "locator": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html",
+      "url": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "センサーデータとユーザー操作ログは、MQTT + Trace Context + OpenTelemetry属性で統合するのが実装効率と可観測性の両面で最適。"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "official_document",
+      "title": "NIST SP 800-193",
+      "locator": "https://csrc.nist.gov/pubs/sp/800/193/final",
+      "url": "https://csrc.nist.gov/pubs/sp/800/193/final",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "MCUファームウェアのOTA更新は、NIST SP 800-193の「保護・検知・回復」3原則に基づき、セキュアブート・署名検証・A/Bパーティション・アンチロールバックカウンターを実装すべきである。..."
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "official_document",
+      "title": "OpenTelemetry",
+      "locator": "https://opentelemetry.io/",
+      "url": "https://opentelemetry.io/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "OpenTelemetryはMCUベアメタルへの直接実装は困難だが、階層型コレクターモデル（Device → Regional Gateway → Central Collector）を採用すれば、エ..."
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 - EUR-Lex",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "この構成はEU CRAに対しては直接対応しやすい。一方、IEC 62443 / ISO/SAE 21434 / SEMI E187は条文粒度で追加マッピングが必要。"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "unknown",
+      "title": "SEMI E187",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "SEMI E187におけるSHOULD要件は「仕様からマイナスできる」（除外可能）が、顧客（Fab運営会社）との個別契約でMUST化されることがある。"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "academic_paper",
+      "title": "Spec-Driven Development: From Code to Contract in the Age of AI Coding",
+      "locator": "https://arxiv.org/html/2602.00180v1",
+      "url": "https://arxiv.org/html/2602.00180v1",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "フルスタックエンジニアの最大の競争優位は、個々のレイヤーの実装能力ではなく、レイヤー間の統合テストを自ら設計・実行できることにある。MCUファームウェア→ゲートウェイ→クラウドLLM→UIの全経路を一...",
+        "仕様駆動開発（Spec-Driven Development）は2025-2026年においてAIコード生成の品質保証手法として学術・産業の両面で支持を得ており、OpenSpecやGitHub Spec..."
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "industry_report",
+      "title": "SpecDriven AI: Building Reliable Software with Precision",
+      "locator": "https://www.paulmduvall.com/specdriven-ai-combining-specs-and-tdd-for-ai-powered-development/",
+      "url": "https://www.paulmduvall.com/specdriven-ai-combining-specs-and-tdd-for-ai-powered-development/",
+      "access_date": "2025-02-21",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "「Spec-Driven Development（SDD）」において、AIへの入力となる仕様書は、制約・インターフェース・不変条件・受容基準を網羅した原則に従って設計される必要がある（SHOULD）。..."
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "official_document",
+      "title": "TI expands microcontroller portfolio to enable edge AI",
+      "locator": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-03-10-ti-expands-microcontroller-portfolio-and-software-ecosystem-to-enable-edge-ai-in-every-device.html",
+      "url": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-03-10-ti-expands-microcontroller-portfolio-and-software-ecosystem-to-enable-edge-ai-in-every-device.html",
+      "access_date": "2026-03-10",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "LLMの確率的挙動は「修正すべき欠陥」ではなく「設計上の特性」である。この再フレーミングに成功したエンジニアは、AIを「確率的コプロセッサ」として扱い、その確率的性質を制御する「エンベロープ仕様」を設..."
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "community_data",
+      "title": "Techniques That Get More from AI Coding Assistants Today",
+      "locator": "https://www.geeky-gadgets.com/agentic-engineer-techniques/",
+      "url": "https://www.geeky-gadgets.com/agentic-engineer-techniques/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "AIとの「意図同期」は、チャット形式の逐次的指示ではなく、プロジェクトの思考モデルを外部化した構造化コンテキストドキュメント（`AGENTS.md`, PRD等）によって達成される。これはハードウェア..."
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "official_document",
+      "title": "TensorFlow Lite for Microcontrollers",
+      "locator": "https://www.tensorflow.org/lite/microcontrollers",
+      "url": "https://www.tensorflow.org/lite/microcontrollers",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "ハイブリッド構成はエッジ=低遅延・安全系、クラウド=高文脈推論に責務分離するのが実装者視点で最も再現性が高い。"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "industry_report",
+      "title": "The Collapse of Deterministic Software Engineering in the Age of Probabilistic AI",
+      "locator": "https://www.walturn.com/insights/the-collapse-of-deterministic-software-engineering-in-the-age-of-probabilistic-ai",
+      "url": "https://www.walturn.com/insights/the-collapse-of-deterministic-software-engineering-in-the-age-of-probabilistic-ai",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ハードウェアエンジニアリングにおける「仕様 → 実装 → 検証」の決定論的パイプラインと、LLMの確率的推論は、根本的に異なるエラーモデルを持つ。この非対称性を認識せずにAIツール開発に臨むことが、失..."
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "industry_report",
+      "title": "The Rule Maker Pattern: Creating deterministic execution with AI",
+      "locator": "https://tessl.io/blog/the-rule-maker-pattern/",
+      "url": "https://tessl.io/blog/the-rule-maker-pattern/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "AIとの「思考同期（AI Thinking Synchronization）」を達成するための最も有効な構造は、確率的生成フェーズと決定論的実行フェーズを明確に分離する「Rule Maker パターン..."
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "unknown",
+      "title": "User-provided person_profile",
+      "locator": "User input in current prompt",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "フルスタック（Web/モバイル）＋ファームウェア＋回路設計の横断スキルを持つため、「センサー取得→エッジ推論→クラウド推論→UI反映」までを単一設計原則で実装できる。これは本テーマで最重要の成功条件。"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "official_document",
+      "title": "Zephyr RTOS - Threads",
+      "locator": "https://docs.zephyrproject.org/latest/kernel/services/threads/index.html",
+      "url": "https://docs.zephyrproject.org/latest/kernel/services/threads/index.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "「安全クリティカル制御をLLM直接出力で実行しない」という原則（MUST_NOT）は正しいが、実装仕様として「決定論ゲート」をRTOSタスク優先度設計・有限状態機械（FSM）・タイムアウトポリシーの3..."
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "community_data",
+      "title": "coreMQTT MQTT v5 Issue #269",
+      "locator": "https://github.com/FreeRTOS/coreMQTT/issues/269",
+      "url": "https://github.com/FreeRTOS/coreMQTT/issues/269",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "2 years",
+        "participant_count": 30,
+        "expert_presence": true,
+        "reproducibility": true
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "MCU上でMQTT5 User Properties + W3C Trace Contextを直接実装する戦略は、2026年3月時点では技術的に未成熟であり、「MCU→ゲートウェイ（MQTT 3.1...."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "step": 3,
+  "role": "technical-strategy",
+  "model": "gpt-5.3-codex",
+  "extracted_at": "2026-03-14T06:32:35Z",
+  "claims": [
+    {
+      "claim": "フルスタック（Web/モバイル）＋ファームウェア＋回路設計の横断スキルを持つため、「センサー取得→エッジ推論→クラウド推論→UI反映」までを単一設計原則で実装できる。これは本テーマで最重要の成功条件。",
+      "evidence": "提示プロフィールはソフト・ハード両面を含み、分断されがちな「データ取得層」と「AI推論層」と「アプリ層」を同時に設計可能。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "User-provided person_profile",
+        "source_locator": "User input in current prompt",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "センサーデータとユーザー操作ログは、MQTT + Trace Context + OpenTelemetry属性で統合するのが実装効率と可観測性の両面で最適。",
+      "evidence": "MQTTは制約デバイス向け軽量Pub/Sub標準。W3C Trace Contextは分散トレース伝搬を標準化。OpenTelemetry semantic conventionsはログ/トレース/メトリクスの属性統一を提供。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "MQTT Version 5.0 - OASIS",
+        "source_locator": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "MQTT Version 5.0 (OASIS)",
+          "section": "not_stated",
+          "mapping": "direct"
+        },
+        {
+          "standard": "W3C Trace Context",
+          "section": "not_stated",
+          "mapping": "direct"
+        },
+        {
+          "standard": "OpenTelemetry Semantic Conventions",
+          "section": "not_stated",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "AI実装はSchema-first（JSON Schema 2020-12）+ Strict Structured Output/Function Callingを採用しないと、運用で破綻しやすい。",
+      "evidence": "OpenAI/Anthropic/Geminiはいずれも構造化出力・ツール呼び出し時のスキーマ拘束を公式提供。JSON Schema 2020-12は基盤仕様。実装時にZod/Pydanticで二重検証すると型乖離を抑制できる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "JSON Schema Draft 2020-12",
+        "source_locator": "https://json-schema.org/draft/2020-12",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "JSON Schema 2020-12",
+          "section": "not_stated",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "ハイブリッド構成はエッジ=低遅延・安全系、クラウド=高文脈推論に責務分離するのが実装者視点で最も再現性が高い。",
+      "evidence": "TFLite Micro/ONNX Runtimeはエッジ推論向け。AWS Greengrass/Azure IoT Edgeはクラウド管理下のエッジ配備・更新を公式サポート。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "TensorFlow Lite for Microcontrollers",
+        "source_locator": "https://www.tensorflow.org/lite/microcontrollers",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "コンテキスト基盤は「Write/Select/Compress/Isolate」方式で設計し、生ログを直接LLMに渡さず、選別済みスナップショットを渡すべき。",
+      "evidence": "Anthropicのcontext engineeringで、長期タスクでは選別・圧縮・分離が性能維持に重要と整理されている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Effective context engineering for AI agents - Anthropic",
+        "source_locator": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "この構成はEU CRAに対しては直接対応しやすい。一方、IEC 62443 / ISO/SAE 21434 / SEMI E187は条文粒度で追加マッピングが必要。",
+      "evidence": "EU CRAはArticle 13とAnnex Iで製品特性・脆弱性対応を要求。NIST CSF 2.0はGovern機能を提供。IEC/ISO/SEMIは標準本文の詳細確認が必要（有償・節番号未確定箇所あり）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 - EUR-Lex",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "EU CRA (Regulation (EU) 2024/2847)",
+          "section": "Article 13, Annex I Part I/II",
+          "mapping": "direct"
+        },
+        {
+          "standard": "NIST CSF 2.0 (CSWP 29)",
+          "section": "GV.OC / GV.RM / GV.RR / GV.SC / DE / PR",
+          "mapping": "direct"
+        },
+        {
+          "standard": "IEC 62443",
+          "section": "2-1 / 3-x（節番号未確定）",
+          "mapping": "partial"
+        },
+        {
+          "standard": "ISO/SAE 21434:2021",
+          "section": "節番号未確定",
+          "mapping": "partial"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "節番号未確定",
+          "mapping": "gap"
+        }
+      ]
+    }
+  ]
+}

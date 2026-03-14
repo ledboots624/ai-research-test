@@ -1,0 +1,343 @@
+{
+  "step": 5,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T06:43:09Z",
+  "claims": [
+    {
+      "claim": "AIツール開発において、MCUリソース制約を設計の出発点とし、クラウドLLM統合を段階的に追加する「エッジファースト」アプローチが、フルスタックエンジニアの強みを最大限に活かしつつリスクを最小化する唯一の現実的戦略である。",
+      "evidence": "TFLite MicroのSRAM要件（キーワード検出で256KB以上）、MQTT5 User Propertiesの組み込みサポート未成熟（coreMQTT v2はMQTT 3.1.1準拠、MQTT5は開発中）、OpenTelemetry C++ SDKの組み込み未最適化という3つの技術的制約がクラウドファースト設計に破綻的手戻りを招く。MLPerf Tiny v1.3（2025年9月公開）実測値：Cortex-M55でキーワードスポッティング推論5ms、STM32H7で画像分類sub-10ms。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "MLPerf Tiny v1.3 Results",
+        "source_locator": "https://mlcommons.org/2025/09/mlperf-tiny-v1-3-results/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "「安全クリティカル制御をLLM直接出力で実行しない」という原則（MUST_NOT）は正しいが、実装仕様として「決定論ゲート」をRTOSタスク優先度設計・有限状態機械（FSM）・タイムアウトポリシーの3要素で定義しなければ、設計として不完全である。",
+      "evidence": "Zephyr RTOSおよびFreeRTOSのタスク優先度モデルでは、リアルタイム安全タスク（Safety Monitor）は最高優先度で動作し、LLMレスポンス待ちタスクより常に先にスケジュールされる必要がある。Praetorian社の「Thin Agent / Fat Platform」パターン（2025年）では、LLMを「ステートレスワーカー」として扱い全出力をプラットフォーム側の検証ループでゲートする設計が推奨。Parasoft社ガイドでは「Frozen Model」パターンが標準的手法として記載。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Zephyr RTOS - Threads",
+        "source_locator": "https://docs.zephyrproject.org/latest/kernel/services/threads/index.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "IEC 61508-3",
+          "section": "Table A.3",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "MCU上でMQTT5 User Properties + W3C Trace Contextを直接実装する戦略は、2026年3月時点では技術的に未成熟であり、「MCU→ゲートウェイ（MQTT 3.1.1）」+「ゲートウェイ→クラウド（MQTT5 + Trace Context）」の2層分離設計を採用すべきである。",
+      "evidence": "coreMQTT v2のMQTT5対応は開発中（2026年前半時点で本番品質未到達）。FreeRTOS公式ドキュメントおよびMCUXpresso SDK（2026年版）はMQTT 3.1.1を本番ターゲットとして記載。ゲートウェイ層（組み込みLinux / Raspberry Pi級）ではEclipse Mosquitto等のフル機能MQTT5ブローカーが利用可能であり、traceparentヘッダの注入・伝搬を行えばMCU側の制約を回避しつつE2Eトレーサビリティを確保できる。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "coreMQTT MQTT v5 Issue #269",
+        "source_locator": "https://github.com/FreeRTOS/coreMQTT/issues/269",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "2 years",
+          "participant_count": 30,
+          "expert_presence": true,
+          "reproducibility": true
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "仕様駆動開発（Spec-Driven Development）は2025-2026年においてAIコード生成の品質保証手法として学術・産業の両面で支持を得ており、OpenSpecやGitHub Spec Kitなどのツールチェーンが利用可能になっている。フルスタックエンジニアがLLMを活用した開発で品質を維持するには、SDDをCI/CDパイプラインに組み込み、仕様→テスト→実装→検証の自動化ループを構築すべきである。",
+      "evidence": "arXiv論文「Spec-Driven Development: From Code to Contract in the Age of AI Coding」（2026年2月）がSDDの理論的基盤を提示。GitHub公式ブログ（2025年）でSpec Kitを公開し仕様ファイルをコードと同居させるワークフローを推奨。ThoughtWorks Technology Radar（2025年版）でSDDを「2025年の重要な新エンジニアリングプラクティス」として評価。ただし安全クリティカル組み込み領域での大規模事例は未確認。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Spec-Driven Development: From Code to Contract in the Age of AI Coding",
+        "source_locator": "https://arxiv.org/html/2602.00180v1",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "EU CRA（Regulation 2024/2847）の施行スケジュール—2026年9月に脆弱性報告義務開始、2027年12月に完全準拠義務—が、AIツール搭載IoT製品のロードマップにおける最も硬い外部制約であり、SBOM生成・脆弱性管理・インシデント報告体制の構築を「Phase 0」として前倒しで着手すべきである。",
+      "evidence": "EU CRAは「デジタル要素を含む全製品」を対象とし、IoT・組み込み機器を明示的にスコープに含む。2026年9月11日より既知の脆弱性の24時間以内報告がENISAへ義務化される。違反時の制裁金は最大1,500万ユーロまたは全世界売上高の2.5%。SEMI E187やIEC 62443はセクター固有だが、EU CRAは水平規制であり適用範囲が最も広い。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EU CRA Implementation - European Commission",
+        "source_locator": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation 2024/2847 Article 14",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "IEC 62443-3-3のゾーン/コンジット要件（SR 5.1〜5.4）を満たすには、MQTT over TLSに加えて、①セキュリティゾーン定義とSL割当、②コンジットにおけるトピック/ペイロードのホワイトリスト制御、③DMZまたはセキュリティゲートウェイの設置、④全通信の監査ログ記録が必要であり、「Policy Gate」と称するだけでは適合審査で差し戻されるリスクがある。",
+      "evidence": "Cisco社のIEC 62443-3-3解説では、ゾーン間通信には「明示的に制御されたコンジット」が必須であり、暗号化だけでは要件の一部にすぎないと明記。2025年のトレンドとして、マイクロセグメンテーション（デバイス単位またはプロセス単位のゾーン分離）がIEC 62443準拠の標準的実装方法になりつつある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "ISA/IEC 62443 Series",
+        "source_locator": "https://www.isa.org/standards-and-publications/isa-iec-62443-series-of-standards",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "IEC 62443-3-3",
+          "section": "SR 5.1–5.4",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "MCUファームウェアのOTA更新は、NIST SP 800-193の「保護・検知・回復」3原則に基づき、セキュアブート・署名検証・A/Bパーティション・アンチロールバックカウンターを実装すべきである。これはAIモデル更新にも適用される。",
+      "evidence": "NIST SP 800-193はプラットフォームファームウェアの耐性に関するガイドライン。Microchip MEC172xやLattice Semiconductorなどのベンダーが対応ハードウェアを提供。MCUのOTA失敗はフィールドでのブリック（文鎮化）を招くため、dual-image（A/Bパーティション）による安全なフォールバックが必須。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "NIST SP 800-193",
+        "source_locator": "https://csrc.nist.gov/pubs/sp/800/193/final",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "NIST SP 800-193",
+          "section": "Section 4",
+          "mapping": "direct"
+        },
+        {
+          "standard": "EU CRA",
+          "section": "Article 10(6)",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "OpenTelemetryはMCUベアメタルへの直接実装は困難だが、階層型コレクターモデル（Device → Regional Gateway → Central Collector）を採用すれば、エッジからクラウドまでのE2Eオブザーバビリティを実現できる。MCU層では軽量メトリクス（カスタムバイナリフォーマット）をゲートウェイに送信し、ゲートウェイ層でOTLP変換する設計が現実的である。",
+      "evidence": "OneUptime社のIoTエッジオブザーバビリティガイド（2026年2月）はOpenTelemetry Collector Builderで最小構成バイナリをARM Edge機器にデプロイする手法を実装例つきで公開。Red Hat Device Edge（2025年5月）はコンテナ化されたOTelコレクターをエッジに配置するパターンを推奨。ただしCortex-M系ベアメタルMCUでOTelを直接動作させた公開事例は未確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OpenTelemetry",
+        "source_locator": "https://opentelemetry.io/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "先行調査のPhase 1〜4（各2〜3週間、合計約10週間）はWeb開発の工数感であり、ハードウェア検証・EMC試験・認証取得を含むエッジ開発ではx3〜x5のバッファが必要。フルスタックエンジニアであっても、ハードウェア依存の工程（ベンダーSDK品質、MCU選定後のピン配・メモリマップ設計、EMC試験スケジュール）は外部要因に支配される。",
+      "evidence": "組み込み開発プロジェクトではハードウェア待ち・SDKバグ対応・EMC再試験で当初見積もりの3〜5倍の工期を要するケースが一般的。ただしこれは定量的な業界統計ではなく経験則に基づく（Barr Group - Software Bug Statistics参照、および組み込み開発プロジェクト工数経験則）。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Barr Group - Software Bug Statistics",
+        "source_locator": "https://barrgroup.com/blog/software-bug-statistics",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "フルスタックエンジニアの最大の競争優位は、個々のレイヤーの実装能力ではなく、レイヤー間の統合テストを自ら設計・実行できることにある。MCUファームウェア→ゲートウェイ→クラウドLLM→UIの全経路を一人で検証できるため、分業チームでは発見しにくいインテグレーションバグを早期に検出できる。ただしこの強みは、統合スタックの複雑性増大によるデバッグ難易度上昇と表裏一体であり、各レイヤーの境界を明確に定義したインターフェース仕様が不可欠である。",
+      "evidence": "SDD（仕様駆動開発）文献では、AIツール開発においてレイヤー境界のインターフェース仕様がコード品質を決定するとされる。GitHub Spec Kitのワークフローは、仕様→テスト→実装の順序を強制することで、統合テストの網羅性を自動的に向上させる設計になっている。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Spec-Driven Development: From Code to Contract in the Age of AI Coding",
+        "source_locator": "https://arxiv.org/html/2602.00180v1",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "安全クリティカル制御パスにおいて、LLMの直接出力を実行に使用してはならない。",
+      "evidence": "IEC 61508およびISO/SAE 21434共に非決定論的コンポーネントの安全パス直接配置を禁止しており、これは全規格で共通認識となっている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "IEC 61508 Functional Safety",
+        "source_locator": "https://www.iec.ch/functional-safety",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "IEC 61508",
+          "section": "not_stated",
+          "mapping": "direct"
+        },
+        {
+          "standard": "ISO/SAE 21434",
+          "section": "not_stated",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "エッジ推論フレームワークとして、TFLite Micro以外にONNX Runtime等の代替を選択することは任意である。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "テレメトリ方式としてOpenTelemetry以外の代替方式を選択することは任意である。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "エッジMLOps（モデルドリフト自動検知・再学習パイプライン）の実装が望ましい。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "WANT",
+      "standard_references": []
+    },
+    {
+      "claim": "EU CRAにおけるSHOULD要件は事実上「comply or explain」方式であり、EU適合宣言（DoC）において不実装の正当化が必要であり、正当化が不十分な場合は市場監視当局（MSA）により不適合と判定されるリスク（high）がある。",
+      "evidence": "EU CRAのSHOULD要件は不準拠時に正当化を要求する「comply or explain」方式を採用しており、EU適合宣言において理由が説明できない場合にはMSAが不適合と判断しうる。規格解釈上のリスクはhighと評価される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EU CRA Implementation - European Commission",
+        "source_locator": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation 2024/2847",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "IEC 62443におけるSHOULD要件の解釈はSecurity Level Target（SL-T）に依存し、SL3以上では実質MUST相当に昇格する。",
+      "evidence": "IEC 62443のSHOULD解釈はSL-T定義に依存し、SL1-2では省略可能なSRが、SL3-4ではMUST相当に昇格する。リスクはmedium（SL-T定義に依存）と評価される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "ISA/IEC 62443 Series",
+        "source_locator": "https://www.isa.org/standards-and-publications/isa-iec-62443-series-of-standards",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "IEC 62443",
+          "section": "Security Level Target (SL-T)",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "SEMI E187におけるSHOULD要件は「仕様からマイナスできる」（除外可能）が、顧客（Fab運営会社）との個別契約でMUST化されることがある。",
+      "evidence": "SEMI E187のSHOULDは除外可能だが、顧客との個別契約でMUST化されることがある。リスクはlow〜medium（契約依存）と評価される。なおSEMI E187本文は有償のため直接参照不可。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "SEMI E187",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "SEMI E187",
+          "section": "not_stated",
+          "mapping": "partial"
+        }
+      ]
+    }
+  ]
+}

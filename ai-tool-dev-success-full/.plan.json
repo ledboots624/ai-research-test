@@ -1,0 +1,55 @@
+{
+  "topic": "ai-tool-dev-success-full",
+  "description": "フルスタックエンジニア向けの実装者視点によるAIツール開発成功のための調査パイプライン",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "info_gathering",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "Web/App/Embedded領域における最新のAIツール開発手法、特に仕様駆動開発（TDD/BDDのAI適用）、コンテキストエンジニアリング（RAG/メモリ管理）、AI思考同期（Alignment）に関する技術情報を収集せよ。ハードウェア制御やリアルタイム性が求められる文脈での事例も重視すること。",
+      "depends_on": []
+    },
+    {
+      "id": "deep_analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集した情報を基に、「仕様の厳密性（ハードウェア的思考）」と「AIの確率的挙動（ソフトウェア的柔軟性）」の対立構造を分析せよ。AI思考同期を達成するためのメンタルモデル共有メカニズムと、コンテキストエンジニアリングによる曖昧性排除の理論的枠組みを構築すること。",
+      "depends_on": [
+        "info_gathering"
+      ]
+    },
+    {
+      "id": "tech_strategy",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "フルスタックエンジニアが実装可能な具体的なアーキテクチャを策定せよ。センサーデータやユーザー操作ログを統合したコンテキスト管理基盤、型定義やバリデーションを用いた仕様駆動AI実装パターン（Function Calling/Structured Output）、およびエッジAIとクラウドAIのハイブリッド構成案を提示すること。",
+      "depends_on": [
+        "deep_analysis"
+      ]
+    },
+    {
+      "id": "critic_review",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "提案された戦略に対し、組み込み/ハードウェアエンジニアの視点から厳しく批判せよ。レイテンシ、リソース制約、決定論的動作の欠如、システム複雑化によるメンテナンスコストの増大など、実運用上のリスクとエビデンス不足を指摘すること。",
+      "depends_on": [
+        "tech_strategy"
+      ]
+    },
+    {
+      "id": "integration_review",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "批判的レビューを踏まえ、現実的かつ効果的なAIツール開発のロードマップを統合せよ。フルスタックエンジニアの強みを活かした、ハードウェアからソフトウェアまで一貫した「仕様駆動×AI思考同期×コンテキスト」の実装ガイドラインを結論として導出すること。",
+      "depends_on": [
+        "critic_review"
+      ]
+    }
+  ]
+}

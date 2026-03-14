@@ -1,0 +1,108 @@
+{
+  "version": "2.2.0",
+  "topic": "ai-tool-dev-success-full",
+  "description": "AIツール開発成功の鍵：仕様駆動開発、AI思考同期、コンテキストエンジニアリング",
+  "completed_at": "2026-03-14T06:53:43Z",
+  "duration_seconds": 2337,
+  "duration_human": "38m57s",
+  "steps": [
+    {
+      "id": "info_gathering",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "Web/App/Embedded領域における最新のAIツール開発手法、特に仕様駆動開発（TDD/BDDのAI適用）、コンテキストエンジニアリング（RAG/メモリ管理）、AI思考同期（Alignment）に関する技術情報を収集せよ。ハードウェア制御やリアルタイム性が求められる文脈での事例も重視すること。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success-full/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 8687,
+      "evidence_extracted": false
+    },
+    {
+      "id": "deep_analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集した情報を基に、「仕様の厳密性（ハードウェア的思考）」と「AIの確率的挙動（ソフトウェア的柔軟性）」の対立構造を分析せよ。AI思考同期を達成するためのメンタルモデル共有メカニズムと、コンテキストエンジニアリングによる曖昧性排除の理論的枠組みを構築すること。",
+      "depends_on": [
+        "info_gathering"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success-full/02-deep-analysis-claude-sonnet-4.6.md",
+      "output_bytes": 18809,
+      "evidence_extracted": true
+    },
+    {
+      "id": "tech_strategy",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "フルスタックエンジニアが実装可能な具体的なアーキテクチャを策定せよ。センサーデータやユーザー操作ログを統合したコンテキスト管理基盤、型定義やバリデーションを用いた仕様駆動AI実装パターン（Function Calling/Structured Output）、およびエッジAIとクラウドAIのハイブリッド構成案を提示すること。",
+      "depends_on": [
+        "deep_analysis"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success-full/03-technical-strategy-gpt-5.3-codex.md",
+      "output_bytes": 13721,
+      "evidence_extracted": true
+    },
+    {
+      "id": "critic_review",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "提案された戦略に対し、組み込み/ハードウェアエンジニアの視点から厳しく批判せよ。レイテンシ、リソース制約、決定論的動作の欠如、システム複雑化によるメンテナンスコストの増大など、実運用上のリスクとエビデンス不足を指摘すること。",
+      "depends_on": [
+        "tech_strategy"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success-full/04-critic-review-claude-sonnet-4.6.md",
+      "output_bytes": 20661,
+      "evidence_extracted": false
+    },
+    {
+      "id": "integration_review",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "批判的レビューを踏まえ、現実的かつ効果的なAIツール開発のロードマップを統合せよ。フルスタックエンジニアの強みを活かした、ハードウェアからソフトウェアまで一貫した「仕様駆動×AI思考同期×コンテキスト」の実装ガイドラインを結論として導出すること。",
+      "depends_on": [
+        "critic_review"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success-full/05-integration-review-claude-opus-4.6.md",
+      "output_bytes": 41702,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 12120
+    },
+    {
+      "file": "sources.json",
+      "bytes": 23413
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 9973
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 459847
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 634413
+    },
+    {
+      "file": "slides.html",
+      "bytes": 147719
+    },
+    {
+      "file": "slides.md",
+      "bytes": 10430
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1248799
+    }
+  ],
+  "context_file": "context-ai-tool-dev.json"
+}

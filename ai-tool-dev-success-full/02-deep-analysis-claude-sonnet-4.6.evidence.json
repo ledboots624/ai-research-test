@@ -1,0 +1,200 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T06:20:28Z",
+  "claims": [
+    {
+      "claim": "ハードウェアエンジニアリングにおける「仕様 → 実装 → 検証」の決定論的パイプラインと、LLMの確率的推論は、根本的に異なるエラーモデルを持つ。この非対称性を認識せずにAIツール開発に臨むことが、失敗の主因である。",
+      "evidence": "ハードウェア的思考（決定論）とAI的挙動（確率論）の比較表により、同一入力・仕様の粒度・テスト基準・障害モード・検証手法の5次元で根本的な非対称性が示されている。決定論側では「常に同一出力」「Pass/Failバイナリ」「ロジックが誤り → コード修正」であるのに対し、確率論側では「統計的分布に従う出力」「精度・再現率・分布」「期待値からの逸脱 → キャリブレーション」となっている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Collapse of Deterministic Software Engineering in the Age of Probabilistic AI",
+        "source_locator": "https://www.walturn.com/insights/the-collapse-of-deterministic-software-engineering-in-the-age-of-probabilistic-ai",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "RTL設計〜ファームウェア開発を経験したエンジニアは、「仕様を完全に記述すれば実装は一意に決まる」という思考モデルを深く内面化している。このメンタルモデルをAI開発にそのまま適用すると、「なぜ同じプロンプトで異なる結果が出るのか」という認知的不協和が継続的に発生する。",
+      "evidence": "デジタル回路設計においては、HDL記述からRTLシミュレーション、論理合成、タイミング解析まで、各フェーズで入出力の一致が保証される。同様の「完全仕様 → 決定論的実装」モデルをLLMに期待することは、LLMのアーキテクチャ（確率的トークン予測）と本質的に相容れない。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Deterministic vs Probabilistic: The Mental Model That Changes How You Use AI",
+        "source_locator": "https://gadociconsulting.com/articles/deterministic-vs-probabilistic-mental-model-for-ai",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "LLMの確率的挙動は「修正すべき欠陥」ではなく「設計上の特性」である。この再フレーミングに成功したエンジニアは、AIを「確率的コプロセッサ」として扱い、その確率的性質を制御する「エンベロープ仕様」を設計する思考に移行できる。",
+      "evidence": "マイコンにNPUを搭載したエッジAI開発（TI MSPM0G5187等）においても、推論結果はソフトウェアの確定的ロジックが受け取り、閾値判定・バリデーション・フォールバックを担う。AIの出力を直接アクチュエータに繋ぐ設計は安全基準違反リスクを生む。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "TI expands microcontroller portfolio to enable edge AI",
+        "source_locator": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-03-10-ti-expands-microcontroller-portfolio-and-software-ecosystem-to-enable-edge-ai-in-every-device.html",
+        "access_date": "2026-03-10",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "AIとの「思考同期（AI Thinking Synchronization）」を達成するための最も有効な構造は、確率的生成フェーズと決定論的実行フェーズを明確に分離する「Rule Maker パターン」である。ハードウェアエンジニアは「コンパイル時 vs. 実行時」の二相分離として直感的に理解できる。",
+      "evidence": "Authoring Phase（LLMが自然言語仕様・設計文書からルール・ポリシー・変換レシピを確率的に生成）→ Freezing（生成物をMECEなルールテーブル・IF/THENロジック・API仕様として固定・バージョン管理）→ Execution Phase（フリーズされたルールのみが本番システムに決定論的に適用）の3フェーズ構造。HDLのRTL記述をフリーズして論理合成する工程と構造的に同型であり、ハードウェア経験者が最も速く習得できる思考モデルとされる。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Rule Maker Pattern: Creating deterministic execution with AI",
+        "source_locator": "https://tessl.io/blog/the-rule-maker-pattern/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "AIとの「意図同期」は、チャット形式の逐次的指示ではなく、プロジェクトの思考モデルを外部化した構造化コンテキストドキュメント（`AGENTS.md`, PRD等）によって達成される。これはハードウェア設計における「仕様書（Spec Sheet）」の役割と等価だが、動的に更新される点が異なる。",
+      "evidence": "`AGENTS.md` に制約条件（ハードウェアリソース制限・使用禁止API・タイミング要件）、不変ルール（命名規則・アーキテクチャ決定事項（ADR））、受容基準（数値的閾値を含む）を明記することでセッションをまたいだ一貫性が維持される。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Techniques That Get More from AI Coding Assistants Today",
+        "source_locator": "https://www.geeky-gadgets.com/agentic-engineer-techniques/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "AI Agentのメモリ設計は、組み込みシステムのメモリマップ設計と構造的に対応する。この対応関係を意識することで、ハードウェア経験者はコンテキスト設計の意図を直感的に把握できる。",
+      "evidence": "Static/Rulebook Memory（ROM/Flash相当：プロジェクト規約・不変ルール・ペルソナ定義・不揮発）、Long-term Memory（EEPROM/Storage相当：RAG対象ドキュメント・過去の決定事項・永続）、Short-term/Working Memory（RAM/スタック相当：現在のタスクコンテキスト・直近の会話履歴・セッション揮発）の3層対応表が示されている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Effective context engineering for AI agents — Anthropic",
+        "source_locator": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "AIへの指示における曖昧性は4種類（意味的・範囲的・優先度・暗黙的前提）に分類でき、各類型に対して異なる排除戦略が必要である。ハードウェア設計で言えば「信号の未定義状態（X状態）」を全て規定するプロセスに相当する。",
+      "evidence": "4分類と排除戦略の対応表: 意味的曖昧性（「効率的なコード」→ 数値基準明示・タイミング制約の数値化に対応）、範囲的曖昧性（「ファイルを最適化」→ 対象スコープ境界明示・ピン配置の明示的定義に対応）、優先度曖昧性（「速度と可読性を重視」→ トレードオフ優先順位付け・設計トレードオフ文書化に対応）、暗黙的前提の曖昧性（「バグを直せ」→ 前提条件の陽的記述（OS・MCU型番・SDK版）・テストベンチ環境定義に対応）。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Context Engineering for Reliable AI Agents",
+        "source_locator": "https://www.kubiya.ai/blog/context-engineering-ai-agents",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Anthropicは効果的なコンテキストエンジニアリングを「Write（書く）・Select（選択）・Compress（圧縮）・Isolate（隔離）」の4操作で定式化している。これはDSP設計における「フィルタリング → 選択 → 圧縮 → 分離」パイプラインと構造的に対応する。",
+      "evidence": "Write（明示的なシステムプロンプト・ルール定義による静的コンテキストの記述）、Select（RAGによる動的な関連情報注入）、Compress（長期履歴の要約・「Lost in the Middle」問題回避のため重要指示を先頭・末尾に配置）、Isolate（サブエージェントへのタスク分解によるコンテキスト汚染防止）の4操作が定義されている。「Context Rot（コンテキスト腐敗）」はフラッシュメモリのデータ劣化問題と類似した構造的課題として提示されている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Effective context engineering for AI agents — Anthropic",
+        "source_locator": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「Spec-Driven Development（SDD）」において、AIへの入力となる仕様書は、制約・インターフェース・不変条件・受容基準を網羅した原則に従って設計される必要がある（SHOULD）。ハードウェアの「データシート」形式が最も参照しやすいテンプレートである。",
+      "evidence": "Component Spec テンプレートの具体例: Constraints（MUST：メモリ≤4KB RAM・レイテンシ≤10ms at 80MHz・動的アロケーション禁止）、Interface（MUST：入力uint16_t sensor_raw[8]・出力float temperature_celsius・エラー時NaN返却）、Invariants（MUST NOT violate：ISRセーフ・副作用なし純粋関数）、Acceptance Criteria（ユニットテストカバレッジ≥90%・参照センサ対比精度±0.5℃）。このフォーマットによりAIは「X状態」なき仕様に基づきコード生成を行える。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "SpecDriven AI: Building Reliable Software with Precision",
+        "source_locator": "https://www.paulmduvall.com/specdriven-ai-combining-specs-and-tdd-for-ai-powered-development/",
+        "access_date": "2025-02-21",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "ハードウェアからWebまで横断する技術スタックを持つエンジニアは、「AI = 確率的コプロセッサ」モデルを採用することで、全レイヤーに一貫した設計哲学を適用できる。",
+      "evidence": "PROBABILISTIC ZONE（AI：仕様生成（Authoring）・コード生成（Drafting）をLLM作業域とする）とDETERMINISTIC ZONE（HW思考：バージョン管理されたルールDB・TDD検証（CI/CD）・本番実行エンジン）を「FREEZE」および「TEST GATE」で明確に分離するアーキテクチャパターンが、技術スタック全体に適用可能なユニバーサルモデルを提供する。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Balancing Probabilistic and Deterministic Intelligence",
+        "source_locator": "https://www.acceldata.io/blog/balancing-probabilistic-and-deterministic-intelligence-the-new-operating-model-for-ai-driven-enterprises",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "機能安全規格（ISO 26262 / DO-178C）が適用される組み込みドメインでは、AIが生成したコードを本番に投入する前の人間検証はMUSTである。AIのコード生成は「仕様書の自動変換ツール」としてのみ扱い、最終的なコードの正しさ・トレーサビリティの責任は人間が保持する。",
+      "evidence": "認証プロセスでは「コードの生成根拠とテスト結果の紐付け（トレーサビリティマトリクス）」が必須であり、ブラックボックス生成のAI出力はそのまま提出できない。Embedder等の特化型ツールでもドキュメント生成支援止まりであり、最終的なSIL/HIL検証は人間の責任領域に残る。ただし、規格本文の直接参照なし・実務的解釈による推定を含むためconfidence mediumと明記されている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "AI Code Generation in Embedded Systems | Real Constraints",
+        "source_locator": "https://www.wedolow.com/resources/vibe-coding-ai-code-generation-embedded-systems",
+        "access_date": "2025-02-21",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "ISO 26262",
+          "section": null,
+          "mapping": "gap"
+        },
+        {
+          "standard": "DO-178C",
+          "section": null,
+          "mapping": "gap"
+        }
+      ]
+    }
+  ]
+}
