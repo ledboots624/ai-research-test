@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-03-14T05:52:09Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 10,
+  "tier_summary": {
+    "tier1": 0,
+    "tier2": 4,
+    "tier3": 4,
+    "tier4": 2
+  },
+  "primary_source_count": 5,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "industry_report",
+      "title": "AI 101: From Vibe Coding to Spec-Driven Development",
+      "locator": "https://www.turingpost.com/p/sdd",
+      "url": "https://www.turingpost.com/p/sdd",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "自然言語プロンプトのみで進める開発（Vibe Coding）は、エッジケース・非機能要件の欠落という構造的欠陥を内包しており、MarkdownやEARS記法による構造化仕様書をSingle Sourc..."
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "academic_paper",
+      "title": "Building Effective AI Coding Agents for the Terminal",
+      "locator": "https://arxiv.org/abs/2603.05344",
+      "url": "https://arxiv.org/abs/2603.05344",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "高度なAIツール開発では、単発プロンプト最適化（プロンプトエンジニアリング）を超えて、AIに提供する情報の構造・粒度・ライフサイクル設計（コンテキストエンジニアリング）が決定的な差異を生む。特にTra..."
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "official_document",
+      "title": "Context engineering in agents - Docs by LangChain",
+      "locator": "https://docs.langchain.com/oss/python/langchain/context-engineering",
+      "url": "https://docs.langchain.com/oss/python/langchain/context-engineering",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "高度なAIツール開発では、プロンプトエンジニアリング以上に、AIに提供する情報の構造設計（コンテキストエンジニアリング）が重要である。"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "official_document",
+      "title": "Context engineering in agents - LangChain Docs",
+      "locator": "https://docs.langchain.com/oss/python/langchain/context-engineering",
+      "url": "https://docs.langchain.com/oss/python/langchain/context-engineering",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "高度なAIツール開発では、単発プロンプト最適化（プロンプトエンジニアリング）を超えて、AIに提供する情報の構造・粒度・ライフサイクル設計（コンテキストエンジニアリング）が決定的な差異を生む。特にTra..."
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "official_document",
+      "title": "GitHub Spec Kit",
+      "locator": "https://github.com/github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 3,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "AIツール開発の成功率は、曖昧なプロンプト駆動（Vibe Coding）から、明確な仕様書を正解とする「仕様駆動開発」への移行によって劇的に向上する。",
+        "SDD・AI思考同期・コンテキストエンジニアリングは独立した手法ではなく、仕様書（What）→コンテキストファイル（Why/How）→同期プロセス（When）という三層で統合される時に乗算的な効果を発...",
+        "自然言語プロンプトのみで進める開発（Vibe Coding）は、エッジケース・非機能要件の欠落という構造的欠陥を内包しており、MarkdownやEARS記法による構造化仕様書をSingle Sourc..."
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "industry_report",
+      "title": "Reflect Notes: AI Thought Partner",
+      "locator": "https://reflect.app/",
+      "url": "https://reflect.app/",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "開発者の「メンタルモデル」とAIの「コンテキスト」を同期させることが、意図通りのツールを作成するために不可欠である。",
+        "開発者のメンタルモデルとAIのコンテキストの「ズレ」は生成コードの意図不一致の主因であり、暗黙知（設計背景・制約・好み）をNotes/Context Filesとして明示的に外部化し、AIが常時参照で..."
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "unknown",
+      "title": "Search Result: AI Thought Synchronization landscape",
+      "locator": "https://www.bing.com/search?q=search%28%22%22AI+Thought+Synchronization%22+human-AI+alignment+software+development%22%29",
+      "url": "https://www.bing.com/search?q=search%28%22%22AI+Thought+Synchronization%22+human-AI+alignment+software+development%22%29",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "開発者のメンタルモデルとAIのコンテキストの「ズレ」は生成コードの意図不一致の主因であり、暗黙知（設計背景・制約・好み）をNotes/Context Filesとして明示的に外部化し、AIが常時参照で..."
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "community_data",
+      "title": "Spec-Driven Development: Write the Spec, Not the Code",
+      "locator": "https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o",
+      "url": "https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "未確認",
+        "participant_count": null,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "自然言語プロンプトのみで進める開発（Vibe Coding）は、エッジケース・非機能要件の欠落という構造的欠陥を内包しており、MarkdownやEARS記法による構造化仕様書をSingle Sourc..."
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "community_data",
+      "title": "Why Context Engineering Will Replace Traditional Architecture Thinking",
+      "locator": "https://dev.to/jaideepparashar/why-context-engineering-will-replace-traditional-architecture-thinking-4e39",
+      "url": "https://dev.to/jaideepparashar/why-context-engineering-will-replace-traditional-architecture-thinking-4e39",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "未確認",
+        "participant_count": null,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "高度なAIツール開発では、単発プロンプト最適化（プロンプトエンジニアリング）を超えて、AIに提供する情報の構造・粒度・ライフサイクル設計（コンテキストエンジニアリング）が決定的な差異を生む。特にTra..."
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "unknown",
+      "title": "統合モデル（本レビューにおける推論的統合）",
+      "locator": "SRC-009",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "SDD・AI思考同期・コンテキストエンジニアリングは独立した手法ではなく、仕様書（What）→コンテキストファイル（Why/How）→同期プロセス（When）という三層で統合される時に乗算的な効果を発..."
+      ]
+    }
+  ]
+}

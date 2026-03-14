@@ -1,0 +1,214 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T05:49:46Z",
+  "claims": [
+    {
+      "claim": "自然言語プロンプトのみで進める開発（Vibe Coding）は、エッジケース・非機能要件の欠落という構造的欠陥を内包しており、MarkdownやEARS記法による構造化仕様書をSingle Source of Truthとして使うSDDへの移行が、生成コードの信頼性と再現性を劇的に向上させる。",
+      "evidence": "AI 101記事がVibe CodingからSDDへの移行の必要性を論じており、GitHub Spec Kit・AWS Kiro等が「仕様策定→計画→実装」のフェーズ分離を正式に採用している点を補助的根拠として言及。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "AI 101: From Vibe Coding to Spec-Driven Development",
+        "source_locator": "https://www.turingpost.com/p/sdd",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EARS記法（Requirements Engineering標準慣行）",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "自然言語プロンプトのみで進める開発（Vibe Coding）は、エッジケース・非機能要件の欠落という構造的欠陥を内包しており、MarkdownやEARS記法による構造化仕様書をSingle Source of Truthとして使うSDDへの移行が、生成コードの信頼性と再現性を劇的に向上させる。",
+      "evidence": "GitHub Spec Kitが「仕様策定→計画→実装」のフェーズ分離を正式に採用しており、仕様書とコンテキストの統合管理を前提とした設計になっている公式ツール実装事例。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "GitHub Spec Kit",
+        "source_locator": "https://github.com/github/spec-kit",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EARS記法（Requirements Engineering標準慣行）",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "自然言語プロンプトのみで進める開発（Vibe Coding）は、エッジケース・非機能要件の欠落という構造的欠陥を内包しており、MarkdownやEARS記法による構造化仕様書をSingle Source of Truthとして使うSDDへの移行が、生成コードの信頼性と再現性を劇的に向上させる。",
+      "evidence": "コミュニティによるSpec-Driven Developmentの実践報告。実験的検証なし。discussion_age・participant_count・expert_presenceは未確認。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Spec-Driven Development: Write the Spec, Not the Code",
+        "source_locator": "https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "未確認",
+          "participant_count": null,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EARS記法（Requirements Engineering標準慣行）",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "開発者のメンタルモデルとAIのコンテキストの「ズレ」は生成コードの意図不一致の主因であり、暗黙知（設計背景・制約・好み）をNotes/Context Filesとして明示的に外部化し、AIが常時参照できる状態にする「同期プロセス」が必要である。",
+      "evidence": "「AI Thought Synchronization」という単一確立語は存在しないが、Human-AI Alignment研究・Thought Partner概念（Reflect等）で実質的に同一の課題が扱われている。セッション開始・終了時の状態共有は組み込み開発でのICE（In-Circuit Emulator）デバッグ手順と構造的に類似。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Reflect Notes: AI Thought Partner",
+        "source_locator": "https://reflect.app/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "開発者のメンタルモデルとAIのコンテキストの「ズレ」は生成コードの意図不一致の主因であり、暗黙知（設計背景・制約・好み）をNotes/Context Filesとして明示的に外部化し、AIが常時参照できる状態にする「同期プロセス」が必要である。",
+      "evidence": "「AI Thought Synchronization」キーワードの検索結果インデックスのみ確認。議論実体は未確認。信頼性は補助的参照にとどまる。単一確立技術用語・定量的エビデンス不足のためconfidence=mediumと判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "Search Result: AI Thought Synchronization landscape",
+        "source_locator": "https://www.bing.com/search?q=search%28%22%22AI+Thought+Synchronization%22+human-AI+alignment+software+development%22%29",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "高度なAIツール開発では、単発プロンプト最適化（プロンプトエンジニアリング）を超えて、AIに提供する情報の構造・粒度・ライフサイクル設計（コンテキストエンジニアリング）が決定的な差異を生む。特にTransient/Persistentの分離、モジュール化、Context Compactionの三戦略が核心である。",
+      "evidence": "LangChainがコンテキスト管理をミドルウェア層に昇格させた公式ドキュメントが存在（tier2一次情報）。LangChain OSS仕様がde facto標準として機能。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Context engineering in agents - LangChain Docs",
+        "source_locator": "https://docs.langchain.com/oss/python/langchain/context-engineering",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "LangChain OSS仕様（de facto標準）",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "高度なAIツール開発では、単発プロンプト最適化（プロンプトエンジニアリング）を超えて、AIに提供する情報の構造・粒度・ライフサイクル設計（コンテキストエンジニアリング）が決定的な差異を生む。特にTransient/Persistentの分離、モジュール化、Context Compactionの三戦略が核心である。",
+      "evidence": "arxiv査読論文（2025）でAIコーディングエージェントにおけるコンテキスト管理が実証的に検討されており、学術的裏付けが存在する。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Building Effective AI Coding Agents for the Terminal",
+        "source_locator": "https://arxiv.org/abs/2603.05344",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "LangChain OSS仕様（de facto標準）",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "高度なAIツール開発では、単発プロンプト最適化（プロンプトエンジニアリング）を超えて、AIに提供する情報の構造・粒度・ライフサイクル設計（コンテキストエンジニアリング）が決定的な差異を生む。特にTransient/Persistentの分離、モジュール化、Context Compactionの三戦略が核心である。",
+      "evidence": "コミュニティによるContext Engineeringの実践・考察。実験的検証なし。discussion_age・participant_count・expert_presenceは未確認。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Why Context Engineering Will Replace Traditional Architecture Thinking",
+        "source_locator": "https://dev.to/jaideepparashar/why-context-engineering-will-replace-traditional-architecture-thinking-4e39",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "未確認",
+          "participant_count": null,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "LangChain OSS仕様（de facto標準）",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "SDD・AI思考同期・コンテキストエンジニアリングは独立した手法ではなく、仕様書（What）→コンテキストファイル（Why/How）→同期プロセス（When）という三層で統合される時に乗算的な効果を発揮する。フルスタック×ハードウェア経験者には「設計仕様書→データシート→製造工程管理」の類比で理解できる。",
+      "evidence": "GitHub Spec Kitは仕様書とコンテキストの統合管理を前提とした設計になっている。フルスタックエンジニアが横断的技術スタックを持つ場合、各層の概念を既存スキルにマッピングでき導入速度が加速する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "GitHub Spec Kit",
+        "source_locator": "https://github.com/github/spec-kit",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "SDD・AI思考同期・コンテキストエンジニアリングは独立した手法ではなく、仕様書（What）→コンテキストファイル（Why/How）→同期プロセス（When）という三層で統合される時に乗算的な効果を発揮する。フルスタック×ハードウェア経験者には「設計仕様書→データシート→製造工程管理」の類比で理解できる。",
+      "evidence": "統合モデル自体は本レビューにおける推論的統合（三ソースの相互補強から導出）。前ステップ調査の三領域が相互に参照・補強し合う構造を統合レビューにて確認。統合適用の定量的優位性を示す実証研究は未確認のためconfidence=mediumと判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "統合モデル（本レビューにおける推論的統合）",
+        "source_locator": "SRC-009",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    }
+  ]
+}

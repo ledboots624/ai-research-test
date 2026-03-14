@@ -1,0 +1,69 @@
+{
+  "version": "2.2.0",
+  "topic": "ai-tool-dev-success",
+  "description": "AIツール開発成功の鍵：仕様駆動開発、AI思考同期、コンテキストエンジニアリング",
+  "completed_at": "2026-03-14T05:53:57Z",
+  "duration_seconds": 526,
+  "duration_human": "8m46s",
+  "steps": [
+    {
+      "id": "research",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "ai-tool-dev-successに関する情報を簡潔に収集する。要点を箇条書きで整理し、情報源を明記すること。網羅性より速度を優先。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 5334,
+      "evidence_extracted": true
+    },
+    {
+      "id": "review",
+      "step": 2,
+      "role": "integration-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集された情報を分析し、要点をまとめる。主要な発見、結論、推奨事項を簡潔にまとめること。不確実な点は「未確定」とマークすること。",
+      "depends_on": [
+        "research"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ai-tool-dev-success/02-integration-review-claude-sonnet-4.6.md",
+      "output_bytes": 18522,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 7771
+    },
+    {
+      "file": "sources.json",
+      "bytes": 9677
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 9246
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 411836
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 562106
+    },
+    {
+      "file": "slides.html",
+      "bytes": 143811
+    },
+    {
+      "file": "slides.md",
+      "bytes": 8167
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1068996
+    }
+  ],
+  "context_file": "context-ai-tool-dev.json"
+}

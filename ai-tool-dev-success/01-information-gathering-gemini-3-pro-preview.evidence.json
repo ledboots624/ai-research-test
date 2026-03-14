@@ -1,0 +1,104 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T05:46:01Z",
+  "claims": [
+    {
+      "claim": "AIツール開発の成功率は、曖昧なプロンプト駆動（Vibe Coding）から、明確な仕様書を正解とする「仕様駆動開発」への移行によって劇的に向上する。",
+      "evidence": "自然言語プロンプトのみの指示ではエッジケースや非機能要件（セキュリティ、エラー処理）が欠落しやすく手戻りが多発する。Markdown形式やEARS記法で記述された構造化仕様書（Requirements, Behavior, Constraints）をSource of TruthとしてAIに与えることで生成コードの信頼性と再現性が確保される。GitHub Spec KitやAWS Kiroなどのツールが仕様策定→計画→実装のフェーズ分離とAIによる仕様ベース検証ワークフローを採用している。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "GitHub Spec Kit",
+        "source_locator": "https://github.com/github/spec-kit",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "開発者の「メンタルモデル」とAIの「コンテキスト」を同期させることが、意図通りのツールを作成するために不可欠である。",
+      "evidence": "「AI Thought Synchronization」という単一の確立された技術用語は存在しないが、Human-AI Alignmentの文脈で「思考パートナー（Thought Partner）」としての同期技術が研究されている。成功するAI開発フローでは開発者の暗黙知（背景・制約・好み）を明示的なデータ（Notes, Context Files）として外部化しAIが常に参照可能な状態にする同期プロセスが必要とされる。ハードウェアのクロック同期のように人間の思考変化をリアルタイムでAIのコンテキストに反映するMutual Updateの仕組みが推奨される（SHOULD）。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Reflect Notes: AI Thought Partner",
+        "source_locator": "https://reflect.app/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "高度なAIツール開発では、プロンプトエンジニアリング以上に、AIに提供する情報の構造設計（コンテキストエンジニアリング）が重要である。",
+      "evidence": "一時的な会話（Transient）と不変の知識（Persistent）を明確に分離して管理するアーキテクチャが必須。CONTEXT.mdや.context/architecture.mdのようにコンテキストをモジュール化・ファイル化しタスクに応じて動的に注入する手法が標準化しつつある。トークン制限と推論精度維持のため過去履歴を要約・圧縮（Context Compaction）して現在の重要な状態のみを維持する戦略が必要。LangChainなどのフレームワークがコンテキスト管理をミドルウェア層で自動化する機能を提供している。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Context engineering in agents - Docs by LangChain",
+        "source_locator": "https://docs.langchain.com/oss/python/langchain/context-engineering",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "実装前に必ずMarkdownで詳細仕様書（spec.md等）を作成し、AIに「この仕様に基づいて実装せよ」と指示するフローを確立すること。",
+      "evidence": "not_stated。confidence判定根拠: 本推奨はhigh confidenceのSDD Claimから直接導出される実装指針であり、複数のhigh-tier一次資料（GitHub Spec Kit等）によって裏付けられた主張と一貫しているためhighと判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "プロジェクトルートにCONTEXT.mdを配置し、設計思想・技術選定理由・コーディング規約を明文化して、AIが常に参照できるようにすること（ハードウェアのDatasheetのように扱う）。",
+      "evidence": "not_stated。confidence判定根拠: 本推奨はhigh confidenceのContext Engineering Claimから直接導出される実装指針であり、LangChain公式文書・arxiv論文等の複数のtier2資料と整合するためhighと判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "開発セッションの開始時と終了時に、現状のタスク状態と次の目標をAIと共有・更新する時間を設け、思考のズレ（非同期状態）を防ぐこと。",
+      "evidence": "not_stated。confidence判定根拠: 本推奨はmedium confidenceのAI Thought Synchronization Claimに基づく実装指針であり、根拠となる資料自体がtier3・tier4に留まる上、MAY（任意）の義務レベルが付与されており裏付けの強度が限定的なためmediumと判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    }
+  ]
+}
