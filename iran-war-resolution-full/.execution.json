@@ -1,0 +1,102 @@
+{
+  "version": "2.2.0",
+  "topic": "iran-war-resolution-full",
+  "description": "イラン戦争収束の鍵",
+  "completed_at": "2026-03-14T09:43:03Z",
+  "duration_seconds": 2604,
+  "duration_human": "43m24s",
+  "steps": [
+    {
+      "id": "step-1-gather",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "イラン戦争に関する最新の戦況、外交交渉の現状、主要関係国（米国、イスラエル、イラン、サウジアラビア、ロシア、中国、トルコ、EU諸国）の公式声明と動向を網羅的に収集する。特に軍事的エスカレーションの兆候と経済制裁の効果、エネルギー市場への初期影響に焦点を当てる。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/iran-war-resolution-full/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 7191,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step-2-analyze-geopolitics",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集情報を基に、地政学的・軍事的観点から戦争の構造を分析する。各国の利害関係（特に米中露の代理戦争的側面）を整理し、世界大戦への発展リスクを含む複数のエスカレーションシナリオと、それに対する収束シナリオ（外交的妥結、軍事的決着、体制転換等）を構築し、各発生確率を評価する。",
+      "depends_on": [
+        "step-1-gather"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/iran-war-resolution-full/02-deep-analysis-claude-sonnet-4.6.md",
+      "output_bytes": 19218,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step-3-analyze-japan-impact",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "日本への具体的影響（エネルギー安全保障、経済サプライチェーン、邦人保護）に特化した分析を行う。ホルムズ海峡封鎖等の危機的状況におけるエネルギー供給網の脆弱性を技術的・物流的観点から評価し、日本がとるべき具体的な経済・外交・安全保障上の対策案（調達多角化、備蓄活用、邦人退避ルート等）を策定する。",
+      "depends_on": [
+        "step-1-gather",
+        "step-2-analyze-geopolitics"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/iran-war-resolution-full/03-technical-strategy-gpt-5.3-codex.md",
+      "output_bytes": 17217,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step-4-critic",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "地政学シナリオと対日戦略案に対し、論理的矛盾、西側/東側視点のバイアス、エビデンス不足を厳しくレビューする。特に「世界大戦リスク」の評価が感情的になっていないか、日本への影響分析において楽観的な前提（米国の保護等）に依存しすぎていないかを検証する。",
+      "depends_on": [
+        "step-2-analyze-geopolitics",
+        "step-3-analyze-japan-impact"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/iran-war-resolution-full/04-critic-review-claude-sonnet-4.6.md",
+      "output_bytes": 20067,
+      "evidence_extracted": false
+    },
+    {
+      "id": "step-5-integration",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "批判的レビューを踏まえ、全ての分析を統合する。イラン戦争収束の最大の「鍵」となる要素（ゲームチェンジャー）を特定し、最も蓋然性の高い将来シナリオと、日本政府および企業がとるべき推奨アクションを最終結論として提示する。",
+      "depends_on": [
+        "step-4-critic"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/iran-war-resolution-full/05-integration-review-claude-opus-4.6.md",
+      "output_bytes": 51238,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 14051
+    },
+    {
+      "file": "sources.json",
+      "bytes": 39555
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 10155
+    },
+    {
+      "file": "slides.html",
+      "bytes": 141090
+    },
+    {
+      "file": "slides.md",
+      "bytes": 8504
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1100697
+    }
+  ],
+  "context_file": "context-iran-war.json"
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2026-03-14T18:50:00.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/16.0.0 Chrome/91.0.4472.164 Electron/13.1.8 Safari/537.36" version="16.0.0" type="device">
+  <diagram id="IranWarAnalysis" name="Iran War Resolution &amp; Japan Impact">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title Bar -->
+        <mxCell id="2" value="イラン戦争収束の鍵と日本への影響分析 (2026.03.14)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;fontColor=#ffffff;fontSize=22;fontStyle=1;strokeColor=none;align=left;spacingLeft=20;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1080" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Current Context -->
+        <mxCell id="3" value="【現状: 2026.3.1】&#xa;ハメネイ師死去による&#xa;権力の空白と混乱" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#2d3748;gradientColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- The Game Changer (Central Driver) -->
+        <mxCell id="4" value="【ゲームチェンジャー】&#xa;IRGC内部の路線対立&#xa;(強硬派 vs 実利派)" style="rounded=1;arcSize=8;shadow=1;fontSize=14;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#2d3748;gradientColor=#fffffa;strokeWidth=4;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Edge: Context -> Driver -->
+        <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4A5568;curved=1;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Scenario A (Bad) -->
+        <mxCell id="6" value="シナリオA: 強硬派の台頭&#xa;「安全保障共和国」化" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#742a2a;gradientColor=#fff5f5;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Outcome A -->
+        <mxCell id="7" value="戦争長期化・拡大&#xa;(核拡散・第三次大戦リスク)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#742a2a;gradientColor=#fff5f5;" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Edge: Driver -> Scenario A -->
+        <mxCell id="8" value="強硬派優勢" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e53e3e;curved=1;fontColor=#e53e3e;fontStyle=1" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="115" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="190" />
+              <mxPoint x="580" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Scenario A -> Outcome A -->
+        <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e53e3e;curved=1;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Scenario B (Good) -->
+        <mxCell id="10" value="シナリオB: 実利派の主導&#xa;(経済疲弊が圧力)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#22543d;gradientColor=#fafffd;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Outcome B -->
+        <mxCell id="11" value="停戦交渉への転換&#xa;(体制存続を優先)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#22543d;gradientColor=#fafffd;" vertex="1" parent="1">
+          <mxGeometry x="880" y="230" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Edge: Driver -> Scenario B -->
+        <mxCell id="12" value="実利派優勢" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#38a169;curved=1;fontColor=#2f855a;fontStyle=1" edge="1" parent="1" source="4" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="190" />
+              <mxPoint x="580" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Scenario B -> Outcome B -->
+        <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#38a169;curved=1;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Japan Section Header -->
+        <mxCell id="14" value="日本への影響と戦略的対応" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4a5568;fontColor=#ffffff;fontSize=14;fontStyle=1;strokeColor=none;align=center;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1080" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Japan Risk Container -->
+        <mxCell id="15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#feb2b2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="480" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="16" value="【最大リスク】&#xa;ホルムズ海峡封鎖の長期化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#c53030;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="480" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17" value="エネルギー危機&#xa;(石油・LNG供給寸断)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#742a2a;gradientColor=#fff5f5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="18" value="サプライチェーン&#xa;世界的混乱" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#742a2a;gradientColor=#fff5f5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Japan Action Container -->
+        <mxCell id="19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#9ae6b4;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="410" width="500" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="20" value="【推奨アクション】" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#276749;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="500" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="21" value="1. 邦人退避の完遂&#xa;(254日の備蓄期間内に)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2c5282;gradientColor=#f7fbff;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="22" value="2. エネルギー多角化&#xa;(代替ルート確保)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2c5282;gradientColor=#f7fbff;" vertex="1" parent="1">
+          <mxGeometry x="780" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="23" value="3. サイバー防御強化&#xa;(インフラ防衛)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2c5282;gradientColor=#f7fbff;" vertex="1" parent="1">
+          <mxGeometry x="940" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Causal link from War to Risk -->
+        <mxCell id="24" value="波及" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#e53e3e;dashed=1;curved=1;" edge="1" parent="1" source="7" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="330" />
+              <mxPoint x="300" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="25" value="結論: 日本は「備蓄の時間的余裕」がある間に、最悪のシナリオ(長期化・封鎖)を前提とした自律的防衛策の実行が急務である。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;fontColor=#ffffff;fontSize=14;fontStyle=1;strokeColor=none;align=center;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="1080" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

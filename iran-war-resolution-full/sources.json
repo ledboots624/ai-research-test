@@ -1,0 +1,801 @@
+{
+  "generated_at": "2026-03-14T09:41:07Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 43,
+  "tier_summary": {
+    "tier1": 21,
+    "tier2": 7,
+    "tier3": 11,
+    "tier4": 4
+  },
+  "primary_source_count": 21,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "official_document",
+      "title": "Amid regional conflict, the Strait of Hormuz remains critical oil chokepoint (EIA)",
+      "locator": "https://www.eia.gov/todayinenergy/detail.php?id=65504",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=65504",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "ホルムズ海峡は、日本の石油・LNG安全保障に対する最大の単一点障害（single point of failure）である。"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "news_article",
+      "title": "Analysis: Khamenei Killing Shatters Iran's Order",
+      "locator": "https://www.usnews.com/news/world/articles/2026-03-01/analysis-khamenei-killing-shatters-irans-order-triggers-high-stakes-succession-race",
+      "url": "https://www.usnews.com/news/world/articles/2026-03-01/analysis-khamenei-killing-shatters-irans-order-triggers-high-stakes-succession-race",
+      "access_date": "2026-03-01",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "イラン戦争収束の最大の鍵は、IRGC（イスラム革命防衛隊）内部における強硬派と実利派の権力闘争の帰結である。ハメネイ師殺害後、憲法上の後継手続（専門家会議による最高指導者選出）は事実上機能停止しており..."
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "industry_report",
+      "title": "Asia and the Iran Conflict: Energy Vulnerability and the Imperative for Action",
+      "locator": "https://mecouncil.org/publication/asia-and-the-iran-conflict-energy-vulnerability-and-the-imperative-for-action/",
+      "url": "https://mecouncil.org/publication/asia-and-the-iran-conflict-energy-vulnerability-and-the-imperative-for-action/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "イランによるホルムズ海峡の封鎖措置により、世界の石油・LNG輸送の約20%が寸断され、事実上の海上封鎖状態にある。これは世界経済への直接的な攻撃となっており、軍事的緊張の核心である。"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "official_document",
+      "title": "BOJ Working Paper Series 2024",
+      "locator": "https://www.boj.or.jp/en/research/wps_rev/wps_2024/index.htm",
+      "url": "https://www.boj.or.jp/en/research/wps_rev/wps_2024/index.htm",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "エネルギー高は日本で「中程度だが持続的」な価格転嫁を誘発し、実質所得と成長率を圧迫しうる。"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "news_article",
+      "title": "China brokered Saudi-Iran Deal, 2023",
+      "locator": "https://www.bbc.com/news/world-middle-east-64938985",
+      "url": "https://www.bbc.com/news/world-middle-east-64938985",
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "シナリオB（推定確率25%）：中国・トルコ・カタールの仲介によって暫定停戦合意が成立し、核問題は「凍結」されたまま段階的交渉へ移行する。"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "news_article",
+      "title": "China-Iran 25-year Cooperation Agreement",
+      "locator": "https://www.chathamhouse.org/2021/09/what-does-chinas-deal-iran-mean",
+      "url": "https://www.chathamhouse.org/2021/09/what-does-chinas-deal-iran-mean",
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "中国はイランへの表明的支持と実際の軍事関与の間で明確な「レッドライン」を設けており、直接的軍事参戦は回避する可能性が高い。中国のBRI投資がイランに集中していることから、イランの崩壊・親米政権樹立は中..."
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "official_document",
+      "title": "Constitution of the Islamic Republic of Iran, Article 111",
+      "locator": "https://www.constituteproject.org/constitution/Iran_1989",
+      "url": "https://www.constituteproject.org/constitution/Iran_1989",
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ハメネイ師の死去はイラン国家体制のレジティマシー基盤そのものの喪失を意味し、専門家会議による後継者選定プロセスは進行中の軍事衝突下では機能不全に陥るリスクが高い。IRGCが事実上の意思決定権を掌握して..."
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "official_document",
+      "title": "Country Analysis Brief: Japan (EIA)",
+      "locator": "https://www.eia.gov/international/content/analysis/countries_long/Japan/japan.pdf",
+      "url": "https://www.eia.gov/international/content/analysis/countries_long/Japan/japan.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "日本の原油調達は中東依存度が極めて高く、紛争長期化時に価格・物流・精製運用の同時ショックを受けやすい。"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "official_document",
+      "title": "Diplomatic Bluebook 2024: Risks and Safety of Japanese Nationals Overseas",
+      "locator": "https://www.mofa.go.jp/policy/other/bluebook/2024/en_html/chapter4/c040201.html",
+      "url": "https://www.mofa.go.jp/policy/other/bluebook/2024/en_html/chapter4/c040201.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "MOFAの退避勧告（特にLevel 4）は、法的強制ではないが運用上は実質的に即時退避の基準として機能する。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "official_document",
+      "title": "EU Joint Statement on de-escalation",
+      "locator": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/09/joint-statement-by-president-costa-and-president-von-der-leyen-after-the-video-conference-with-leaders-from-middle-east-countries-on-the-war-in-iran/",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/09/joint-statement-by-president-costa-and-president-von-der-leyen-after-the-video-conference-with-leaders-from-middle-east-countries-on-the-war-in-iran/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "日本単独仲介より「米同盟+EU+トルコ/サウジ」連結の多国間仲介が成功確率を高める。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "official_document",
+      "title": "Evacuation from Sudan (MOFA, 2023-04-25)",
+      "locator": "https://www.mofa.go.jp/press/release/press1e_000418.html",
+      "url": "https://www.mofa.go.jp/press/release/press1e_000418.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "2023年スーダン退避は、Djibouti拠点＋多国間連携＋段階輸送の実効性を実証しており、イラン有事にも転用可能。"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "news_article",
+      "title": "How the Strait of Hormuz Closure Impacts Global Oil Supply",
+      "locator": "https://www.reuters.com/graphics/IRAN-CRISIS/OIL-LNG/mopaokxlypa/",
+      "url": "https://www.reuters.com/graphics/IRAN-CRISIS/OIL-LNG/mopaokxlypa/",
+      "access_date": "2026-03",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "ホルムズ海峡の実質封鎖は、世界の日量石油供給の約20%を遮断し、原油価格を100〜126ドル/バレルに押し上げている。この経済的ダメージの累積が、米国の国内政治的持続意思と中国のエネルギー安全保障を同..."
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "IEA Oil Emergency Response Policy - Japan",
+      "locator": "https://www.iea.org/countries/japan/emergency-response",
+      "url": "https://www.iea.org/countries/japan/emergency-response",
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "日本の石油備蓄（民間・国家合計約240日分）はホルムズ封鎖長期化の場合、段階的崩壊を招く。フェーズ1（0〜90日）では電力価格25〜40%上昇、フェーズ2（90〜180日）では計画停電・産業用電力配給..."
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "official_document",
+      "title": "IEP Agreement (2022 consolidated)",
+      "locator": "https://iea.blob.core.windows.net/assets/0269f89c-6e87-4f51-9703-54d6f8fb2cb3/IEPAgreement_Updated2022.pdf",
+      "url": "https://iea.blob.core.windows.net/assets/0269f89c-6e87-4f51-9703-54d6f8fb2cb3/IEPAgreement_Updated2022.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「民間備蓄先行→国家備蓄後続」の二段放出と調達多角化を同時実行するのが最も実効的。"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "news_article",
+      "title": "Iran Air Flight 655 - Lessons for Modern Naval Operations",
+      "locator": "https://www.usni.org/magazines/naval-history-magazine/1988-uss-vincennes-incident",
+      "url": "https://www.usni.org/magazines/naval-history-magazine/1988-uss-vincennes-incident",
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "意図的な大国間戦争よりも、「誤認・誤爆・誤作動」による偶発的エスカレーションのリスクが高い。ホルムズ海峡では米海軍・イラン海軍・中国海軍・ロシア艦艇が同時行動しており、1988年イラン航空655便撃墜..."
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "news_article",
+      "title": "Iran may 'lash out harder' following Khamenei's death - CNBC",
+      "locator": "https://www.cnbc.com/2026/03/01/us-israel-attacks-strikes-iran-retaliate-china-russia-allies.html",
+      "url": "https://www.cnbc.com/2026/03/01/us-israel-attacks-strikes-iran-retaliate-china-russia-allies.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "イラン最高指導者ハメネイ師の死去（2026年3月1日）を受け、イラン国内の動揺と強硬派の台頭により、イスラエルおよび米国に対する報復攻撃が激化している。米・イスラエル連合軍は軍事作戦を継続しており、戦..."
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "news_article",
+      "title": "Iran's 2022 Protests and Their Aftermath",
+      "locator": "https://www.cfr.org/backgrounder/irans-protests",
+      "url": "https://www.cfr.org/backgrounder/irans-protests",
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "シナリオE（推定確率5%）：軍事的敗北とハメネイ師の死去を契機にイラン国民が蜂起し、IRGC内部から改革派が台頭。イスラム共和制が崩壊し、親西洋的な世俗政権が樹立される。"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "news_article",
+      "title": "Japan Power Futures Jump as Iran Conflict Threatens Gas Supplies",
+      "locator": "https://www.bloomberg.com/news/articles/2026-03-03/japan-power-futures-jump-as-iran-conflict-threatens-gas-supplies",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/japan-power-futures-jump-as-iran-conflict-threatens-gas-supplies",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "日本は原油の90%以上を中東に依存しており、ホルムズ海峡封鎖により国家存立に関わるエネルギー危機に直面している。ブレント原油価格は100ドルを突破し、電力先物価格は25%上昇する可能性がある。"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "academic_paper",
+      "title": "Japan's Iran Dilemma: Oil, Alliances, and Nuclear Double Standards",
+      "locator": "https://thediplomat.com/2026/03/japans-iran-dilemma-oil-alliances-and-nuclear-double-standards/",
+      "url": "https://thediplomat.com/2026/03/japans-iran-dilemma-oil-alliances-and-nuclear-double-standards/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "日本はイランと歴史的な友好関係を維持し（1973年石油危機後も断交せず）、米国の同盟国でもある特異な立場にある。この二重性は仲介外交の潜在的基盤となりうるが、日米安保体制の制約から独立した仲介行動には...",
+        "日本は米国の同盟国としての立場と、イランとの伝統的な友好関係（およびエネルギー依存）の板挟みになっている。政府は「対話と自制」を呼びかけているが、実効的な仲介力を発揮できていない。"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "official_document",
+      "title": "Joint statement by President Costa and President von der Leyen after the video conference with leaders from Middle East countries on the war in Iran",
+      "locator": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/09/joint-statement-by-president-costa-and-president-von-der-leyen-after-the-video-conference-with-leaders-from-middle-east-countries-on-the-war-in-iran/",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/09/joint-statement-by-president-costa-and-president-von-der-leyen-after-the-video-conference-with-leaders-from-middle-east-countries-on-the-war-in-iran/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "EU（コスタ大統領・フォンデアライエン委員長）は、イランによる攻撃を非難しつつも、人道的配慮と対話による解決（de-escalation）を求めている。米国と完全に同調するのではなく、独自の外交ルート..."
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "academic_paper",
+      "title": "Kenneth Waltz, \"Why Iran Should Get the Bomb,\" Foreign Affairs, 2012",
+      "locator": "https://www.foreignaffairs.com/articles/iran/2012-06-15/why-iran-should-get-the-bomb",
+      "url": "https://www.foreignaffairs.com/articles/iran/2012-06-15/why-iran-should-get-the-bomb",
+      "access_date": "unknown",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "現在の戦争は三層に重なる対立構造を持つ。第1層（直接）：米・イスラエル vs イラン、第2層（代理）：ヒズボラ・フーシ・ハマスなどイラン代理勢力 vs 米・イスラエル連合、第3層（構造）：米国・EU・..."
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "official_document",
+      "title": "Kremlin: Basic Principles on Nuclear Deterrence",
+      "locator": "http://www.en.kremlin.ru/events/president/news/75598",
+      "url": "http://www.en.kremlin.ru/events/president/news/75598",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "ロシアは国家存立脅威下で核使用余地を残し、中国は先制不使用を維持しており、核エスカレーションは低頻度だが高影響リスク。"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "official_document",
+      "title": "MOFA Bluebook 2024",
+      "locator": "https://www.mofa.go.jp/policy/other/bluebook/2024/en_html/chapter4/c040201.html",
+      "url": "https://www.mofa.go.jp/policy/other/bluebook/2024/en_html/chapter4/c040201.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "退避は「平時登録・段階発令・多経路確保」の事前設計が成否を分ける。"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "official_document",
+      "title": "MOFA Statement on Iran Situation",
+      "locator": "https://www.mofa.go.jp/press/statement/pageite_000001_01505.html",
+      "url": "https://www.mofa.go.jp/press/statement/pageite_000001_01505.html",
+      "access_date": "2026-03",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "日本は原油輸入の約95%を中東に依存し、うち約70%がホルムズ海峡を通過する。現在の実質封鎖により、日本は緊急備蓄（約254日分、国家＋民間合計）の取り崩しを開始している。254日という数値はIEAの..."
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "official_document",
+      "title": "National Security Strategy of Japan (2022)",
+      "locator": "https://japan.kantei.go.jp/content/000120031.pdf",
+      "url": "https://japan.kantei.go.jp/content/000120031.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "日本の最適戦略は、米同盟維持を軸に、サウジ・トルコ・EUとの停戦チャネル、対中対露の誤算回避対話を並走させる多層設計。"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "official_document",
+      "title": "Oil Stocks of IEA Countries (IEA Data Tool)",
+      "locator": "https://www.iea.org/data-and-statistics/data-tools/oil-stocks-of-iea-countries",
+      "url": "https://www.iea.org/data-and-statistics/data-tools/oil-stocks-of-iea-countries",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "日本の石油備蓄は国際比較で厚いが、放出速度・製品ミックス・港湾/精製制約により「日数=即応力」ではない。"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "official_document",
+      "title": "Press Conference by Minister Nishimura (METI)",
+      "locator": "https://www.meti.go.jp/english/speeches/press_conferences/2023/1124001.html",
+      "url": "https://www.meti.go.jp/english/speeches/press_conferences/2023/1124001.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "LNGは石油備蓄のような長期国家在庫制度が限定的で、輸送遅延・スポット価格急騰に対する緩衝が小さい。"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_type": "official_document",
+      "title": "RMT 2024 Chapter III (UNCTAD)",
+      "locator": "https://unctad.org/system/files/official-document/rmt2024ch3_en.pdf",
+      "url": "https://unctad.org/system/files/official-document/rmt2024ch3_en.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "中東・紅海周辺の海運障害は、運賃急騰→輸入コスト上昇→国内価格上昇の経路で日本経済へ波及する。",
+        "海運保険・運賃急騰への対処は、エネルギー価格対策と同等に重要。"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_type": "news_article",
+      "title": "Russia, China raise diplomatic voices against US-Israeli attacks on Iran",
+      "locator": "https://www.aljazeera.com/news/2026/3/4/russia-china-raise-diplomatic-voices-against-us-israeli-attacks-on-iran",
+      "url": "https://www.aljazeera.com/news/2026/3/4/russia-china-raise-diplomatic-voices-against-us-israeli-attacks-on-iran",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ロシアのラブロフ外相は、米・イスラエルの攻撃が地域における核拡散を引き起こすリスクを警告している。ロシアはイランへの情報提供を行っており、中国も物的支援を示唆していることから、代理戦争から大国間の直接...",
+        "主要国・勢力それぞれの戦争選好は異なる。米国は早期収束を最優先、イスラエルは長期化を容認、イラン（IRGC）は消耗戦を選好、ロシアは長期化を最大選好（エネルギー収入・米国消耗の二重利益）、中国は現状凍..."
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_type": "official_document",
+      "title": "Russian Nuclear Deterrence Policy, 2020",
+      "locator": "https://en.kremlin.ru/acts/bank/45562",
+      "url": "https://en.kremlin.ru/acts/bank/45562",
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "2026年3月時点では、大国間の核エスカレーションは「可能性」の域を出ておらず、冷戦期に確立されたMAD（相互確証破壊）の抑止論理が一定程度機能している。ただしイランの核廃棄前の最終段階では、ロシアか...",
+        "シナリオD（推定確率10%）：ロシアまたは中国が自国権益への直接的脅威（在イラン施設への攻撃、海峡通行妨害等）を理由に軍事的に介入し、米軍との偶発的衝突が発生することで核抑止が崩壊するリスクが生じる。"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_type": "news_article",
+      "title": "S. Jaishankar: Dialogue, Diplomacy Only Solution",
+      "locator": "https://www.ndtv.com/india-news/iran-war-middle-east-war-s-jaishankar-dialogue-diplomacy-only-solution-s-jaishankar-on-iran-war-amid-house-chaos-11188558",
+      "url": "https://www.ndtv.com/india-news/iran-war-middle-east-war-s-jaishankar-dialogue-diplomacy-only-solution-s-jaishankar-on-iran-war-amid-house-chaos-11188558",
+      "access_date": "2026-03",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "先行分析ではインドの役割が完全に欠落しているが、インドはイラン・イスラエル双方と強い戦略的関係を持ち、米国の同盟国でありながら「戦略的自律」を標榜する独自のポジションにある。ジャイシャンカル外相は「対..."
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_type": "academic_paper",
+      "title": "Saudi Arabia's Nuclear Temptations",
+      "locator": "https://www.ifri.org/en/memos/saudi-arabias-nuclear-temptations-lessons-learned-regional-instability",
+      "url": "https://www.ifri.org/en/memos/saudi-arabias-nuclear-temptations-lessons-learned-regional-instability",
+      "access_date": "2026",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "イラン核施設への攻撃は逆説的に地域核拡散リスクを高めている。MBSは「イランが核を持てばサウジも持つ」と明言しており、トランプ政権はゴールドスタンダード（ウラン濃縮全面禁止）を緩和した核協力協定をサウ..."
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_type": "industry_report",
+      "title": "Threat Brief: March 2026 Escalation — Iranian Cyberattacks",
+      "locator": "https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/",
+      "url": "https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/",
+      "access_date": "2026-03",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "イラン系APTグループ（APT33/Elfin、APT34/OilRig、MuddyWater、Charming Kitten等）が重要インフラに対する大規模サイバー攻撃を展開中であり、エネルギー・金..."
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_type": "news_article",
+      "title": "U.S.-Israel War on Iran at the Crossroads",
+      "locator": "https://moderndiplomacy.eu/2026/03/14/u-s-israel-war-on-iran-at-the-crossroads/",
+      "url": "https://moderndiplomacy.eu/2026/03/14/u-s-israel-war-on-iran-at-the-crossroads/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "中露はイラン現政権を支持する姿勢を鮮明にしており、ロシアは「信頼できるパートナー」としてインテリジェンス共有を行い、中国はイラン国内の自国権益保護を名目に経済的・物的支援を検討している。"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_type": "official_document",
+      "title": "UNCLOS Full Text",
+      "locator": "https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+      "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "世界大戦化の主経路は、ホルムズ周辺の誤認・誤射・航行妨害による偶発連鎖。"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_type": "official_document",
+      "title": "Wang Yi on the Iran Situation",
+      "locator": "https://www.mfa.gov.cn/eng/wjbzhd/202603/t20260308_11870452.html",
+      "url": "https://www.mfa.gov.cn/eng/wjbzhd/202603/t20260308_11870452.html",
+      "access_date": "2026-03-08",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "中国はイラン最大の経済パートナーとして停戦仲介の最有力候補とみなされているが、その実効的レバレッジ（影響力）は限定的である。王毅外相は2026年3月8日の記者会見で即時停戦と外交的解決を訴えたが、米国..."
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_type": "industry_report",
+      "title": "War in Iran: Q&A with RAND Experts",
+      "locator": "https://www.rand.org/pubs/commentary/2026/03/war-in-iran-qa-with-rand-experts.html",
+      "url": "https://www.rand.org/pubs/commentary/2026/03/war-in-iran-qa-with-rand-experts.html",
+      "access_date": "2026-03",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "先行分析はシナリオD（世界大戦リスク）を10%と評価したが、これは方法論的に楽観的である。ホルムズ海峡周辺に米・英・仏・ロシア・中国・インドの海軍が集結する中、AI支援防空システムの自動化された判断速...",
+        "米国・イスラエルの戦争目的が「核施設破壊」「体制転換」「抑止力回復」の間で揺れており、「何をもって勝利とするか」が不明確であることが停戦の最大の障害の一つである。この戦略的曖昧性は外交的オフランプの構..."
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_type": "unknown",
+      "title": "先行分析（deep-analysis, technical-strategy, critic-review）の統合的再評価",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Critic Reviewの指摘を踏まえ、先行分析のシナリオ確率を以下のとおり修正する。シナリオA（制御された軍事決着）: 35%→20%（米国の出口戦略欠如・イランの非対称戦闘能力反映）、シナリオB..."
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_type": "unknown",
+      "title": "本文書の日本向け戦略的提言",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "在イラン・在中東邦人（推定数百名）の即時退避計画の発動確認を行い、自衛隊による邦人退避支援の法的根拠（自衛隊法第84条の3）を事前確認すべきである。",
+        "日本は90日備蓄に加えてスポットLNG確保を米国・カタール・オーストラリアに要請し、エネルギー基本計画の「有事条項」を発動して原子力・再エネの緊急拡大を閣議決定すべきである。",
+        "日本はトルコ・UAE・インドの「非同盟系仲介国」と協調した多国間停戦イニシアティブへの参加を行うべきである。日本単独の仲介は限界があるが、グループとしての存在感は確保可能である。",
+        "日本はホルムズ依存の構造的解消を目指し、中東以外（米国シェール・西アフリカ・オーストラリア）の調達割合を2030年までに30%以上に引き上げる目標を設定すべきである。"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_type": "unknown",
+      "title": "本文書の構造分析（総括的結論）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ロシアは直接参戦なく、エネルギー価格高騰・米国消耗・西側分断という三重の利益を享受できるため、停戦調停への積極的インセンティブは薄い。",
+        "世界大戦リスクは現時点では「低〜中」だが、偶発的エスカレーションへの警戒が不可欠である。意図的な大国参戦よりも誤認・誤爆による連鎖が危険であり、米中露間の「ホットライン」的危機管理チャネルの維持が抑止...",
+        "中国は経済的損失（原油高騰・BRI投資毀損）を回避したい立場から、サウジ・イラン仲介の再現として停戦交渉に動く可能性があり、シナリオBの実現に最も貢献する現実的なアクターである。",
+        "最有力シナリオはA（軍事決着、35%）とC（長期消耗戦、25%）の競合であり、米国の意思と能力次第でどちらに転ぶかが決まる。ポスト・ハメネイ期のIRGC内部動向が最大の「未知変数」である。"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_type": "unknown",
+      "title": "湾岸戦争・イラク戦争比較分析（地政学的先例）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "シナリオA（推定確率35%）：米・イスラエルがイランの核・ミサイル施設を完全破壊し、IRGC主流派が停戦を受け入れ、体制移行期政府が樹立される。条件として①IRGCの分裂・一部温健派の権力掌握、②中国..."
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_type": "unknown",
+      "title": "米国対外戦争の歴史的パターン分析（地政学的推論）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "シナリオC（推定確率25%）：IRGC・代理勢力による非対称攻撃が継続し、米軍はイラン本土に地上侵攻できないまま膠着状態が続く。ヒズボラ・フーシが戦線を拡大し、レバノン・イエメン・シリアが同時多発的に..."
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_type": "official_document",
+      "title": "自衛隊法（e-Gov）",
+      "locator": "https://elaws.e-gov.go.jp/document?lawid=329AC0000000165",
+      "url": "https://elaws.e-gov.go.jp/document?lawid=329AC0000000165",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "在外邦人等の保護措置は、自衛隊法第84条の3に基づき可能だが、現地治安・受入国同意・首相承認など厳格要件がある。"
+      ]
+    }
+  ]
+}

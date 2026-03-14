@@ -1,0 +1,228 @@
+{
+  "step": 5,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T09:36:27Z",
+  "claims": [
+    {
+      "claim": "イラン戦争収束の最大の鍵は、IRGC（イスラム革命防衛隊）内部における強硬派と実利派の権力闘争の帰結である。ハメネイ師殺害後、憲法上の後継手続（専門家会議による最高指導者選出）は事実上機能停止しており、暫定指導評議会が権限を行使しているが、実質的な意思決定権はIRGCが掌握している。IRGC強硬派が優勢なら戦争は長期化・エスカレーションし、実利派が主導権を取れば体制存続を優先した停戦交渉への転換が起こりうる。",
+      "evidence": "ハメネイ師は2026年3月1日の米・イスラエル空爆で死亡。専門家会議は戦時下で招集困難、一部の指名候補は就任拒否。便宜評議会が専門家会議の権限を停止し暫定体制に移行。IRGC内部では「安全保障共和国」化を推進する強硬派と、体制存続のための交渉を模索する実利派が対立。モジタバ・ハメネイ（故指導者の息子）がIRGCとの妥協的象徴として浮上。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Analysis: Khamenei Killing Shatters Iran's Order",
+        "source_locator": "https://www.usnews.com/news/world/articles/2026-03-01/analysis-khamenei-killing-shatters-irans-order-triggers-high-stakes-succession-race",
+        "access_date": "2026-03-01",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "ホルムズ海峡の実質封鎖は、世界の日量石油供給の約20%を遮断し、原油価格を100〜126ドル/バレルに押し上げている。この経済的ダメージの累積が、米国の国内政治的持続意思と中国のエネルギー安全保障を同時に脅かし、双方に停戦仲介への動機を生む最大の外部推進力である。IEAによる史上最大規模の4億バレル緊急放出は一時的緩和策にすぎず、封鎖が3〜6ヶ月超継続すればスタグフレーション的な世界不況のトリガーとなる。",
+      "evidence": "ホルムズ海峡通過タンカー交通量90%超減少。原油$119〜$126/bblに急騰。IEA史上最大4億バレル協調放出。日本の日経225が1日で4,000ポイント超下落。LNGスポット価格過去最高水準。サウジ・イラク・クウェートは貯蔵満杯で追加減産に追い込まれている。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "How the Strait of Hormuz Closure Impacts Global Oil Supply",
+        "source_locator": "https://www.reuters.com/graphics/IRAN-CRISIS/OIL-LNG/mopaokxlypa/",
+        "access_date": "2026-03",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "IEP Agreement",
+          "section": "Art.2",
+          "mapping": "direct"
+        },
+        {
+          "standard": "石油備蓄法（昭和50年法律第96号）",
+          "section": "民間備蓄義務",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "中国はイラン最大の経済パートナーとして停戦仲介の最有力候補とみなされているが、その実効的レバレッジ（影響力）は限定的である。王毅外相は2026年3月8日の記者会見で即時停戦と外交的解決を訴えたが、米国・イスラエルに対する具体的抑止手段を持たない。先行分析が「中国が最も現実的な仲介アクター」と断言した点は、レトリックとレバレッジのギャップを過小評価している。",
+      "evidence": "王毅外相2026年3月8日記者会見で「停戦・戦争終結・秩序回復」を訴え。イラン側は中国・ロシア・フランスが停戦打診と発表。ただし中国は米・イスラエルへの直接的抑止力を欠く。Carnegie Endowment分析は「中国もロシアもイラン救出に急いでいない」と指摘。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Wang Yi on the Iran Situation",
+        "source_locator": "https://www.mfa.gov.cn/eng/wjbzhd/202603/t20260308_11870452.html",
+        "access_date": "2026-03-08",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "国連憲章",
+          "section": "第33条",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "先行分析ではインドの役割が完全に欠落しているが、インドはイラン・イスラエル双方と強い戦略的関係を持ち、米国の同盟国でありながら「戦略的自律」を標榜する独自のポジションにある。ジャイシャンカル外相は「対話と外交だけが解決策」と繰り返し表明し、バックチャネル仲介を積極化している。インドは中国より中立性が高い仲介者候補であり、分析に含めるべきであった。",
+      "evidence": "モディ首相・ジャイシャンカル外相が外交的解決を繰り返し訴え。インドはイラン・イスラエル双方の大使館を維持し、両国と防衛・エネルギー分野で協力関係。湾岸在住インド人数百万人の安全も仲介動機。First Post分析は「インドが『平和の建築家』として機能しうる」と指摘。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "S. Jaishankar: Dialogue, Diplomacy Only Solution",
+        "source_locator": "https://www.ndtv.com/india-news/iran-war-middle-east-war-s-jaishankar-dialogue-diplomacy-only-solution-s-jaishankar-on-iran-war-amid-house-chaos-11188558",
+        "access_date": "2026-03",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "イラン核施設への攻撃は逆説的に地域核拡散リスクを高めている。MBSは「イランが核を持てばサウジも持つ」と明言しており、トランプ政権はゴールドスタンダード（ウラン濃縮全面禁止）を緩和した核協力協定をサウジと交渉中。イラン戦争の帰結いかんに関わらず、中東の核不拡散体制は構造的に弱体化しており、トルコ・エジプトへの連鎖的拡散リスクが生じている。この論点は先行分析で完全に欠落していた。",
+      "evidence": "MBSの核武装発言（CBS 2018年）。トランプ政権がゴールドスタンダードなしのサウジ核協力協定を交渉中。IAEA監視がイラン国内で中断。IFRI分析・Just Security分析が「核拡散カスケード」リスクを警告。Arms Control Associationがサウジ協定の非拡散リスクを指摘。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Saudi Arabia's Nuclear Temptations",
+        "source_locator": "https://www.ifri.org/en/memos/saudi-arabias-nuclear-temptations-lessons-learned-regional-instability",
+        "access_date": "2026",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "NPT（核不拡散条約）",
+          "section": "第2条",
+          "mapping": "direct"
+        },
+        {
+          "standard": "IAEA包括的保障措置協定",
+          "section": "INFCIRC/153",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "イラン系APTグループ（APT33/Elfin、APT34/OilRig、MuddyWater、Charming Kitten等）が重要インフラに対する大規模サイバー攻撃を展開中であり、エネルギー・金融・輸送セクターへの攻撃は「第二のホルムズ封鎖」としての破壊力を持つ。60以上のハクティビスト集団が協力し、AI強化型マルウェアやブロックチェーンベースのC2インフラを使用。日本を含むアジア諸国への波及リスクが高い。先行分析ではこの次元が完全に欠落していた。",
+      "evidence": "2026年2月28日以降、イスラエル・UAE・米国資産への攻撃トラフィック133%増。UAE単独で1日最大20万件の攻撃。中東エネルギー・ユーティリティセクターの61%以上がHIGH/CRITICALのCVSS脆弱性を持つ。Operation Epic Fury後、イラン自体のインターネット接続は1〜4%に低下し、APTセルは海外から独立的に活動。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Threat Brief: March 2026 Escalation — Iranian Cyberattacks",
+        "source_locator": "https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/",
+        "access_date": "2026-03",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "IEC 62443",
+          "section": "産業制御システムセキュリティ基準",
+          "mapping": "partial"
+        },
+        {
+          "standard": "NIST CSF",
+          "section": null,
+          "mapping": "partial"
+        },
+        {
+          "standard": "NISC重要インフラ行動計画",
+          "section": "重要インフラ事業者のサイバーセキュリティ対策義務",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "日本は原油輸入の約95%を中東に依存し、うち約70%がホルムズ海峡を通過する。現在の実質封鎖により、日本は緊急備蓄（約254日分、国家＋民間合計）の取り崩しを開始している。254日という数値はIEAの義務基準（90日）とは別の概念であり年度・算定方法により変動する実績値である。LNG供給の途絶リスクは、ポスト福島のエネルギーポートフォリオにおいて特に深刻であり、電力不足への直結リスクがある。",
+      "evidence": "日本の中東原油依存度95%、ホルムズ通過70%。備蓄取り崩し開始。日経225が1日4,000pt超下落。電力先物過去最高水準。国民の85%超が経済影響を懸念。高市首相が外交的解決を訴え。在イラン邦人約200名、周辺国約7,700名の安全確認・退避準備進行中。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "MOFA Statement on Iran Situation",
+        "source_locator": "https://www.mofa.go.jp/press/statement/pageite_000001_01505.html",
+        "access_date": "2026-03",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "IEP Agreement",
+          "section": "Art.2",
+          "mapping": "direct"
+        },
+        {
+          "standard": "石油備蓄法",
+          "section": "民間備蓄義務",
+          "mapping": "direct"
+        },
+        {
+          "standard": "武力攻撃事態対処法",
+          "section": "存立危機事態認定",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "米国・イスラエルの戦争目的が「核施設破壊」「体制転換」「抑止力回復」の間で揺れており、「何をもって勝利とするか」が不明確であることが停戦の最大の障害の一つである。この戦略的曖昧性は外交的オフランプの構築を極めて困難にしており、先行分析のシナリオA（制御された軍事決着、35%）はこの要因を適切に織り込んでおらず、確率は過大評価されている。",
+      "evidence": "Al Jazeeraの分析「12 days: How 2025 Iran blueprint trapped US, Israel in longer war」は当初の「短期精密攻撃」構想が長期化に転じた経緯を詳述。RAND専門家Q&Aは「明確な出口戦略の欠如」を指摘。Belfer Center分析は米国の戦略目標が3つの方向に分裂していると評価。Axios分析は5つのシナリオを提示しいずれも短期終結を予測していない。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "War in Iran: Q&A with RAND Experts",
+        "source_locator": "https://www.rand.org/pubs/commentary/2026/03/war-in-iran-qa-with-rand-experts.html",
+        "access_date": "2026-03",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "先行分析はシナリオD（世界大戦リスク）を10%と評価したが、これは方法論的に楽観的である。ホルムズ海峡周辺に米・英・仏・ロシア・中国・インドの海軍が集結する中、AI支援防空システムの自動化された判断速度、サイバー戦と情報戦の同時進行、およびプロキシ勢力の独立行動が偶発的連鎖のリスクを非線形的に増大させており、1914年7月危機との構造的類似性を無視すべきではない。修正推定として偶発的大国間衝突の確率は15〜20%が適切である。",
+      "evidence": "多国籍海軍のホルムズ集積は公開情報。AI防空システムの判断速度問題はRAND・Belfer Center等が指摘。イラン系プロキシ（フーシ派等）の独立行動傾向は確認済み。先行分析のCritic Reviewが「偶発連鎖の非線形性の軽視」をmediumリスクとして指摘。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "War in Iran: Q&A with RAND Experts",
+        "source_locator": "https://www.rand.org/pubs/commentary/2026/03/war-in-iran-qa-with-rand-experts.html",
+        "access_date": "2026-03",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Critic Reviewの指摘を踏まえ、先行分析のシナリオ確率を以下のとおり修正する。シナリオA（制御された軍事決着）: 35%→20%（米国の出口戦略欠如・イランの非対称戦闘能力反映）、シナリオB（外交交渉による停戦）: 25%→30%（経済的疲弊ドライバーの重み増加・中印仲介加味）、シナリオC（長期消耗戦）: 25%→30%（米国の戦略的曖昧性・IRGC内部膠着）、シナリオD（偶発的大国間衝突）: 10%→15%（偶発連鎖の非線形リスク上方修正）、シナリオE（体制崩壊・民主化）: 5%→5%（据え置き）。すべての数値は主観的推定であり、不確実性は各値±15%。",
+      "evidence": "先行分析のCritic Reviewで指摘された全5件の論理矛盾、エビデンス不足4件、バイアス5件を反映した総合的再評価。定量的根拠なし。専門家サーベイ・予測市場データ・構造的類似ケースの統計分析のいずれも使用していない。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "先行分析（deep-analysis, technical-strategy, critic-review）の統合的再評価",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

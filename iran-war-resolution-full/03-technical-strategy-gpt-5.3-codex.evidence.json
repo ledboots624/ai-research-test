@@ -1,0 +1,293 @@
+{
+  "step": 3,
+  "role": "technical-strategy",
+  "model": "gpt-5.3-codex",
+  "extracted_at": "2026-03-14T09:20:35Z",
+  "claims": [
+    {
+      "claim": "ホルムズ海峡は、日本の石油・LNG安全保障に対する最大の単一点障害（single point of failure）である。",
+      "evidence": "EIAは、ホルムズ経由の石油フローを約2,000万b/d（世界石油消費の約20%）とし、LNGも世界貿易の約20%が通過と示す。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Amid regional conflict, the Strait of Hormuz remains critical oil chokepoint (EIA)",
+        "source_locator": "https://www.eia.gov/todayinenergy/detail.php?id=65504",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "日本の原油調達は中東依存度が極めて高く、紛争長期化時に価格・物流・精製運用の同時ショックを受けやすい。",
+      "evidence": "EIA日本国別分析で中東依存の高さが示され、政府エネルギー計画でも安定供給と多角化が中心課題。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Country Analysis Brief: Japan (EIA)",
+        "source_locator": "https://www.eia.gov/international/content/analysis/countries_long/Japan/japan.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "日本の石油備蓄は国際比較で厚いが、放出速度・製品ミックス・港湾/精製制約により「日数=即応力」ではない。",
+      "evidence": "IEAデータで高水準備蓄、JOGMEC/IEAで国家備蓄・民間備蓄の役割分担が明示。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Oil Stocks of IEA Countries (IEA Data Tool)",
+        "source_locator": "https://www.iea.org/data-and-statistics/data-tools/oil-stocks-of-iea-countries",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "LNGは石油備蓄のような長期国家在庫制度が限定的で、輸送遅延・スポット価格急騰に対する緩衝が小さい。",
+      "evidence": "METIの戦略的バッファ議論は進むが、制度は発展途上で、在庫余力は限定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Press Conference by Minister Nishimura (METI)",
+        "source_locator": "https://www.meti.go.jp/english/speeches/press_conferences/2023/1124001.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "中東・紅海周辺の海運障害は、運賃急騰→輸入コスト上昇→国内価格上昇の経路で日本経済へ波及する。",
+      "evidence": "UNCTADはCCFIの大幅上昇（2023/10～2024/6で+120%）と、消費者物価への上押し圧力を報告。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "RMT 2024 Chapter III (UNCTAD)",
+        "source_locator": "https://unctad.org/system/files/official-document/rmt2024ch3_en.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "エネルギー高は日本で「中程度だが持続的」な価格転嫁を誘発し、実質所得と成長率を圧迫しうる。",
+      "evidence": "BOJ研究・内閣府年次報告・OECD調査が、コスト転嫁の再活性化と成長下押しリスクを示唆。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "BOJ Working Paper Series 2024",
+        "source_locator": "https://www.boj.or.jp/en/research/wps_rev/wps_2024/index.htm",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "在外邦人等の保護措置は、自衛隊法第84条の3に基づき可能だが、現地治安・受入国同意・首相承認など厳格要件がある。",
+      "evidence": "条文上、防衛大臣の裁量（できる規定）かつ複数条件の充足が必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "自衛隊法（e-Gov）",
+        "source_locator": "https://elaws.e-gov.go.jp/document?lawid=329AC0000000165",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MAY",
+      "standard_references": [
+        {
+          "standard": "自衛隊法",
+          "section": "第84条の3",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "MOFAの退避勧告（特にLevel 4）は、法的強制ではないが運用上は実質的に即時退避の基準として機能する。",
+      "evidence": "外交青書の危険情報体系・領事対応実務。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Diplomatic Bluebook 2024: Risks and Safety of Japanese Nationals Overseas",
+        "source_locator": "https://www.mofa.go.jp/policy/other/bluebook/2024/en_html/chapter4/c040201.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "MOFA領事運用基準",
+          "section": null,
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "2023年スーダン退避は、Djibouti拠点＋多国間連携＋段階輸送の実効性を実証しており、イラン有事にも転用可能。",
+      "evidence": "MOFA公式リリースで輸送実績・他国連携が確認できる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Evacuation from Sudan (MOFA, 2023-04-25)",
+        "source_locator": "https://www.mofa.go.jp/press/release/press1e_000418.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "世界大戦化の主経路は、ホルムズ周辺の誤認・誤射・航行妨害による偶発連鎖。",
+      "evidence": "UNCLOSは通峡通航の非停止を規定、現場では海上警戒強化が続く。法規範と実態の乖離が事故リスクを高める。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "UNCLOS Full Text",
+        "source_locator": "https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "UNCLOS",
+          "section": "Art.44",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "ロシアは国家存立脅威下で核使用余地を残し、中国は先制不使用を維持しており、核エスカレーションは低頻度だが高影響リスク。",
+      "evidence": "公式核ドクトリン・国防白書。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kremlin: Basic Principles on Nuclear Deterrence",
+        "source_locator": "http://www.en.kremlin.ru/events/president/news/75598",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "日本の最適戦略は、米同盟維持を軸に、サウジ・トルコ・EUとの停戦チャネル、対中対露の誤算回避対話を並走させる多層設計。",
+      "evidence": "日本NSSは同盟・シーレーン防護を重視、EUは停戦・対話を公式提唱。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "National Security Strategy of Japan (2022)",
+        "source_locator": "https://japan.kantei.go.jp/content/000120031.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「民間備蓄先行→国家備蓄後続」の二段放出と調達多角化を同時実行するのが最も実効的。",
+      "evidence": "日本制度は民間70日義務＋国家備蓄で構成され、IEA協調放出枠組みも存在。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "IEP Agreement (2022 consolidated)",
+        "source_locator": "https://iea.blob.core.windows.net/assets/0269f89c-6e87-4f51-9703-54d6f8fb2cb3/IEPAgreement_Updated2022.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "WANT",
+      "standard_references": [
+        {
+          "standard": "IEP Agreement",
+          "section": "Art.2",
+          "mapping": "direct"
+        },
+        {
+          "standard": "Oil Stockpiling Act",
+          "section": null,
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "海運保険・運賃急騰への対処は、エネルギー価格対策と同等に重要。",
+      "evidence": "UNCTADが運賃高騰と実体経済への波及を確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "RMT 2024 Chapter III (UNCTAD)",
+        "source_locator": "https://unctad.org/system/files/official-document/rmt2024ch3_en.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "WANT",
+      "standard_references": []
+    },
+    {
+      "claim": "日本単独仲介より「米同盟+EU+トルコ/サウジ」連結の多国間仲介が成功確率を高める。",
+      "evidence": "EUの停戦志向、NSSの同盟軸、海上交通路防護の一貫性。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EU Joint Statement on de-escalation",
+        "source_locator": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/09/joint-statement-by-president-costa-and-president-von-der-leyen-after-the-video-conference-with-leaders-from-middle-east-countries-on-the-war-in-iran/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "WANT",
+      "standard_references": []
+    },
+    {
+      "claim": "退避は「平時登録・段階発令・多経路確保」の事前設計が成否を分ける。",
+      "evidence": "MOFA危険情報制度とスーダン退避実績。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "MOFA Bluebook 2024",
+        "source_locator": "https://www.mofa.go.jp/policy/other/bluebook/2024/en_html/chapter4/c040201.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "WANT",
+      "standard_references": []
+    }
+  ]
+}

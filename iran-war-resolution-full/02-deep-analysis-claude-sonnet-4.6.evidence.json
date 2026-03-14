@@ -1,0 +1,344 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T09:06:12Z",
+  "claims": [
+    {
+      "claim": "ハメネイ師の死去はイラン国家体制のレジティマシー基盤そのものの喪失を意味し、専門家会議による後継者選定プロセスは進行中の軍事衝突下では機能不全に陥るリスクが高い。IRGCが事実上の意思決定権を掌握している可能性が高い。",
+      "evidence": "イラン憲法第111条は最高指導者の死去後に専門家会議が後継を選出する手続きを定めているが、現在の交戦状態では会議の物理的な開催自体が困難。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Constitution of the Islamic Republic of Iran, Article 111",
+        "source_locator": "https://www.constituteproject.org/constitution/Iran_1989",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "現在の戦争は三層に重なる対立構造を持つ。第1層（直接）：米・イスラエル vs イラン、第2層（代理）：ヒズボラ・フーシ・ハマスなどイラン代理勢力 vs 米・イスラエル連合、第3層（構造）：米国・EU・イスラエル vs ロシア・中国・イランの大国間覇権競争。",
+      "evidence": "前ステップ調査でロシアのインテリジェンス共有・中国の物的支援検討が確認されており、第3層の顕在化が進んでいる。中東における米国覇権の後退がロシア・中国の共通利益となっている点は冷戦後の地政学研究で繰り返し指摘されてきた。追加出典：U.S.-Israel War on Iran at the Crossroads (Modern Diplomacy, 2026-03-14)。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Kenneth Waltz, \"Why Iran Should Get the Bomb,\" Foreign Affairs, 2012",
+        "source_locator": "https://www.foreignaffairs.com/articles/iran/2012-06-15/why-iran-should-get-the-bomb",
+        "access_date": "unknown",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "主要国・勢力それぞれの戦争選好は異なる。米国は早期収束を最優先、イスラエルは長期化を容認、イラン（IRGC）は消耗戦を選好、ロシアは長期化を最大選好（エネルギー収入・米国消耗の二重利益）、中国は現状凍結を最大選好、サウジアラビア・トルコ・EU・日本は早期収束を選好する。",
+      "evidence": "各国公式声明・外交行動パターンから判断。ロシアについては、ウクライナ戦争下でのエネルギー収入依存構造と米国への戦略的対抗という二重利益が確認されている。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Russia, China raise diplomatic voices against US-Israeli attacks on Iran",
+        "source_locator": "https://www.aljazeera.com/news/2026/3/4/russia-china-raise-diplomatic-voices-against-us-israeli-attacks-on-iran",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "中国はイランへの表明的支持と実際の軍事関与の間で明確な「レッドライン」を設けており、直接的軍事参戦は回避する可能性が高い。中国のBRI投資がイランに集中していることから、イランの崩壊・親米政権樹立は中国の戦略的利益に反する。",
+      "evidence": "王毅外相声明はあくまで「外交的解決」を訴えており、軍事的関与を示唆する文言は確認されていない。中国のイラン向け投資総額は2021年の包括協定（25年・4000億ドル）規模に上るとされる。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "China-Iran 25-year Cooperation Agreement",
+        "source_locator": "https://www.chathamhouse.org/2021/09/what-does-chinas-deal-iran-mean",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "シナリオA（推定確率35%）：米・イスラエルがイランの核・ミサイル施設を完全破壊し、IRGC主流派が停戦を受け入れ、体制移行期政府が樹立される。条件として①IRGCの分裂・一部温健派の権力掌握、②中国・ロシアの「黙認」、③ホルムズ封鎖の段階的解除が必要。",
+      "evidence": "湾岸戦争（1991年）・イラク戦争（2003年）のパターンでは、米軍の圧倒的空爆能力が短期間で防空網を無効化した。ただしイランはイラク・フセイン政権より対称的な報復能力を持つ点が異なる。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "湾岸戦争・イラク戦争比較分析（地政学的先例）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "シナリオB（推定確率25%）：中国・トルコ・カタールの仲介によって暫定停戦合意が成立し、核問題は「凍結」されたまま段階的交渉へ移行する。",
+      "evidence": "2023年の中国仲介によるサウジ・イラン国交正常化は、中国が中東での外交的役割を果たせることを証明した。条件として①イランの体制移行政府が交渉権限を持つ、②米国が「核廃棄より監視」路線に軟化、③中国が具体的仲介役を担うことが必要。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "China brokered Saudi-Iran Deal, 2023",
+        "source_locator": "https://www.bbc.com/news/world-middle-east-64938985",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "シナリオC（推定確率25%）：IRGC・代理勢力による非対称攻撃が継続し、米軍はイラン本土に地上侵攻できないまま膠着状態が続く。ヒズボラ・フーシが戦線を拡大し、レバノン・イエメン・シリアが同時多発的に不安定化する。",
+      "evidence": "ベトナム戦争・アフガニスタン戦争の構造的類似性。イランの地理的縦深と非対称戦闘能力はイラクをはるかに超える。条件として①ポスト・ハメネイ体制が「殉教」を国家動員に利用、②ロシアが防空システム等装備供与を強化、③米国国内の厭戦感情高まりが方針変更を促すことが前提。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "米国対外戦争の歴史的パターン分析（地政学的推論）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "シナリオD（推定確率10%）：ロシアまたは中国が自国権益への直接的脅威（在イラン施設への攻撃、海峡通行妨害等）を理由に軍事的に介入し、米軍との偶発的衝突が発生することで核抑止が崩壊するリスクが生じる。",
+      "evidence": "ラブロフ外相の「核拡散リスク警告」は外交的けん制だが、ロシアの核ドクトリン（2020年改定）は「国家存立への脅威」に対する核使用を認めている。条件として①米・イスラエルが誤ってロシア・中国権益施設を攻撃、②ロシアが核ドクトリンの「通常戦争への拡大適用」を宣言、③中国が台湾問題とリンクさせた軍事行動を取ることが前提。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Russian Nuclear Deterrence Policy, 2020",
+        "source_locator": "https://en.kremlin.ru/acts/bank/45562",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "シナリオE（推定確率5%）：軍事的敗北とハメネイ師の死去を契機にイラン国民が蜂起し、IRGC内部から改革派が台頭。イスラム共和制が崩壊し、親西洋的な世俗政権が樹立される。",
+      "evidence": "2022年「女性・命・自由」運動はイラン国内の体制批判が広範であることを示す。ただし、軍事介入下での民衆蜂起は「敵への抵抗」として逆に体制を強化するリスクもある（ラリー・エフェクト）。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Iran's 2022 Protests and Their Aftermath",
+        "source_locator": "https://www.cfr.org/backgrounder/irans-protests",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "意図的な大国間戦争よりも、「誤認・誤爆・誤作動」による偶発的エスカレーションのリスクが高い。ホルムズ海峡では米海軍・イラン海軍・中国海軍・ロシア艦艇が同時行動しており、1988年イラン航空655便撃墜事件（誤認射撃）の再現リスクが存在する。",
+      "evidence": "①通信錯誤リスク：複数国海軍の同時行動による誤認射撃の可能性。②核施設攻撃の副次リスク：放射性物質拡散が「大量破壊兵器使用」と認定される可能性。③情報戦による誤判断：ロシアがイランに提供するインテリジェンスの歪みによる過剰反応リスク。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Iran Air Flight 655 - Lessons for Modern Naval Operations",
+        "source_locator": "https://www.usni.org/magazines/naval-history-magazine/1988-uss-vincennes-incident",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "2026年3月時点では、大国間の核エスカレーションは「可能性」の域を出ておらず、冷戦期に確立されたMAD（相互確証破壊）の抑止論理が一定程度機能している。ただしイランの核廃棄前の最終段階では、ロシアからイランへの限定的核技術移転が安全保障を複雑にする可能性がある。",
+      "evidence": "ロシアの核ドクトリンは「通常戦争で国家存立が脅かされる場合」に核使用を認めるが、これはロシア自体の存立であり同盟国イランへの適用は拡大解釈を要する。中国は「先制不使用（No First Use）」原則を明示的に維持している（中国国防白書2019）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Russian Nuclear Deterrence Policy, 2020",
+        "source_locator": "https://en.kremlin.ru/acts/bank/45562",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "日本の石油備蓄（民間・国家合計約240日分）はホルムズ封鎖長期化の場合、段階的崩壊を招く。フェーズ1（0〜90日）では電力価格25〜40%上昇、フェーズ2（90〜180日）では計画停電・産業用電力配給制開始、フェーズ3（180日〜）ではGDPの3〜5%規模の損失・スタグフレーション突入が想定される。",
+      "evidence": "IEA規定の90日義務備蓄・日本エネルギー庁の240日相当備蓄データ、Bloombergの電力先物25%上昇報道（2026-03-03）。追加出典：Bloomberg, Japan Power Futures Jump as Iran Conflict Threatens Gas Supplies (2026-03-03)。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "IEA Oil Emergency Response Policy - Japan",
+        "source_locator": "https://www.iea.org/countries/japan/emergency-response",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "日本はイランと歴史的な友好関係を維持し（1973年石油危機後も断交せず）、米国の同盟国でもある特異な立場にある。この二重性は仲介外交の潜在的基盤となりうるが、日米安保体制の制約から独立した仲介行動には限界がある。",
+      "evidence": "安倍元首相の2019年訪問イラン（ロウハニ大統領会談）は唯一の近例だが、成果は限定的だった。現在の軍事衝突規模は2019年の緊張とは次元が異なる。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Japan's Iran Dilemma: Oil, Alliances, and Nuclear Double Standards",
+        "source_locator": "https://thediplomat.com/2026/03/japans-iran-dilemma-oil-alliances-and-nuclear-double-standards/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "最有力シナリオはA（軍事決着、35%）とC（長期消耗戦、25%）の競合であり、米国の意思と能力次第でどちらに転ぶかが決まる。ポスト・ハメネイ期のIRGC内部動向が最大の「未知変数」である。",
+      "evidence": "not_stated（本文書のシナリオ分析全体から導出された総括的結論）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の構造分析（総括的結論）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "世界大戦リスクは現時点では「低〜中」だが、偶発的エスカレーションへの警戒が不可欠である。意図的な大国参戦よりも誤認・誤爆による連鎖が危険であり、米中露間の「ホットライン」的危機管理チャネルの維持が抑止の鍵となる。",
+      "evidence": "not_stated（本文書のエスカレーション分析から導出された総括的結論）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の構造分析（総括的結論）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "ロシアは直接参戦なく、エネルギー価格高騰・米国消耗・西側分断という三重の利益を享受できるため、停戦調停への積極的インセンティブは薄い。",
+      "evidence": "not_stated（本文書の各国利害関係マトリクスおよびシナリオ分析から導出された総括的結論）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の構造分析（総括的結論）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "中国は経済的損失（原油高騰・BRI投資毀損）を回避したい立場から、サウジ・イラン仲介の再現として停戦交渉に動く可能性があり、シナリオBの実現に最も貢献する現実的なアクターである。",
+      "evidence": "not_stated（本文書の中国戦略的曖昧性分析およびシナリオB分析から導出された総括的結論）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の構造分析（総括的結論）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "日本は90日備蓄に加えてスポットLNG確保を米国・カタール・オーストラリアに要請し、エネルギー基本計画の「有事条項」を発動して原子力・再エネの緊急拡大を閣議決定すべきである。",
+      "evidence": "not_stated（本文書のエネルギー安全保障崩壊連鎖分析から導出された即時行動推奨）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の日本向け戦略的提言",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "日本はトルコ・UAE・インドの「非同盟系仲介国」と協調した多国間停戦イニシアティブへの参加を行うべきである。日本単独の仲介は限界があるが、グループとしての存在感は確保可能である。",
+      "evidence": "not_stated（本文書の日本の仲介外交分析から導出された外交的行動推奨）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の日本向け戦略的提言",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "日本はホルムズ依存の構造的解消を目指し、中東以外（米国シェール・西アフリカ・オーストラリア）の調達割合を2030年までに30%以上に引き上げる目標を設定すべきである。",
+      "evidence": "not_stated（本文書のエネルギー安全保障崩壊連鎖分析から導出された中長期的準備推奨）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の日本向け戦略的提言",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "在イラン・在中東邦人（推定数百名）の即時退避計画の発動確認を行い、自衛隊による邦人退避支援の法的根拠（自衛隊法第84条の3）を事前確認すべきである。",
+      "evidence": "not_stated（本文書の日本向けリスク管理分析から導出された即時行動推奨）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "本文書の日本向け戦略的提言",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST",
+      "standard_references": []
+    }
+  ]
+}
