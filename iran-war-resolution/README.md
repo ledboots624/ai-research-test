@@ -1,0 +1,130 @@
+# Research: iran-war-resolution
+
+> イラン戦争収束の鍵。米国・イラン間の緊張要因、外交チャネル、核合意（JCPOA）の現状、地域大国の仲介役、経済制裁の影響、軍事的エスカレーション回避のシナリオを調査
+
+---
+
+## メタデータ
+
+| 項目 | 値 |
+|------|-----|
+| **生成方法** | default-quick |
+| **実行日時** | 2026-03-14 12:17:12 |
+| **ツール** | AI Research Agent v2.2.0 |
+| **手法** | Evidence-based Multi-Model Pipeline |
+
+## パイプライン
+
+| # | ID | Role | Model | 出力 |
+|---|-----|------|-------|------|
+| 1 | research | information-gathering | gemini-3-pro-preview | [01-information-gathering-gemini-3-pro-preview.md](./01-information-gathering-gemini-3-pro-preview.md) (完了) |
+| 2 | review | integration-review | claude-sonnet-4.6 | [02-integration-review-claude-sonnet-4.6.md](./02-integration-review-claude-sonnet-4.6.md) (完了) |
+
+## 各ステップの要約
+
+### 01-information-gathering-gemini-3-pro-preview.md
+
+# Iran War Resolution Analysis
+
+## Key Tension Factors (米国・イラン間の緊張要因)
+
+*   **Claim**: 核開発の臨界点到達とJCPOAの消滅が最大の緊張要因である。
+    *   **Evidence**: 2025年10月の「終了日（Termination Day）」到来に伴いJCPOAは正式に崩壊。欧州諸国による国連制裁の「スナップバック」発動に対し、イランはNPT（核拡散防止条約）脱退を示唆するなど対抗措置を強化。濃縮ウラン貯蔵量は兵器級に近いレベルで推移している。
+    *   **Source**: [source_type/tier3] [Iran Nuclear Deal Ends After 10 Years](https://newsable.asianetnews.com/world/iran-nuclear-deal-ends-jcpoa-termination-day-what-next-explainer-articleshow-g6dwbdz) (2025-10-18) — primary: false
+    *   **Confidence**: high
+
+*   **Claim**: 代理勢力（Proxies）による多面的な攻撃が軍事衝突の直接的な引き金となっている。
+    *   **Evidence**: イエメンのフーシ派による紅海封鎖、レバノンのヒズボラ、イラクのPMF（人民動員隊）による米軍・イスラエル権益への攻撃が常態化。これに対し、2025年6月にはイスラエルがイラン核施設への攻撃を実施するなど、直接的な応酬が発生した。
+    *   **Source**: [source_type/tier3] [Regional Proxy Escalation Routes After Iran Strikes](https://iranwarupdates.com/articles/regional-proxy-escalation-routes-after-iran-strikes) (2025) — primary: false
+    *   **Confidence**: high
+
+## Diplomatic Channels & JCPOA Status (外交チャネルとJCPOA)
+
+*   **Claim**: 公式な外交チャネルは凍結状態にあり、JCPOAの復活は絶望的である。
+    *   **Evidence**: 2025年のウィーン等での散発的な接触も、相互不信と軍事衝突により決裂。JCPOAの枠組みは消滅し、現在は「管理された対立」または新たな枠組みの模索段階にある。
+    *   **Source**: [source_type/tier2] [An Obituary for the JCPOA](https://carnegieendowment.org/posts/2025/10/iran-deal-jcpoa-obituary) (2025-10) — primary: false
+    *   **Confidence**: high
+
+_...（全54行。詳細は[ファイル本体](./01-information-gathering-gemini-3-pro-preview.md)を参照）_
+
+### 02-integration-review-claude-sonnet-4.6.md
+
+# 統合レビュー
+
+## Executive Summary（総括）
+
+JCPOAは2025年10月18日の「終了日（Termination Day）」をもって正式に崩壊し、イランの核活動はIAEA監視の外に出つつある。濃縮ウランの貯蔵量・純度ともに武器転用可能な水準に迫っており、核危機は新局面に入った。米国の「最大限の圧力」制裁はイランの石油収入を圧迫しているものの、中国の影の輸送ネットワークにより体制崩壊には至っていない。外交チャネルはバックチャンネル（オマーン・カタール）のみが機能し、包括的な合意の見通しは立たない。サウジ・イランのデタントが地域的なエスカレーション防止の最後の防波堤となっており、「危機管理」と部分的合意の積み重ねが唯一の現実的な収束路線である。
+
+## Research Question（調査の問い）
+
+**イラン・米国間の軍事衝突を回避し、中東の安定を回復するための鍵となる要因・アクター・シナリオは何か？特に、JCPOA崩壊後の核問題管理、経済制裁の実効性、地域大国の外交的役割に焦点を当てて検討する。**
+
+---
+
+## Findings（主要な発見）
+
+### Finding 1: JCPOAの完全崩壊と核のブレークアウト臨界点への接近
+
+- **Claim（主張）**: 2025年10月のTermination Dayを経てJCPOAは法的に終了し、イランは核制限の一切から解放された。現在の濃縮度・貯蔵量は「核ブレークアウト」の臨界に迫っている。
+- **Evidence（根拠）**: イランは濃縮ウラン約3,760kgを保有（JCPOA上限の300kgの12倍超）、うち87.5kgは純度60%（兵器級の90%に近接）。IR-6型高性能遠心分離機をナタンツ・フォルドゥに追加配備。2021年以降IAEA査察への協力も段階的に縮小。
+- **Source（情報源）**: [news_article/tier3] [Iran's Nuclear Programme in 2025: Current Status and Global Repercussions](https://globaleducationnews.org/irans-nuclear-programme-in-2025-current-status-and-global-repercussions/) (2025) — primary_source: false；[news_article/tier2] [What is the status of Iran's nuclear programme and the JCPOA?](https://commonslibrary.parliament.uk/research-briefings/cbp-9870/) (2025) — primary_source: false；[official_document/tier1] [JCPOA ends: Iran regains nuclear rights as UN resolution expires](https://news.cgtn.com/news/2025-10-18/JCPOA-ends-Iran-regains-nuclear-rights-as-UN-resolution-expires-1HzlbbSFi48/p.html) (2025-10-18) — primary_source: false
+- **Confidence（確信度）**: high
+
+_...（全183行。詳細は[ファイル本体](./02-integration-review-claude-sonnet-4.6.md)を参照）_
+
+---
+
+## Trust Summary（信頼性サマリー）
+
+### Validation Result（検証結果）: **PASS**
+
+| 指標 | 値 |
+|------|-----|
+| 総 Claim（主張）数 | 14 |
+| Evidence（根拠）なし | 0 |
+| Source（情報源）なし | 0 |
+| Confidence（確信度）なし | 0 |
+
+### Confidence Distribution（確信度分布）
+
+| Level（レベル） | 件数 |
+|-------|------|
+| High（高） | 10 |
+| Medium（中） | 4 |
+| Low（低） | 0 |
+
+### Source Reliability（情報源の信頼性分布）
+
+| Tier（階層） | 件数 | 説明 |
+|------|------|------|
+| Tier 1（公式） | 2 | 公式文書・法令・政府機関・標準化団体 |
+| Tier 2（高信頼） | 7 | 企業公式・研究機関・学術論文 |
+| Tier 3（参考） | 5 | 技術ブログ・専門メディア・業界記事 |
+| Tier 4（コミュニティ） | 0 | フォーラム・コミュニティ・SNS |
+
+一次情報（Primary Source）: 2件 / 二次情報: 12件
+
+### Confidence 判定基準（確信度の基準）
+
+| Level（レベル） | 基準 |
+|-------|------|
+| **High（高）** | 一次情報または複数独立ソースで裏付けあり |
+| **Medium（中）** | 信頼できるソースあり、ただし補強不足 |
+| **Low（低）** | 推測を含む、または情報不足 |
+
+### Validation Rules（検証ルール）
+
+1. すべての Claim（主張）に Evidence（根拠）が付いていること
+2. すべての Evidence（根拠）に Source（情報源）が付いていること
+3. すべての結論に Confidence（確信度）が付いていること
+4. Critic Review（批判的レビュー）が未解決事項をリスト化していること
+
+### 注意事項
+
+- AI生成のため、重要な意思決定には人間による検証を推奨
+- Evidence JSON (`.evidence.json`) で機械的な監査が可能
+- Validation 結果 (`.validation.json`) でレポートの品質を定量評価
+
+---
+
+_Generated by [AI Research Agent](https://github.com/ledboots624/ai-research-agent) v2.2.0_

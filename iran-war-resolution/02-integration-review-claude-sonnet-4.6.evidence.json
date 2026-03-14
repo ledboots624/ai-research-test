@@ -1,0 +1,92 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T03:15:41Z",
+  "claims": [
+    {
+      "claim": "2025年10月のTermination Dayを経てJCPOAは法的に終了し、イランは核制限の一切から解放された。現在の濃縮度・貯蔵量は「核ブレークアウト」の臨界に迫っている。",
+      "evidence": "イランは濃縮ウラン約3,760kgを保有（JCPOA上限の300kgの12倍超）、うち87.5kgは純度60%（兵器級の90%に近接）。IR-6型高性能遠心分離機をナタンツ・フォルドゥに追加配備。2021年以降IAEA査察への協力も段階的に縮小。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "What is the status of Iran's nuclear programme and the JCPOA? (UK Parliament Research Briefing)",
+        "source_locator": "https://commonslibrary.parliament.uk/research-briefings/cbp-9870/",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "米国の制裁はイラン経済を圧迫しているが、中国への石油密輸ネットワークにより体制維持に必要な収入は確保されており、政策変更を強制する効果は限定的である。",
+      "evidence": "2025年のイランの対中石油輸出量は日量138万バレル（前年比わずか7%減）。中国の「テアポット精製業者」・影のタンカー船団・元建て決済システムによる制裁回避が常態化。バレルあたり6〜10ドルの割引が買い手を引きつけ、マレーシア・インドネシア産として偽装輸出されるケースも確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Iran's Petroleum Exports to China and U.S. Sanctions (CRS Report)",
+        "source_locator": "https://www.congress.gov/crs-product/IF12952",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "JCPOAに代わる包括的な外交枠組みは存在せず、現在の米・イラン間の意思疎通はオマーン・カタール・スイスを介したバックチャンネルのみに依存している。",
+      "evidence": "2025年の散発的なウィーン交渉は相互不信・軍事衝突により決裂。2025年6月のイスラエルによるイラン核施設攻撃後、公式外交は実質停止。国連は2025年6月に緊急外交の再開を呼びかけたが応答なし。オマーンはメッセージ仲介、カタールは人質交換・資産凍結解除を担当。ただしバックチャンネルの詳細は非公開情報が多く、単一ソースでの裏付けに限界あり（Evidence Strength: moderate）。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "An Obituary for the JCPOA (Carnegie Endowment)",
+        "source_locator": "https://carnegieendowment.org/posts/2025/10/iran-deal-jcpoa-obituary",
+        "access_date": "2025-10",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "2023年の国交正常化以来維持されてきたサウジ・イランデタントは、2025年の軍事衝突局面においても継続しており、湾岸全域への戦火拡大を防ぐ最重要の地域メカニズムとなっている。",
+      "evidence": "2025年7月のイスラエル・米国によるイラン攻撃後も、サウジ・イラン国防相会談が実施。サウジはGCCとして「中立」を維持し、敵対陣営への参加を拒否。Vision 2030の経済的メリットが両国を協力へと誘導している。ただし、イランの代理勢力（フーシ派）問題が継続的な摩擦源となっている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Saudi–Iranian Détente Has Proved Vital for De-escalation (TCF)",
+        "source_locator": "https://tcf.org/content/report/the-saudi-iranian-detente-has-proved-vital-for-de-escalation-but-regional-war-could-still-break-it/",
+        "access_date": "2025",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "直接的な米・イラン交戦より、フーシ派・ヒズボラ・PMFなどの代理勢力を介した非対称エスカレーションが最も現実的な全面戦争への引き金である。",
+      "evidence": "フーシ派による紅海封鎖、PMFによるイラク駐留米軍攻撃、ヒズボラとイスラエルの衝突継続が報告されている。これらは管理可能な低強度衝突でもあるが、誤算による急拡大リスクを常に内包する。イスラエルによる2025年6月のイラン核施設直接攻撃が特に危険な先例となっている。代理勢力の指揮系統とイランの直接関与度については独立した裏付けが不十分（Evidence Strength: moderate）。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Regional Proxy Escalation Routes After Iran Strikes",
+        "source_locator": "https://iranwarupdates.com/articles/regional-proxy-escalation-routes-after-iran-strikes",
+        "access_date": "2025",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "JCPOAに代わる新たな核合意に向けた実質的な協議は開始されておらず、交渉再開の条件整備が最大の課題である。",
+      "evidence": "バイデン政権期の段階的アプローチは失敗に終わり、トランプ政権復帰後は「最大限の圧力」路線に回帰。欧州はJCPOAのスナップバックを発動しながら対話継続を主張するが実効性に欠ける。新合意には核制限、制裁解除、地域安保、代理勢力問題という4つの複合的障壁が存在。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Rethinking U.S. Nuclear Diplomacy With Iran for 2025 (Arms Control Association)",
+        "source_locator": "https://www.armscontrol.org/act/2024-10/features/rethinking-us-nuclear-diplomacy-iran-2025",
+        "access_date": "2024-10",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    }
+  ]
+}

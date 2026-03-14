@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-03-14T03:17:12Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 13,
+  "tier_summary": {
+    "tier1": 2,
+    "tier2": 7,
+    "tier3": 4,
+    "tier4": 0
+  },
+  "primary_source_count": 2,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "academic_paper",
+      "title": "An Obituary for the JCPOA (Carnegie Endowment)",
+      "locator": "https://carnegieendowment.org/posts/2025/10/iran-deal-jcpoa-obituary",
+      "url": "https://carnegieendowment.org/posts/2025/10/iran-deal-jcpoa-obituary",
+      "access_date": "2025-10",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "JCPOAに代わる包括的な外交枠組みは存在せず、現在の米・イラン間の意思疎通はオマーン・カタール・スイスを介したバックチャンネルのみに依存している。"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "academic_paper",
+      "title": "An Obituary for the JCPOA",
+      "locator": "https://carnegieendowment.org/posts/2025/10/iran-deal-jcpoa-obituary",
+      "url": "https://carnegieendowment.org/posts/2025/10/iran-deal-jcpoa-obituary",
+      "access_date": "2025-10",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "公式な外交チャネルは凍結状態にあり、JCPOAの復活は絶望的である。"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "news_article",
+      "title": "Iran Nuclear Deal Ends After 10 Years",
+      "locator": "https://newsable.asianetnews.com/world/iran-nuclear-deal-ends-jcpoa-termination-day-what-next-explainer-articleshow-g6dwbdz",
+      "url": "https://newsable.asianetnews.com/world/iran-nuclear-deal-ends-jcpoa-termination-day-what-next-explainer-articleshow-g6dwbdz",
+      "access_date": "2025-10-18",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "核開発の臨界点到達とJCPOAの消滅が最大の緊張要因である。"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "official_document",
+      "title": "Iran's Petroleum Exports to China and U.S. Sanctions (CRS Report)",
+      "locator": "https://www.congress.gov/crs-product/IF12952",
+      "url": "https://www.congress.gov/crs-product/IF12952",
+      "access_date": "2025",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "米国の制裁はイラン経済を圧迫しているが、中国への石油密輸ネットワークにより体制維持に必要な収入は確保されており、政策変更を強制する効果は限定的である。"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "academic_paper",
+      "title": "Oman Keeps Trying to Dial Down Tensions",
+      "locator": "https://www.stimson.org/2024/oman-tries-to-dial-down-middle-east-tensions/",
+      "url": "https://www.stimson.org/2024/oman-tries-to-dial-down-middle-east-tensions/",
+      "access_date": "2024",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "オマーン、カタール、スイスを通じたバックチャンネルが唯一の通信手段である。"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "news_article",
+      "title": "Regional Proxy Escalation Routes After Iran Strikes",
+      "locator": "https://iranwarupdates.com/articles/regional-proxy-escalation-routes-after-iran-strikes",
+      "url": "https://iranwarupdates.com/articles/regional-proxy-escalation-routes-after-iran-strikes",
+      "access_date": "2025",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "代理勢力（Proxies）による多面的な攻撃が軍事衝突の直接的な引き金となっている。",
+        "直接的な米・イラン交戦より、フーシ派・ヒズボラ・PMFなどの代理勢力を介した非対称エスカレーションが最も現実的な全面戦争への引き金である。"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "academic_paper",
+      "title": "Rethinking U.S. Nuclear Diplomacy With Iran for 2025 (Arms Control Association)",
+      "locator": "https://www.armscontrol.org/act/2024-10/features/rethinking-us-nuclear-diplomacy-iran-2025",
+      "url": "https://www.armscontrol.org/act/2024-10/features/rethinking-us-nuclear-diplomacy-iran-2025",
+      "access_date": "2024-10",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "JCPOAに代わる新たな核合意に向けた実質的な協議は開始されておらず、交渉再開の条件整備が最大の課題である。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "academic_paper",
+      "title": "Rethinking U.S. Nuclear Diplomacy With Iran for 2025",
+      "locator": "https://www.armscontrol.org/act/2024-10/features/rethinking-us-nuclear-diplomacy-iran-2025",
+      "url": "https://www.armscontrol.org/act/2024-10/features/rethinking-us-nuclear-diplomacy-iran-2025",
+      "access_date": "2024-10",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "全面戦争回避のための「相互抑止」と「地域安全保障対話」が現実的なシナリオである。"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "academic_paper",
+      "title": "The Gulf Countries Want to Stay Out of the Iran Conflict",
+      "locator": "https://carnegieendowment.org/emissary/2025/07/gulf-qatar-saudi-iran-responses-diplomacy",
+      "url": "https://carnegieendowment.org/emissary/2025/07/gulf-qatar-saudi-iran-responses-diplomacy",
+      "access_date": "2025-07",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "カタールとオマーンが仲介の主役であり続けている。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "industry_report",
+      "title": "The Saudi–Iranian Détente Has Proved Vital for De-escalation (TCF)",
+      "locator": "https://tcf.org/content/report/the-saudi-iranian-detente-has-proved-vital-for-de-escalation-but-regional-war-could-still-break-it/",
+      "url": "https://tcf.org/content/report/the-saudi-iranian-detente-has-proved-vital-for-de-escalation-but-regional-war-could-still-break-it/",
+      "access_date": "2025",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "2023年の国交正常化以来維持されてきたサウジ・イランデタントは、2025年の軍事衝突局面においても継続しており、湾岸全域への戦火拡大を防ぐ最重要の地域メカニズムとなっている。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "academic_paper",
+      "title": "The Saudi–Iranian Détente Has Proved Vital for De-escalation",
+      "locator": "https://tcf.org/content/report/the-saudi-iranian-detente-has-proved-vital-for-de-escalation-but-regional-war-could-still-break-it/",
+      "url": "https://tcf.org/content/report/the-saudi-iranian-detente-has-proved-vital-for-de-escalation-but-regional-war-could-still-break-it/",
+      "access_date": "2025",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "サウジアラビアとイランのデタント（緊張緩和）が地域紛争の防波堤として機能している。"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "industry_report",
+      "title": "U.S.–Iran Conflict Market Impact",
+      "locator": "https://www.emergenresearch.com/blog/u-s-iran-conflict-global-market-impact-analysis-across-energy-supply-chains-and-key-industries",
+      "url": "https://www.emergenresearch.com/blog/u-s-iran-conflict-global-market-impact-analysis-across-energy-supply-chains-and-key-industries",
+      "access_date": "2026-03",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "制裁はイラン経済を疲弊させているが、体制崩壊や政策変更には至っていない。"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "What is the status of Iran's nuclear programme and the JCPOA? (UK Parliament Research Briefing)",
+      "locator": "https://commonslibrary.parliament.uk/research-briefings/cbp-9870/",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9870/",
+      "access_date": "2025",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "2025年10月のTermination Dayを経てJCPOAは法的に終了し、イランは核制限の一切から解放された。現在の濃縮度・貯蔵量は「核ブレークアウト」の臨界に迫っている。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2026-03-14T03:20:00.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" version="21.6.8" type="device">
+  <diagram id="IranResolutionDiagram" name="Iran War Resolution">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- TITLE BAR -->
+        <mxCell id="title" value="イラン戦争収束の鍵：現状分析と将来シナリオ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=#2d3748;fontColor=#ffffff;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 1: CONTEXT (Nuclear) -->
+        <mxCell id="head1" value="現状：核合意の崩壊" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#cbd5e0;fontColor=#2d3748;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node1" value="JCPOA（核合意）正式消滅&#xa;2025年10月 Termination Day" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node2" value="核ブレークアウトの危機&#xa;濃縮ウラン貯蔵増・IAEA監視外" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 2: DYNAMICS (Conflict/Econ) -->
+        <mxCell id="head2" value="力学：対立と経済要因" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#cbd5e0;fontColor=#2d3748;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node3" value="代理勢力（Proxies）の攻撃&#xa;フーシ派・ヒズボラ・PMF" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node4" value="米国「最大限の圧力」制裁&#xa;石油収入の制限" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node5" value="中国の石油購入（抜け穴）&#xa;体制維持の経済的命綱" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 3: MEDIATION -->
+        <mxCell id="head3" value="仲介：外交チャネル" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#cbd5e0;fontColor=#2d3748;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node6" value="バックチャンネル外交&#xa;オマーン・カタール・スイス" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 4: SCENARIOS -->
+        <mxCell id="head4" value="シナリオ：結末予測" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#cbd5e0;fontColor=#2d3748;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="130" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node7" value="【リスク】軍事衝突拡大&#xa;制御不能なエスカレーション" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=12;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="940" y="180" width="220" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node8" value="【現実解】危機管理&#xa;部分的合意の積み重ね" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;shadow=1;fontSize=14;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#000000;strokeWidth=4;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="320" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- BOTTOM CONCLUSION -->
+        <mxCell id="footer" value="結論：包括的合意は困難。地域大国の仲介による「管理された緊張」の維持が唯一の現実的な安定化ルートである。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=#2d3748;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="1120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- EDGES -->
+        <!-- JCPOA -> Nuclear -->
+        <mxCell id="edge1" value="法的制限解除" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4A5568;fontSize=11;" edge="1" parent="1" source="node1" target="node2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Nuclear -> Escalation -->
+        <mxCell id="edge2" value="イスラエルの攻撃誘発" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e53e3e;fontColor=#e53e3e;fontSize=11;" edge="1" parent="1" source="node2" target="node7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="360" />
+              <mxPoint x="300" y="160" />
+              <mxPoint x="920" y="160" />
+              <mxPoint x="920" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Proxies -> Escalation -->
+        <mxCell id="edge3" value="直接衝突のリスク" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e53e3e;fontColor=#e53e3e;fontSize=11;" edge="1" parent="1" source="node3" target="node7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Sanctions -> China -->
+        <mxCell id="edge4" value="効果減殺" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4A5568;fontSize=11;" edge="1" parent="1" source="node4" target="node5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- China -> Node 2 (Nuclear, via money) implies regime stability but let's connect to Escalation/Stalemate indirectly. Connect China to Node 8 (Status Quo Maintenance) -->
+        <mxCell id="edge5" value="体制維持" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d69e2e;fontColor=#d69e2e;fontSize=11;" edge="1" parent="1" source="node5" target="node8">
+          <mxGeometry relative="1" as="geometry">
+             <Array as="points">
+              <mxPoint x="600" y="450" />
+              <mxPoint x="600" y="400" />
+              <mxPoint x="900" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Mediation -> Node 7 (Escalation) - Prevents -->
+        <mxCell id="edge6" value="回避努力" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;fontColor=#3182ce;fontSize=11;dashed=1;" edge="1" parent="1" source="node6" target="node7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Mediation -> Node 8 (Resolution) - Enables -->
+        <mxCell id="edge7" value="交渉のパイプ" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#3182ce;fontColor=#3182ce;fontSize=11;" edge="1" parent="1" source="node6" target="node8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Nuclear -> Mediation (Subject of) -->
+        <mxCell id="edge8" value="交渉議題" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#a0aec0;fontSize=11;" edge="1" parent="1" source="node2" target="node6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
