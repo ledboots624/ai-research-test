@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="Research Diagram" id="research-diagram">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="shape=mxgraph.mermaid.chart;data=graph TB
+    subgraph 製品ライン
+        B[DSLogic Basic]
+        P[DSLogic Plus / U2BASIC]
+    end
+
+    subgraph FPGAバリアント
+        X[Xilinx Spartan-6版
+旧モデル]
+        PG[PangoMicro PGL12G版
+2023年以降]
+    end
+
+    subgraph sigrok互換性
+        LIB[libsigrok 公式]
+        FW[コミュニティ版ファームウェア
+cantclosevi/sigrok-firmware]
+        PV[PulseView]
+    end
+
+    subgraph 代替製品
+        K1[Kingst LA2016]
+        K2[Kingst LA5016]
+    end
+
+    subgraph 購入経路
+        ALI[AliExpress
+約1.3〜1.6万円]
+        AMZ[Amazon.co.jp
+約3万円前後]
+    end
+
+    DSV[DSView 公式ソフト]
+
+    P --&gt;|搭載 32MB SDRAM| X
+    P --&gt;|搭載 32MB SDRAM| PG
+    B --&gt;|ストリーミングのみ USB依存| X
+
+    X --&gt;|VID-PID 2a0e-0020 正式対応| LIB
+    PG --&gt;|VID-PID 2a0e-0030 非対応| LIB
+    PG --&gt;|部分動作可能| FW
+    FW --&gt;|手動配置で利用| PV
+    LIB --&gt;|対応済み| PV
+
+    P --&gt;|全バリアント対応| DSV
+
+    ALI --&gt;|主にPango版流通| P
+    AMZ --&gt;|U2BASIC名義| P
+
+    K1 --&gt;|sigrok公式対応| LIB
+    K2 --&gt;|sigrok公式対応| LIB
+
+    PG -.-&gt;|sigrok重視なら代替推奨| K1
+    PG -.-&gt;|sigrok重視なら代替推奨| K2;" vertex="1" parent="1">
+          <mxGeometry width="800" height="600" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
