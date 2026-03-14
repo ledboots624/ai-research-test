@@ -1,0 +1,92 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T03:36:44Z",
+  "claims": [
+    {
+      "claim": "半導体製造装置はCRAの適用対象であり、その制御システムは「重要製品（Important/Critical Products）」に分類される可能性が高い。",
+      "evidence": "CRAは「デジタル要素を持つ製品（products with digital elements）」すべてに適用され、半導体製造装置も例外ではない。Commission Implementing Regulation (EU) 2025/2392 および Annex I/II（旧Annex III/IV）において、産業用オートメーションおよび制御システム（IACS）、PLC、マイクロコントローラなどが「重要製品」としてリストされており、半導体製造装置の制御ユニットやネットワーク機能を持つコンポーネントはこれらに該当し、第三者認証を含む厳格な適合性評価が求められる可能性がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 (Cyber Resilience Act)",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "半導体製造装置はCRAの適用対象であり、その制御システムは「重要製品（Important/Critical Products）」に分類される可能性が高い。",
+      "evidence": "CRAは「デジタル要素を持つ製品（products with digital elements）」すべてに適用され、半導体製造装置も例外ではない。Commission Implementing Regulation (EU) 2025/2392 および Annex I/II（旧Annex III/IV）において、産業用オートメーションおよび制御システム（IACS）、PLC、マイクロコントローラなどが「重要製品」としてリストされており、半導体製造装置の制御ユニットやネットワーク機能を持つコンポーネントはこれらに該当し、第三者認証を含む厳格な適合性評価が求められる可能性がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Commission Implementing Regulation (EU) 2025/2392",
+        "source_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202502392",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "SEMI E187への準拠だけではEU CRAの法的要件を完全には満たせない。特に「インシデント報告」「SBOM」「ライフサイクル管理」に明確なギャップが存在する。",
+      "evidence": "整合領域としてOSセキュリティ、ネットワークセキュリティ、エンドポイント保護などの技術的制御はSEMI E187でカバーされているが、以下のギャップがある。①報告義務: CRAは脆弱性やインシデント発見から「24時間以内」にENISAへ報告することを義務付けているが、SEMI E187にはこの規定がない。②SBOM: CRAはSBOMの作成と管理を要求するが、SEMI E187では詳細な仕様まで踏み込んでいない。③ライフサイクル: CRAは製品の予想使用期間（通常5年以上）にわたるセキュリティ更新を義務付けるが、SEMI E187は出荷時の状態に重点を置いている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Cyber Resilience Act Requirements Standards Mapping (ENISA/JRC)",
+        "source_locator": "https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "SEMI E187への準拠だけではEU CRAの法的要件を完全には満たせない。特に「インシデント報告」「SBOM」「ライフサイクル管理」に明確なギャップが存在する。",
+      "evidence": "整合領域としてOSセキュリティ、ネットワークセキュリティ、エンドポイント保護などの技術的制御はSEMI E187でカバーされているが、以下のギャップがある。①報告義務: CRAは脆弱性やインシデント発見から「24時間以内」にENISAへ報告することを義務付けているが、SEMI E187にはこの規定がない。②SBOM: CRAはSBOMの作成と管理を要求するが、SEMI E187では詳細な仕様まで踏み込んでいない。③ライフサイクル: CRAは製品の予想使用期間（通常5年以上）にわたるセキュリティ更新を義務付けるが、SEMI E187は出荷時の状態に重点を置いている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "CRA Gap Analysis Checklist",
+        "source_locator": "https://www.securebydesignhandbook.com/docs/resources/checklists-and-worksheets/cra-gap-analysis",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "レガシーOSへの依存と長い製品ライフサイクルが、CRA準拠の最大の障壁となっている。",
+      "evidence": "半導体製造装置は10〜20年稼働することが一般的だが、Windows XP/7などのサポート終了OSが依然として利用されている。CRAは「利用期間中のセキュリティ更新」を求めるため、パッチが存在しないレガシーOSの使用はコンプライアンス違反となるリスクがある。また、日本の工場ではネットワーク分離（エアギャップ）を前提にアップデートを行わない運用が主流だが、CRAは脆弱性修正の提供を義務付けるため運用モデルの根本的な見直しが必要。さらに、装置メーカーだけでなくサプライヤーまでCRA対応が波及しており、サプライチェーン全体での管理コストが増大している。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "経済産業省: ソフトウェアの開発・供給・運用におけるサイバーセキュリティ確保とレジリエンス向上のためのガイドライン（案）",
+        "source_locator": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_bunyaodan/software/cyber_infrastructure/pdf/202503_g2.pdf",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "レガシーOSへの依存と長い製品ライフサイクルが、CRA準拠の最大の障壁となっている。",
+      "evidence": "半導体製造装置は10〜20年稼働することが一般的だが、Windows XP/7などのサポート終了OSが依然として利用されている。CRAは「利用期間中のセキュリティ更新」を求めるため、パッチが存在しないレガシーOSの使用はコンプライアンス違反となるリスクがある。また、日本の工場ではネットワーク分離（エアギャップ）を前提にアップデートを行わない運用が主流だが、CRAは脆弱性修正の提供を義務付けるため運用モデルの根本的な見直しが必要。さらに、装置メーカーだけでなくサプライヤーまでCRA対応が波及しており、サプライチェーン全体での管理コストが増大している。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "欧州サイバーレジリエンス法（CRA）が日本企業に突きつける現実",
+        "source_locator": "https://cybersecurity-info.com/news/2026-01-09/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    }
+  ]
+}

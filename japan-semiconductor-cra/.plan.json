@@ -1,0 +1,55 @@
+{
+  "topic": "japan-semiconductor-cra",
+  "description": "日本半導体装置関連ソフトウェア開発企業のEU CRA対策の打開策",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "step1_cra_semi_landscape",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "EU Cyber Resilience Act (CRA)の最新の条文、特に産業用機械および半導体製造装置への適用範囲、重要製品（Critical Products）の定義、およびSEMI E187などの既存業界標準との整合性に関する情報を収集する。また、日本企業が直面している具体的な課題（レガシーシステム、長い製品ライフサイクル等）に関するレポートを調査する。",
+      "depends_on": []
+    },
+    {
+      "id": "step2_gap_risk_analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集した情報を基に、日本の半導体製造装置メーカーの典型的開発プロセスとCRA要求事項（サイバーセキュリティ要件、脆弱性報告義務、サポート期間）のギャップを分析する。特に、工場内のエアギャップ環境や厳格な変更管理（Change Management）と、CRAが求める迅速なパッチ適用の矛盾点について深層分析を行う。",
+      "depends_on": [
+        "step1_cra_semi_landscape"
+      ]
+    },
+    {
+      "id": "step3_technical_roadmap",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "分析されたギャップを埋めるための具体的な技術戦略を策定する。レガシーコードに対するSBOM（ソフトウェア部品表）の自動生成・管理手法、VEX（Vulnerability Exploitability Exchange）を用いた脆弱性対応の効率化、およびOT環境に適したセキュアなリモートメンテナンス/アップデート機構のアーキテクチャを提案する。",
+      "depends_on": [
+        "step2_gap_risk_analysis"
+      ]
+    },
+    {
+      "id": "step4_feasibility_critique",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "提案された技術戦略に対し、コスト、実装難易度、および現場の運用負荷の観点から批判的レビューを行う。特に「古いOSやライブラリの依存関係」や「サプライチェーンの複雑さ」が解決策の阻害要因とならないか検証し、論理的な弱点やエビデンス不足を指摘する。",
+      "depends_on": [
+        "step3_technical_roadmap"
+      ]
+    },
+    {
+      "id": "step5_final_synthesis",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "批判的レビューを踏まえ、技術戦略を修正・統合し、日本半導体装置関連企業が取るべき現実的かつ段階的なCRA対策ロードマップを確定させる。経営層への提言として、リスク受容の判断基準と優先順位付けを含む最終結論を出力する。",
+      "depends_on": [
+        "step4_feasibility_critique"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "step": 5,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T04:02:32Z",
+  "claims": [
+    {
+      "claim": "CRA Article 14に基づき、2026年9月11日から製造者は能動的に悪用された脆弱性を認知後24時間以内にENISA Single Reporting Platform経由で早期警告を提出しなければならない。72時間以内に詳細報告、修正後14日以内に最終報告が必要である。日本⇔EU間の時差（JST=CET+8h）を考慮すると、EU営業時間内の通報トリガーは日本の深夜〜早朝に発生するため、24/7対応体制なしでは24時間SLAを物理的に達成できない。",
+      "evidence": "CRA Article 14は「認知時点からの絶対時間」で24時間を計算する。ENISA Single Reporting Platformが報告窓口となり、製造者のEU域内の主要拠点所在国のCSIRTとENISAに同時通知される。非EU製造者はEU authorised representative（Article 17）または輸入者経由で報告する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "中規模半導体装置企業（IT+OTエンドポイント300台規模）の24/7 PSIRT運用は、MSSP委託ベースで年間約€137,000〜€164,000、大規模企業では年間€500,000超が見込まれる。これにHSM/鍵管理基盤、DMZゲートウェイ構築の初期投資を加算する必要がある。3つの体制モデル（①EU現地法人PSIRT設置、②グローバルMSSP契約、③日本本社+EU TZブリッジ体制）のうち、②グローバルMSSP契約が最もコスト効率が高く導入速度も速い。",
+      "evidence": "MSSP市場の2025-2026年ベンチマークとして、基本24/7モニタリングが€75〜€200/エンドポイント/月、脆弱性管理アドオンが€20〜€75/資産/月、インシデント対応リテイナーが€10k〜€50k/年。欧州においてOrange CyberDefense、Atos、NTT Security、IBM MSSなどが産業セクター向けMSSPサービスを提供している。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "MSSP Pricing Guide 2025",
+        "source_locator": "https://www.harbourtech.net/blog/mssp-pricing-guide-security-costs",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "産業用組込みファームウェア（独自RTOS、静的リンクバイナリ、暗号化ファームウェア）に対するバイナリ解析の検出率は最良でも60〜75%（オープンソース成分）、独自コンポーネントでは50%未満である。CRAは「due diligence（相当の注意）」を求めており、BSI TR-03183-2が参照する「best effort SBOM」の概念に基づき、解析不能部分を文書化したギャップ分析付きSBOMが許容される可能性がある。ただし、Notified Bodyがどこまでこれを認めるかは未確定である。",
+      "evidence": "CRAはSBOM要件としてSPDX/CycloneDX形式の機械可読SBOMを求めるが、バイナリ解析の限界は規制当局も認識している。Finitestate、Zerberus等のCRAガイダンスは「解析方法論と限界の文書化」を推奨。BSI TR-03183-2はSBOM生成のガイドラインとしてバイナリ解析の例外規定に言及している。半導体装置のVxWorks、T-Kernel系RTOS、FPGA制御コードなどは標準的なSCAツールでは検出困難。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "BSI TR-03183-2",
+        "source_locator": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "CRA Article 17に基づき、EU域内に拠点を持たない日本の製造者は、EU域内にauthorised representative（AR）を書面の委任状で指定する法的義務がある。ARは技術文書の保管、適合宣言書の管理、市場監視当局との窓口機能を担う。ただし、サイバーセキュリティリスク管理・製品設計等の根本的義務はARに委譲できず、製造者が一義的責任を負う。AR未指定の場合、EU市場へのアクセス自体が不可能となる。",
+      "evidence": "CRA Article 17は非EU製造者のAR指定を義務付けており、書面の委任状に基づく任務範囲の明確化、技術文書・適合宣言書の10年間保管、市場監視当局との連絡窓口機能を規定。同種の規定はMDR（医療機器規則）のEAR制度で先行実績がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "CRAの支援期間は「最低5年、または製品の想定稼働寿命の全期間（短い方）」と規定されるが、半導体装置の実稼働寿命は15〜25年に及ぶ。CRAの論理的解釈では、製品の想定稼働寿命全期間にわたる脆弱性管理・セキュリティ更新が必要であり、5年を大幅に超える長期支援戦略が不可避である。これは製品原価・保守契約モデルに根本的影響を与える。",
+      "evidence": "CRA Article 13(8)は支援期間を「製品の想定稼働寿命に比例した期間で最低5年」と定めている。半導体装置は一般にファブの設備償却期間（10〜15年）を超えて実稼働する。セキュリティアップデートは支援期間中継続し、リリースされたアップデートは少なくとも10年間ダウンロード可能に保つ義務がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "半導体装置のサプライチェーンにはSBOM生成能力が大きく異なる3層が存在する（①大手・欧米系：自律的SBOM生成可能、②国内中堅：ツール・教育支援でSBOM対応可能、③能力不足の小規模サプライヤ：代替調達またはバイナリ解析で補完必要）。契約条項にSBOM提供を明記するだけでは不十分であり、層別の支援・代替策が必要である。",
+      "evidence": "CRA SMEコンプライアンスガイドはSMEの能力格差を認識し、段階的対応を推奨。日本の半導体装置産業は系列サプライヤ構造を有し、中小部品メーカーが多数を占める。これらのサプライヤにSBOMツール導入・教育を提供するか、自社でバイナリ解析によるバックフィルを行う必要がある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "CRA Compliance Guide for SMEs",
+        "source_locator": "https://cyen.eu/wp-content/uploads/2025/12/D4.1_CRA-Compliance-Guide-for-SMEs_EN_compressed.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "SEMI E187（ファブ装置のサイバーセキュリティ仕様）およびE188（マルウェアフリー装置統合仕様）はTSMC・Intel等の主要ファブが調達条件として採用を義務付けており事実上の業界標準となっている。SEMI E187/E188のOS・ネットワーク・エンドポイントセキュリティ要件はCRAのセキュリティ・バイ・デザイン要件と部分的に重複しており、既存のE187/E188対応をCRA適合の土台として効率的に再利用できる。ただし、E187/E188はSBOM要件・脆弱性報告義務・支援期間規定を含まないため、CRA独自の差分対応が必要。",
+      "evidence": "TSMCは2023年にE187準拠を調達必須条件とし、SEMI台湾は2025年にE187認証プログラムを開始。SMCCが評価ツール・ガイダンスを公開。E187はOSセキュリティ、ネットワークセキュリティ、エンドポイント保護、セキュリティモニタリングの4領域をカバー。METI OTセキュリティガイドラインもSEMI E187/E188を参照。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "METI: OT Security Guidelines for Semiconductor Device Factories",
+        "source_locator": "https://www.meti.go.jp/english/press/2025/0627_004.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "CRAに基づくENISAへの脆弱性報告が、日本の外国為替及び外国貿易法（外為法）上の「技術の提供」に該当する可能性がある。特に半導体製造装置関連ソフトウェアの脆弱性情報は、2023年7月施行の半導体製造装置輸出規制（23類型）の対象技術に関連するため、脆弱性の技術的詳細をENISAに報告することが「役務取引」として輸出許可を要する可能性がある。現時点で明確な法的判断は公表されていない。",
+      "evidence": "外為法に基づくMETI輸出規制は23類型の先端半導体製造装置について、ハードウェアのみならず関連技術・ソフトウェアの輸出も規制対象としている。脆弱性報告の技術的詳細度とキャッチオール規制の適用範囲の交差は、法務専門家による個別判断が必要。両法制の交差に関する公式見解・判例なし、推定に基づく。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Hogan Lovells: Japan's New Chip Equipment Export Rules",
+        "source_locator": "https://www.hoganlovells.com/en/publications/japans-new-chip-equipment-export-rules-take-effect",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "CRAの製品分類において、半導体装置の制御ソフトウェア・ファームウェア自体は、多くの場合Default Category（自己評価で適合宣言可能）に該当する可能性が高い。Important Class IIやCriticalに分類されるのはファイアウォール、侵入検知システム、ハイパーバイザー、HSM等の汎用セキュリティ製品であり、半導体装置固有のプロセス制御ソフトウェアはこれに該当しない可能性が高い。ただし、装置にネットワーク管理機能やOS機能を含む場合はClass I該当のリスクがある。製品分類の確定が最初の法務タスクである。",
+      "evidence": "CRA Annex III（Important Products）のClass I例にはOS、ネットワーク管理システム、VPN等が、Class IIにはファイアウォール、侵入検知・防止システム等が列挙。Implementing Regulation (EU) 2025/2392が詳細リストを規定。半導体装置制御ソフトウェアの大部分はこれらに直接該当しないが、個別製品の機能構成による判断が必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "批判的レビューの指摘を統合した「報告義務先行→SBOM段階構築→適合性評価完了」の3フェーズ・18か月ロードマップを確定する。フェーズ1（2026年3〜9月）は報告義務への適合（EU AR指定、PSIRT体制構築、ENISA SRP登録、製品分類確定、外為法法務確認）、フェーズ2（2026年9月〜2027年6月）はSBOM・技術文書整備（ビルド時SBOM生成パイプライン、レガシーSBOMバックフィル、サプライヤ層別対応、VEX運用設計、支援期間戦略確定）、フェーズ3（2027年6月〜12月）はCE適合・市場投入（技術文書完成、適合性評価、CE marking、エアギャップ更新手順確定）が必要である。",
+      "evidence": "CRAの法定タイムライン（2026年6月NB通知、9月報告義務開始、2027年12月完全適合）を基礎とし、批判的レビューの8つの改善提案（コスト分析追加、バイナリ解析限界明示、PSIRT具体化、サプライヤ層別化、ライフサイクル対応、外為法確認、ソース分類修正、ロードマップ根拠補強）を統合。タイムラインはCRA法令に基づきhighだが、コスト推計は市場ベンチマークからの推定であり個社状況により大幅変動する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "日本半導体装置関連ソフトウェア開発企業のCRA対応は、「完璧な準備を待つ」アプローチではなく、「法定期限に間に合わせながら段階的に精緻化する」アプローチが唯一の現実的選択である。",
+      "evidence": "CRAの法定タイムライン（2026年9月報告義務開始、2027年12月完全適合）に基づき、準備不足のまま期限を迎えるリスクと段階的対応の現実性を総合評価した結論。法的義務・タイムラインに関してはhigh確信度で裏付けられており、経営判断として着手しながら精緻化するアプローチが適切と判断される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "最優先投資（2026年9月まで・不可避）として、EU AR指定＋MSSP委託によるPSIRT 24/7体制構築＋ENISA SRP登録が必要であり、概算初年度コストは€200k〜€600kとなる。これを怠った場合のリスクはEU市場アクセス喪失＋最大€15Mまたは全世界売上2.5%の罰金であり、コスト対リスク比は明白である。経営判断としてPSIRT体制構築を最優先投資対象と位置付けるべきである。",
+      "evidence": "CRA Article 14（脆弱性報告義務・24時間SLA）およびArticle 17（AR指定義務）の法的要件、ならびに罰則規定（最大€15Mまたは全世界売上2.5%）に基づく。EU AR指定コスト€30k〜€80k/年とMSSP委託コスト€137k〜€500k/年の積み上げによる概算。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "SBOM戦略は「完全性」ではなく「文書化された透明性」を目標とすべきである。バイナリ解析の限界（50〜75%検出率）を受容し、ギャップ分析を含むSBOMを「best effort」として提出する。サプライヤ能力の3層分類に基づく並行アプローチで段階的に完全性を向上させる。",
+      "evidence": "バイナリ解析の検出率限界（産業用組込みファームウェアで50〜75%）とNotified Body審査基準の未確定を踏まえた実務的戦略。BSI TR-03183-2の「best effort SBOM」概念を参照。NB審査基準は2026年6月のNB指定前のため確定しておらず、許容範囲は未確定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "BSI TR-03183-2",
+        "source_locator": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "製品ライフサイクル問題は経営戦略レベルの判断が必要である。15〜25年の稼働寿命に対して脆弱性管理を継続する義務は製品原価・保守契約・EU市場戦略そのものに影響する。「後継版置き換え」「延長有償保守」「限定的EU市場撤退」の意思決定ツリーを製品ファミリーごとに策定すべきである。",
+      "evidence": "CRA Article 13(8)の支援期間規定（最低5年または製品の想定稼働寿命の全期間）と半導体装置の既知のライフサイクル（15〜25年、ファブの設備償却期間10〜15年を超えて実稼働）から導出。製品原価・保守契約モデルへの根本的影響を踏まえた経営判断の必要性。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "外為法×ENISA報告の交差リスクは未確定だが対応不能リスクではない。脆弱性報告の技術的詳細度を制御する（初期警告では技術詳細を最小限にし、ENISA報告のみに限定する）ことで実務的にリスクを低減できる可能性がある。ただし、法的確認は報告義務開始前（2026年Q2まで）に完了すべきである。",
+      "evidence": "両法制の交差に関する公式見解・判例なし、推定に基づく。外為法に基づくMETI輸出規制は23類型の先端半導体製造装置について関連技術・ソフトウェアの輸出も規制対象としているが、脆弱性報告との交差については経済産業省・法務省からの公式見解なし。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Hogan Lovells: Japan's New Chip Equipment Export Rules",
+        "source_locator": "https://www.hoganlovells.com/en/publications/japans-new-chip-equipment-export-rules-take-effect",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "SEMI E187/E188への既存対応をCRA適合の効率的な出発点とすべきである。OS・ネットワーク・エンドポイントセキュリティの既存対応を再利用し、CRA固有の差分（SBOM、脆弱性報告、支援期間、技術文書）に集中投資する。",
+      "evidence": "SEMI E187/E188のセキュリティ要件はCRAのセキュリティ・バイ・デザイン要件と部分的に重複。TSMCは2023年にE187準拠を調達必須条件とし、多くの半導体装置メーカーがすでにE187/E188対応を実施している。METI OTセキュリティガイドラインもSEMI E187/E188を参照。SEMI公式文書、TSMC公式ESG報告、METI公式ガイドラインで裏付け。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "METI: OT Security Guidelines for Semiconductor Device Factories",
+        "source_locator": "https://www.meti.go.jp/english/press/2025/0627_004.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    }
+  ]
+}

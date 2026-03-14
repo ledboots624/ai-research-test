@@ -1,0 +1,51 @@
+[2026-03-14 12:35:18 INFO] === AI Research Agent v2.2.0 ===
+[2026-03-14 12:35:18 INFO] トピック: japan-semiconductor-cra
+[2026-03-14 12:35:18 INFO] 説明: 日本半導体装置関連ソフトウェア開発企業のEU CRA対策の打開策
+[2026-03-14 12:35:18 INFO] ワークスペース: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/
+[2026-03-14 12:35:18 INFO] パイプライン実行開始: 5ステップ (開始: Step 1)
+[2026-03-14 12:35:18 INFO] モデル呼び出し: gemini-3-pro-preview → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-14 12:36:44 INFO] モデル応答完了: gemini-3-pro-preview (1m26s) → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-14 12:36:44 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-14 12:37:47 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-14 12:37:47 INFO] Step 1 完了 (2m29s): information-gathering by gemini-3-pro-preview
+[2026-03-14 12:37:47 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-14 12:41:12 INFO] モデル応答完了: claude-sonnet-4.6 (3m25s) → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-14 12:41:12 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/02-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-14 12:43:41 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/02-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-14 12:43:41 INFO] Step 2 完了 (5m54s): deep-analysis by claude-sonnet-4.6
+[2026-03-14 12:43:41 INFO] モデル呼び出し: gpt-5.3-codex → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/03-technical-strategy-gpt-5.3-codex.md
+[2026-03-14 12:49:26 INFO] モデル応答完了: gpt-5.3-codex (5m45s) → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/03-technical-strategy-gpt-5.3-codex.md
+[2026-03-14 12:49:26 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/03-technical-strategy-gpt-5.3-codex.evidence.json
+[2026-03-14 12:52:51 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/03-technical-strategy-gpt-5.3-codex.evidence.json
+[2026-03-14 12:52:51 INFO] Step 3 完了 (9m10s): technical-strategy by gpt-5.3-codex
+[2026-03-14 12:52:51 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/04-critic-review-claude-sonnet-4.6.md
+[2026-03-14 12:56:31 INFO] モデル応答完了: claude-sonnet-4.6 (3m40s) → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/04-critic-review-claude-sonnet-4.6.md
+[2026-03-14 12:56:31 INFO] Step 4 完了 (3m40s): critic-review by claude-sonnet-4.6
+[2026-03-14 12:56:31 INFO] モデル呼び出し: claude-opus-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/05-integration-review-claude-opus-4.6.md
+[2026-03-14 13:02:32 INFO] モデル応答完了: claude-opus-4.6 (6m1s) → /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/05-integration-review-claude-opus-4.6.md
+[2026-03-14 13:02:32 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/05-integration-review-claude-opus-4.6.evidence.json
+[2026-03-14 13:07:18 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/05-integration-review-claude-opus-4.6.evidence.json
+[2026-03-14 13:07:18 INFO] Step 5 完了 (10m47s): integration-review by claude-opus-4.6
+[2026-03-14 13:07:18 INFO] 全ステップ完了
+[2026-03-14 13:07:18 INFO] Validation 実行中...
+[2026-03-14 13:07:18 INFO] Validation 完了: PARTIAL (claims: 74, high: 38, medium: 29, low: 7, tier1: 54, tier2: 7, tier3: 4, tier4: 9, primary: 56)
+[2026-03-14 13:07:18 INFO] パイプライン実行時間: 32m0s
+[2026-03-14 13:07:18 INFO] Sources Registry 生成中...
+[2026-03-14 13:07:18 INFO] Sources Registry 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/sources.json (48 sources)
+[2026-03-14 13:07:18 INFO] sources.json 生成: 0s
+[2026-03-14 13:07:18 INFO] README 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/README.md
+[2026-03-14 13:07:18 INFO] README 生成: 0s
+[2026-03-14 13:07:18 INFO] 図解生成中... (model: gemini-3-pro-preview, format: draw.io XML)
+[2026-03-14 13:08:26 INFO] draw.io XML 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/diagram.drawio
+[2026-03-14 13:08:26 INFO] SVG/PNG 変換中... (draw.io CLI)
+[2026-03-14 13:08:27 INFO] SVG 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/diagram.svg
+[2026-03-14 13:08:28 INFO] PNG 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/diagram.png
+[2026-03-14 13:08:28 INFO] diagram 生成: 1m10s
+[2026-03-14 13:08:28 INFO] スライド生成中... (model: gemini-3-pro-preview)
+[2026-03-14 13:09:19 INFO] スライドMD 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/slides.md
+[2026-03-14 13:09:19 INFO] スライド変換中... (marp-cli)
+[2026-03-14 13:09:21 INFO] HTML スライド生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/slides.html
+[2026-03-14 13:09:23 INFO] PDF スライド生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/japan-semiconductor-cra/slides.pdf
+[2026-03-14 13:09:23 INFO] slides 生成: 55s
+[2026-03-14 13:09:23 INFO] 総実行時間: 34m5s
+[2026-03-14 13:09:23 INFO] .execution.json 生成完了

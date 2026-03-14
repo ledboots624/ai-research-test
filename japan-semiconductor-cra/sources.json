@@ -1,0 +1,906 @@
+{
+  "generated_at": "2026-03-14T04:07:18Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 48,
+  "tier_summary": {
+    "tier1": 28,
+    "tier2": 7,
+    "tier3": 4,
+    "tier4": 9
+  },
+  "primary_source_count": 31,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "official_document",
+      "title": "BSI TR-03183-2",
+      "locator": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html",
+      "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "SBOM戦略は「完全性」ではなく「文書化された透明性」を目標とすべきである。バイナリ解析の限界（50〜75%検出率）を受容し、ギャップ分析を含むSBOMを「best effort」として提出する。サプ...",
+        "産業用組込みファームウェア（独自RTOS、静的リンクバイナリ、暗号化ファームウェア）に対するバイナリ解析の検出率は最良でも60〜75%（オープンソース成分）、独自コンポーネントでは50%未満である。C..."
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "official_document",
+      "title": "CISA Known Exploited Vulnerabilities Catalog",
+      "locator": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "優先度付けはKEV + EPSS + 装置安全影響 + 顧客露出の合成が有効。"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "official_document",
+      "title": "CISA: Minimum Requirements for Vulnerability Exploitability Exchange (VEX)",
+      "locator": "https://www.cisa.gov/resources-tools/resources/minimum-requirements-vulnerability-exploitability-exchange-vex",
+      "url": "https://www.cisa.gov/resources-tools/resources/minimum-requirements-vulnerability-exploitability-exchange-vex",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "外部開示はCSAF VEX、内部運用はCycloneDX VEX連携の二層が実務的。"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "official_document",
+      "title": "CRA Article 14 Full Text",
+      "locator": "https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Article_14.html",
+      "url": "https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Article_14.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "2026年9月11日以降、装置メーカーは積極的に悪用されている脆弱性をENISAに24時間以内に速報しなければならず、この義務は顧客との契約上の秘密保持義務（NDA）より優先される可能性がある。"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "industry_report",
+      "title": "CRA Compliance Guide for SMEs",
+      "locator": "https://cyen.eu/wp-content/uploads/2025/12/D4.1_CRA-Compliance-Guide-for-SMEs_EN_compressed.pdf",
+      "url": "https://cyen.eu/wp-content/uploads/2025/12/D4.1_CRA-Compliance-Guide-for-SMEs_EN_compressed.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "半導体装置のサプライチェーンにはSBOM生成能力が大きく異なる3層が存在する（①大手・欧米系：自律的SBOM生成可能、②国内中堅：ツール・教育支援でSBOM対応可能、③能力不足の小規模サプライヤ：代替..."
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "industry_report",
+      "title": "CRA Gap Analysis Checklist",
+      "locator": "https://www.securebydesignhandbook.com/docs/resources/checklists-and-worksheets/cra-gap-analysis",
+      "url": "https://www.securebydesignhandbook.com/docs/resources/checklists-and-worksheets/cra-gap-analysis",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "SEMI E187への準拠だけではEU CRAの法的要件を完全には満たせない。特に「インシデント報告」「SBOM」「ライフサイクル管理」に明確なギャップが存在する。"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "official_document",
+      "title": "CRA reporting obligations (EU Digital Strategy)",
+      "locator": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 3,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "12–18か月で「SBOM基盤→VEX運用→OT更新基盤」の順に段階導入するのが現実的。",
+        "CRAの報告期限（24h/72h/14日）と、半導体装置の現場適用リードタイム（数週間〜数か月）は、単一の変更管理フローでは衝突しやすい。",
+        "上記SLA（T+24h暫定VEX/T+72h affected・not_affected更新/Fix後14日以内fixed反映）はArticle 14の法定期限と整合し、報告品質の平準化に寄与。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "official_document",
+      "title": "Commission Implementing Regulation (EU) 2025/2392",
+      "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202502392",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202502392",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "半導体製造装置の制御システムが「Important Products（重要製品）」に分類された場合、製造業者は第三者認証機関（Notified Body）によるCE適合性評価が義務付けられ、日本メーカ...",
+        "半導体製造装置はCRAの適用対象であり、その制御システムは「重要製品（Important/Critical Products）」に分類される可能性が高い。"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "industry_report",
+      "title": "Cyber Resilience Act Requirements Standards Mapping (ENISA/JRC)",
+      "locator": "https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping",
+      "url": "https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "SEMI E187への準拠だけではEU CRAの法的要件を完全には満たせない。特に「インシデント報告」「SBOM」「ライフサイクル管理」に明確なギャップが存在する。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "official_document",
+      "title": "CycloneDX Specification Overview",
+      "locator": "https://cyclonedx.org/specification/overview/",
+      "url": "https://cyclonedx.org/specification/overview/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "レガシー対策は「ソース起点SBOM」だけでは不十分で、バイナリ解析・サプライヤSBOM取り込みを含むハイブリッド方式が必要。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "official_document",
+      "title": "CycloneDX VEX Capability",
+      "locator": "https://cyclonedx.org/capabilities/vex/",
+      "url": "https://cyclonedx.org/capabilities/vex/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "外部開示はCSAF VEX、内部運用はCycloneDX VEX連携の二層が実務的。"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "official_document",
+      "title": "ENISA CRA Requirements Standards Mapping",
+      "locator": "https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping",
+      "url": "https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "SBOMと脆弱性ハンドリングは「任意のベストプラクティス」ではなく、CRA適合の中核要件。"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "ENISA SRP（Single Reporting Platform）",
+      "locator": "https://www.enisa.europa.eu/topics/product-security-and-certification/single-reporting-platform-srp",
+      "url": "https://www.enisa.europa.eu/topics/product-security-and-certification/single-reporting-platform-srp",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "最優先は「法定期限に間に合わせる運用層（PSIRT+VEX+報告）」の先行実装で、次に「現場安全を守る更新アーキテクチャ」を重ねる二段階戦略。"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "industry_report",
+      "title": "FIRST EPSS",
+      "locator": "https://www.first.org/epss/",
+      "url": "https://www.first.org/epss/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "優先度付けはKEV + EPSS + 装置安全影響 + 顧客露出の合成が有効。"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "official_document",
+      "title": "Hogan Lovells: Japan's New Chip Equipment Export Rules",
+      "locator": "https://www.hoganlovells.com/en/publications/japans-new-chip-equipment-export-rules-take-effect",
+      "url": "https://www.hoganlovells.com/en/publications/japans-new-chip-equipment-export-rules-take-effect",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "CRAに基づくENISAへの脆弱性報告が、日本の外国為替及び外国貿易法（外為法）上の「技術の提供」に該当する可能性がある。特に半導体製造装置関連ソフトウェアの脆弱性情報は、2023年7月施行の半導体製...",
+        "外為法×ENISA報告の交差リスクは未確定だが対応不能リスクではない。脆弱性報告の技術的詳細度を制御する（初期警告では技術詳細を最小限にし、ENISA報告のみに限定する）ことで実務的にリスクを低減でき..."
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "official_document",
+      "title": "METI: OT Security Guidelines for Semiconductor Device Factories",
+      "locator": "https://www.meti.go.jp/english/press/2025/0627_004.html",
+      "url": "https://www.meti.go.jp/english/press/2025/0627_004.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "SEMI E187/E188への既存対応をCRA適合の効率的な出発点とすべきである。OS・ネットワーク・エンドポイントセキュリティの既存対応を再利用し、CRA固有の差分（SBOM、脆弱性報告、支援期間...",
+        "SEMI E187（ファブ装置のサイバーセキュリティ仕様）およびE188（マルウェアフリー装置統合仕様）はTSMC・Intel等の主要ファブが調達条件として採用を義務付けており事実上の業界標準となって..."
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "official_document",
+      "title": "METI: SEMI E187解説",
+      "locator": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_kojo/pdf/004_04_00.pdf",
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_kojo/pdf/004_04_00.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "エアギャップ環境では、制御されたオフライン搬入（媒体サニタイズ・署名検証・チェーンオブカストディ）でCRAの「安全な更新」要件を実質充足できる可能性が高い。"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "official_document",
+      "title": "METI: 半導体セキュリティ規格「SEMI E187」について",
+      "locator": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_kojo/pdf/004_04_00.pdf",
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_kojo/pdf/004_04_00.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "OT/ファブ環境では「安全な遠隔保守」と「制御されたオフライン更新」の両立アーキテクチャが現実解。"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "industry_report",
+      "title": "MSSP Pricing Guide 2025",
+      "locator": "https://www.harbourtech.net/blog/mssp-pricing-guide-security-costs",
+      "url": "https://www.harbourtech.net/blog/mssp-pricing-guide-security-costs",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "中規模半導体装置企業（IT+OTエンドポイント300台規模）の24/7 PSIRT運用は、MSSP委託ベースで年間約€137,000〜€164,000、大規模企業では年間€500,000超が見込まれる..."
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "official_document",
+      "title": "NIST SP 800-193",
+      "locator": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "更新機構は「署名付きマニフェスト」「整合性検証」「ロールバック耐性」を標準機能化すべき。"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "official_document",
+      "title": "NIST SP 800-82r3",
+      "locator": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "OT/ファブ環境では「安全な遠隔保守」と「制御されたオフライン更新」の両立アーキテクチャが現実解。",
+        "OT遠隔保守はDMZ分離、強認証、最小権限、監査ログを必須コントロールとして設計すべき。",
+        "エアギャップ環境では、制御されたオフライン搬入（媒体サニタイズ・署名検証・チェーンオブカストディ）でCRAの「安全な更新」要件を実質充足できる可能性が高い。",
+        "最優先は「法定期限に間に合わせる運用層（PSIRT+VEX+報告）」の先行実装で、次に「現場安全を守る更新アーキテクチャ」を重ねる二段階戦略。"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "official_document",
+      "title": "NTIA: Minimum Elements for SBOM",
+      "locator": "https://www.ntia.gov/files/ntia/publications/sbom_minimum_elements_report.pdf",
+      "url": "https://www.ntia.gov/files/ntia/publications/sbom_minimum_elements_report.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "この方式で、CRA当局照会時の提出リードタイム短縮が期待できる。",
+        "レガシー対策は「ソース起点SBOM」だけでは不十分で、バイナリ解析・サプライヤSBOM取り込みを含むハイブリッド方式が必要。"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "official_document",
+      "title": "OASIS CSAF 2.0",
+      "locator": "https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html",
+      "url": "https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "上記SLA（T+24h暫定VEX/T+72h affected・not_affected更新/Fix後14日以内fixed反映）はArticle 14の法定期限と整合し、報告品質の平準化に寄与。",
+        "外部開示はCSAF VEX、内部運用はCycloneDX VEX連携の二層が実務的。"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "unknown",
+      "title": "OT安全影響の重み係数設計（企業個別）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "優先度付けはKEV + EPSS + 装置安全影響 + 顧客露出の合成が有効。"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "official_document",
+      "title": "RFC 9019",
+      "locator": "https://www.rfc-editor.org/info/rfc9019",
+      "url": "https://www.rfc-editor.org/info/rfc9019",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "更新機構は「署名付きマニフェスト」「整合性検証」「ロールバック耐性」を標準機能化すべき。"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 (Cyber Resilience Act)",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "半導体製造装置はCRAの適用対象であり、その制御システムは「重要製品（Important/Critical Products）」に分類される可能性が高い。"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 Annex I Part I §(2)(e)",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "CRAの「セキュアなアップデートメカニズム」要件は、エアギャップ環境向けの「物理的な安全搬入プロセス」が技術的要件を満たすか否か、現時点で法的に明確でない。"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 Annex I Part II §(1)(d)",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "CRAはAnnex I Part II において、製造業者が「機械可読形式のSBOM（Software Bill of Materials）」を作成・維持し、脆弱性のある構成要素を特定・追跡できる状態..."
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 Annex I Part II",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "CRAは脆弱性確認後「速やかに（without undue delay）」セキュリティアップデートを提供することを義務付けており、業界慣行からこれは概ね数週間以内を意味すると解釈されている。"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 Annex I Part I",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "CRAのAnnex I Part I（セキュリティ要件）は、製品がセキュリティアップデートを「安全に配布・適用」できるメカニズムを持つことを要求しており、これは実質的にOTA（Over-The-Air..."
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847 Annex II",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "CRAは製品の「予想使用期間（intended use period）」全体にわたるセキュリティアップデート提供を義務付けているが、半導体製造装置の実際の運用年数（10〜20年以上）はCRAが想定する..."
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_type": "official_document",
+      "title": "Regulation (EU) 2024/2847",
+      "locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 16,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex",
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "CRA Article 14に基づき、2026年9月11日から製造者は能動的に悪用された脆弱性を認知後24時間以内にENISA Single Reporting Platform経由で早期警告を提出し...",
+        "CRA Article 17に基づき、EU域内に拠点を持たない日本の製造者は、EU域内にauthorised representative（AR）を書面の委任状で指定する法的義務がある。ARは技術文書...",
+        "CRAの報告期限（24h/72h/14日）と、半導体装置の現場適用リードタイム（数週間〜数か月）は、単一の変更管理フローでは衝突しやすい。",
+        "CRAの支援期間は「最低5年、または製品の想定稼働寿命の全期間（短い方）」と規定されるが、半導体装置の実稼働寿命は15〜25年に及ぶ。CRAの論理的解釈では、製品の想定稼働寿命全期間にわたる脆弱性管理...",
+        "CRAの製品分類において、半導体装置の制御ソフトウェア・ファームウェア自体は、多くの場合Default Category（自己評価で適合宣言可能）に該当する可能性が高い。Important Class...",
+        "SBOMと脆弱性ハンドリングは「任意のベストプラクティス」ではなく、CRA適合の中核要件。",
+        "SBOMは「生成」だけでなく「改ざん耐性のある管理（署名・版管理・監査証跡）」まで設計すべき。",
+        "「報告トラック」と「現場展開トラック」を分離する二層運用が必要。",
+        "「自動更新デフォルト」のエアギャップ適用解釈は未確定で、法務・認証機関との事前整理が必要。",
+        "エアギャップ環境では、制御されたオフライン搬入（媒体サニタイズ・署名検証・チェーンオブカストディ）でCRAの「安全な更新」要件を実質充足できる可能性が高い。",
+        "上記SLA（T+24h暫定VEX/T+72h affected・not_affected更新/Fix後14日以内fixed反映）はArticle 14の法定期限と整合し、報告品質の平準化に寄与。",
+        "批判的レビューの指摘を統合した「報告義務先行→SBOM段階構築→適合性評価完了」の3フェーズ・18か月ロードマップを確定する。フェーズ1（2026年3〜9月）は報告義務への適合（EU AR指定、PSI...",
+        "日本半導体装置関連ソフトウェア開発企業のCRA対応は、「完璧な準備を待つ」アプローチではなく、「法定期限に間に合わせながら段階的に精緻化する」アプローチが唯一の現実的選択である。",
+        "最優先は「法定期限に間に合わせる運用層（PSIRT+VEX+報告）」の先行実装で、次に「現場安全を守る更新アーキテクチャ」を重ねる二段階戦略。",
+        "最優先投資（2026年9月まで・不可避）として、EU AR指定＋MSSP委託によるPSIRT 24/7体制構築＋ENISA SRP登録が必要であり、概算初年度コストは€200k〜€600kとなる。これ...",
+        "製品ライフサイクル問題は経営戦略レベルの判断が必要である。15〜25年の稼働寿命に対して脆弱性管理を継続する義務は製品原価・保守契約・EU市場戦略そのものに影響する。「後継版置き換え」「延長有償保守」..."
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_type": "industry_report",
+      "title": "SEMI E187 リファレンスガイド（TXOne Networks）",
+      "locator": "https://www.txone.com/ja/white-papers-ja/reference-guide-e187-semi/",
+      "url": "https://www.txone.com/ja/white-papers-ja/reference-guide-e187-semi/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "日本の半導体製造装置は、装置メーカー独自のファームウェア・リアルタイムOS・プロセスコントローラーに加え、複数のサードパーティ組込みコンポーネント（モーションコントローラ、RF電源制御ユニット、センサ..."
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_type": "official_document",
+      "title": "SEMI E187スタンダード概要と実施例（経済産業省）",
+      "locator": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_semiconductor/pdf/003_04_00.pdf",
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_semiconductor/pdf/003_04_00.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "半導体製造装置の稼働するクリーンルーム環境（ファブ）の多くは、製造品質・知的財産保護・安全稼働の観点からエアギャップ（物理的ネットワーク隔離）を採用しており、CRAが想定するネットワーク接続型アップデ..."
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_type": "industry_report",
+      "title": "SPDX Specifications",
+      "locator": "https://spdx.dev/use/specifications/",
+      "url": "https://spdx.dev/use/specifications/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "レガシー対策は「ソース起点SBOM」だけでは不十分で、バイナリ解析・サプライヤSBOM取り込みを含むハイブリッド方式が必要。"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_type": "industry_report",
+      "title": "The Update Framework Specification",
+      "locator": "https://theupdateframework.github.io/specification/latest/",
+      "url": "https://theupdateframework.github.io/specification/latest/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "SBOMは「生成」だけでなく「改ざん耐性のある管理（署名・版管理・監査証跡）」まで設計すべき。"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_type": "industry_report",
+      "title": "in-toto Specifications",
+      "locator": "https://in-toto.io/docs/specs/",
+      "url": "https://in-toto.io/docs/specs/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "SBOMは「生成」だけでなく「改ざん耐性のある管理（署名・版管理・監査証跡）」まで設計すべき。"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_type": "unknown",
+      "title": "エアギャップ例外運用の最終法解釈",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「自動更新デフォルト」のエアギャップ適用解釈は未確定で、法務・認証機関との事前整理が必要。"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_type": "unknown",
+      "title": "医療機器分野のセキュリティパッチ変更管理実践（業界推定）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "装置メーカーがCRA完全適合を達成するためには、セキュリティパッチを「通常の変更管理フロー」と「緊急セキュリティアップデートフロー（Fast-Track）」に分離する二重プロセス体制の構築が必須である..."
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_type": "unknown",
+      "title": "半導体装置メーカーと顧客間のNDA慣行",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "半導体製造装置に起因するセキュリティインシデントは、顧客ファブの知的財産（プロセスレシピ・歩留まりデータ）と直結するため、顧客（TSMC・Samsung・Intelなど）は装置メーカーに対し厳格なND..."
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_type": "unknown",
+      "title": "導入期間12–18か月の実行見積り",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "12–18か月で「SBOM基盤→VEX運用→OT更新基盤」の順に段階導入するのが現実的。"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_type": "unknown",
+      "title": "提出リードタイム短縮効果の定量値",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "この方式で、CRA当局照会時の提出リードタイム短縮が期待できる。"
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_type": "industry_report",
+      "title": "欧州サイバーレジリエンス法（CRA）が日本企業に突きつける現実",
+      "locator": "https://cybersecurity-info.com/news/2026-01-09/",
+      "url": "https://cybersecurity-info.com/news/2026-01-09/",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "レガシーOSへの依存と長い製品ライフサイクルが、CRA準拠の最大の障壁となっている。"
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "source_type": "official_document",
+      "title": "経済産業省: ソフトウェアの開発・供給・運用におけるサイバーセキュリティ確保とレジリエンス向上のためのガイドライン（案）",
+      "locator": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_bunyaodan/software/cyber_infrastructure/pdf/202503_g2.pdf",
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_bunyaodan/software/cyber_infrastructure/pdf/202503_g2.pdf",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "レガシーOSへの依存と長い製品ライフサイクルが、CRA準拠の最大の障壁となっている。"
+      ]
+    },
+    {
+      "id": "SRC-045",
+      "source_type": "unknown",
+      "title": "装置メーカーのソフトウェアサポートコスト構造",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "CRAが「サポート期間の明示」を義務付けることで、装置メーカーが従来曖昧にしていた「いつまでパッチを出すか」を公式にコミットせざるを得なくなり、その後の実際のパッチ提供コストが財務上のリスクとなる。"
+      ]
+    },
+    {
+      "id": "SRC-046",
+      "source_type": "unknown",
+      "title": "装置メーカーの現場変更リードタイム実務値（前段分析の業界推定）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "CRAの報告期限（24h/72h/14日）と、半導体装置の現場適用リードタイム（数週間〜数か月）は、単一の変更管理フローでは衝突しやすい。"
+      ]
+    },
+    {
+      "id": "SRC-047",
+      "source_type": "unknown",
+      "title": "装置メーカー業界における変更管理慣行（業界推定）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "日本の半導体製造装置では、ソフトウェアの変更から現場適用まで最低6週間〜最大数ヶ月のリードタイムが業界標準であり、CRAが求める「迅速な提供」との間に埋めがたいギャップが存在する。"
+      ]
+    },
+    {
+      "id": "SRC-048",
+      "source_type": "unknown",
+      "title": "装置変更管理の実務工程（前段分析）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「報告トラック」と「現場展開トラック」を分離する二層運用が必要。"
+      ]
+    }
+  ]
+}

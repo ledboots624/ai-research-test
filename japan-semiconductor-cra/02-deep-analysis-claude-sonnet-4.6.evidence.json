@@ -1,0 +1,190 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T03:41:15Z",
+  "claims": [
+    {
+      "claim": "CRAは脆弱性確認後「速やかに（without undue delay）」セキュリティアップデートを提供することを義務付けており、業界慣行からこれは概ね数週間以内を意味すると解釈されている。",
+      "evidence": "CRA Annex I Part II（脆弱性ハンドリング要件）において、メーカーは「脆弱性を遅滞なく対処し、ユーザーにセキュリティアップデートを無償で提供」することが明記されている。さらにArticle 14に基づき、積極的に悪用されている脆弱性については24時間以内にENISAへの速報、72時間以内に詳細通知、是正措置が利用可能になってから14日以内に最終報告が義務化される（2026年9月11日施行）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 Annex I Part II",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "日本の半導体製造装置では、ソフトウェアの変更から現場適用まで最低6週間〜最大数ヶ月のリードタイムが業界標準であり、CRAが求める「迅速な提供」との間に埋めがたいギャップが存在する。",
+      "evidence": "装置メーカーのソフトウェア変更は、社内ラボ検証（数日〜2週間）・ECO（1〜2週間）・IQ/OQ（1〜3週間）・顧客事前承認（1〜4週間）・フィールド検証・PQ（2〜6週間）・量産ロールアウトという多段階フローを経る。合計リードタイムは最短でも6週間、複雑な変更では6ヶ月以上に及ぶ（業界推定を含む）。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "装置メーカー業界における変更管理慣行（業界推定）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "CRAのAnnex I Part I（セキュリティ要件）は、製品がセキュリティアップデートを「安全に配布・適用」できるメカニズムを持つことを要求しており、これは実質的にOTA（Over-The-Air）またはネットワーク経由のアップデート機構を前提としている。",
+      "evidence": "CRA Annex I Part I § (2)(e)は「製品がセキュアな方法でアップデートを受信・適用できること、かつデフォルトでは自動アップデートが有効であること（ユーザーがオプトアウト可能）」を要求しており、インターネット接続を前提とした設計を暗黙に想定している。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 Annex I Part I",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "半導体製造装置の稼働するクリーンルーム環境（ファブ）の多くは、製造品質・知的財産保護・安全稼働の観点からエアギャップ（物理的ネットワーク隔離）を採用しており、CRAが想定するネットワーク接続型アップデートモデルと根本的に相容れない。",
+      "evidence": "SEMI E187はエアギャップ環境での運用を前提としており、セキュリティパッチの適用は「オフラインPC・管理されたUSBメディアによる物理搬入」という手順を標準としている。エアギャップ環境では「自動アップデート」は構造上実装不可能であり、CRAのデフォルト自動更新要件はエンドユーザー（ファブ）の要求に反する。実務上、Stuxnet型攻撃への対策としてむしろ隔離強化が進んでいる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "SEMI E187スタンダード概要と実施例（経済産業省）",
+        "source_locator": "https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_semiconductor/pdf/003_04_00.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "CRAの「セキュアなアップデートメカニズム」要件は、エアギャップ環境向けの「物理的な安全搬入プロセス」が技術的要件を満たすか否か、現時点で法的に明確でない。",
+      "evidence": "CRA条文はアップデートの「方法」を具体的に規定しておらず、認証・完全性検証・ロールバック機能の確保が要求されている。エアギャップ環境でもSHA-256等のハッシュ検証・電子署名による完全性確認は実装可能であるが、「デフォルト自動更新」という要件は解釈の余地がある。CRA実施規則における産業用エアギャップ環境への適用解釈は未確定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 Annex I Part I §(2)(e)",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "2026年9月11日以降、装置メーカーは積極的に悪用されている脆弱性をENISAに24時間以内に速報しなければならず、この義務は顧客との契約上の秘密保持義務（NDA）より優先される可能性がある。",
+      "evidence": "CRA Article 14(2)は「製造業者がその製品に含まれる積極的に悪用されている脆弱性を認識した場合、遅滞なく、かつ当該認識から24時間以内に早期警戒通知を提出する」ことを義務付けている。報告先はENISA管理のSingle Reporting Platform（SRP）であり、当該CSIRTを通じて各EU加盟国に通知される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "CRA Article 14 Full Text",
+        "source_locator": "https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Article_14.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "半導体製造装置に起因するセキュリティインシデントは、顧客ファブの知的財産（プロセスレシピ・歩留まりデータ）と直結するため、顧客（TSMC・Samsung・Intelなど）は装置メーカーに対し厳格なNDAおよびインシデント情報の非開示を求める場合があり、これはCRAの報告義務と直接衝突する。",
+      "evidence": "業界慣行として（推定）、主要ファブは装置メーカーに「工場内で発生したセキュリティ事象を外部に開示しないこと」を契約条件とするケースがある。CRA第14条はEU法として適用されるため、民事契約上のNDAに優先するが、これを顧客に説明・合意形成するプロセスが装置メーカーには求められる（業界推定を多く含む）。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "半導体装置メーカーと顧客間のNDA慣行",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "CRAは製品の「予想使用期間（intended use period）」全体にわたるセキュリティアップデート提供を義務付けているが、半導体製造装置の実際の運用年数（10〜20年以上）はCRAが想定する一般的な製品サポート期間（5〜10年）を大幅に超えており、サポート継続コストが事業的に成立しない可能性がある。",
+      "evidence": "CRA Recital 42およびAnnex II（マニュアル記載事項）は「サポート期間の明示」を要求しており、そのサポート期間中は脆弱性修正の提供が義務となる。半導体製造装置は導入後20年以上稼働するケースが珍しくなく、特に「枯れた」プロセス向け装置は廃棄されずに使い続けられる。Windows XP/7搭載装置が現役稼働しているという実態も確認されている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 Annex II",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "CRAが「サポート期間の明示」を義務付けることで、装置メーカーが従来曖昧にしていた「いつまでパッチを出すか」を公式にコミットせざるを得なくなり、その後の実際のパッチ提供コストが財務上のリスクとなる。",
+      "evidence": "装置の販売価格にはソフトウェアサポートコストが現状ほとんど織り込まれておらず、20年分のセキュリティ対応コストは価格体系の根本的見直しを迫る。特に中小規模の装置メーカーにとっては事業継続性への脅威となりうる（推測を含む）。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "装置メーカーのソフトウェアサポートコスト構造",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low"
+    },
+    {
+      "claim": "CRAはAnnex I Part II において、製造業者が「機械可読形式のSBOM（Software Bill of Materials）」を作成・維持し、脆弱性のある構成要素を特定・追跡できる状態にすることを義務付けている。",
+      "evidence": "ENISA/JRCが発行したCRA要件標準マッピングレポートにおいても、SBOMはCRA独自要件として他の既存標準（SEMI E187含む）との主要ギャップの一つに挙げられている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Regulation (EU) 2024/2847 Annex I Part II §(1)(d)",
+        "source_locator": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "日本の半導体製造装置は、装置メーカー独自のファームウェア・リアルタイムOS・プロセスコントローラーに加え、複数のサードパーティ組込みコンポーネント（モーションコントローラ、RF電源制御ユニット、センサーファームウェア等）が複合的に積層しており、完全なSBOMの作成・維持は技術的に極めて困難である。",
+      "evidence": "装置の制御ソフトウェアはしばしば開発から20年以上経過した独自コードを含んでおり、当初の開発者がいない場合も多い。OEM供給される組込みサブシステムのベンダーがCRA対応済みSBOMを提供できるかは不確定。前工程装置（露光・成膜・エッチング）は100以上の組込みコンポーネントを持つ場合があり、サプライチェーン全体のSBOM統合は大規模なエンジニアリング投資を必要とする（具体的コンポーネント数は推定）。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "SEMI E187 リファレンスガイド（TXOne Networks）",
+        "source_locator": "https://www.txone.com/ja/white-papers-ja/reference-guide-e187-semi/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "半導体製造装置の制御システムが「Important Products（重要製品）」に分類された場合、製造業者は第三者認証機関（Notified Body）によるCE適合性評価が義務付けられ、日本メーカーにとってこれは多大なコストと時間を要する新たな参入障壁となる。",
+      "evidence": "Commission Implementing Regulation (EU) 2025/2392（2025年公布）により、産業用オートメーション・制御システム（IACS）が重要製品リストに追加されており、半導体製造装置制御ユニットの多くが該当する可能性がある。EU市場向け装置の出荷にはCEマーキングが必要であり、CRA施行後は既存のMachinery Directive対応のCEマーキングでは不十分となる。適合性評価を行えるNotified Bodyは現在欧州に限定されており、日本からのアクセスに時間的・費用的コストが発生する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Commission Implementing Regulation (EU) 2025/2392",
+        "source_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202502392",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "装置メーカーがCRA完全適合を達成するためには、セキュリティパッチを「通常の変更管理フロー」と「緊急セキュリティアップデートフロー（Fast-Track）」に分離する二重プロセス体制の構築が必須である。",
+      "evidence": "医療機器分野（MDR規制）では、セキュリティパッチの適用に関して「通常の設計変更」と「セキュリティ緊急パッチ」を別プロセスで扱い、後者についてはリスクベースの簡略化されたIQ/OQ手順を採用するアプローチが実績としてある（業界参照事例・業界推定）。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "医療機器分野のセキュリティパッチ変更管理実践（業界推定）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    }
+  ]
+}

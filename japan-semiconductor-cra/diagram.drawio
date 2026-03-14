@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram name="EU CRA Impact - Japan Semiconductor" id="jp-semi-cra-impact-01">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- === TITLE BAR === -->
+        <mxCell id="title" value="EU CRA Impact &amp; Roadmap: 日本半導体装置関連ソフトウェア開発" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=#4a5568;fontColor=#ffffff;fontSize=18;fontStyle=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="760" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- === SECTION 1: FINDINGS (Left) === -->
+        <mxCell id="sec1_header" value="主要な発見 (Key Findings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2d3748;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node1" value="半導体製造装置は&#xa;「重要製品」に該当&#xa;(Annex I/II)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node2" value="SEMI E187準拠のみでは&#xa;CRA報告要件を満たせない" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node3" value="最大リスク:&#xa;報告期限 (24h/72h) vs&#xa;現場適用リードタイム" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;strokeWidth=3;fontSize=12;fontStyle=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- === SECTION 2: RISKS (Middle) === -->
+        <mxCell id="sec2_header" value="リスク要因 (Risk Factors)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#2d3748;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node4" value="罰則: 最大1500万ユーロ&#xa;または売上高の2.5%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node5" value="レガシーOS・長寿命製品&#xa;(15-25年) のサポート義務" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node6" value="時差対応の壁&#xa;(JST vs CET +8h)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- === SECTION 3: ROADMAP (Right) === -->
+        <mxCell id="sec3_header" value="対策ロードマップ (Roadmap)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#2d3748;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node7" value="Phase 1: 24/7 PSIRT体制&#xa;[必須] 2026年9月まで" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;strokeWidth=2;fontSize=12;fontStyle=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node8" value="Phase 2: SBOM &amp; プロセス&#xa;バイナリ解析依存からの脱却" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node9" value="Phase 3: 適合性評価&#xa;重要製品の認証プロセス" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontSize=12;fontStyle=0;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- === EDGES === -->
+        <mxCell id="edge1" value="リスク直結" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#4a5568;" edge="1" parent="1" source="node1" target="node4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge2" value="不足" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#4a5568;" edge="1" parent="1" source="node2" target="node8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="260" />
+              <mxPoint x="400" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="edge3" value="解決策" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#e53e3e;" edge="1" parent="1" source="node6" target="node7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="350" />
+              <mxPoint x="520" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge4" value="期限切迫" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#e53e3e;" edge="1" parent="1" source="node3" target="node7">
+          <mxGeometry relative="1" as="geometry">
+             <Array as="points">
+              <mxPoint x="260" y="350" />
+              <mxPoint x="260" y="390" />
+              <mxPoint x="510" y="390" />
+              <mxPoint x="510" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- === BOTTOM BAR === -->
+        <mxCell id="bottom" value="結論: 2026年9月11日の報告義務開始に向けた「24/7 PSIRT体制」の構築が最優先事項" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=#4a5568;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="760" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
