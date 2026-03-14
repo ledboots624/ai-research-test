@@ -1,0 +1,9 @@
+{
+  "context_type": "person_profile",
+  "description": "ベース練習者のプロフィール",
+  "data": {
+    "instrument": "エレクトリックベース",
+    "genres": ["ロック", "ファンク"],
+    "experience": "ベース歴浅い（初心者〜初中級）"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "version": "2.2.0",
+  "topic": "bass-mastery",
+  "description": "ベース上達への秘訣",
+  "completed_at": "2026-03-14T11:50:40Z",
+  "duration_seconds": 2516,
+  "duration_human": "41m56s",
+  "steps": [
+    {
+      "id": "step1_foundations",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "エレクトリックベース初心者〜初中級者が習得すべき基礎技術（フィンガー、ピック、スラップ）、およびロック・ファンクに特化した練習法に関する広範な情報収集。信頼できる教則本、著名ベーシストのインタビュー、科学的な運動学習理論に基づく練習頻度や時間の推奨を調査せよ。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/bass-mastery/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 7902,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step2_rhythm_groove",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "ベースにおける「グルーヴ」の正体をリズム解釈の観点から深層分析する。特にロックのドライブ感とファンクのポケット（The Pocket）の違い、16ビートの裏拍の感じ方、ドラムとのコンビネーションについて、音楽理論と実際の楽曲分析（例：James Jamerson, Flea, Bootsy Collins等）を交えて論理的に解説せよ。",
+      "depends_on": [
+        "step1_foundations"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/bass-mastery/02-deep-analysis-claude-sonnet-4.6.md",
+      "output_bytes": 23111,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step3_practice_regimen",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "効果的な練習ルーチンの構築。BPMの段階的な上げ方、メトロノームの効果的な活用法（2拍4拍、裏拍のみ等）、耳コピの技術的手順、TAB譜と五線譜の併用戦略について、具体的なスケジュール例と共に技術的な戦略を策定せよ。",
+      "depends_on": [
+        "step1_foundations"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/bass-mastery/03-technical-strategy-gpt-5.3-codex.md",
+      "output_bytes": 14707,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step4_gear_tone",
+      "step": 4,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "ジャンル（ロック・ファンク）に適した音作り。ベース本体のセッティング（弦高、ピックアップ）、アンプのEQ設定、エフェクター（コンプレッサー、エンベロープフィルター等）の活用法について、初心者でも再現可能な具体的な機材知識とセッティング例を調査せよ。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/bass-mastery/04-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 8780,
+      "evidence_extracted": true
+    },
+    {
+      "id": "step5_critical_review",
+      "step": 5,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "これまでの調査結果（基礎技術、グルーヴ分析、練習法、機材）に対し、相反する説や非科学的な精神論が含まれていないか批判的に検証する。「1日○時間練習必須」等の迷信の排除、身体的負担（腱鞘炎リスク）への配慮、特定のジャンルバイアスへの偏りがないかを確認し、論理的な整合性をチェックせよ。",
+      "depends_on": [
+        "step2_rhythm_groove",
+        "step3_practice_regimen",
+        "step4_gear_tone"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/bass-mastery/05-critic-review-claude-sonnet-4.6.md",
+      "output_bytes": 20706,
+      "evidence_extracted": false
+    },
+    {
+      "id": "step6_integration",
+      "step": 6,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの知見を統合し、初心者〜初中級者がロック・ファンクのベースをマスターするための包括的なロードマップを作成する。技術、理論、機材、メンタルの各側面からエビデンスに基づいた最終結論を導き出し、実行可能なアクションプランとして提示せよ。",
+      "depends_on": [
+        "step5_critical_review"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/bass-mastery/06-integration-review-claude-opus-4.6.md",
+      "output_bytes": 45308,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 16883
+    },
+    {
+      "file": "sources.json",
+      "bytes": 38487
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 9696
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 643957
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 947456
+    },
+    {
+      "file": "slides.html",
+      "bytes": 146843
+    },
+    {
+      "file": "slides.md",
+      "bytes": 9231
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1367090
+    }
+  ],
+  "context_file": "context-bass.json"
+}

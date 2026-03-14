@@ -1,0 +1,805 @@
+{
+  "generated_at": "2026-03-14T11:48:51Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 41,
+  "tier_summary": {
+    "tier1": 1,
+    "tier2": 18,
+    "tier3": 19,
+    "tier4": 3
+  },
+  "primary_source_count": 16,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "news_article",
+      "title": "9 of Flea's funkiest Red Hot Chili Peppers basslines",
+      "locator": "https://www.musicradar.com/news/nine-of-fleas-funkiest-red-hot-chili-peppers-basslines-",
+      "url": "https://www.musicradar.com/news/nine-of-fleas-funkiest-red-hot-chili-peppers-basslines-",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Fleaのグルーヴは「ロックのドライブ」と「ファンクのポケット」を状況に応じて切り替える能力——これは「ジャンルを知ること」ではなく「タイミングを意識的にコントロールすること」——によって成立している..."
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "official_document",
+      "title": "A Bassist's Guide to Reading Sheet Music and Tablature",
+      "locator": "https://hub.yamaha.com/guitars/bass/a-bassists-guide-to-reading-sheet-music-and-tablature/",
+      "url": "https://hub.yamaha.com/guitars/bass/a-bassists-guide-to-reading-sheet-music-and-tablature/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "初中級では「五線譜を主、TABを従」にすると、リズム理解と運指実装を両立しやすい。"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "community_data",
+      "title": "A Study of Bootsy Collins Bass Lines — TalkBass",
+      "locator": "https://www.talkbass.com/threads/a-study-of-bootsy-collins-bass-lines.1428821/",
+      "url": "https://www.talkbass.com/threads/a-study-of-bootsy-collins-bass-lines.1428821/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "7+ years",
+        "participant_count": 50,
+        "expert_presence": true,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ジェームス・ブラウン（JB）のバンドが確立した「The One（1拍目の絶対的強調）」の哲学は、ファンクにおけるリズム解釈の根本公理である。すべてのシンコペーションとオフビット・アクセントは、「1」へ..."
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "academic_paper",
+      "title": "A review of psychological and neuroscientific research on musical groove",
+      "locator": "https://www.sciencedirect.com/article/pii/S0149763423004918",
+      "url": "https://www.sciencedirect.com/article/pii/S0149763423004918",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "グルーヴとは単なる「ノリの良さ」ではなく、神経科学的に定義された「音楽に同期して体を動かしたくなる快感的衝動（pleasurable urge to move in synchrony with th..."
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "community_data",
+      "title": "Bass Amp Settings for Funk",
+      "locator": "https://allforturntables.com/2023/06/22/bass-amp-settings-for-funk/",
+      "url": "https://allforturntables.com/2023/06/22/bass-amp-settings-for-funk/",
+      "access_date": "2023",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "いわゆる「ドンシャリ（Scooped Mids）」傾向だが、過度なカットは禁物"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "community_data",
+      "title": "Bass Compression Guide",
+      "locator": "https://homestudioguys.com/blog/understanding-bass-guitar-compression-and-its-uses/",
+      "url": "https://homestudioguys.com/blog/understanding-bass-guitar-compression-and-its-uses/",
+      "access_date": "2023",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "コンプレッサーは音の粒を揃え、サステインを稼ぐ。特にスラップ奏法ではピーク（突発的な大音量）を抑えるために不可欠"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "news_article",
+      "title": "Bass Guitar Techniques Explained",
+      "locator": "https://www.sweetwater.com/insync/bass-guitar-techniques-explained-fingerstyle-pick-slap/",
+      "url": "https://www.sweetwater.com/insync/bass-guitar-techniques-explained-fingerstyle-pick-slap/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "人差し指と中指の交互弾き（Alternating）を基本とし、弦移動時の効率化にはレイキング（Raking）を用いることが推奨される。ゴーストノート（ミュート音）を混ぜることでファンク特有のグルーヴを..."
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "industry_report",
+      "title": "Bassist Spotlight: Bootsy Collins",
+      "locator": "https://bassadvice.com/bassist-spotlight-bootsy-collins/",
+      "url": "https://bassadvice.com/bassist-spotlight-bootsy-collins/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ファンクのグルーヴは、ベース-キックのデュエットだけでなく、ベース-ハイハットの関係によって「温度（feel）」が決まる。ハイハットが刻む16分音符に対して、ベースがどの細分音を選択するかが、グルーヴ..."
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "official_document",
+      "title": "Berklee PULSE: Transcribe & Transpose...Then Jam",
+      "locator": "https://pulse.berklee.edu/?id=4&lesson=16",
+      "url": "https://pulse.berklee.edu/?id=4&lesson=16",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「短区間ループ→減速→リズム先行→ルート/機能把握→検証」の順が、耳コピ精度と再現性を高める。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "official_document",
+      "title": "Berklee Practice Method BASS",
+      "locator": "https://www.academia.edu/28557421/Berklee_Practice_Method_BASS",
+      "url": "https://www.academia.edu/28557421/Berklee_Practice_Method_BASS",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "ロック・ファンクの両ジャンルにおいて、ベースとバスドラムの同期関係はリズムセクションの基盤を形成する。ベーシストはドラマーのキックパターンを聴き、それに対する自身の配置（同期・先行・後続）を意識的に制..."
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "community_data",
+      "title": "Best Bass Pedals for Funk",
+      "locator": "https://www.musicindustryhowto.com/5-best-bass-pedals-for-funk-metal-rock-other-guitarists-and-what-bassists-should-look-for-when-buying/",
+      "url": "https://www.musicindustryhowto.com/5-best-bass-pedals-for-funk-metal-rock-other-guitarists-and-what-bassists-should-look-for-when-buying/",
+      "access_date": "2024",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "エンベロープフィルター／オートワウはファンク特有の「ワウワウ」「ケロケロ」という母音のようなサウンドを作る"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "academic_paper",
+      "title": "Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis — Macnamara, Hambrick, & Oswald (2014, Psychological Science)",
+      "locator": "https://repository.rice.edu/items/90295c5c-0240-4812-9c3b-5cb69a46372b",
+      "url": "https://repository.rice.edu/items/90295c5c-0240-4812-9c3b-5cb69a46372b",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "録音によるセルフフィードバックを導入することで練習の質を向上できる。スマートフォン等で練習を録音し自分の演奏をメトロノームと比較すること、およびDAWのグリッド表示でタイミング精度を視覚的に確認するこ..."
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "academic_paper",
+      "title": "Deliberate Practice and Proposed Limits on the Effects of Practice on the Acquisition of Expert Performance — Ericsson & Harwell (2019, Frontiers in Psychology)",
+      "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "分散練習（Distributed Practice）は運動技能の長期記憶保持において集中練習（Massed Practice）を上回る。ただし、意図的練習（Deliberate Practice）は音...",
+        "精度基準未達での機械的BPM昇速を行ってはならない。連続3回クリーンに弾けた達成基準を満たした後にのみ増速すべきであり、1セッションの上限は+8 BPMとする。"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "academic_paper",
+      "title": "Deliberate Practice and Proposed Limits on the Effects of Practice on the Acquisition of Expert Performance",
+      "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「ただ通す練習」より、弱点を明示し、即時フィードバック（録音・誤差確認）を伴う練習の方が上達効率が高い。"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "academic_paper",
+      "title": "Deliberate Practice and Proposed Limits",
+      "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+      "access_date": "2019",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "単なる反復ではなく、明確な目標とフィードバックを伴う「意図的練習」が必要である。"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "official_document",
+      "title": "EU CRA — Regulation (EU) 2024/2847, Article 2 Scope",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "本ドキュメントにおけるMUST/SHOULD等の義務レベルは、EU CRA、SEMI E187、IEC 62443、ISO/SAE 21434、NIST CSFのいずれの規格準拠要件でもなく、学術的エ..."
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "community_data",
+      "title": "Essential Bass Pedals",
+      "locator": "https://guitarstrive.com/essential-bass-pedals/",
+      "url": "https://guitarstrive.com/essential-bass-pedals/",
+      "access_date": "2023",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "オーバードライブ／プリアンプはチューブアンプを大音量で鳴らしたような「歪み（Saturation）」を加え、音に倍音と攻撃性を付加する"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "official_document",
+      "title": "Fender Bass Setup Guide",
+      "locator": "https://support.fender.com/en-us/knowledgebase/article/KA-01903",
+      "url": "https://support.fender.com/en-us/knowledgebase/article/KA-01903",
+      "access_date": "unknown",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "ロックは低めのアクション、ファンク（特にスラップ）はやや高めのアクションが推奨される"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "news_article",
+      "title": "Flea's six best basslines with the Red Hot Chili Peppers",
+      "locator": "https://faroutmagazine.co.uk/flea-six-best-basslines-red-hot-chili-peppers/",
+      "url": "https://faroutmagazine.co.uk/flea-six-best-basslines-red-hot-chili-peppers/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ロックの「ドライブ感」は、ベースがドラムのキックと密着または若干前に出ることで生まれる「推進力」であり、これは聴衆の身体を前に引っ張るベクトルを持つ。"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "news_article",
+      "title": "Funk Bass - ULTIMATE GUITAR",
+      "locator": "https://www.ultimate-guitar.com/books/funk-bass-0499",
+      "url": "https://www.ultimate-guitar.com/books/funk-bass-0499",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "親指で弦を叩く「サムピング（Slap）」と、人差し指/中指で弦を引っ張り弾く「プル（Pop）」のコンビネーション。左手によるミュートとハンマリング・オンを組み合わせ、打楽器的なリズムパターンを構築する..."
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "industry_report",
+      "title": "Groove Sync: Mastering Bass Guitar with Kick Drum Patterns",
+      "locator": "https://onlinebasscourses.com/lessons/groove-feel-timing-bass-guitar/mastering-bass-guitar-with-kick-drum-patterns/",
+      "url": "https://onlinebasscourses.com/lessons/groove-feel-timing-bass-guitar/mastering-bass-guitar-with-kick-drum-patterns/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ロックにおけるベースとキックの関係は「同期（locking）」を基本とし、ユニゾンが壁の厚みを生む。ファンクでは「インターロッキング（interlocking）」——キックが鳴らない瞬間にベースが埋め..."
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "community_data",
+      "title": "How to Set Pickup Height",
+      "locator": "https://www.guitarworld.com/lessons/how-to-set-bass-pickups-for-optimum-tone",
+      "url": "https://www.guitarworld.com/lessons/how-to-set-bass-pickups-for-optimum-tone",
+      "access_date": "2023",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "ピックアップの高さとバランスで出力とトーンのキャラクターを決定する"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "academic_paper",
+      "title": "It's Practice, with Sleep, that Makes Perfect — Walker (2005, Clinical Sports Medicine)",
+      "locator": "https://walkerlab.berkeley.edu/reprints/Walker_ClinSportsMed_05.pdf",
+      "url": "https://walkerlab.berkeley.edu/reprints/Walker_ClinSportsMed_05.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "睡眠（特に徐波睡眠とREM睡眠）は運動技能の記憶統合を促進し、練習セッション間の「オフライン学習」を可能にする。練習後の良質な睡眠は、追加練習なしでの技能向上をもたらす。"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "industry_report",
+      "title": "James Jamerson – Player Profile",
+      "locator": "https://onlinebasscourses.com/player-profiles/james-jamerson-bass-player/",
+      "url": "https://onlinebasscourses.com/player-profiles/james-jamerson-bass-player/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ファンクにおけるベースラインの「ビート後方配置（behind-the-beat）」は、スネアの2拍・4拍（バックビート）との空間的対話によって成立する。ベースがスネアのわずかに後ろに着地することで、ス..."
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "academic_paper",
+      "title": "James Jamerson: From Jazz Bassist to Popular Music Icon",
+      "locator": "https://www.academia.edu/33210002/James_Jamerson_From_Jazz_Bassist_to_Popular_Music_Icon",
+      "url": "https://www.academia.edu/33210002/James_Jamerson_From_Jazz_Bassist_to_Popular_Music_Icon",
+      "access_date": "unknown",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Jamersonのグルーヴは「シンコペーションの密度」と「ビート後方配置」の組み合わせが核心であり、複雑さと踊れさが共存できることを証明した。",
+        "ファンクの「ポケット（The Pocket）」は、ビートのわずかに後ろに座ることで生まれる「引力の空間」であり、これは前進ではなく「溝（groove）に落ちる」感覚を生む。ポケットの深さはスネアの後ろ..."
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "industry_report",
+      "title": "James Jamerson: inside the Motown master's sound and style",
+      "locator": "https://www.guitarworld.com/features/the-sound-and-style-of-motown-master-james-jamerson",
+      "url": "https://www.guitarworld.com/features/the-sound-and-style-of-motown-master-james-jamerson",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ゴーストノート（ほぼ無音の打弦音・ミュート音）は、16ビートのグルーヴにおいて「空白の重さ」を担う。ゴーストノートを抜くとグルーヴは骨格だけになり、厚みと弾力を失う。"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "industry_report",
+      "title": "Learn to Play: The Bass Techniques of Bootsy Collins",
+      "locator": "https://reverb.com/news/learn-to-play-the-bass-techniques-of-bootsy-collins",
+      "url": "https://reverb.com/news/learn-to-play-the-bass-techniques-of-bootsy-collins",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Bootsyのグルーヴ理論は「複雑さとシンプルさの弁証法」——複雑な16分音符パターンはすべて「1」という極めてシンプルな公理に帰着する——によって成立する。",
+        "ファンクの「16ビートの感じ方」は、「e」と「a」の部分——つまり各拍の「2番目」と「4番目」の16分音符——に音符またはゴーストノートを配置することで生まれるグルーヴの「密度感」と「弾力」に本質があ..."
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_type": "academic_paper",
+      "title": "Microtiming in music: a review of empirical research — Music Perception",
+      "locator": "https://www.jstor.org/stable/10.1525/mp.2013.30.5.497",
+      "url": "https://www.jstor.org/stable/10.1525/mp.2013.30.5.497",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "グルーヴの核心は「マイクロタイミング」——すなわち、メトロノームの格子（グリッド）からの微小な時間的ずれ——にある。このずれはしばしば数十ミリ秒単位であり、それが「ビートの上（on top）」「ビート..."
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_type": "news_article",
+      "title": "Nate Navarro: Battle of the Bass Techniques",
+      "locator": "https://www.notreble.com/buzz/2024/07/03/nate-navarro-battle-of-the-bass-techniques-fingerstyle-vs-pick-vs-slap/",
+      "url": "https://www.notreble.com/buzz/2024/07/03/nate-navarro-battle-of-the-bass-techniques-fingerstyle-vs-pick-vs-slap/",
+      "access_date": "2024-07-03",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "ダウンピッキングによる重厚な8ビート（ロックの基本）と、オルタネイトピッキングによる高速フレーズの使い分けが重要。パームミュートを併用することで、引き締まったパーカッシブな音色が得られる。"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_type": "academic_paper",
+      "title": "Participatory Discrepancies and the Perception of Beats in Jazz — Butterfield, M. (2010)",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "ファンクのマイクロタイミング特性についてはDavies et al.（2013）等の実験的研究が存在するが、ロックのドライブ感やビート配置を定量的に分析した実験研究はほぼ存在しない。ロックのグルーヴ理..."
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_type": "academic_paper",
+      "title": "Playing-related musculoskeletal disorders in musicians: a systematic review — Zaza, C. (1998, CMAJ 158(8):1019-1025)",
+      "locator": "https://www.cmaj.ca/content/158/8/1019",
+      "url": "https://www.cmaj.ca/content/158/8/1019",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "ミュージシャンにおける演奏関連筋骨格障害（PRMD）の有病率は成人で39〜87%と高い。反復運動、不適切な姿勢、過度の練習時間がリスク要因であり、初心者は特にフォーム未確立のため危険性が高い。ウォーム...",
+        "痛みを無視した練習継続を行ってはならない。痛みが発生した場合は即時練習を中止すること。"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_type": "community_data",
+      "title": "Rock Bass EQ Settings",
+      "locator": "https://soundshockaudio.com/how-to-eq-rock-bass/",
+      "url": "https://soundshockaudio.com/how-to-eq-rock-bass/",
+      "access_date": "2023",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "4:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "中音域（Mids）を強調し、アンサンブルの中で埋もれない「太い」音を作る"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_type": "academic_paper",
+      "title": "Sensorimotor coupling in music and the psychology of the groove — Janata, Tomic, & Haberman (2012)",
+      "locator": "https://psycnet.apa.org/doi/10.1037/a0024208",
+      "url": "https://psycnet.apa.org/doi/10.1037/a0024208",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "グルーヴとは音楽に合わせて動きたいという快感を伴う衝動であり、聴覚知覚と運動系の結合（sensorimotor coupling）によって生じる。グルーヴが高い音楽では身体同期が容易になり、自発的な身...",
+        "グルーヴは個人技術だけでなく、バンドメンバーとの相互作用から生まれる創発的現象である。メトロノーム練習だけでは、実際の演奏環境での適応能力（他の演奏者への反応・調整）は育たない。"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_type": "academic_paper",
+      "title": "Stepping to phase-perturbed metronome cues: multisensory advantage in movement synchrony but not correction",
+      "locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00724/full",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00724/full",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "クリック密度を段階的に減らす設計（全拍→2/4→裏拍→小節頭）は、ロック/ファンクの「ポケット」形成に合理的。",
+        "メトロノーム等の聴覚キューは同期精度を高め、クリックを疎にする（例: 2拍4拍、裏拍のみ）ほど内部拍感への依存が増えるため、グルーヴ訓練として有効。"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_type": "industry_report",
+      "title": "Sweetwater: Passive vs. Active Basses",
+      "locator": "https://www.sweetwater.com/insync/passive-vs-active-basses-whats-the-difference/",
+      "url": "https://www.sweetwater.com/insync/passive-vs-active-basses-whats-the-difference/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "「ロック＝Mid Boost」「ファンク＝Scooped Mids」等のEQ指針は出発点としては有用だが、アンプ特性・弦の材質・ベース固有の周波数特性により最適値は異なる。具体的な数値（Drive 9...",
+        "初心者にとって楽器の物理的仕様（スケール長・ピックアップタイプ・弦の太さ）は技術習得速度と怪我リスクに影響する。パッシブピックアップの4弦ロングスケール（34インチ）が汎用的な選択肢であるが、手の小さ..."
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_type": "academic_paper",
+      "title": "The Effect of Microtiming Deviations on the Perception of Groove in Short Rhythms — Davies et al. (2013, Music Perception Vol.30 No.5 pp.497–510)",
+      "locator": "https://online.ucpress.edu/mp/article/30/5/497/62581/The-Effect-of-Microtiming-Deviations-on-the",
+      "url": "https://online.ucpress.edu/mp/article/30/5/497/62581/The-Effect-of-Microtiming-Deviations-on-the",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 3,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "マイクロタイミングの表現的操作は、安定したタイムキーピングが確立された上でのみ有効に機能する。初心者はまず正確なビートへの同期能力を確立すべきであり、意図的な偏差はその後の段階で導入すべきである。",
+        "意図的なビート配置（ビートの前後に意図的に座る奏法）はジャンル文脈依存の高度な技法であり、初心者段階では正確な同期を優先すべきである。ファンクにおける「ビートの後ろに意図的に座る」という断定はhigh...",
+        "演奏のタイミングを意図的にずらす（ビートの前後に配置する）ことがグルーヴを向上させるという通説は実験的に否定されている。多くのケースでマイクロタイミング偏差はグルーヴ・好感度・自然さの評価を低下させた..."
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_type": "academic_paper",
+      "title": "Unifying practice schedules in the timescales of motor learning",
+      "locator": "https://www.sciencedirect.com/science/article/pii/S0167945717307121",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167945717307121",
+      "access_date": "2017",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「分散練習（Distributed Practice）」が「集中練習（Massed Practice）」よりも運動学習の定着において優れている。長時間の詰め込みよりも、短時間のセッションを頻繁に行う方...",
+        "「精度ゲート付きの段階的増速」は、初心者〜初中級でフォーム崩れを抑えつつ速度を伸ばす実務的手法として妥当。",
+        "週5回の45〜60分セッションを基軸に、課題をローテーションする方が、週末一括練習より保持効率が高い。",
+        "長時間の詰め込みより、短時間の分散練習を週内で反復する方が、ベース演奏の長期保持と再現性に有利。"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_type": "news_article",
+      "title": "Victor Wooten shares his advice for budding bassists",
+      "locator": "https://www.musicradar.com/news/victor-wooten-bass-interview",
+      "url": "https://www.musicradar.com/news/victor-wooten-bass-interview",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "「音楽と言語は同じ」という哲学の下、間違った音を恐れず、リズム（グルーヴ）を最優先する。アイシング（派手な技）の前にケーキ（土台となるリズム感）を焼くべきと説く。"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_type": "community_data",
+      "title": "What do I practice if I wanna play like flea",
+      "locator": "https://www.talkbass.com/threads/what-do-i-practice-if-i-wanna-play-like-flea-and-be-a-top-bassist-in-general.1659356/",
+      "url": "https://www.talkbass.com/threads/what-do-i-practice-if-i-wanna-play-like-flea-and-be-a-top-bassist-in-general.1659356/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "テクニックよりも「感情とリズムへの没入」を最優先する。また、スタミナ作りと基礎練習（スケール等）を怠らない。"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_type": "unknown",
+      "title": "推定情報源",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "本リサーチ（楽器練習戦略）は EU CRA / IEC 62443 / ISO/SAE 21434 / NIST CSF / SEMI E187 の直接適用対象外。"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_type": "industry_report",
+      "title": "複数の教則記事・演奏分析（Bass Player Magazine、Scott's Bass Lessons等）",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "6:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "ファンクベースにおけるゴーストノート（弱音の装飾的打弦）と16分音符の細分化はグルーヴ感の重要な構成要素として広く認識されている。しかし、ゴーストノートの発音強度（ベロシティ）とグルーヴ評価の定量的関..."
+      ]
+    }
+  ]
+}

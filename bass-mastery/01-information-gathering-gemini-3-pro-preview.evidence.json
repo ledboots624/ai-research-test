@@ -1,0 +1,125 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T11:09:42Z",
+  "claims": [
+    {
+      "claim": "人差し指と中指の交互弾き（Alternating）を基本とし、弦移動時の効率化にはレイキング（Raking）を用いることが推奨される。ゴーストノート（ミュート音）を混ぜることでファンク特有のグルーヴを生み出す。",
+      "evidence": "ジェームス・ジェマーソン（Motown/Funk）やジャコ・パストリアス（Fusion/Funk）など、歴史的なファンク・ロックベーシストの多くがこの奏法で複雑なシンコペーションを実現している。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Bass Guitar Techniques Explained",
+        "source_locator": "https://www.sweetwater.com/insync/bass-guitar-techniques-explained-fingerstyle-pick-slap/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "ダウンピッキングによる重厚な8ビート（ロックの基本）と、オルタネイトピッキングによる高速フレーズの使い分けが重要。パームミュートを併用することで、引き締まったパーカッシブな音色が得られる。",
+      "evidence": "ポール・マッカートニーやマイク・ダーント（Green Day）などが多用し、ドライブ感のあるロックサウンドを定義づけている。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Nate Navarro: Battle of the Bass Techniques",
+        "source_locator": "https://www.notreble.com/buzz/2024/07/03/nate-navarro-battle-of-the-bass-techniques-fingerstyle-vs-pick-vs-slap/",
+        "access_date": "2024-07-03",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "親指で弦を叩く「サムピング（Slap）」と、人差し指/中指で弦を引っ張り弾く「プル（Pop）」のコンビネーション。左手によるミュートとハンマリング・オンを組み合わせ、打楽器的なリズムパターンを構築する。",
+      "evidence": "ラリー・グラハム（Sly & The Family Stone）がドラムレスのバンドでリズムを補うために開発し、フリー（Red Hot Chili Peppers）がロックに統合した。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Funk Bass - ULTIMATE GUITAR",
+        "source_locator": "https://www.ultimate-guitar.com/books/funk-bass-0499",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「分散練習（Distributed Practice）」が「集中練習（Massed Practice）」よりも運動学習の定着において優れている。長時間の詰め込みよりも、短時間のセッションを頻繁に行う方が効果的である。",
+      "evidence": "運動学習の研究において、休憩を挟むことで脳が記憶を統合（Consolidation）し、神経回路（ミエリン）の形成が促進されることが示されている。疲労によるフォームの崩れも防げる。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Unifying practice schedules in the timescales of motor learning",
+        "source_locator": "https://www.sciencedirect.com/science/article/pii/S0167945717307121",
+        "access_date": "2017",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "単なる反復ではなく、明確な目標とフィードバックを伴う「意図的練習」が必要である。",
+      "evidence": "アンダース・エリクソンの研究により、専門家のスキル向上は「楽しみのための演奏」ではなく「弱点の克服に特化した集中練習」に相関することが判明している。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Deliberate Practice and Proposed Limits",
+        "source_locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+        "access_date": "2019",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "テクニックよりも「感情とリズムへの没入」を最優先する。また、スタミナ作りと基礎練習（スケール等）を怠らない。",
+      "evidence": "フリーはインタビューで、複雑な理論よりも「バンド全体をグルーヴさせること」がベースの役割であると強調し、自身の練習でも基礎的な反復を重視している。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "What do I practice if I wanna play like flea",
+        "source_locator": "https://www.talkbass.com/threads/what-do-i-practice-if-i-wanna-play-like-flea-and-be-a-top-bassist-in-general.1659356/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "WANT",
+      "standard_references": []
+    },
+    {
+      "claim": "「音楽と言語は同じ」という哲学の下、間違った音を恐れず、リズム（グルーヴ）を最優先する。アイシング（派手な技）の前にケーキ（土台となるリズム感）を焼くべきと説く。",
+      "evidence": "著書『The Music Lesson』や数々のクリニックで、メトロノームを使わず体内時計を鍛える練習法や、楽しむことの重要性を説いている。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Victor Wooten shares his advice for budding bassists",
+        "source_locator": "https://www.musicradar.com/news/victor-wooten-bass-interview",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    }
+  ]
+}

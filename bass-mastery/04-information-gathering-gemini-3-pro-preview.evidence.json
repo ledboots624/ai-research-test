@@ -1,0 +1,150 @@
+{
+  "step": 4,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T11:28:42Z",
+  "claims": [
+    {
+      "claim": "ロックは低めのアクション、ファンク（特にスラップ）はやや高めのアクションが推奨される",
+      "evidence": "Rock: 12フレット上で2.0mm〜2.5mm（速いパッセージやピック弾きに対応しやすく、フレットバズを含む攻撃的な金属音を出しやすい）。Funk: 12フレット上で2.5mm〜3.0mm（スラップ時の弦の振幅を確保するため。弦高が低すぎると弦がフレットに当たりすぎてサステインが失われ音が詰まる）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Fender Bass Setup Guide",
+        "source_locator": "https://support.fender.com/en-us/knowledgebase/article/KA-01903",
+        "access_date": "unknown",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "ピックアップの高さとバランスで出力とトーンのキャラクターを決定する",
+      "evidence": "最終フレットを押さえた状態でポールピースと弦の間隔を2.5mm〜3.0mm（Bass側）/2.0mm（Treble側）に設定するのが標準。ロックは標準より少し高めにして出力を稼ぎアンプをドライブさせやすくする（磁力による弦振動の阻害に注意）。ファンクはクリアさを重視し標準または少し低めに設定し、スラップ時のピークで音が潰れないようにする",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "How to Set Pickup Height",
+        "source_locator": "https://www.guitarworld.com/lessons/how-to-set-bass-pickups-for-optimum-tone",
+        "access_date": "2023",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "中音域（Mids）を強調し、アンサンブルの中で埋もれない「太い」音を作る",
+      "evidence": "Bass（Low）: 12時〜1時ブースト（バスドラムと帯域が被りすぎないよう注意）。Mids: 1時〜2時ブースト（ロックベースの核となる帯域、ギターの壁を突き抜けるために必須、Low-Midを上げるとロック特有の唸りが出る）。Treble（High）: 12時〜1時わずかにブースト（ピックのアタック音や指のタッチを明確にする）",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Rock Bass EQ Settings",
+        "source_locator": "https://soundshockaudio.com/how-to-eq-rock-bass/",
+        "access_date": "2023",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "いわゆる「ドンシャリ（Scooped Mids）」傾向だが、過度なカットは禁物",
+      "evidence": "Bass（Low）: 1時〜2時ブースト（重厚なボトムエンドを確保）。Mids: 10時〜11時カット（スラップの金属的な響きと低音を強調するため中域を少し削る）。Treble（High）: 2時〜3時ブースト（プルの鋭さと煌びやかさを出す）。ただし指弾きファンクの場合はMidをブーストして「ブリブリ」した音（Tower of Power風）を作る場合もある",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Bass Amp Settings for Funk",
+        "source_locator": "https://allforturntables.com/2023/06/22/bass-amp-settings-for-funk/",
+        "access_date": "2023",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "コンプレッサーは音の粒を揃え、サステインを稼ぐ。特にスラップ奏法ではピーク（突発的な大音量）を抑えるために不可欠",
+      "evidence": "Funk/Slap設定: Ratio 4:1〜6:1（強めの圧縮）、Attack Medium-Slow（15-30ms、アタック音を潰さないよう遅延させる）、Release Medium-Fast（50-100ms、次の音に影響しないよう素早く戻す）。Rock設定: Ratio 4:1、Attack Fast（10-20ms、音の粒を均一にし安定したボトムを支える）",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Bass Compression Guide",
+        "source_locator": "https://homestudioguys.com/blog/understanding-bass-guitar-compression-and-its-uses/",
+        "access_date": "2023",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "エンベロープフィルター／オートワウはファンク特有の「ワウワウ」「ケロケロ」という母音のようなサウンドを作る",
+      "evidence": "ブーツィー・コリンズやフリー（RHCP）のようなファンクベースに必須。ピッキングの強弱に反応してフィルターが開閉する。Sensitivity: 演奏のダイナミクスに合わせて調整（強く弾いた時にフィルターが全開になる位置）。Decay: 短め（Funk）に設定し、リズミカルな「クワッ」という音を作る",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Best Bass Pedals for Funk",
+        "source_locator": "https://www.musicindustryhowto.com/5-best-bass-pedals-for-funk-metal-rock-other-guitarists-and-what-bassists-should-look-for-when-buying/",
+        "access_date": "2024",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "オーバードライブ／プリアンプはチューブアンプを大音量で鳴らしたような「歪み（Saturation）」を加え、音に倍音と攻撃性を付加する",
+      "evidence": "常にONにして基本の音色（Base Tone）とする使い方が一般的（サンズアンプ等）。Drive/Gain: 9時〜10時（Low Gain）。激しく歪ませるのではなく、強く弾いた時だけ少し歪む程度がアンサンブルに馴染む",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Essential Bass Pedals",
+        "source_locator": "https://guitarstrive.com/essential-bass-pedals/",
+        "access_date": "2023",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    }
+  ]
+}

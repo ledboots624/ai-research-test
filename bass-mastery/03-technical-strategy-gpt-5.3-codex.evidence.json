@@ -1,0 +1,178 @@
+{
+  "step": 3,
+  "role": "technical-strategy",
+  "model": "gpt-5.3-codex",
+  "extracted_at": "2026-03-14T11:23:37Z",
+  "claims": [
+    {
+      "claim": "長時間の詰め込みより、短時間の分散練習を週内で反復する方が、ベース演奏の長期保持と再現性に有利。",
+      "evidence": "運動学習・記憶研究で、分散配置は即時成績よりも遅延保持で優位になりやすく、セッション間の統合（consolidation）を促すと報告。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Unifying practice schedules in the timescales of motor learning",
+        "source_locator": "https://www.sciencedirect.com/science/article/pii/S0167945717307121",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「ただ通す練習」より、弱点を明示し、即時フィードバック（録音・誤差確認）を伴う練習の方が上達効率が高い。",
+      "evidence": "Deliberate practice文献レビューで、課題定義・修正ループ・反復評価の重要性が一貫して示される。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Deliberate Practice and Proposed Limits on the Effects of Practice on the Acquisition of Expert Performance",
+        "source_locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "メトロノーム等の聴覚キューは同期精度を高め、クリックを疎にする（例: 2拍4拍、裏拍のみ）ほど内部拍感への依存が増えるため、グルーヴ訓練として有効。",
+      "evidence": "聴覚運動同期の研究で外部キューによる同期改善が確認。位相ずれ/疎なキュー条件では補正と内部予測が要求される。2拍4拍・裏拍運用は教育現場の実践知として広く使われるが、直接比較試験は限定的。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Stepping to phase-perturbed metronome cues: multisensory advantage in movement synchrony but not correction",
+        "source_locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00724/full",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "「精度ゲート付きの段階的増速」は、初心者〜初中級でフォーム崩れを抑えつつ速度を伸ばす実務的手法として妥当。",
+      "evidence": "分散練習と意図的練習の原理に整合。増速幅の具体値（+2〜4 BPM、連続3回成功で昇速）は教育実務で多用されるが、最適値は個体差が大きく未確定（推測）。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Unifying practice schedules in the timescales of motor learning",
+        "source_locator": "https://www.sciencedirect.com/science/article/pii/S0167945717307121",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "クリック密度を段階的に減らす設計（全拍→2/4→裏拍→小節頭）は、ロック/ファンクの「ポケット」形成に合理的。",
+      "evidence": "聴覚同期研究は「外部キューで精度改善」「ずれ/欠落時に内部補正が必要」を示す。実践教育では2拍4拍・裏拍クリックがグルーヴ訓練として普及。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Stepping to phase-perturbed metronome cues: multisensory advantage in movement synchrony but not correction",
+        "source_locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00724/full",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "「短区間ループ→減速→リズム先行→ルート/機能把握→検証」の順が、耳コピ精度と再現性を高める。",
+      "evidence": "Berklee系教材は構造把握・歌唱/再現・分析・検証の反復を推奨。実務ガイドも同様にセグメント処理を採用。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Berklee PULSE: Transcribe & Transpose...Then Jam",
+        "source_locator": "https://pulse.berklee.edu/?id=4&lesson=16",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "初中級では「五線譜を主、TABを従」にすると、リズム理解と運指実装を両立しやすい。",
+      "evidence": "公式教育系記事で、五線譜はリズム/音価/汎用性、TABは運指即応に強み。両者の併用が現実的。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "A Bassist's Guide to Reading Sheet Music and Tablature",
+        "source_locator": "https://hub.yamaha.com/guitars/bass/a-bassists-guide-to-reading-sheet-music-and-tablature/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "週5回の45〜60分セッションを基軸に、課題をローテーションする方が、週末一括練習より保持効率が高い。",
+      "evidence": "分散練習の保持優位および意図的練習の目標分割の原理に基づく。各ブロックの分数配分は個人最適化が必要（推測）。原理については高確信度、時間配分の具体値については中程度の確信度。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Unifying practice schedules in the timescales of motor learning",
+        "source_locator": "https://www.sciencedirect.com/science/article/pii/S0167945717307121",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "本リサーチ（楽器練習戦略）は EU CRA / IEC 62443 / ISO/SAE 21434 / NIST CSF / SEMI E187 の直接適用対象外。",
+      "evidence": "対象領域がサイバー/製造規格ではなく、個人技能トレーニングであるため。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "推定情報源",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": null,
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": null,
+          "mapping": "gap"
+        },
+        {
+          "standard": "IEC 62443",
+          "section": null,
+          "mapping": "gap"
+        },
+        {
+          "standard": "ISO/SAE 21434",
+          "section": null,
+          "mapping": "gap"
+        },
+        {
+          "standard": "NIST CSF",
+          "section": null,
+          "mapping": "gap"
+        }
+      ]
+    }
+  ]
+}

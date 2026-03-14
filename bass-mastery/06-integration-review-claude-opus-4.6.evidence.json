@@ -1,0 +1,412 @@
+{
+  "step": 6,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T11:41:33Z",
+  "claims": [
+    {
+      "claim": "グルーヴとは音楽に合わせて動きたいという快感を伴う衝動であり、聴覚知覚と運動系の結合（sensorimotor coupling）によって生じる。グルーヴが高い音楽では身体同期が容易になり、自発的な身体運動が誘発される。",
+      "evidence": "Janata, Tomic, & Haberman（2012）は、グルーヴ感の高い音楽刺激を用いた実験で、被験者の両手タッピング同期課題の難易度とグルーヴ評価に逆相関を確認。グルーヴの高い音楽では感覚運動カップリングが容易になり、自発的な動きが増加した。査読付き学術論文、複数の後続研究で再現。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Sensorimotor coupling in music and the psychology of the groove — Janata, Tomic, & Haberman (2012)",
+        "source_locator": "https://psycnet.apa.org/doi/10.1037/a0024208",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "演奏のタイミングを意図的にずらす（ビートの前後に配置する）ことがグルーヴを向上させるという通説は実験的に否定されている。多くのケースでマイクロタイミング偏差はグルーヴ・好感度・自然さの評価を低下させた。ただしジャズのシャッフルパターンでは例外的に否定的影響が小さかった。",
+      "evidence": "Davies et al.（2013）はジャズ・ファンク・サンバの合成リズムパターンで自然範囲（約10〜35ms）から誇張範囲（約60〜70ms）までのマイクロタイミング偏差を系統的に操作。結果、ほとんどの条件で偏差の増加はグルーヴ評価を低下させた。この効果は専門家でより顕著であった。査読付き学術誌、定量的実験デザイン。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "The Effect of Microtiming Deviations on the Perception of Groove in Short Rhythms — Davies et al. (2013, Music Perception Vol.30 No.5 pp.497–510)",
+        "source_locator": "https://online.ucpress.edu/mp/article/30/5/497/62581/The-Effect-of-Microtiming-Deviations-on-the",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "マイクロタイミングの表現的操作は、安定したタイムキーピングが確立された上でのみ有効に機能する。初心者はまず正確なビートへの同期能力を確立すべきであり、意図的な偏差はその後の段階で導入すべきである。",
+      "evidence": "Davies et al.（2013）の結果は、量子化（完全同期）されたリズムが偏差を含むリズムと同等以上のグルーヴ評価を得ることを示しており、正確さ自体がグルーヴの基盤であることを間接的に支持する（学術知見からの間接的推論）。Berklee Practice Method（Berklee College of Music）も「正確なタイムの確立」を初期段階の最重要課題として位置づけている（教育機関の推奨）。補助ソース: [SRC-003] Berklee Practice Method BASS、[SRC-004] Berklee Online Bass Handbook。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "The Effect of Microtiming Deviations on the Perception of Groove in Short Rhythms — Davies et al. (2013, Music Perception Vol.30 No.5 pp.497–510)",
+        "source_locator": "https://online.ucpress.edu/mp/article/30/5/497/62581/The-Effect-of-Microtiming-Deviations-on-the",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "分散練習（Distributed Practice）は運動技能の長期記憶保持において集中練習（Massed Practice）を上回る。ただし、意図的練習（Deliberate Practice）は音楽演奏能力の分散の21〜30%しか説明せず、初期技能・環境・フィードバック品質・遺伝的要因も重要な役割を果たす。",
+      "evidence": "Ericsson & Harwell（2019）: 構造化された目標設定・フィードバック・エラー修正を含む練習が最も効果的だが、練習時間の絶対量ではなく質が重要。Hambrick et al.（2014）メタ分析: 音楽領域において意図的練習は演奏能力分散の約21〜30%を説明（残りは認知能力・パーソナリティ・遺伝・環境要因）。Pekny et al.（2018）: 分散スケジュールによる符号化・検索サイクルの強化が有効。複数の独立したメタ分析・査読付き論文で裏付け。補助ソース: [SRC-006] Macnamara, Hambrick, & Oswald (2014)、[SRC-007] Pekny et al. (2018)。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Deliberate Practice and Proposed Limits on the Effects of Practice on the Acquisition of Expert Performance — Ericsson & Harwell (2019, Frontiers in Psychology)",
+        "source_locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "睡眠（特に徐波睡眠とREM睡眠）は運動技能の記憶統合を促進し、練習セッション間の「オフライン学習」を可能にする。練習後の良質な睡眠は、追加練習なしでの技能向上をもたらす。",
+      "evidence": "Walker（2005, 2017）の研究では、睡眠が手続き的記憶（運動技能を含む）の統合を促進し、翌日の練習なしでのパフォーマンス向上を実証。King et al.（2017）のメタ分析では運動系列学習における睡眠依存的利得が確認。Tucker et al.（2017）は概日リズムではなく睡眠の神経生物学自体が運動技能の統合を駆動することを示した。複数のメタ分析・実験研究で裏付け。なお、ベース練習特有の最適睡眠プロトコルは未確定（Confidence Distribution表ではF5の一部をlowと評価）。補助ソース: [SRC-009] King et al. (2017)、[SRC-010] Tucker et al. (2017)。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "It's Practice, with Sleep, that Makes Perfect — Walker (2005, Clinical Sports Medicine)",
+        "source_locator": "https://walkerlab.berkeley.edu/reprints/Walker_ClinSportsMed_05.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "ミュージシャンにおける演奏関連筋骨格障害（PRMD）の有病率は成人で39〜87%と高い。反復運動、不適切な姿勢、過度の練習時間がリスク要因であり、初心者は特にフォーム未確立のため危険性が高い。ウォームアップ・休憩・正しいフォームの確保は練習ルーティンにおいて最優先事項である。",
+      "evidence": "Zaza（1998）の系統的レビューでは、1980〜1996年に発表された24研究を分析し、成人クラシック音楽家のPRMD有病率が39〜87%、中高生音楽家で34〜62%であることを確認。軽微な訴えを除外したベスト推定値でも成人39〜47%であった。系統的レビュー、複数研究の統合。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Playing-related musculoskeletal disorders in musicians: a systematic review — Zaza, C. (1998, CMAJ 158(8):1019-1025)",
+        "source_locator": "https://www.cmaj.ca/content/158/8/1019",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "ロック・ファンクの両ジャンルにおいて、ベースとバスドラムの同期関係はリズムセクションの基盤を形成する。ベーシストはドラマーのキックパターンを聴き、それに対する自身の配置（同期・先行・後続）を意識的に制御する必要がある。",
+      "evidence": "Berklee Practice Methodはベースとドラムの関係構築を初期段階から重視。プロのレコーディングでは、ベースとキックドラムの周波数帯域の住み分け（EQ処理）とタイミング同期がミックスの核として扱われる（業界コンセンサス）。教育機関の推奨＋業界コンセンサスだが、定量的実験による裏付けは限定的。補助ソース: [SRC-012] Berklee Online: How to Practice Bass Effectively。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Berklee Practice Method BASS",
+        "source_locator": "https://www.academia.edu/28557421/Berklee_Practice_Method_BASS",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "初心者にとって楽器の物理的仕様（スケール長・ピックアップタイプ・弦の太さ）は技術習得速度と怪我リスクに影響する。パッシブピックアップの4弦ロングスケール（34インチ）が汎用的な選択肢であるが、手の小さい奏者にはショートスケール（30インチ）が身体的負担を軽減する。",
+      "evidence": "パッシブピックアップはシンプルな操作性でプレイに集中でき、ロック・ファンクの古典的トーンに適合。アクティブピックアップはEQ制御の柔軟性が高いが電池管理が必要で初心者には追加負担となる。ショートスケールは弦の張力が低く、フレット間隔が狭いため身体的負担が軽減される一方、低音域のタイトさやサスティンがやや犠牲になる。業界コンセンサスだが科学的実験による裏付けなし。補助ソース: [SRC-014] Ultimate Bass Guitar: Picking a Bass Guide。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Sweetwater: Passive vs. Active Basses",
+        "source_locator": "https://www.sweetwater.com/insync/passive-vs-active-basses-whats-the-difference/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "ファンクベースにおけるゴーストノート（弱音の装飾的打弦）と16分音符の細分化はグルーヴ感の重要な構成要素として広く認識されている。しかし、ゴーストノートの発音強度（ベロシティ）とグルーヴ評価の定量的関係を示す実験研究は確認されていない。",
+      "evidence": "Bootsy Collins、Larry Graham らのファンクベーシストの演奏分析は業界誌・教則本で広く参照されるが、tier3/tier4情報源に依存している。ゴーストノートの力学的・知覚的効果についての査読付き研究は未確認。演奏教育界のコンセンサスだが一次研究で裏付けなし（前ステップでのhigh confidence付与はConfidence判定基準違反としてmediumに下方修正）。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "複数の教則記事・演奏分析（Bass Player Magazine、Scott's Bass Lessons等）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "ファンクのマイクロタイミング特性についてはDavies et al.（2013）等の実験的研究が存在するが、ロックのドライブ感やビート配置を定量的に分析した実験研究はほぼ存在しない。ロックのグルーヴ理論は主にtier3情報源と演奏者の経験的知識に依存している。",
+      "evidence": "Butterfield（2010）\"Participatory Discrepancies and the Perception of Beats in Jazz\" はジャズに焦点を当てており、ロック特有のタイミング分析はカバーしていない。ジョン・エントウィッスル、ゲディー・リー等のロックベーシストの学術的マイクロタイミング分析は確認できなかった。学術空白の存在自体は複数の文献サーベイから確認された消極的知見であり、エビデンス強度はweak。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Participatory Discrepancies and the Perception of Beats in Jazz — Butterfield, M. (2010)",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "グルーヴは個人技術だけでなく、バンドメンバーとの相互作用から生まれる創発的現象である。メトロノーム練習だけでは、実際の演奏環境での適応能力（他の演奏者への反応・調整）は育たない。",
+      "evidence": "Janata et al.（2012）はグルーヴが感覚運動カップリングの質に依存することを示しており、これは他の演奏者のリアルタイム音響信号への適応を含む（理論的推論）。Berklee Practice Methodもバンド環境での練習を初期から推奨。ソロ練習 vs. アンサンブル練習の比較対照実験は未確認であり、理論的推論は強いが直接的エビデンスは限定的。補助ソース: [SRC-003] Berklee Practice Method BASS。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Sensorimotor coupling in music and the psychology of the groove — Janata, Tomic, & Haberman (2012)",
+        "source_locator": "https://psycnet.apa.org/doi/10.1037/a0024208",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "WANT",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "精度基準未達での機械的BPM昇速を行ってはならない。連続3回クリーンに弾けた達成基準を満たした後にのみ増速すべきであり、1セッションの上限は+8 BPMとする。",
+      "evidence": "意図的練習（Deliberate Practice）理論に基づく教育的推論。精度基準未達で無理に速度を上げることはフォーム崩れ・技能定着の妨げ・怪我リスクを招く。Ericsson & Harwell（2019）の構造化目標設定・エラー修正の原則から導出。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Deliberate Practice and Proposed Limits on the Effects of Practice on the Acquisition of Expert Performance — Ericsson & Harwell (2019, Frontiers in Psychology)",
+        "source_locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02396/full",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "痛みを無視した練習継続を行ってはならない。痛みが発生した場合は即時練習を中止すること。",
+      "evidence": "Zaza（1998）の系統的レビューにより確認されたPRMD有病率39〜87%を踏まえ、痛みは組織損傷の警告シグナルであり、無視した継続は重篤な障害リスクをもたらす。疫学的根拠に基づく安全義務。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Playing-related musculoskeletal disorders in musicians: a systematic review — Zaza, C. (1998, CMAJ 158(8):1019-1025)",
+        "source_locator": "https://www.cmaj.ca/content/158/8/1019",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "「ロック＝Mid Boost」「ファンク＝Scooped Mids」等のEQ指針は出発点としては有用だが、アンプ特性・弦の材質・ベース固有の周波数特性により最適値は異なる。具体的な数値（Drive 9時〜10時等）の普遍化は不正確であり、自分の耳とバンド環境での調整が最終的な判断基準である。",
+      "evidence": "機材設定の「正解」は個人・文脈依存であることは業界コンセンサスに基づく。EQ設定と演奏ジャンルのグルーヴ評価の定量的関係を示す査読付き研究は確認されていない。業界知識・演奏経験則からの推論。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Sweetwater: Passive vs. Active Basses",
+        "source_locator": "https://www.sweetwater.com/insync/passive-vs-active-basses-whats-the-difference/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "録音によるセルフフィードバックを導入することで練習の質を向上できる。スマートフォン等で練習を録音し自分の演奏をメトロノームと比較すること、およびDAWのグリッド表示でタイミング精度を視覚的に確認することが有効である。",
+      "evidence": "Hambrick et al.（2014）の知見（練習の質 > 量）を活かすためのフィードバック手段として推奨。フィードバック品質が練習効果に重要な役割を果たすという研究知見から導かれる実践的推論。Ericsson & Harwell（2019）の意図的練習におけるエラー修正の原則とも整合。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis — Macnamara, Hambrick, & Oswald (2014, Psychological Science)",
+        "source_locator": "https://repository.rice.edu/items/90295c5c-0240-4812-9c3b-5cb69a46372b",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    },
+    {
+      "claim": "意図的なビート配置（ビートの前後に意図的に座る奏法）はジャンル文脈依存の高度な技法であり、初心者段階では正確な同期を優先すべきである。ファンクにおける「ビートの後ろに意図的に座る」という断定はhigh confidenceで適用できず、medium confidenceで「ジャンル・テンポ・楽器編成に依存する文脈的技法」として位置づけるべきである。",
+      "evidence": "Davies et al.（2013）自身の結論「偏差の正しい量はジャンルと文脈に依存する」という留保と整合しない形で、前ステップ（deep-analysis §2.2）では高確信度で断定されていた。本統合レビューでの批判的レビュー（Critic Review）により、Confidence をhigh → mediumに修正。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "The Effect of Microtiming Deviations on the Perception of Groove in Short Rhythms — Davies et al. (2013, Music Perception Vol.30 No.5 pp.497–510)",
+        "source_locator": "https://online.ucpress.edu/mp/article/30/5/497/62581/The-Effect-of-Microtiming-Deviations-on-the",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "本ドキュメントにおけるMUST/SHOULD等の義務レベルは、EU CRA、SEMI E187、IEC 62443、ISO/SAE 21434、NIST CSFのいずれの規格準拠要件でもなく、学術的エビデンスと教育的ベストプラクティスに基づく「学習効率と身体安全のための推奨レベル」として定義される。",
+      "evidence": "EU CRA（Regulation (EU) 2024/2847, Article 2 Scope）およびSEMI E187（Scope: semiconductor manufacturing equipment）はいずれも個人演奏技能を対象外としており、各規格のScope条文において個人の演奏活動は明示的に対象外である。IEC 62443、ISO/SAE 21434、NIST CSFについても同様に非適用と判断。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EU CRA — Regulation (EU) 2024/2847, Article 2 Scope",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "EU CRA",
+          "section": "Regulation (EU) 2024/2847, Article 2 Scope",
+          "mapping": "gap"
+        },
+        {
+          "standard": "SEMI E187",
+          "section": "Scope",
+          "mapping": "gap"
+        }
+      ]
+    }
+  ]
+}
