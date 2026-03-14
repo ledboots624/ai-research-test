@@ -1,31 +1,57 @@
-# Research: iran-war-resolution-full
+# iran-war-resolution-full
 
-> イラン戦争収束の鍵：多角的視点からの分析と日本への影響評価
+## テーマ
+
+**調査テーマ**: iran-war-resolution-full
+
+**説明**: イラン戦争収束の鍵：多角的視点からの分析と日本への影響評価
+
+### 前提条件
+
+> イラン戦争収束に関する分析の前提条件・スコープ
+
+- **related_countries**: 米国、イスラエル、イラン、サウジアラビア、ロシア、中国、トルコ、EU諸国、日本など関係国すべてを分析対象とする
+- **japan_impact**: 日本への影響（エネルギー安全保障、外交、経済、邦人安全）を必ず分析に含める
+- **escalation_risk**: 世界大戦に発展する可能性・シナリオ分析を含める
+- **perspective**: 地政学的・軍事的・経済的・外交的な多角的視点
 
 ---
+
+## 主要ドキュメント
+
+| ドキュメント | 説明 |
+|------------|------|
+| [最終レポート（統合レビュー）](./05-integration-review-claude-opus-4.6.md) | 全調査結果を統合した最終結論 |
+| [批判的レビュー](./04-critic-review-claude-sonnet-4.6.md) | 論理矛盾・エビデンス不足・バイアスの検証 |
+| [情報源一覧](./sources.json) | 全ソースの集約リスト（Source ID・URL・信頼性評価） |
+| [関係図（PNG）](./diagram.png) | リサーチ結果の視覚的サマリー |
+| [関係図（SVG）](./diagram.svg) | 高解像度ベクター版 |
+| [関係図（編集用）](./diagram.drawio) | draw.io で開いて編集可能 |
+| [プレゼンスライド（PDF）](./slides.pdf) | プレゼンテーション用スライド |
+| [プレゼンスライド（HTML）](./slides.html) | ブラウザで閲覧可能なスライド |
 
 ## メタデータ
 
 | 項目 | 値 |
 |------|-----|
 | **生成方法** | planner |
-| **実行日時** | 2026-03-14 18:41:07 |
+| **実行日時** | 2026-03-14 19:20:18 |
 | **ツール** | AI Research Agent v2.2.0 |
 | **手法** | Evidence-based Multi-Model Pipeline |
 
 ## パイプライン
 
-| # | ID | Role | Model | 出力 |
-|---|-----|------|-------|------|
-| 1 | step-1-gather | information-gathering | gemini-3-pro-preview | [01-information-gathering-gemini-3-pro-preview.md](./01-information-gathering-gemini-3-pro-preview.md) (完了) |
-| 2 | step-2-analyze-geopolitics | deep-analysis | claude-sonnet-4.6 | [02-deep-analysis-claude-sonnet-4.6.md](./02-deep-analysis-claude-sonnet-4.6.md) (完了) |
-| 3 | step-3-analyze-japan-impact | technical-strategy | gpt-5.3-codex | [03-technical-strategy-gpt-5.3-codex.md](./03-technical-strategy-gpt-5.3-codex.md) (完了) |
-| 4 | step-4-critic | critic-review | claude-sonnet-4.6 | [04-critic-review-claude-sonnet-4.6.md](./04-critic-review-claude-sonnet-4.6.md) (完了) |
-| 5 | step-5-integration | integration-review | claude-opus-4.6 | [05-integration-review-claude-opus-4.6.md](./05-integration-review-claude-opus-4.6.md) (完了) |
+| # | 役割 | モデル | 出力 |
+|---|------|-------|------|
+| 1 | 情報収集 | gemini-3-pro-preview | [情報収集の出力を見る](./01-information-gathering-gemini-3-pro-preview.md) (完了) |
+| 2 | 深層分析 | claude-sonnet-4.6 | [深層分析の出力を見る](./02-deep-analysis-claude-sonnet-4.6.md) (完了) |
+| 3 | 技術戦略 | gpt-5.3-codex | [技術戦略の出力を見る](./03-technical-strategy-gpt-5.3-codex.md) (完了) |
+| 4 | 批判的レビュー | claude-sonnet-4.6 | [批判的レビューの出力を見る](./04-critic-review-claude-sonnet-4.6.md) (完了) |
+| 5 | 統合レビュー | claude-opus-4.6 | [統合レビューの出力を見る](./05-integration-review-claude-opus-4.6.md) (完了) |
 
 ## 各ステップの要約
 
-### 01-information-gathering-gemini-3-pro-preview.md
+### Step 1: 情報収集（gemini-3-pro-preview）
 
 # Iran War Resolution: Multi-perspective Analysis and Impact on Japan (イラン戦争収束：多角的分析と日本への影響)
 
@@ -48,9 +74,9 @@
 - **Evidence**: Al Jazeera および Modern Diplomacy によると、中露は米国の軍事介入を強く批判し、外交的・情報的支援を強化している。
 - **Source**: [news_article/tier3] [Russia, China raise diplomatic voices against US-Israeli attacks on Iran](https://www.aljazeera.com/news/2026/3/4/russia-china-raise-diplomatic-voices-against-us-israeli-attacks-on-iran) (2026-03-14)
 
-_...（全60行。詳細は[ファイル本体](./01-information-gathering-gemini-3-pro-preview.md)を参照）_
+_...（全60行。詳細は[情報収集の全文](./01-information-gathering-gemini-3-pro-preview.md)を参照）_
 
-### 02-deep-analysis-claude-sonnet-4.6.md
+### Step 2: 深層分析（claude-sonnet-4.6）
 
 前回のステップの出力と提供されたコンテキストを基に、deep-analysis を実施します。
 
@@ -73,9 +99,9 @@ _...（全60行。詳細は[ファイル本体](./01-information-gathering-gemin
 
 ### **Claim: 戦争の三層構造——直接的対立・代理的対立・構造的対立**
 
-_...（全203行。詳細は[ファイル本体](./02-deep-analysis-claude-sonnet-4.6.md)を参照）_
+_...（全203行。詳細は[深層分析の全文](./02-deep-analysis-claude-sonnet-4.6.md)を参照）_
 
-### 03-technical-strategy-gpt-5.3-codex.md
+### Step 3: 技術戦略（gpt-5.3-codex）
 
 # Technical Strategy Assessment for Japan（日本向け技術戦略評価）
 
@@ -98,9 +124,9 @@ _...（全203行。詳細は[ファイル本体](./02-deep-analysis-claude-sonne
   - [official_document/tier1] [Country Analysis Brief: Japan (EIA)](https://www.eia.gov/international/content/analysis/countries_long/Japan/japan.pdf) (2026-03-14) — primary: true  
   - [official_document/tier1] [The 7th Strategic Energy Plan Outline (ANRE/METI)](https://www.enecho.meti.go.jp/en/category/others/basic_plan/pdf/7th_outline.pdf) (2026-03-14) — primary: true  
 
-_...（全202行。詳細は[ファイル本体](./03-technical-strategy-gpt-5.3-codex.md)を参照）_
+_...（全202行。詳細は[技術戦略の全文](./03-technical-strategy-gpt-5.3-codex.md)を参照）_
 
-### 04-critic-review-claude-sonnet-4.6.md
+### Step 4: 批判的レビュー（claude-sonnet-4.6）
 
 # Critic Review（批判的レビュー）
 
@@ -123,9 +149,9 @@ _...（全202行。詳細は[ファイル本体](./03-technical-strategy-gpt-5.3
 
 **deep-analysis ステップ**:
 
-_...（全244行。詳細は[ファイル本体](./04-critic-review-claude-sonnet-4.6.md)を参照）_
+_...（全244行。詳細は[批判的レビューの全文](./04-critic-review-claude-sonnet-4.6.md)を参照）_
 
-### 05-integration-review-claude-opus-4.6.md
+### Step 5: 統合レビュー（claude-opus-4.6）
 
 Now let me check the existing context file for prior analysis steps:
 
@@ -148,7 +174,7 @@ Now I have sufficient information to compile the comprehensive integration revie
 - **Claim（主張）**: イラン戦争収束の最大の鍵は、IRGC（イスラム革命防衛隊）内部における強硬派と実利派の権力闘争の帰結である。ハメネイ師殺害後、憲法上の後継手続（専門家会議による最高指導者選出）は事実上機能停止しており、暫定指導評議会が権限を行使しているが、実質的な意思決定権はIRGCが掌握している。IRGC強硬派が優勢なら戦争は長期化・エスカレーションし、実利派が主導権を取れば体制存続を優先した停戦交渉への転換が起こりうる。
 - **Evidence（根拠）**: ハメネイ師は2026年3月1日の米・イスラエル空爆で死亡。専門家会議は戦時下で招集困難、一部の指名候補は就任拒否。便宜評議会が専門家会議の権限を停止し暫定体制に移行。IRGC内部では「安全保障共和国」化を推進する強硬派と、体制存続のための交渉を模索する実利派が対立。モジタバ・ハメネイ（故指導者の息子）がIRGCとの妥協的象徴として浮上。
 
-_...（全335行。詳細は[ファイル本体](./05-integration-review-claude-opus-4.6.md)を参照）_
+_...（全335行。詳細は[統合レビューの全文](./05-integration-review-claude-opus-4.6.md)を参照）_
 
 ---
 
