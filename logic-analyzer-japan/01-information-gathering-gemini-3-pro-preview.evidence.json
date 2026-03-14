@@ -1,0 +1,103 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T11:19:20Z",
+  "claims": [
+    {
+      "claim": "16ch/200MHzの高性能モデル（Kingst LA2016）がAmazon.co.jpで約2.7万円で入手可能。Mac環境（Mシリーズ）ではRosetta 2経由で公式ソフト（KingstVIS）が動作する。",
+      "evidence": "Amazon.co.jpでの実勢価格は税込27,294円。公式ソフトウェア「KingstVIS」はmacOS対応だが、Intel版（x86_64）のみ提供。Apple Silicon上ではRosetta 2変換で動作する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "KingstVIS Download Page",
+        "source_locator": "http://www.qdkingst.com/en/download",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "16ch/100MHzのモデル（Kingst LA1010）が約1.3万円で購入可能。LA2016と同様のソフトウェア環境（KingstVIS）で動作する。",
+      "evidence": "Amazon.co.jpでのKingstブランド正規品価格は約13,553円。廉価なOEM/類似品（MiiElAOD等）は7,500円程度で存在するが、サポート品質に不確実性がある。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Amazon.co.jp: Kingst LA1010 販売ページ",
+        "source_locator": "https://www.amazon.co.jp/dp/B078Y8BKKK",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "汎用24MHz 8chロジックアナライザー（Saleaeクローン）がAmazonやスイッチサイエンスで1,000円〜2,000円程度で入手可能。オープンソースの「PulseView（Sigrok）」を使用することで、Apple Silicon Mac上でネイティブ動作が可能。",
+      "evidence": "Amazonでは「HiLetgo」「KeeYees」「AzDelivery」等のブランドで販売（約1,000円〜1,600円）。スイッチサイエンスでは「USBロジックアナライザ」として約5,870円で販売（信頼性重視）。ソフトウェア「PulseView」はApple Silicon（ARM64）向けNightlyビルドが提供されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Sigrok PulseView Downloads",
+        "source_locator": "https://sigrok.org/wiki/Downloads",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "DSLogic Plusは高性能だが、日本国内Amazonでの正規品在庫が不安定かつ価格が上昇傾向にある。",
+      "evidence": "Amazon.co.jpでは「在庫切れ」やマーケットプレイスによる高額出品（約2.8万円〜）が散見される。公式ソフトウェア「DSView」はmacOS対応（Intel版）だが、MシリーズMacでもRosetta 2で動作実績がある。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Amazon.co.jp: DSLogic Plus Search",
+        "source_locator": "https://www.amazon.co.jp/s?k=DSLogic+Plus",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Zeroplus LAP-Cシリーズは秋月電子等で入手しやすいが、Mac環境での利用には適さない（Windows専用）。",
+      "evidence": "Zeroplus公式サイトおよびマニュアルにおいて、対応OSはWindowsのみと明記されている。macOS用の公式ドライバ・ソフトウェアが存在しないため、Parallels等の仮想環境が必要となり、セットアップが煩雑である。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Zeroplus LAP-C Technical Support",
+        "source_locator": "https://www.zeroplus.com.tw/logic-analyzer_en/technical_support_search.php?model=LAP-C%2816064%29&class1=1",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": []
+    }
+  ]
+}

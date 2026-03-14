@@ -1,0 +1,304 @@
+{
+  "step": 3,
+  "role": "technical-strategy",
+  "model": "gpt-5.3-codex",
+  "extracted_at": "2026-03-14T11:38:39Z",
+  "claims": [
+    {
+      "claim": "4候補（LA2016 / LA1010 / DSLogic Plus / FX2系）は、高速SPIへの適格性で明確に2群へ分かれる。",
+      "evidence": "LA2016は16ch同時200MHz、DSLogic Plusは4ch時400MHz（Buffer）だが、LA1010は4ch想定で50MHz、FX2系は24MHz級。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA2016 Product Page",
+        "source_locator": "http://www.qdkingst.com/en/products/LA2016",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "MCU開発で「高速通信含む」を満たすには、Nyquist最小と実務オーバーサンプリングを分離して判定すべき。",
+      "evidence": "Shannonの標本化定理は最小条件 fs >= 2fmax、一方デジタルデコード実務では4x以上が推奨される。サブ要件: MUST: fs >= 2fclock（理論下限）、SHOULD: fs >= 4fclock（実務推奨）、WANT: fs >= 10fclock（余裕ある解析）。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Communication in the Presence of Noise",
+        "source_locator": "https://www.princeton.edu/~wbialek/rome/refs/shannon_1949.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "Shannon Sampling Theorem (1949)",
+          "section": "not_stated",
+          "mapping": "direct"
+        },
+        {
+          "standard": "Saleae実装ガイド",
+          "section": "not_stated",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "I2C/UARTは多くの候補で十分だが、I2C Fm+/Hsではプローブ容量が支配要因になりやすい。",
+      "evidence": "UM10204の立上り制約（Fm+: 120ns, Hs: 80ns）に対し、12–13pFプローブは無視しにくい追加負荷。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "UM10204 I2C-bus specification and user manual",
+        "source_locator": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "NXP UM10204",
+          "section": "timing (Fm+/Hs rise time)",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "本件のSHOULDは法令準拠用語ではなく測定品質ガイドであり、EU CRA等の規制SHOULDとは重みが異なる。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "What Sampling Rate Should I Use?",
+        "source_locator": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/what-sample-rate-is-required",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "SPI要求帯域は対象MCUで広く、Arduino級8MHzからESP32級80MHz、STM32H7級では100MHz超まで到達しうる。",
+      "evidence": "ATmega328PはSCK上限がfosc/2、ESP-IDFは80MHz級設定、STM32H743資料では100MHz超のSPI特性が示される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "ATmega328P Datasheet",
+        "source_locator": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "I2Cは規格上100k/400k/1M/3.4M（+UFm 5M）で、LA側サンプリング要求はSPIより低い。",
+      "evidence": "UM10204に各動作モード（Standard/Fast/Fast-mode Plus/High-speed/Ultra Fast-mode）が規定される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "UM10204 I2C-bus specification and user manual",
+        "source_locator": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "NXP UM10204",
+          "section": "not_stated",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "UART高速域は環境依存が大きく、5Mbpsは未確定（推測を含む）として扱うのが安全。",
+      "evidence": "ESP-IDF APIは設定可能だが、上限の実運用安定性は配線/USB-UART等に依存する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "ESP-IDF UART API Reference",
+        "source_locator": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/uart.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "40MHz以上のSPIを実務品質（SHOULD）で追うなら、事実上LA2016またはDSLogic Plus(Buffer)が必要。",
+      "evidence": "サンプリング適格性判定テーブルより: 40MHz SPIにおいてLA2016は5x（SHOULD基準達成）、DSLogic Plus Bufferは10x（WANT基準達成）を実現。LA1010・DSLogic Plus Stream・FX2系はいずれもMUST未達（< 2x）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "What Sampling Rate Should I Use?",
+        "source_locator": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/what-sample-rate-is-required",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "抵抗性負荷（220kΩ/250kΩ）はMCU信号に対して概ね軽微だが、容量性負荷（12–13pF）はI2C高速モードで支配的。",
+      "evidence": "入力Rは高く直流負荷は小さい。一方I2C立上り時間はRC積に依存するため、追加容量がそのままtr増加につながる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "UM10204 I2C-bus specification and user manual",
+        "source_locator": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": [
+        {
+          "standard": "NXP UM10204",
+          "section": "not_stated",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "4.7kΩプルアップ時、12pFプローブ1本でI2C立上りに約48ns追加（13pFで約52ns）となり、Fm+/Hsでは無視しにくい。",
+      "evidence": "UM10204式 Rp(max)=tr/(0.8473×Cbus) を変形し、Δtr≈0.8473×R×ΔC で算出。4.7kΩ×12pF×0.8473≈47.6ns、4.7kΩ×13pF×0.8473≈51.8ns。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "UM10204 I2C-bus specification and user manual",
+        "source_locator": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "NXP UM10204",
+          "section": "Rp(max) = tr / (0.8473 × Cbus)",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "保護耐圧と閾値可変性は、現場デバッグの事故耐性と異常波形の判読性に直結する。",
+      "evidence": "LA2016/LA1010は±50V保護・細かい閾値設定、DSLogic Plusは±30V、FX2系は保護・閾値可変が弱い傾向（個体差あり）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA2016 Product Page",
+        "source_locator": "http://www.qdkingst.com/en/products/LA2016",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Kingst LA2016は3万円級で最もバランスが良く、SPI 40MHzまでの実用解析に強い。",
+      "evidence": "16ch同時200MHz、1Gbitメモリ、12pF入力容量、閾値可変対応。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA2016 Product Page",
+        "source_locator": "http://www.qdkingst.com/en/products/LA2016",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Kingst LA1010は低コストだが、高速SPIでは早期に頭打ち。I2C/UART中心なら有効。",
+      "evidence": "4ch相当で50MHz、16ch使用時は16MHz。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA1010 Product Page",
+        "source_locator": "http://www.qdkingst.com/en/products/LA1010",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "DSLogic Plusは高速SPI（80MHz級）を見たいなら最有力。ただし長時間キャプチャはStream制約で実効サンプリングレートが落ちる。",
+      "evidence": "Buffer時4ch 400MHz達成、Stream時はch数依存で実効レート低下。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DSLogic Plus Datasheet",
+        "source_locator": "https://www.dreamsourcelab.com/doc/DSLogic_Plus_Datasheet.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "FX2系クローンはI2C/UARTや低速SPIの学習用途には有効だが、高速SPI・耐故障性要求には不向き。",
+      "evidence": "24MHz級・低価格・オープンソース（sigrok fx2lafw）対応だが、保護回路や実効帯域は限定的。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "fx2lafw (sigrok Wiki)",
+        "source_locator": "https://sigrok.org/wiki/Fx2lafw",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "10+ years",
+          "participant_count": "unknown",
+          "expert_presence": true,
+          "reproducibility": true
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "技術戦略上の第一候補はLA2016、高速SPI（80MHz級）を本格追跡するならDSLogic Plusを優先。",
+      "evidence": "サンプリング適格性（MUST/SHOULD/WANT）と電気的余裕（保護耐圧・閾値可変性・容量負荷）の総合評価に基づく。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA2016 Product Page",
+        "source_locator": "http://www.qdkingst.com/en/products/LA2016",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

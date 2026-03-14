@@ -1,0 +1,13 @@
+{
+  "context_type": "research_scope",
+  "description": "ロジックアナライザー購入リサーチの前提条件",
+  "data": {
+    "budget": "3万円以下",
+    "priority": "コストパフォーマンス重視",
+    "use_case": "MCU開発のデバッグ・プロトコル解析",
+    "protocols": ["SPI", "UART", "I2C"],
+    "target_mcu": ["STM32", "ESP32", "Arduino"],
+    "host_pc": "Mac Mini M4（Apple Silicon）",
+    "purchase": "日本国内から購入可能であること（Amazon.co.jp、秋月電子、マルツ等）"
+  }
+}

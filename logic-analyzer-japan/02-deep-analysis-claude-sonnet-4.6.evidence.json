@@ -1,0 +1,215 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T11:24:47Z",
+  "claims": [
+    {
+      "claim": "LA2016はハードウェアメモリを搭載した真の高性能モデルであり、スペックシートの数値は実運用において信頼できる",
+      "evidence": "最大サンプリングレート200MHz（全16ch同時）、ハードウェアメモリ1Gbit（128MB）搭載、50M samples/ch（ハードウェアバッファ）、最大圧縮深度10G samples/ch（RLE圧縮）、入力電圧範囲-50V～+50V（保護回路付き）、入力インピーダンス220kΩ/12pF、スレッショルド電圧-4V～+4V（0.01V刻み）、最小検出パルス幅12.5ns、PWM出力2ch（0.1〜20MHz）、USB 2.0（USB 3.0互換）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA2016 Product Page - qdkingst.com",
+        "source_locator": "http://www.qdkingst.com/en/products/LA2016",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "LA1010はハードウェアメモリを持たないストリーミング専用モデルであり、「100MHz 16ch」という表記はチャネル数に応じて大幅に制限される",
+      "evidence": "チャネル数別最大サンプリングレート：最大3chで100MHz、最大6chで50MHz、最大9chで32MHz、最大16chで16MHz。ハードウェアメモリ非搭載、全データはUSBでPCにリアルタイムストリーミング。実効メモリ深度はPC搭載RAMとUSB帯域に依存。最大圧縮深度10G samples/ch（ソフトウェア圧縮、実態はPCリソース次第）。入力電圧範囲-50V～+50V、スレッショルド電圧-4V～+4V（0.01V刻み）、最小検出パルス幅20ns、PWM出力2ch（0.1〜10MHz）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Kingst LA1010 Product Page - qdkingst.com",
+        "source_locator": "http://www.qdkingst.com/en/products/LA1010",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "DSLogic Plusはバッファモードとストリームモードを切り替え可能な二刀流アーキテクチャを持ち、チャネル数に応じたサンプリングレートの制約がある",
+      "evidence": "バッファモード：4chで400MHz、8chで200MHz、16chで100MHz。ストリームモード：3chで100MHz、6chで50MHz、12chで25MHz、16chで20MHz。ハードウェアメモリ256Mbit（32MB）搭載（LA2016の1/4）。最大ストリームサンプル深度16G samples/ch（RLE）。入力電圧保護-30V～+30V（LA2016の±50Vより狭い）。スレッショルド電圧0V～5V（0.1V刻み、負電圧非対応）。入力インピーダンス250kΩ/13pF。最小検出パルス幅5ns（3製品中最速）。接続USB 2.0 Type-C",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DSLogic Plus Datasheet - DreamSourceLab",
+        "source_locator": "https://www.dreamsourcelab.com/doc/DSLogic_Plus_Datasheet.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "FX2チップベースの汎用クローンは、「24MHz」というカタログスペックが持続的な実効レートではなく理論値であり、実運用では大きく制限される。また入力保護回路が事実上存在しない",
+      "evidence": "使用チップ：Cypress EZ-USB FX2LP（CY7C68013A）。理論最大24MHz（8ch）に対し実効持続レートは8chで16〜24MHz、16ch時は8〜12MHzに低下。USB 2.0ボトルネック：24MB/s（8ch×24MHz）は理論上限に近接し、他デバイス共存時や長時間キャプチャでサンプル欠落リスクあり。ハードウェアメモリ非搭載（FX2内部FIFO数KB程度のみ）。入力電圧範囲は3.3V/5V TTL論理レベルのみ対応で保護回路なし（過電圧で即破損リスク）。スレッショルド電圧固定（調整不可、通常1.4〜2.0V程度）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EZ-USB FX2LP Technical Reference Manual - GitHub Mirror",
+        "source_locator": "https://github.com/ttopal/EZ-USB-FX2LP-CY7C68013A-56PVXC-mini-Board/blob/main/fx2_techrefmanual.pdf",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "KingstVISのmacOS版はIntel（x86_64）バイナリのみ提供されており、Apple Silicon上ではRosetta 2経由でのみ動作する。現時点では機能的に動作するが、Rosettaの将来的な廃止リスクを内包する",
+      "evidence": "KingstVIS公式ダウンロードページでは「macOS 10.12以上」と記載されているが、ARM64/Universal Binaryの提供は確認されていない。Apple Silicon Mac上での動作報告はRosetta 2経由が前提（ユーザーコミュニティの報告）。Appleは公式サポートページにおいてRosetta 2の継続サポートを「将来のmacOS」で保証しておらず、macOS 28以降での廃止可能性が技術系メディアで報告されている。macOS Sonoma以降のアップデート後にRosetta 2アプリが起動しなくなる事例が散発的に報告されている（再インストールで通常は解決）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Using Intel-based apps on a Mac with Apple silicon - Apple Support",
+        "source_locator": "https://support.apple.com/en-us/102527",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "PulseViewに「Apple Silicon ARM64ネイティブバイナリ」が正式提供されているという前ステップの記述は不正確であり、現時点でも公式ARM64バイナリは存在しない。正しくは「x86_64ビルドをRosetta 2で動作させる」または「ソースからビルドする」のいずれかとなる",
+      "evidence": "sigrok公式ダウンロードページに記載のmacOS向けDMGはx86_64のみ。sigrok公式macOS WikiページでもApple Silicon向けには「x86_64版をRosetta 2で使う」または「Homebrewからビルド」と案内。Apple Silicon向けHomebrewでのビルドは技術的には可能だが、Qt依存関係・gettextのパス解決に手動対応が必要。公式Nightlyビルドは存在するが、ARM64 Nightly DMGの提供は確認できず（前ステップの「ARM64 Nightlyビルド提供」記述は情報源不明）。コミュニティ作成GistのWorkaroundは依存関係のパスが頻繁に変わりメンテナンス追従が必要",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Downloads - sigrok",
+        "source_locator": "https://sigrok.org/wiki/Downloads",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "LA2016はsigrokで正式サポートされているが、プロプライエタリなファームウェアブロブの事前抽出が必須であり、ゼロからのセットアップには追加作業が生じる",
+      "evidence": "sigrok公式ドライバ名：kingst-la2016（LA2016、LA1016、LA5016、LA5032をカバー）。デバイス接続の度にプロプライエタリファームウェアをFPGAにアップロードが必要。ファームウェアはKingstVISインストーラーからOSSの抽出ツール（kingst-sigrok-tool：AnotherWayIn版およびsageoffensive版）で取得可能。2022年初頭以降ドライバの安定性は大幅に改善されメンテナンス継続中。FPGA完全オープンソース化（ビットストリーム）は未完了（進行中）。KingstVIS（Rosetta 2版）をまずインストールし、ファームウェアを抽出してからsigrokで使うという2段階セットアップが必要",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Kingst LA2016 - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/Kingst_LA2016",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "LA1010はsigrokメインラインに正式サポートされていない。使用可能な非公式フォークが存在するが、LA2016サポートとの共存は不可",
+      "evidence": "sigrokメインラインのkingst-la2016ドライバにおいてLA1010は「untested（未テスト）」ステータス。LA1010はLA2016と異なるFPGA（Xilinxベース）を使用しており、別途ドライバ開発が必要。非公式フォーク：GitHub - AlexUg/sigrok（LA1010サポートあり、ただしLA2016サポートを除去）およびGatodillo/sigrok_la1010。sigrok開発者メーリングリスト（2023年1月）にてLA1010サポートの困難さが確認されている",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Thread: [sigrok-devel] kingst la1010 - SourceForge",
+        "source_locator": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": true,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "FX2ベースの汎用クローンは、sigrokとの互換性が最も良好であり、Mac Apple Silicon環境でも最も摩擦の少ない運用が可能",
+      "evidence": "sigrokのfx2lafwドライバはFX2チップへのオープンソースファームウェア（プロプライエタリ不要）を書き込むことで動作。ファームウェア抽出ツール不要・追加セットアップ作業不要。Rosetta 2 + x86_64版PulseViewで動作実績が豊富。USBデバイスクラスが標準的（libusb経由）なためmacOS上でのドライバ問題が発生しにくい。sigrok対応ハードウェアリストに多数の類似製品が掲載",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "fx2lafw - sigrok Wiki",
+        "source_locator": "https://sigrok.org/wiki/Fx2lafw",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "DSViewはmacOS対応を公式に謳うが、ARM64ネイティブバイナリは正式リリースされていない。sigrokとの互換性はドライバレベルで確認されている",
+      "evidence": "DSView v1.3.2（2024年4月リリース）がmacOS向け最新版だが、ARM64/Universal Binary明示なし。公式サイトのmacOS用ダウンロードはx86_64が主体と見られる（ARM64判別の明示なし）。ソースはCMake + Qtで構成されており、ARM64向けセルフビルドは技術的に可能。sigrok WikiにDreamSourceLab DSLogic Plusのエントリあり、一定のサポートが確認される",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "DSView Releases - GitHub",
+        "source_locator": "https://github.com/DreamSourceLab/DSView/releases",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "全ての有償ロジックアナライザーの純正ソフトウェアがRosetta 2に依存しており、将来のmacOSアップデートによって動作不能になるリスクが存在する",
+      "evidence": "Appleの公式ページは「将来のバージョンのmacOSでRosettaが利用できなくなる可能性がある」と言及（明示的な廃止日程は未発表）。「macOS 28以降での廃止」という推測報道が複数のテック系メディアで取り上げられているが、Apple公式の確定情報ではない（推測・未確定）。macOS Sonomaアップデート後にRosettaアプリ起動失敗の事例が散発的に報告されているが、再インストールで解決するケースが多い。実務的対処としてmacOSメジャーアップデート前に使用中ソフトのARM64対応状況を確認することが推奨されている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Using Intel-based apps on a Mac with Apple silicon - Apple Support",
+        "source_locator": "https://support.apple.com/en-us/102527",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "LA1010を購入した場合、sigrokエコシステムの恩恵（プロトコルデコーダーの豊富さ・オープンソース）が実質的に利用できず、KingstVIS（Rosetta 2）への完全依存が強制される",
+      "evidence": "sigrokメインラインの「untested」ステータスは積極的な開発者がいない限り改善されない。非公式フォーク（AlexUg/Gatodillo）はLA2016サポートを犠牲にした専用ビルドであり、長期メンテナンスが保証されない。LA2016はメインラインサポートあり、同等の追加作業（FW抽出）でsigrokが使える",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Thread: kingst la1010 - sigrok-devel SourceForge",
+        "source_locator": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": 0,
+          "expert_presence": true,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

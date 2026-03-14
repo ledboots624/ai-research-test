@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram id="LogicAnalyzerResearch" name="Logic Analyzer Selection">
+    <mxGraphModel background="#ffffff" dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TITLE BAR -->
+        <mxCell id="2" value="MCU開発用ロジックアナライザー選定レポート (予算3万円以下 / Mac M4環境)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=18;fontStyle=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- CONTEXT / REQUIREMENTS -->
+        <mxCell id="3" value="&lt;b&gt;前提条件・ターゲット&lt;/b&gt;&#xa;---------------------------&#xa;● Host: Mac Mini (M4/Apple Silicon)&#xa;● Target: STM32, ESP32, Arduino&#xa;● Proto: SPI, I2C, UART&#xa;● Budget: 30,000円以下&#xa;● 国内購入 (Amazon/秋月等)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#1a202c;fontSize=12;align=left;spacingLeft=10;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- OPTION 1: KINGST LA2016 (WINNER) -->
+        <mxCell id="4" value="&lt;b&gt;【推奨 No.1】Kingst LA2016&lt;/b&gt;&#xa;実勢価格: 約2.7万円&#xa;---------------------------&#xa;● 200MHz / 16ch / 128MBメモリ&#xa;● ハードウェアバッファ搭載で安定&#xa;● 高速SPI解析に最適 (Best Performance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;strokeWidth=3;fontColor=#2c5282;fontSize=13;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="240" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- OPTION 2: KINGST LA1010 -->
+        <mxCell id="5" value="&lt;b&gt;【コスパ】Kingst LA1010&lt;/b&gt;&#xa;実勢価格: 約1.3万円&#xa;---------------------------&#xa;● 100MHz (Max) / 16ch&#xa;● I2C/UART/低速SPIに十分&#xa;● バッファなし (USB依存)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;strokeWidth=2;fontColor=#276749;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- OPTION 3: GENERIC 24MHz -->
+        <mxCell id="6" value="&lt;b&gt;【入門用】汎用 24MHz 8ch&lt;/b&gt;&#xa;実勢価格: 約1,500円&#xa;---------------------------&#xa;● 24MHz / 8ch (FX2チップ)&#xa;● 圧倒的安価、学習用に最適&#xa;● 高速信号は不可" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;strokeWidth=1;fontColor=#276749;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- CRITICAL NOTE: MAC SOFTWARE -->
+        <mxCell id="7" value="&lt;b&gt;Mac環境の注意点&lt;/b&gt;&#xa;● Kingst純正ソフト: Rosetta 2で動作&#xa;● オープンソース: Sigrok / PulseView推奨&#xa;● Windows専用機(Zeroplus等)は避ける" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#744210;fontSize=11;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- CRITICAL NOTE: SAFETY -->
+        <mxCell id="8" value="&lt;b&gt;安全対策 (推奨)&lt;/b&gt;&#xa;● USBアイソレーター (¥1,600~)&#xa;● Mac本体を高電圧・ノイズから保護&#xa;● 特にESP32等の高電力MCUで必須" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#9b2c2c;fontSize=11;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="220" height="80" as="geometry" />
+        </mxCell>
+
+         <!-- NOT RECOMMENDED -->
+        <mxCell id="9" value="&lt;b&gt;非推奨モデル&lt;/b&gt;&#xa;● DSLogic Plus (Macでバグ報告あり)&#xa;● Zeroplus LAP-C (Win専用)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#718096;fontColor=#4a5568;fontSize=11;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- FOOTER -->
+        <mxCell id="10" value="結論: 本格開発には LA2016、コスト重視なら LA1010 を推奨。Mac保護のためUSBアイソレーターの同時購入を強く推奨。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="760" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- EDGES -->
+        <!-- Context to LA2016 -->
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Context to LA1010 -->
+        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Context to Entry -->
+        <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- LA2016 to SoftNote -->
+        <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- LA2016 to Safety -->
+        <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

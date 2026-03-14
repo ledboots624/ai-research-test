@@ -1,0 +1,55 @@
+{
+  "topic": "logic-analyzer-japan",
+  "description": "日本国内から3万円以下で購入可能なMCU開発向けロジックアナライザーの調査と選定",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "market-scan",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "日本国内の主要ECサイト（Amazon.co.jp, 秋月電子, マルツ, スイッチサイエンス等）で3万円以下で購入可能なロジックアナライザーを網羅的に調査。製品名、価格、基本スペック（サンプリングレート、CH数）、URLをリストアップ。特にDSLogic, Kingst, Saleaeクローン等の入手性を確認。",
+      "depends_on": []
+    },
+    {
+      "id": "spec-software-analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "リストアップされた製品のスペック詳細比較（最大サンプリングレート、メモリ深度、入力電圧範囲）と、Mac（Apple Silicon M-series）でのソフトウェア互換性（純正ソフトおよびsigrok/PulseView）の動作状況を深掘り分析。エビデンスとして公式ドキュメントやユーザーレビューを参照。",
+      "depends_on": [
+        "market-scan"
+      ]
+    },
+    {
+      "id": "tech-suitability",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "STM32/ESP32開発におけるSPI/I2C/UART（高速通信含む）のデバッグに十分な性能か技術的に評価。必要な帯域幅とサンプリング定理に基づく適格性判定。プローブの品質や電気的特性（入力インピーダンス等）も考慮。",
+      "depends_on": [
+        "spec-software-analysis"
+      ]
+    },
+    {
+      "id": "critical-check",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "候補製品に対する批判的検証。安価なモデルの信頼性、ソフトウェアのバグやクラッシュ報告、Mac OS更新時のドライバ問題、ハードウェアの制限事項（グランドループ問題等）を指摘し、購入リスクを洗い出す。",
+      "depends_on": [
+        "tech-suitability"
+      ]
+    },
+    {
+      "id": "final-recommendation",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの分析を統合し、予算3万円以下・Macユーザー向けのロジックアナライザー推奨リストを作成。コストパフォーマンス、信頼性、使いやすさの観点でランク付けし、購入先リンクと共に最終結論を提示。",
+      "depends_on": [
+        "critical-check"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": "2.2.0",
+  "topic": "logic-analyzer-japan",
+  "description": "日本から購入可能なロジックアナライザーリサーチ",
+  "completed_at": "2026-03-14T12:10:05Z",
+  "duration_seconds": 3152,
+  "duration_human": "52m32s",
+  "steps": [
+    {
+      "id": "market-scan",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "日本国内の主要ECサイト（Amazon.co.jp, 秋月電子, マルツ, スイッチサイエンス等）で3万円以下で購入可能なロジックアナライザーを網羅的に調査。製品名、価格、基本スペック（サンプリングレート、CH数）、URLをリストアップ。特にDSLogic, Kingst, Saleaeクローン等の入手性を確認。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/logic-analyzer-japan/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 6321,
+      "evidence_extracted": true
+    },
+    {
+      "id": "spec-software-analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "リストアップされた製品のスペック詳細比較（最大サンプリングレート、メモリ深度、入力電圧範囲）と、Mac（Apple Silicon M-series）でのソフトウェア互換性（純正ソフトおよびsigrok/PulseView）の動作状況を深掘り分析。エビデンスとして公式ドキュメントやユーザーレビューを参照。",
+      "depends_on": [
+        "market-scan"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/logic-analyzer-japan/02-deep-analysis-claude-sonnet-4.6.md",
+      "output_bytes": 24348,
+      "evidence_extracted": true
+    },
+    {
+      "id": "tech-suitability",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "STM32/ESP32開発におけるSPI/I2C/UART（高速通信含む）のデバッグに十分な性能か技術的に評価。必要な帯域幅とサンプリング定理に基づく適格性判定。プローブの品質や電気的特性（入力インピーダンス等）も考慮。",
+      "depends_on": [
+        "spec-software-analysis"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/logic-analyzer-japan/03-technical-strategy-gpt-5.3-codex.md",
+      "output_bytes": 12468,
+      "evidence_extracted": true
+    },
+    {
+      "id": "critical-check",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "候補製品に対する批判的検証。安価なモデルの信頼性、ソフトウェアのバグやクラッシュ報告、Mac OS更新時のドライバ問題、ハードウェアの制限事項（グランドループ問題等）を指摘し、購入リスクを洗い出す。",
+      "depends_on": [
+        "tech-suitability"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/logic-analyzer-japan/04-critic-review-claude-sonnet-4.6.md",
+      "output_bytes": 20664,
+      "evidence_extracted": false
+    },
+    {
+      "id": "final-recommendation",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの分析を統合し、予算3万円以下・Macユーザー向けのロジックアナライザー推奨リストを作成。コストパフォーマンス、信頼性、使いやすさの観点でランク付けし、購入先リンクと共に最終結論を提示。",
+      "depends_on": [
+        "critical-check"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/logic-analyzer-japan/05-integration-review-claude-opus-4.6.md",
+      "output_bytes": 36781,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 12722
+    },
+    {
+      "file": "sources.json",
+      "bytes": 41576
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 6649
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 576220
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 941631
+    },
+    {
+      "file": "slides.html",
+      "bytes": 143942
+    },
+    {
+      "file": "slides.md",
+      "bytes": 8296
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1174771
+    }
+  ],
+  "context_file": "context-logic-analyzer.json"
+}

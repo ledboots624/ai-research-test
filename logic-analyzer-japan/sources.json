@@ -1,0 +1,959 @@
+{
+  "generated_at": "2026-03-14T12:08:30Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 48,
+  "tier_summary": {
+    "tier1": 18,
+    "tier2": 15,
+    "tier3": 4,
+    "tier4": 11
+  },
+  "primary_source_count": 28,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "official_document",
+      "title": "ATmega328P Datasheet",
+      "locator": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf",
+      "url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "SPI要求帯域は対象MCUで広く、Arduino級8MHzからESP32級80MHz、STM32H7級では100MHz超まで到達しうる。"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "official_document",
+      "title": "Amazon.co.jp CY7C68013A 商品一覧",
+      "locator": "https://www.amazon.co.jp/EZ-USB-FX2LP-CY7C68013A-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF-%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%BC/dp/B0CDGRQQ9W",
+      "url": "https://www.amazon.co.jp/EZ-USB-FX2LP-CY7C68013A-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF-%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%BC/dp/B0CDGRQQ9W",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "CY7C68013A（FX2LP）ベースの8ch/24MHzクローンはAmazon.co.jpで830〜2,000円と極めて安価であり、UARTや低速I2C/SPI（〜数MHz）の基本的なデバッグに使..."
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "official_document",
+      "title": "Amazon.co.jp InnoMaker LA2016",
+      "locator": "https://www.amazon.co.jp/-/en/InnoMaker-Logic-Analyzer-Support-Windows/dp/B07WVPMDHY",
+      "url": "https://www.amazon.co.jp/-/en/InnoMaker-Logic-Analyzer-Support-Windows/dp/B07WVPMDHY",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Amazon.co.jpのマーケットプレイスではOEM品や互換品が混在しており、購入時には出品者の信頼性確認が必要。「InnoMaker」ブランド名義のLA2016互換品（21,999円）が存在する。"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "official_document",
+      "title": "Amazon.co.jp Kingst LA2016 商品ページ",
+      "locator": "https://www.amazon.co.jp/Kingst-%E6%9C%80%E5%A4%A7%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%AC%E3%83%BC%E3%83%88-%E8%8B%B1%E8%AA%9E%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E7%94%A8-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3-%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/dp/B0DQ4GSXP3",
+      "url": "https://www.amazon.co.jp/Kingst-%E6%9C%80%E5%A4%A7%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%AC%E3%83%BC%E3%83%88-%E8%8B%B1%E8%AA%9E%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E7%94%A8-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3-%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/dp/B0DQ4GSXP3",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Kingst LA2016とUSBアイソレーター（約1,600〜3,300円）を組み合わせても約23,600〜30,300円であり、3万円予算に収まる（最低構成は約23,600円）。"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "official_document",
+      "title": "Amazon.co.jp LA1010 商品ページ",
+      "locator": "https://www.amazon.co.jp/LA1010-%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%AC%E3%83%BC%E3%83%88-16%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB-10B%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB-%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB/dp/B078Y8BKKK",
+      "url": "https://www.amazon.co.jp/LA1010-%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%AC%E3%83%BC%E3%83%88-16%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB-10B%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB-%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB/dp/B078Y8BKKK",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Kingst LA1010（16ch/最大100MHz）はAmazon.co.jpで約13,500〜14,000円で購入可能であり、予算をさらに抑えたい場合の次善策となる。"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "official_document",
+      "title": "Amazon.co.jp Saleae Logic 8",
+      "locator": "https://www.amazon.co.jp/Saleae-Logic-8%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89-8%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/dp/B0749G85W2",
+      "url": "https://www.amazon.co.jp/Saleae-Logic-8%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89-8%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/dp/B0749G85W2",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Saleae Logic 8はmacOSネイティブ対応のゴールドスタンダードだが、Amazon.co.jpで約99,934円、秋月電子でも8万円以上であり、3万円予算の3倍超となるため候補外である。"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "community_data",
+      "title": "Amazon.co.jp: DSLogic Plus Search",
+      "locator": "https://www.amazon.co.jp/s?k=DSLogic+Plus",
+      "url": "https://www.amazon.co.jp/s?k=DSLogic+Plus",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "DSLogic Plusは高性能だが、日本国内Amazonでの正規品在庫が不安定かつ価格が上昇傾向にある。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "community_data",
+      "title": "Amazon.co.jp: Kingst LA1010 販売ページ",
+      "locator": "https://www.amazon.co.jp/dp/B078Y8BKKK",
+      "url": "https://www.amazon.co.jp/dp/B078Y8BKKK",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "16ch/100MHzのモデル（Kingst LA1010）が約1.3万円で購入可能。LA2016と同様のソフトウェア環境（KingstVIS）で動作する。"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "community_data",
+      "title": "AnotherWayIn/kingst-sigrok-tool — GitHub",
+      "locator": "https://github.com/AnotherWayIn/kingst-sigrok-tool",
+      "url": "https://github.com/AnotherWayIn/kingst-sigrok-tool",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "macOS上でKingst製品（LA2016等）をsigrokで使用するには、初回セットアップ時にKingstVISからファームウェアを抽出して配置する作業（1回限り）が必要である。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "community_data",
+      "title": "Best Cheap knockoff Logic Analyzer — EEVblog Forum",
+      "locator": "https://www.eevblog.com/forum/testgear/best-cheap-knockoff-logic-analyzer/",
+      "url": "https://www.eevblog.com/forum/testgear/best-cheap-knockoff-logic-analyzer/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "5+ years",
+        "participant_count": 50,
+        "expert_presence": true,
+        "reproducibility": true
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "FX2系クローンは無保証クローン品であるため個体品質のばらつきが大きく、メイン機としての信頼性には欠ける。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "community_data",
+      "title": "Blew up my logic analyzer — SparkFun Community",
+      "locator": "https://community.sparkfun.com/t/blew-up-my-logic-analyzer-and-device-ground-issues/36399",
+      "url": "https://community.sparkfun.com/t/blew-up-my-logic-analyzer-and-device-ground-issues/36399",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "5+ years",
+        "participant_count": 20,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "異なる電源系統のDUTをアイソレーションなしでUSBロジックアナライザーに直結接続することは、機器破損リスクの観点から実質的に禁止（MUST_NOT）される。"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "academic_paper",
+      "title": "Communication in the Presence of Noise",
+      "locator": "https://www.princeton.edu/~wbialek/rome/refs/shannon_1949.pdf",
+      "url": "https://www.princeton.edu/~wbialek/rome/refs/shannon_1949.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "MCU開発で「高速通信含む」を満たすには、Nyquist最小と実務オーバーサンプリングを分離して判定すべき。"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "DSLogic Plus Datasheet - DreamSourceLab",
+      "locator": "https://www.dreamsourcelab.com/doc/DSLogic_Plus_Datasheet.pdf",
+      "url": "https://www.dreamsourcelab.com/doc/DSLogic_Plus_Datasheet.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "DSLogic Plusはバッファモードとストリームモードを切り替え可能な二刀流アーキテクチャを持ち、チャネル数に応じたサンプリングレートの制約がある"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "official_document",
+      "title": "DSLogic Plus Datasheet",
+      "locator": "https://www.dreamsourcelab.com/doc/DSLogic_Plus_Datasheet.pdf",
+      "url": "https://www.dreamsourcelab.com/doc/DSLogic_Plus_Datasheet.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "DSLogic Plusは高速SPI（80MHz級）を見たいなら最有力。ただし長時間キャプチャはStream制約で実効サンプリングレートが落ちる。"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "industry_report",
+      "title": "DSLogic Plus Teardown and Review — Hackaday",
+      "locator": "https://hackaday.com/2017/08/24/dslogic-plus-teardown-and-review/",
+      "url": "https://hackaday.com/2017/08/24/dslogic-plus-teardown-and-review/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "DSLogic PlusのFPGAビットストリームはクローズドソースであり、「オープンソースハードウェア」という表記は不正確である。DSViewはGPLv3だが、FPGAはクローズドであり長期的なma..."
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "official_document",
+      "title": "DSLogic Plus 公式ストア",
+      "locator": "https://www.dreamsourcelab.com/shop/logic-analyzer/dslogic-plus/",
+      "url": "https://www.dreamsourcelab.com/shop/logic-analyzer/dslogic-plus/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Amazon.co.jpで約2,229円で販売されている「DSLogic Plus」は24MHz/8chの簡易版であり、正規の16ch/400MHz DSLogic Plusとは別製品である。購入時に..."
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "official_document",
+      "title": "DSView Releases - GitHub",
+      "locator": "https://github.com/DreamSourceLab/DSView/releases",
+      "url": "https://github.com/DreamSourceLab/DSView/releases",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "DSViewはmacOS対応を公式に謳うが、ARM64ネイティブバイナリは正式リリースされていない。sigrokとの互換性はドライバレベルで確認されている"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "official_document",
+      "title": "DSView ダウンロードページ",
+      "locator": "https://www.dreamsourcelab.com/download/",
+      "url": "https://www.dreamsourcelab.com/download/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "DSView v1.3.3でSPIデコードバグが修正されたとの報告があるが、macOS向けの公式最新バイナリはv1.3.2のままであり、修正版がmacOSユーザーに届いていない。"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "community_data",
+      "title": "Device is busy — DSView Issue #676",
+      "locator": "https://github.com/DreamSourceLab/DSView/issues/676",
+      "url": "https://github.com/DreamSourceLab/DSView/issues/676",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "active 2024–2025",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Apple Silicon MacでDSLogic Plusを使用する際に「device is busy」エラー（DSView Issue #676）が複数バージョンにわたり報告されており、Mac環境..."
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "official_document",
+      "title": "Downloads - sigrok",
+      "locator": "https://sigrok.org/wiki/Downloads",
+      "url": "https://sigrok.org/wiki/Downloads",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "PulseViewに「Apple Silicon ARM64ネイティブバイナリ」が正式提供されているという前ステップの記述は不正確であり、現時点でも公式ARM64バイナリは存在しない。正しくは「x86..."
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "official_document",
+      "title": "ESP-IDF UART API Reference",
+      "locator": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/uart.html",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/uart.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "UART高速域は環境依存が大きく、5Mbpsは未確定（推測を含む）として扱うのが安全。"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "official_document",
+      "title": "EZ-USB FX2LP Technical Reference Manual - GitHub Mirror",
+      "locator": "https://github.com/ttopal/EZ-USB-FX2LP-CY7C68013A-56PVXC-mini-Board/blob/main/fx2_techrefmanual.pdf",
+      "url": "https://github.com/ttopal/EZ-USB-FX2LP-CY7C68013A-56PVXC-mini-Board/blob/main/fx2_techrefmanual.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "FX2チップベースの汎用クローンは、「24MHz」というカタログスペックが持続的な実効レートではなく理論値であり、実運用では大きく制限される。また入力保護回路が事実上存在しない"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "official_document",
+      "title": "I2C-bus Specification and User Manual — NXP UM10204",
+      "locator": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+      "url": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "I2C規格（NXP UM10204）に定められたタイミング準拠が、I2C信号解析における必須要件である。"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "official_document",
+      "title": "Kingst LA1010 Product Page - qdkingst.com",
+      "locator": "http://www.qdkingst.com/en/products/LA1010",
+      "url": "http://www.qdkingst.com/en/products/LA1010",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "LA1010はハードウェアメモリを持たないストリーミング専用モデルであり、「100MHz 16ch」という表記はチャネル数に応じて大幅に制限される"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "official_document",
+      "title": "Kingst LA1010 Product Page",
+      "locator": "http://www.qdkingst.com/en/products/LA1010",
+      "url": "http://www.qdkingst.com/en/products/LA1010",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "Kingst LA1010は低コストだが、高速SPIでは早期に頭打ち。I2C/UART中心なら有効。"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "community_data",
+      "title": "Kingst LA2016 - sigrok Wiki",
+      "locator": "https://sigrok.org/wiki/Kingst_LA2016",
+      "url": "https://sigrok.org/wiki/Kingst_LA2016",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "LA2016はsigrokで正式サポートされているが、プロプライエタリなファームウェアブロブの事前抽出が必須であり、ゼロからのセットアップには追加作業が生じる"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "official_document",
+      "title": "Kingst LA2016 Product Page - qdkingst.com",
+      "locator": "http://www.qdkingst.com/en/products/LA2016",
+      "url": "http://www.qdkingst.com/en/products/LA2016",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "LA2016はハードウェアメモリを搭載した真の高性能モデルであり、スペックシートの数値は実運用において信頼できる"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_type": "official_document",
+      "title": "Kingst LA2016 Product Page",
+      "locator": "http://www.qdkingst.com/en/products/LA2016",
+      "url": "http://www.qdkingst.com/en/products/LA2016",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "4候補（LA2016 / LA1010 / DSLogic Plus / FX2系）は、高速SPIへの適格性で明確に2群へ分かれる。",
+        "Kingst LA2016は3万円級で最もバランスが良く、SPI 40MHzまでの実用解析に強い。",
+        "保護耐圧と閾値可変性は、現場デバッグの事故耐性と異常波形の判読性に直結する。",
+        "技術戦略上の第一候補はLA2016、高速SPI（80MHz級）を本格追跡するならDSLogic Plusを優先。"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_type": "official_document",
+      "title": "Kingst LA2016 仕様 — sigrok wiki",
+      "locator": "https://sigrok.org/wiki/Kingst_LA2016",
+      "url": "https://sigrok.org/wiki/Kingst_LA2016",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Kingst LA2016（16ch/200MHz/128Mbitメモリ）はAmazon.co.jpで約22,000〜27,000円で購入可能であり、MCU開発で標準的なSPI（〜50MHz）・I2C..."
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_type": "official_document",
+      "title": "KingstVIS Download Page",
+      "locator": "http://www.qdkingst.com/en/download",
+      "url": "http://www.qdkingst.com/en/download",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "16ch/200MHzの高性能モデル（Kingst LA2016）がAmazon.co.jpで約2.7万円で入手可能。Mac環境（Mシリーズ）ではRosetta 2経由で公式ソフト（KingstVIS..."
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_type": "community_data",
+      "title": "Protocol decode problem — DSView Issue #832",
+      "locator": "https://github.com/DreamSourceLab/DSView/issues/832",
+      "url": "https://github.com/DreamSourceLab/DSView/issues/832",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "active 2024–2025",
+        "participant_count": 10,
+        "expert_presence": false,
+        "reproducibility": true
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "DSLogic Plus（16ch/400MHzバッファ）は約13,000〜17,500円（海外通販・輸入代理店）で購入可能だが、macOS Sonoma上のDSView v1.3.2でSPIプロトコ..."
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_type": "official_document",
+      "title": "Saleae Electrical Isolation Suggestions",
+      "locator": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/suggestions-for-electrical-isolation",
+      "url": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/suggestions-for-electrical-isolation",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "4xオーバーサンプリング（サンプリング周波数が信号周波数の4倍以上）は、MCU開発における測定品質を担保するための実務的なSHOUD推奨レベルである。Kingst LA2016の200MHzは50MH...",
+        "USBロジックアナライザーはすべてPCのUSBグランドとDUTのグランドを共有するため、異なる電源系統から給電されたMCUボードとの接続時にグランドループが発生するリスクがある。USBアイソレーター（..."
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_type": "community_data",
+      "title": "Sigrok PulseView Downloads",
+      "locator": "https://sigrok.org/wiki/Downloads",
+      "url": "https://sigrok.org/wiki/Downloads",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "汎用24MHz 8chロジックアナライザー（Saleaeクローン）がAmazonやスイッチサイエンスで1,000円〜2,000円程度で入手可能。オープンソースの「PulseView（Sigrok）」を..."
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_type": "community_data",
+      "title": "Thread: [sigrok-devel] kingst la1010 - SourceForge",
+      "locator": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+      "url": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": true,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "LA1010はsigrokメインラインに正式サポートされていない。使用可能な非公式フォークが存在するが、LA2016サポートとの共存は不可"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_type": "community_data",
+      "title": "Thread: kingst la1010 - sigrok-devel SourceForge",
+      "locator": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+      "url": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": 0,
+        "expert_presence": true,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "LA1010を購入した場合、sigrokエコシステムの恩恵（プロトコルデコーダーの豊富さ・オープンソース）が実質的に利用できず、KingstVIS（Rosetta 2）への完全依存が強制される"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_type": "official_document",
+      "title": "UM10204 I2C-bus specification and user manual",
+      "locator": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+      "url": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "4.7kΩプルアップ時、12pFプローブ1本でI2C立上りに約48ns追加（13pFで約52ns）となり、Fm+/Hsでは無視しにくい。",
+        "I2C/UARTは多くの候補で十分だが、I2C Fm+/Hsではプローブ容量が支配要因になりやすい。",
+        "I2Cは規格上100k/400k/1M/3.4M（+UFm 5M）で、LA側サンプリング要求はSPIより低い。",
+        "抵抗性負荷（220kΩ/250kΩ）はMCU信号に対して概ね軽微だが、容量性負荷（12–13pF）はI2C高速モードで支配的。"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_type": "official_document",
+      "title": "Using Intel-based apps on a Mac with Apple silicon - Apple Support",
+      "locator": "https://support.apple.com/en-us/102527",
+      "url": "https://support.apple.com/en-us/102527",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "KingstVISのmacOS版はIntel（x86_64）バイナリのみ提供されており、Apple Silicon上ではRosetta 2経由でのみ動作する。現時点では機能的に動作するが、Rosett...",
+        "全ての有償ロジックアナライザーの純正ソフトウェアがRosetta 2に依存しており、将来のmacOSアップデートによって動作不能になるリスクが存在する"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_type": "official_document",
+      "title": "What Sampling Rate Should I Use?",
+      "locator": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/what-sample-rate-is-required",
+      "url": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/what-sample-rate-is-required",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "40MHz以上のSPIを実務品質（SHOULD）で追うなら、事実上LA2016またはDSLogic Plus(Buffer)が必要。",
+        "本件のSHOULDは法令準拠用語ではなく測定品質ガイドであり、EU CRA等の規制SHOULDとは重みが異なる。"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_type": "official_document",
+      "title": "ZEROPLUS 公式ダウンロード",
+      "locator": "https://www.zeroplus.com.tw/logic-analyzer_en/technical_support_search.php?model=LAP-C%2816064%29&class1=1",
+      "url": "https://www.zeroplus.com.tw/logic-analyzer_en/technical_support_search.php?model=LAP-C%2816064%29&class1=1",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "秋月電子で取り扱いのあるZEROPLUS LAP-C 16064（16ch/100MHz、約22,800円）はWindows専用であり、macOS（Intel/Apple Silicon問わず）のネイ..."
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_type": "official_document",
+      "title": "Zeroplus LAP-C Technical Support",
+      "locator": "https://www.zeroplus.com.tw/logic-analyzer_en/technical_support_search.php?model=LAP-C%2816064%29&class1=1",
+      "url": "https://www.zeroplus.com.tw/logic-analyzer_en/technical_support_search.php?model=LAP-C%2816064%29&class1=1",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "Zeroplus LAP-Cシリーズは秋月電子等で入手しやすいが、Mac環境での利用には適さない（Windows専用）。"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_type": "community_data",
+      "title": "fx2lafw (sigrok Wiki)",
+      "locator": "https://sigrok.org/wiki/Fx2lafw",
+      "url": "https://sigrok.org/wiki/Fx2lafw",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "10+ years",
+        "participant_count": "unknown",
+        "expert_presence": true,
+        "reproducibility": true
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "FX2系クローンはI2C/UARTや低速SPIの学習用途には有効だが、高速SPI・耐故障性要求には不向き。"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_type": "official_document",
+      "title": "fx2lafw - sigrok Wiki",
+      "locator": "https://sigrok.org/wiki/Fx2lafw",
+      "url": "https://sigrok.org/wiki/Fx2lafw",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "FX2ベースの汎用クローンは、sigrokとの互換性が最も良好であり、Mac Apple Silicon環境でも最も摩擦の少ない運用が可能"
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_type": "official_document",
+      "title": "libsigrok Homebrew Formulae",
+      "locator": "https://formulae.brew.sh/formula/libsigrok",
+      "url": "https://formulae.brew.sh/formula/libsigrok",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "HomebrewのlibsigrokにはARM64ボトルが存在しており、ARM64 MacでのインストールがHomebrew経由で可能。"
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "source_type": "official_document",
+      "title": "sigrok Downloads",
+      "locator": "https://sigrok.org/wiki/Downloads",
+      "url": "https://sigrok.org/wiki/Downloads",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "sigrokの公式macOSビルドはx86_64のみ提供されており、Apple Silicon（ARM64）向けのネイティブ公式バイナリは提供されていない。"
+      ]
+    },
+    {
+      "id": "SRC-045",
+      "source_type": "official_document",
+      "title": "sigrok Mac OS X ページ",
+      "locator": "https://sigrok.org/wiki/Mac_OS_X",
+      "url": "https://sigrok.org/wiki/Mac_OS_X",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Mac Mini M4で利用可能な候補製品すべて（LA2016・LA1010・DSLogic Plus・FX2系）において、macOSでの利用はsigrok/PulseViewが中心となる。公式DMG...",
+        "macOSネイティブ対応のベンダー公式ソフトウェアが利用可能であることが望ましい（WANT）が、現実的には3万円以下の候補すべてにおいてsigrok経由が前提となる。"
+      ]
+    },
+    {
+      "id": "SRC-046",
+      "source_type": "community_data",
+      "title": "sigrok-devel LA1010 thread",
+      "locator": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+      "url": "https://sourceforge.net/p/sigrok/mailman/sigrok-devel/thread/20230131184537.GC4396%40book.gsilab.sittig.org/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "3+ years",
+        "participant_count": 5,
+        "expert_presence": true,
+        "reproducibility": false
+      },
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Kingst LA1010のsigrokドライバーサポートは2023年時点でexperimentalレベルであり、実用完成度が未検証である。",
+        "Kingst LA1010は16チャンネル使用時にサンプリングレートが16MHzに縮退する可能性があり、高速SPI（10MHz超）でのオーバーサンプリングマージンが不足する可能性がある。"
+      ]
+    },
+    {
+      "id": "SRC-047",
+      "source_type": "community_data",
+      "title": "takesako/homebrew-sigrok — GitHub",
+      "locator": "https://github.com/takesako/homebrew-sigrok",
+      "url": "https://github.com/takesako/homebrew-sigrok",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "2+ years",
+        "participant_count": 5,
+        "expert_presence": true,
+        "reproducibility": true
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "takesako/homebrew-sigrok非公式タップを用いることで、PulseViewのARM64ネイティブビルドがMac Mini M4上で技術的に可能である。"
+      ]
+    },
+    {
+      "id": "SRC-048",
+      "source_type": "official_document",
+      "title": "秋月電子 ロジックアナライザーカテゴリ",
+      "locator": "https://akizukidenshi.com/catalog/r/rlogiana/",
+      "url": "https://akizukidenshi.com/catalog/r/rlogiana/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Kingst LA2016・LA1010・DSLogic PlusはいずれもAmazon.co.jpのマーケットプレイス出品者経由の購入が主流であり、秋月電子やマルツなどの国内正規代理店での取り扱いは..."
+      ]
+    }
+  ]
+}
