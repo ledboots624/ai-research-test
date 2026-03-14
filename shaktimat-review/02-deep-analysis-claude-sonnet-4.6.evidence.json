@@ -1,0 +1,200 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T11:57:27Z",
+  "claims": [
+    {
+      "claim": "指圧マットが再現できるのは「広域体表刺激」であり、鍼治療の「深部・点的刺激」は再現不可能である",
+      "evidence": "刺激深度（表皮〜真皮0〜数mmのみ）、刺激範囲（広域・数百スパイク同時）、神経線維ターゲット（Aβ線維主体）、経穴特異性なし（確率的に含む可能性のみ）、施術の個別化不可という5軸比較に基づく",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Do Acupressure Mats Work and Are They the Same as Acupuncture?",
+        "source_locator": "https://www.summitacuphilly.com/post/do-acupressure-mats-work-and-are-they-the-same-as-acupuncture",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "ゲートコントロール理論（Gate Control Theory）による鎮痛は生理学的に妥当であり、指圧マットの鎮痛効果の説明として神経解剖学的に整合性がある",
+      "evidence": "スパイクによる皮膚圧力がAβ線維（太径・低閾値）を優先活性化し、脊髄後角の抑制性介在ニューロン（SG細胞）を活性化してAδ・C線維の痛覚信号を抑制する（Melzack & Wall, 1965）。現代神経科学でも基本的に支持されており、TENS・温熱療法も同一理論で説明される。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Gate Control Theory – ScienceDirect Topics",
+        "source_locator": "https://www.sciencedirect.com/topics/medicine-and-dentistry/gate-control-theory",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧（手技）ではβ-エンドルフィン・エンケファリンの血中上昇が実証されているが、指圧マット（プラスチックスパイク）特有のエビデンスは存在しない",
+      "evidence": "頸部筋膜疼痛症候群患者対象RCTで理学療法対照群と比較し、手技指圧群に有意なβ-エンドルフィン・エンケファリン上昇を確認。ただし「手指での点的圧迫」研究をプラスチックスパイクによる広域体表圧迫に外挿することは推測の域を出ない。APEX-MS試験（NCT06755463）が直接検証を目指し進行中だが、2025年3月時点で結果未公表。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Effects of acupressure versus physical therapy on Enkephalin and Endorphin levels in Scalene Myofascial Pain Syndrome patients – RCT",
+        "source_locator": "https://www.researchgate.net/profile/Riziq-Allah-Gaowgzeh/publication/357393675_Effects_of_acupressure_versus_physical_therapy_on_Enkephalin_and_Endorphin_levels_in_Scalene_Myofascial_Pain_Syndrome_patients_A_randomized_controlled_trial/links/61cbfa44b6b5667157b1ac4d/Effects-of-acupressure-versus-physical-therapy-on-Enkephalin-and-Endorphin-levels-in-Scalene-Myofascial_Pain_Syndrome_patients_A-randomized-controlled-trial.pdf",
+        "access_date": "2021",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "局所血流増加は皮膚温度上昇として観察可能であり生理学的現象として実在するが、指圧マット固有の特異的効果ではなく非特異的効果の可能性が高い",
+      "evidence": "機械的刺激による軸索反射（Axon Reflex）がサブスタンスP等の神経ペプチドを放出し局所血管拡張（反応性充血）を引き起こす現象はサーモグラフィーで確認可能。ただしマッサージ・摩擦・加温でも同様に生じる非特異的反応であり、指圧マット固有の治療的意義は不明確。2021年MDPI RCT（腰痛患者対象）は運動療法との併用効果を示したが血流の客観的計測は含まれていない。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise – MDPI Applied Sciences",
+        "source_locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+        "access_date": "2021",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "現行のエビデンスでは指圧マットの効果のうちプラセボ・非特異的成分の割合は大きく、特異的生理効果との分離が困難である",
+      "evidence": "シャム対照試験（PLoS ONE 2015）では真のアクプレッシャーとシャムの差が僅小なケースがあり非特異的触覚刺激だけでも相当量の効果が生じることが示唆される。2023年RCT（Wiley/APHW）では主観的ストレス・睡眠の質は改善したが心拍数・血圧・痛覚閾値等の客観的生理指標には有意差なし。この乖離は効果が主観的経験レベルに留まる可能性と、測定感度不足の両方を示唆する。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Regular use of acupressure mats reduces perceived stress – Wiley/APHW",
+        "source_locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+        "access_date": "2023",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マット研究全体に構造的なバイアスリスクが存在する",
+      "evidence": "①盲検化不可能性（参加者・施術者とも介入の有無を認識できるためExpectation Biasが不可避）、②サンプルサイズ不足（多くがn<100で統計的検出力が低い）、③主観的アウトカム指標への依存（VAS等が中心でバイオマーカーや機能測定が少ない）、④研究資金の偏りの可能性（製品メーカーとの利害関係の可能性が排除できない、未確定）、⑤東洋医学理論（気・経絡）の科学的未実証性（製品説明に用いる場合は科学的主張として評価不能）",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Sham Acupressure Controls Used in Randomized Controlled Trials – PLoS ONE",
+        "source_locator": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0132989&type=printable",
+        "access_date": "2015",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットには神経生理学的に合理的な基盤が存在し、詐欺的製品ではない",
+      "evidence": "ゲートコントロール理論による表面的鎮痛効果と機械的充血による局所血流促進は生理学的に整合性を持ち「機能する可能性がある」と言える。Section 2各Claimおよびエビデンス評価の総合から導出された結論。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Gate Control Theory – ScienceDirect Topics",
+        "source_locator": "https://www.sciencedirect.com/topics/medicine-and-dentistry/gate-control-theory",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「鍼治療の代替」として指圧マットの効能を主張することは科学的に過大評価である",
+      "evidence": "深部刺激・経穴特異性・個別化治療という鍼灸の本質的3要素を広域プラスチックスパイクで代替することは理論的に不可能。刺激深度（数mm〜数cm vs 0〜数mm）、刺激特異性（精密選穴 vs 確率的）、施術の個別化（動的調整可 vs 固定的・不可）で根本的に異なる。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "All About Acupressure Mats – Morningside Acupuncture NYC",
+        "source_locator": "https://www.morningsideacupuncturenyc.com/blog/all-about-acupressure-mats",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "プラセボ効果は排除できないが、それ自体が臨床的に無意味ではない",
+      "evidence": "「プラセボでも痛みが緩和される」という事実は患者体験として実在する。「プラセボだから無効」という二項対立的解釈は現代の疼痛科学では否定されつつある。複数のRCT・メタアナリシスでプラセボ成分の存在が確認される一方、その臨床的意義の再評価が進んでいる。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Acupuncture for the Treatment of Pain – A Mega-Placebo? – Frontiers in Neuroscience",
+        "source_locator": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.01110/full",
+        "access_date": "2019",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "β-エンドルフィン分泌促進に関するマット特有の直接的証拠は2025年時点で存在しない",
+      "evidence": "これは「存在しない証拠」ではなく「証拠がない」状態。手技指圧では複数RCTで確認済みだが、マット形状への外挿は合理的推測に留まる。APEX-MS試験（NCT06755463）がβ-エンドルフィン等の血中バイオマーカーを主要評価指標として直接検証を目指しているが、2025年3月時点で結果未公表。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "ClinicalTrials.gov NCT06755463 – APEX-MS Study",
+        "source_locator": "https://clinicaltrials.gov/study/NCT06755463",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "就寝前の短時間使用による主観的リラクゼーション・睡眠導入の促進が、指圧マットの効果としてRCT水準で最も再現性が高い",
+      "evidence": "2023年RCT（Wiley/APHW）で定期的な指圧マット使用群は対照群と比較し主観的ストレス・睡眠の質の改善が確認された。単一RCT・多数ユーザー報告の蓄積あり。ただし主観指標が中心であり、大規模RCTによる臨床的確証は未達。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Regular use of acupressure mats reduces perceived stress – Wiley/APHW",
+        "source_locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+        "access_date": "2023",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「鍼治療と同等の治癒効果」や「特定疾患の治療」を目的とした指圧マットの使用は、科学的根拠との乖離が大きい",
+      "evidence": "指圧マットと鍼治療の原理比較（Section 1）およびエビデンス総合評価（Section 4）において、「鍼治療レベルの経穴刺激再現」はLow確信度・理論的に不可能と評価されている。特定疾患の治療を裏付けるRCTは存在しない。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Acupressure Mats for Pain: What the Real Evidence Shows",
+        "source_locator": "https://mindbodyhow.blog/acupressure-mats-pain-real-evidence-shows-45386",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

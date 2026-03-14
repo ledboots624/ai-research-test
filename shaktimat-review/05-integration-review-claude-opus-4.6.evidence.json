@@ -1,0 +1,529 @@
+{
+  "step": 5,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T12:14:44Z",
+  "claims": [
+    {
+      "claim": "シャクティマット（指圧マット）は、主観的ストレス軽減・リラクゼーション促進・短期的な筋肉痛緩和において限定的ながらも一貫した効果を示すウェルネスツールであるが、「科学的に証明された治療効果」とは言えない。",
+      "evidence": "科学的エビデンスは小規模・短期研究に限られ、プラセボ効果との分離が不十分である。複数のFindingの統合評価（Finding 1〜4, 8）による総括。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Cochrane reviews on acupuncture therapy for pain: A snapshot",
+        "source_locator": "https://www.sciencedirect.com/science/article/pii/S1550830719304549",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットの定期使用は主観的ストレスの低減とリラクゼーション感の向上をもたらす。ただし、生理学的指標（血圧・心拍数）への有意な変化は確認されていない。",
+      "evidence": "3週間のRCTにおいて、Shaktimatを使用した健康な若年成人群は主観的ストレスの減少と幸福感の向上を報告した。しかし、生理学的測定値に有意差はなく、リラクゼーション実践のみの対照群と同等の効果であった。これは効果がマット固有ではなく「横になってリラックスする行為」に帰属する可能性を示唆する。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Regular use of acupressure mats reduces perceived stress at subjective level",
+        "source_locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットは治療的運動と組み合わせた場合に、慢性腰痛の疼痛軽減・機能改善・QoL向上に追加的効果を示す。ただし単独での治療効果は検証されていない。",
+      "evidence": "2021年のRCTにおいて、治療的運動との併用で指圧マット群は追加的な改善を示した。しかし、マット単独群は設定されておらず、マット固有の寄与度は不明。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise for Chronic Low Back Pain",
+        "source_locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットのスパイクがAβ線維を優先的に活性化し、Gate Control Theoryに基づく鎮痛を引き起こすという説明は、確立された神経科学理論からの類推に過ぎず、指圧マット特有の実験で直接検証されていない。",
+      "evidence": "Gate Control Theory自体は1965年にMelzack & Wallにより提唱され、神経科学的コンセンサスとして確立されている。しかし「皮膚表面の多数のプラスチックスパイクによる圧力刺激→Aβ線維優先活性化→鎮痛」という連鎖の各リンクについて、指圧マットに特化した生理学的実験は発表されていない。指圧マットへの適用はメーカー・レビューサイトの説明に基づく推定に過ぎない。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "メーカー・レビューサイトの説明（指圧マットへのGate Control Theory適用）",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "鍼灸・指圧全般に関するCochrane系統的レビューの大勢は「効果を示すエビデンスはあるが、確実性が低〜中程度であり、決定的とは言えない」という結論であり、指圧マット固有のCochraneレビューは存在しない。",
+      "evidence": "Cochraneスナップショットレビュー（22件の鍼灸関連レビュー分析）では、一部の疼痛条件で効果が示唆されるものの、多くはバイアスリスク・サンプルサイズ不足・異質性を指摘。2019年のCochrane慢性腰痛レビューでは、偽鍼灸との差異は小さく臨床的に有意でない可能性。BMJのメタ分析では鍼灸のプラセボに対する鎮痛効果は「小さく、おそらく臨床的に無関連」と評価。複数の独立した系統的レビューによる一致した結論。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Cochrane: Acupuncture for chronic non-specific low-back pain",
+        "source_locator": "https://www.cochrane.org/evidence/CD013814_acupuncture-chronic-non-specific-low-back-pain-lbp",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "オンラインレビュー・体験記のユーザー満足度は概ね高い（4.0〜4.5/5.0相当）。しかし、これらの評価はサバイバーバイアス（脱落者はレビューを書かない）、購入後正当化バイアス（高額製品ゆえの認知的不協和低減）、アフィリエイトバイアス（レビューサイトの収益構造）により体系的に肯定方向に歪んでいる。",
+      "evidence": "Amazon、公式パートナー記事、ヨガ講師レビュー等は好意的評価が多数だが、acupressureguide.com・garagegymreviews.com等の主要引用先はアフィリエイト収益モデルで運営されている可能性が高く（業界慣行として）、否定的評価の抑制バイアスがかかる。レビュー執筆者は「使い続けた人」に限定されるため、初期離脱者の体験が体系的に欠落。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Amazon.co.jp Shakti Japan 製品レビュー",
+        "source_locator": "Amazon.co.jp",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "2 years",
+          "participant_count": 200,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Shaktimat（日本価格：約22,500円）は安価な代替品（2,000〜6,000円）の4〜10倍の価格だが、この差を正当化する独立比較データは存在しない。合理的に主張できるのは、オーガニックコットン素材・SMETA監査済み倫理的生産・化学物質臭の低さに限られ、「治療効果の優位性」は証明されていない。",
+      "evidence": "Shaktimatはインドで手作り、100%オーガニックコットン、SMETA監査済みを公称。安価品は合成素材・化学臭の報告あり（ユーザーレビュー）。しかしスパイク均一性の独立計測、圧力分布比較試験、耐久性比較試験はいずれも存在しない。倫理的生産コストが価格の何割を占めるかも不明。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Shaktimat公式サイト",
+        "source_locator": "https://shaktimat.co.jp/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットには複数の明確な医学的禁忌が存在するが、Shaktimat公式サイト（日本語版）および多くのレビューサイトでの禁忌情報は極めて限定的である。",
+      "evidence": "医学情報源は以下の禁忌を列挙：妊娠中、開放創・皮膚感染・湿疹部位、血液凝固障害・抗凝固療法中、深部静脈血栓症、糖尿病性末梢神経障害（感覚鈍麻による過剰刺激の自覚不能）、てんかん、がん患者（腫瘍部位近辺）、高齢者の菲薄化皮膚。日本語公式サイトは「妊娠初期や持病のある方は医師へ相談」程度の記述に留まる。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Acupressure Mat Side Effects: What to Know",
+        "source_locator": "https://acupressureguide.com/acupressure-mat-side-effects/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EU GPSR 2023/988",
+          "section": "安全情報提供要件",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "指圧マットの効果がプラセボに主に由来する場合でも、主観的リラクゼーション・安眠誘導としての実用的価値はゼロではない。ただし、「プラセボでも有用」という論理でエビデンス評価を引き上げることは不適切であり、読者が科学的根拠の存在を過大評価するリスクがある。",
+      "evidence": "BMJメタ分析は鍼灸のプラセボに対する鎮痛効果を「小さく、おそらく臨床的に無関連」と評価。Psychology Todayは鍼灸効果の大部分を「theatrical placebo（演出的プラセボ）」と分類。一方で、プラセボ効果自体が脳内オピオイド放出等の生理学的メカニズムを持つことは別の研究分野で確認されている。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Acupuncture treatment for pain: systematic review of randomised clinical trials (BMJ)",
+        "source_locator": "https://www.bmj.com/content/338/bmj.a3115",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "shaktimat.co.jpは「鍼と指圧の利点を融合したマット」「肩こり・首こり・腰痛の緩和」「自律神経の調整」「血行促進」等の表現を使用しており、雑品としての販売であれば薬機法第68条（未承認医薬品等の広告禁止）・景品表示法に抵触するリスクがある。",
+      "evidence": "日本の薬機法上、指圧マットが「医療機器」として承認・届出されていない場合（雑品扱い）、「腰痛の緩和」「自律神経の調整」等の医療的効能を謳うことは薬機法第68条違反となりうる。Shaktimat日本公式は「鍼治療」「ツボ刺激」等の医療類似表現を使用。ただし実際の法的判断は表現の具体的文脈・全体的な印象により異なる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "薬機法第68条（昭和35年法律第145号）未承認医薬品等の広告禁止",
+        "source_locator": "薬機法第68条（昭和35年法律第145号）",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "薬機法第68条（昭和35年法律第145号）",
+          "section": "第68条",
+          "mapping": "direct"
+        },
+        {
+          "standard": "景品表示法",
+          "section": "優良誤認表示禁止規定",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "指圧マットの長期使用（1年以上）に関する安全性データ、効果逓減（脱感作）データ、皮膚への蓄積的影響データは存在しない。すべてのRCTは数週間〜3ヶ月の短期評価である。",
+      "evidence": "PubMed・Cochrane検索において、指圧マットの長期使用追跡研究は特定されていない。ユーザーの「数年間使っている」という報告は存在するが、体系的追跡ではなくサバイバーバイアスに汚染されたアネクドータルデータである。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "PubMed/Cochrane検索結果（該当研究なし）",
+        "source_locator": "unknown",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "開放創・皮膚感染部位への使用禁止を製品に明示することは必須要件である。",
+      "evidence": "開放創・皮膚感染部位への指圧マット使用は感染拡大・皮膚損傷リスクをもたらす。EU GPSR 2023/988では安全情報提供がMUST。日本の消費者安全法でも同等だが、雑品に対する監督体制は弱い。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EU GPSR 2023/988",
+        "source_locator": "EU GPSR 2023/988",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EU GPSR 2023/988",
+          "section": "安全情報提供要件",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "循環器疾患・DVTリスク者への禁忌を製品に明示することは必須要件である。",
+      "evidence": "深部静脈血栓症（DVT）・循環器疾患患者への指圧マット使用は血栓移動等の重大リスクをもたらしうる。EU GPSR 2023/988・消費者安全法に基づく安全情報開示の義務。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "EU GPSR 2023/988",
+        "source_locator": "EU GPSR 2023/988",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "EU GPSR 2023/988",
+          "section": "安全情報提供要件",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "「治療」「治癒」等の医療効能を科学的根拠なく標榜してはならない（薬機法第68条）。",
+      "evidence": "薬機法第68条は未承認医薬品・医療機器の効能効果の広告を禁止する。指圧マットが雑品扱いである場合、「治療」「治癒」等の医療的効能表示は同条に抵触しうる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "薬機法第68条（昭和35年法律第145号）",
+        "source_locator": "薬機法第68条（昭和35年法律第145号）",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "薬機法第68条（昭和35年法律第145号）",
+          "section": "第68条",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "急性炎症・血栓症部位への直接使用は禁止されるべきである。",
+      "evidence": "急性炎症・血栓症部位への指圧マット使用は症状悪化・血栓移動等の重大リスクをもたらす医学的禁忌である。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Acupressure Mat Side Effects: What to Know",
+        "source_locator": "https://acupressureguide.com/acupressure-mat-side-effects/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": []
+    },
+    {
+      "claim": "「腰痛を治す」等の医療的効能表示（無承認の場合）は禁止されるべきである。",
+      "evidence": "薬機法第68条に基づき、未承認の雑品に対して「腰痛を治す」等の医療的効能を表示することは違法となりうる。景品表示法の優良誤認規定にも抵触する可能性がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "薬機法第68条（昭和35年法律第145号）",
+        "source_locator": "薬機法第68条（昭和35年法律第145号）",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "薬機法第68条（昭和35年法律第145号）",
+          "section": "第68条",
+          "mapping": "direct"
+        },
+        {
+          "standard": "景品表示法",
+          "section": "優良誤認表示禁止",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "未成年への無監督使用は禁止されるべきである（皮膚損傷リスク）。",
+      "evidence": "未成年の皮膚は成人より薄く繊細であり、指圧マットのスパイクによる皮膚損傷リスクが高い。各国規制により小児関連はMUSTに格上げされる可能性がある。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Are Acupressure Mats Safe: Essential Facts",
+        "source_locator": "https://bodymassager.org/are-acupressure-mats-safe/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST_NOT",
+      "standard_references": []
+    },
+    {
+      "claim": "妊娠中の使用前に医師への相談が推奨される。",
+      "evidence": "妊娠中のツボ刺激・指圧は流早産リスク等の可能性があり、医師への相談が推奨される。SHOULD判定だが、EU GPSR文脈では安全使用情報の網羅的提供はMUSTに近い解釈も可能。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Are Acupressure Mats Safe: Essential Facts",
+        "source_locator": "https://bodymassager.org/are-acupressure-mats-safe/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": [
+        {
+          "standard": "EU GPSR 2023/988",
+          "section": "安全使用情報要件",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "抗凝固剤服用者への出血リスクについて注意喚起することが推奨される。",
+      "evidence": "ワーファリン・NOAC等の抗凝固療法中の患者は、指圧マットのスパイクによる皮膚刺激で出血リスクが高まる可能性がある。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Acupressure Mat Side Effects: What to Know",
+        "source_locator": "https://acupressureguide.com/acupressure-mat-side-effects/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "糖尿病性末梢神経障害者への注意喚起が推奨される。",
+      "evidence": "糖尿病性末梢神経障害による感覚鈍麻がある場合、過剰刺激による皮膚損傷を自覚できないリスクがある。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Acupressure Mat Side Effects: What to Know",
+        "source_locator": "https://acupressureguide.com/acupressure-mat-side-effects/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "初回使用時は短時間（5〜10分）から段階的に延長することが推奨される。",
+      "evidence": "初回使用時に長時間使用すると皮膚刺激が強く、継続使用を妨げる可能性がある。段階的慣らしが推奨される一般的使用ガイドライン。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Testing Acupressure Mats: What We Learned - Healthline",
+        "source_locator": "https://www.healthline.com/health/acupressure-mat",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "小児使用の年齢制限設定は任意で行うことができる。",
+      "evidence": "小児の皮膚は成人より薄いが、年齢制限設定は現在の規制では任意（MAY）。ただし各国規制によりMUSTに格上げされる可能性がある。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Are Acupressure Mats Safe: Essential Facts",
+        "source_locator": "https://bodymassager.org/are-acupressure-mats-safe/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "衛生管理（定期洗浄）の推奨は任意で行うことができる。",
+      "evidence": "指圧マットは皮膚に直接接触するため、定期的な洗浄が衛生上望ましいが、現在の規制では義務付けられていない。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "Testing Acupressure Mats: What We Learned - Healthline",
+        "source_locator": "https://www.healthline.com/health/acupressure-mat",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "リラクゼーション・主観的ストレス軽減の効能は「限定的に支持」されるが、リラクゼーション行為自体と同等の可能性が大きい。",
+      "evidence": "Finding 1のRCT結果：Shaktimat使用群とリラクゼーション実践のみの対照群で同等の効果が見られたことから、マット固有の効果である可能性が低い。エビデンス強度moderate、確信度medium。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Regular use of acupressure mats reduces perceived stress at subjective level",
+        "source_locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "短期的な筋肉痛・腰痛緩和（補助療法として）の効能は「限定的に支持」されるが、単独療法としては未検証である。",
+      "evidence": "Finding 2の2021年RCT：治療的運動との併用で追加的な改善を示したが、マット単独群は設定されていない。エビデンス強度moderate、確信度medium。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise for Chronic Low Back Pain",
+        "source_locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "睡眠導入・睡眠質向上の効能は「未確定」であり、RCTはあるがプラセボ分離がなされていない。",
+      "evidence": "睡眠に関するRCTは存在するが、プラセボ効果との分離が不十分であるため確定的な評価ができない。エビデンス強度weak〜moderate、確信度medium。文脈から判定：他のFindingと同様のエビデンス品質の傾向に基づきmediumと判定。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "血行促進・エンドルフィン放出の効能は「未確定」であり、理論的推測に過ぎず直接計測データが存在しない。",
+      "evidence": "血行促進・エンドルフィン放出に関する直接計測データは存在せず、理論的類推に基づく主張に過ぎない。エビデンス強度weak、確信度low。Finding 3のGate Control Theory未検証問題と同様の構造。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットによる慢性疾患の治療・治癒については根拠がなく、期待すべきでない。",
+      "evidence": "慢性疾患の治療・治癒を示すエビデンスは存在しない。Finding 4のCochrane系統的レビューを含む複数のエビデンスが、決定的な治療効果を否定している。エビデンス強度strong（ネガティブ方向）、確信度high。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Cochrane: Acupuncture for chronic non-specific low-back pain",
+        "source_locator": "https://www.cochrane.org/evidence/CD013814_acupuncture-chronic-non-specific-low-back-pain-lbp",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Shaktimatへの総合推奨度は「条件付き推奨（Conditional Recommendation）」であり、「リラクゼーションツール」として購入し「治療器具」として期待しないことが前提条件となる。",
+      "evidence": "複数のFindingの統合評価：効果のエビデンスはlow〜mediumであり、禁忌の確認・期待値の適正化が前提。倫理的消費・化学物質アレルギー・長期使用想定者に合理性がある。60日返品保証の活用が推奨される。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "統合レビューの結論（本文書）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

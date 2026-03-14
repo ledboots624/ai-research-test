@@ -1,0 +1,10 @@
+{
+  "context_type": "research_scope",
+  "description": "シャクティマット購入検討のためのリサーチ前提",
+  "data": {
+    "purpose": "購入を検討中。効能・評価を客観的にリサーチしたい",
+    "focus": ["効能（科学的根拠の有無）", "ユーザー評価・口コミ", "価格・コスパ", "類似製品との比較"],
+    "official_site": "https://shaktimat.co.jp/",
+    "product_category": "指圧マット（鍼灸マット・アクプレッシャーマット）"
+  }
+}

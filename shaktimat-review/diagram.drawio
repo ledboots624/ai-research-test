@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="draw.io">
+  <diagram id="shaktimat-review-diag" name="Shaktimat Review">
+    <mxGraphModel background="#ffffff" dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title Bar -->
+        <mxCell id="title" value="シャクティマット（Shaktimat）包括的レビュー：効能・価格・市場比較" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;fontColor=#ffffff;fontSize=22;fontStyle=1;align=left;spacingLeft=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="800" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Section 1: Market & Product -->
+        <mxCell id="sec1_header" value="1. 製品ポジショニングと市場比較" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#000000;fontSize=14;fontStyle=1;align=left;spacingLeft=10;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="800" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_premium" value="本家：シャクティマット&#xa;価格：約23,000円&#xa;・倫理的製造（フェアトレード）&#xa;・強度設計（スパイク数制御）&#xa;・高耐久素材（ABS樹脂・オーガニック）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;shadow=1;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="350" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_cheap" value="安価な類似品&#xa;価格：2,000〜4,000円&#xa;・刺激強度が不均一（設計思想なし）&#xa;・合成素材（劣化・臭気リスク）&#xa;・製造プロセスや倫理性が不透明" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;shadow=1;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="350" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Edge between premium and cheap -->
+        <mxCell id="edge_compare" value="価格差 6-10倍" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;fontSize=11;" edge="1" parent="1" source="node_premium" target="node_cheap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Section 2: Mechanism & Evidence -->
+        <mxCell id="sec2_header" value="2. メカニズムと科学的エビデンス" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#000000;fontSize=14;fontStyle=1;align=left;spacingLeft=10;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="800" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_mech" value="作用機序：広域体表刺激&#xa;（鍼治療とは別物）&#xa;・Aβ線維（触圧覚）を刺激&#xa;・ゲートコントロール理論の応用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="220" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_effect" value="検証された効果（主観）&#xa;・リラクゼーション感&#xa;・短期的ストレス軽減&#xa;・主観的な幸福感向上" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;shadow=1;fontSize=12;strokeWidth=3;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="220" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_limit" value="科学的限界・注意点&#xa;・生理的指標（血圧等）の有意差なし&#xa;・プラセボ効果の可能性&#xa;・医学的治療効果は未証明" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="380" width="220" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Edges for mechanism -->
+        <mxCell id="edge_mech_effect" value="主観的変化" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeWidth=2;strokeColor=#38a169;" edge="1" parent="1" source="node_mech" target="node_effect">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_mech_limit" value="客観的限界" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeWidth=2;strokeColor=#d69e2e;" edge="1" parent="1" source="node_mech" target="node_limit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="420" />
+              <mxPoint x="290" y="480" />
+              <mxPoint x="710" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Section 3: Recommendation -->
+        <mxCell id="sec3_header" value="3. 結論・推奨" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#000000;fontSize=14;fontStyle=1;align=left;spacingLeft=10;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="800" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_conclusion" value="総合評価：条件付き推奨&#xa;「医学的治療」ではなく「高品質なリラクゼーションツール」として評価する場合、&#xa;安価品よりもShaktimatの倫理性・耐久性・安全性への投資は合理的である。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=#2d3748;fontColor=#ffffff;shadow=1;fontSize=14;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="760" height="80" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

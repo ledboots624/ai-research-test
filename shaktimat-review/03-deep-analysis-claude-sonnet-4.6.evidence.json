@@ -1,0 +1,141 @@
+{
+  "step": 3,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T12:02:55Z",
+  "claims": [
+    {
+      "claim": "スパイク数・配置の設計哲学が本家と安価品で根本的に異なり、「刺激密度の制御」という概念自体が安価品には存在しない",
+      "evidence": "Shaktimatは製品ライン（Light: 約8,000本、Original: 約6,000本、Advanced: 約4,000本）を通じてスパイク数による刺激強度の段階的制御を体系化している。安価な類似品はこのような段階的設計がなく、スパイク数はブランド間でランダムに異なり比較困難。購入時に「何本あるか分からない」状態のケースが多い。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Which mat suits you? - ShaktiMat DE",
+        "source_locator": "https://shaktimat.de/a/l/en/pages/produktvergleich",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "素材の違いは「機能性」「安全性」「耐久性」の3軸で体系的に優劣をつけている",
+      "evidence": "スパイク素材（高品質ABS/HIPS樹脂・皮膚安全基準適合 vs 低グレードABS・皮膚刺激リスク）、固定方法（縫製・熱接合 vs 接着剤・汗や洗浄で剥離リスク）、カバー素材（GOTS認証オーガニックコットン vs 一般ポリエステル混紡）、フィラー（天然素材/Blissfoam™ vs 合成ウレタンフォーム）、耐久性（数年使用報告多数 vs 数ヶ月でスパイク脱落・生地破損報告）の比較。接着剤固定品は使用中スパイク剥離による安全性リスクあり。耐久年数の比較はユーザー報告ベースで客観的試験データではない。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Expensive vs. cheap: testing two acupressure mats - Galaxus",
+        "source_locator": "https://www.galaxus.ch/en/page/expensive-vs-cheap-testing-two-acupressure-mats-26772",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「安価品でも同じ指圧効果が得られる」という主張は部分的に正しいが、長期的リスクと不均一な圧力分布を無視している",
+      "evidence": "安価品のスパイクは高さ・形状が不均一な場合が多く、重量が特定スパイクに集中する現象が発生し疼痛管理の観点から逆効果になりうる。短期体験目的であれば安価品でも一定の効果が得られる可能性はあり、それを否定する根拠は乏しい。長期使用・治療補助目的では素材劣化・スパイク品質のリスクが高い。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Best Acupressure Mats, Tested By Experts (2026) - Garage Gym Reviews",
+        "source_locator": "https://www.garagegymreviews.com/best-acupressure-mat",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Shaktimatの倫理的生産は独立した第三者監査により一部検証されており、「自己申告型」の倫理ブランドより信頼性が高い",
+      "evidence": "Gratitude Factory（ヴァーラーナシー）は女性専用工場で現地平均賃金の2倍以上の給与・無料医療保険・食事提供・緊急医療基金・娘のための奨学金制度を提供。Sedex SMETA監査（労働・健康安全・環境・企業倫理の4軸）を受審。Kishor Exports（Fairtrade認証保有）と製造パートナー提携。ただしGratitude Factory自体のFairtrade認証取得は現時点で公式情報から未確定。第三者監査の存在はhigh確信度だが認証の網羅性は未確定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "How it's made - Shakti Mat USA",
+        "source_locator": "https://shaktimat.com/pages/how-its-made",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "価格差（安価品との差額：約12,000〜21,000円）の「倫理プレミアム」は、受益者が明確であり市場標準として合理的だが、効能のみの観点では正当化されない",
+      "evidence": "価格差の内訳は素材品質（中）、手作業製造（高）、倫理的賃金・福利厚生（中〜高）、認証・監査コスト（低〜中）、ブランドプレミアム・マーケティング（中）と推定。Shaktimat社は原価・コスト内訳を非公開のため定量的検証は不可能。効能・機能のみで判断するなら安価品で代替可能な面が大きく、社会的インパクトを重視するなら価格差には正当な根拠がある。コスパ最優先なら中価格帯（Spoonk等、約10,000〜17,000円）が最適解の可能性。価格差内訳は推測に基づく。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Behind the scenes in Varanasi - ShaktiMat DE Blog",
+        "source_locator": "https://shaktimat.de/a/l/en/blogs/news/hinter-den-kulissen-in-varanasi-unser-besuch-in-der-gratitude-factory",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットの習慣化プロセスには「魔の初週」という明確な離脱ゾーンが存在し、これを乗り越えた層は高い継続率を示す",
+      "evidence": "複数のユーザー報告・専門メディアの試用記録から4フェーズの時系列パターンが確認される。Phase1（Day1〜3: 鋭い痛み・離脱リスク最高・5〜10分推奨）、Phase2（Day4〜7: チリチリ・温感・エンドルフィン放出開始・10〜20分推奨）、Phase3（Day8〜14: 心地よい重さ・就寝前ルーティン化・20〜40分可）、Phase4（Day15〜30以降: 定着・腰痛首痛管理・入眠短縮・ストレス低下報告）。対照比較試験による検証なし。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "I Used an Acupressure Mat Every Night for Two Weeks",
+        "source_locator": "https://creators.yahoo.com/lifestyle/story/i-used-an-acupressure-mat-every-night-for-two-weeksit-finally-cured-my-neck-and-shoulder-pain-200127529.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "脱落率の定量データは公表されていないが、「初日〜5日以内に離脱する層」と「2週間継続した層」の間には体験質の分断線がある",
+      "evidence": "脱落の主要原因：①痛みへの過剰な期待値設定ミス（最初から気持ちいいはずという誤解、実際には3〜7日の耐性構築期が必要）、②継続コミット不足（健康器具全般に共通）、③Shaktimat固有の鋭いスパイクによる初期痛みの強さ。脱落率の定量データはShaktimat社・学術論文ともに非公開。「3〜5日を乗り越えた層の大半は継続する」という報告はサバイバーバイアスの影響を強く受けている可能性がある。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Reddit: Shakti Mat Review & Comparison",
+        "source_locator": "https://www.reddit.com/r/sciatica/comments/kbzy8f/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "3 years",
+          "participant_count": 50,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "初期の「痛み」は安価品の方が減少するケースがあるが、これは逆説的に「効果の低下」を意味しうる",
+      "evidence": "安価品はスパイクが鋭くなく不均一なため初期の痛みが相対的に少ない。Shaktimat Originalは均一かつ鋭いスパイクで初期痛みがより明確。慢性疼痛研究の観点では適切な機械的刺激量（一定以上の鋭さと密度）が神経刺激・血流増加に必要とされる。「痛くない安価品の方が始めやすい」ことと「同等の効果を得られる」ことは別命題。ただしShaktimat vs 安価品の効果直接比較試験は現時点で確認されておらず、因果関係は推測レベル。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise (MDPI)",
+        "source_locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+        "access_date": "2021",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

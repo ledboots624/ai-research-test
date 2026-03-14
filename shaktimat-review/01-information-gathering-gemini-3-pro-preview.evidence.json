@@ -1,0 +1,162 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T11:52:50Z",
+  "claims": [
+    {
+      "claim": "Shaktimat（シャクティマット）は高品質な素材と倫理的製造を特徴とする中～高価格帯の指圧マットである",
+      "evidence": "日本国内では「シャクティ プレミアムマット」が約23,000円、「クラシックマット」が約16,500円で販売されている。オーガニックコットン、フェアトレード認定、職人による手作り（インド製）、ABS樹脂製スパイク（耐久性が高い）を使用。スパイクの本数により刺激レベルを選択可能（ライト、オリジナル、アドバンス）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Shakti Mat Japan Official Store",
+        "source_locator": "https://shaktimat.co.jp/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "競合製品との価格差は素材とブランド方針に起因する",
+      "evidence": "Pranamat ECOはセットで約30,000～45,000円（エコ素材・蓮の花型スパイク・接着剤不使用）。Spoonkは約10,000～17,000円（オーガニックヘンプ・携帯性重視）。Amazon等の安価な類似品は2,000～4,000円（ナイロン製・スパイクの鋭さや耐久性に劣る場合あり）。価格差は素材品質・製造方針の違いに起因する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Pranamat ECO Official",
+        "source_locator": "https://pranamat.com/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "指圧マットは慢性疼痛（腰痛・首痛）の緩和に寄与する可能性がある",
+      "evidence": "ランダム化比較試験において、理学療法と併用して指圧マットを使用したグループは対照群と比較して痛み（Pain intensity）の大幅な軽減と機能改善が報告されている。皮膚への機械的刺激が局所的な血流を増加させ、エンドルフィン（鎮痛物質）の放出を促すと推測されている。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise (MDPI)",
+        "source_locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+        "access_date": "2021",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "リラクゼーション効果と主観的な睡眠の質向上は認められるが、客観的指標への影響は限定的である",
+      "evidence": "使用者の多くが主観的なストレス軽減とリラックス感を報告している一方、心拍数や血圧などの客観的な生理学的指標に対しては統計的に有意な変化が見られない場合が多い。就寝前の使用により入眠までの時間が短縮されたという報告があるが、大規模な臨床試験による確固たる証拠はまだ不足している。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Regular use of acupressure mats reduces perceived stress",
+        "source_locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+        "access_date": "2016",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "肯定的な評価は「睡眠導入」と「疼痛緩和」に集中している",
+      "evidence": "\"Hurts so good\"（痛気持ちいい）感覚の後、背中が温かくなり強烈な眠気に襲われるという体験談が多数（Reddit, Amazonレビュー）。慢性的な腰痛持ちのユーザーから、毎日のルーチンとして使用することで痛みが管理しやすくなったとの報告が多い。スパイクが鋭く均一であるため安価な製品よりも刺激が明確で、長期間使用してもへたりにくいと評価されている。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Reddit: Shakti Mat Review & Comparison",
+        "source_locator": "https://www.reddit.com/r/sciatica/comments/kbzy8f/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "3 years",
+          "participant_count": 50,
+          "expert_presence": false,
+          "reproducibility": true
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "否定的な評価は「初期の痛み」と「価格」に関連する",
+      "evidence": "\"慣れるまでが地獄\"、\"肌が敏感な人には刺激が強すぎる\" という声がある。初心者は薄手の服を着るか、タオルの上から使うことが推奨されている。\"ただのプラスチックの突起がついたマットに2万円は高い\" という意見があり、効果だけで言えば安価な模倣品でも十分という層も一定数存在する。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Reddit: Honest Opinions on Acupressure Mats",
+        "source_locator": "https://www.reddit.com/r/Yoga/comments/l3y7m6/shakti_mat_worth_it/",
+        "access_date": "2025-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "初めて使用する場合は、公式サイトや信頼できるガイドに従い、最初は衣服を着用して短い時間から試すこと",
+      "evidence": "ユーザー否定的評価として「慣れるまでが地獄」「肌が敏感な人には刺激が強すぎる」との声があり、初心者向けの安全な導入手順として文書内で必須事項（MUST）として明記されている。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "長く使い続けたい・素材にこだわりたい場合は、安価な模倣品ではなくShakti MatやPranamatへの投資を推奨する",
+      "evidence": "価格差は「耐久性」「素材の安全性（オーガニック）」「倫理的製造」によって正当化されており、長期使用・素材品質を重視する場合は品質の高い製品を選ぶことが文書内で推奨事項（SHOULD）として明記されている。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "効果を試したいだけなら、数千円の安価なマットから始めても同様の「指圧効果」自体は体験可能である",
+      "evidence": "効果だけで言えば安価な模倣品でも十分という層も一定数存在するというユーザー意見と、Shaktimatの価格差が素材・耐久性に起因するという分析から導出されており、文書内で任意事項（MAY）として明記されている。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    }
+  ]
+}

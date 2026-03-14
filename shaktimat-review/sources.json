@@ -1,0 +1,730 @@
+{
+  "generated_at": "2026-03-14T12:21:06Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 38,
+  "tier_summary": {
+    "tier1": 7,
+    "tier2": 18,
+    "tier3": 9,
+    "tier4": 4
+  },
+  "primary_source_count": 21,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "news_article",
+      "title": "Acupressure Mat Side Effects: What to Know",
+      "locator": "https://acupressureguide.com/acupressure-mat-side-effects/",
+      "url": "https://acupressureguide.com/acupressure-mat-side-effects/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "急性炎症・血栓症部位への直接使用は禁止されるべきである。",
+        "抗凝固剤服用者への出血リスクについて注意喚起することが推奨される。",
+        "指圧マットには複数の明確な医学的禁忌が存在するが、Shaktimat公式サイト（日本語版）および多くのレビューサイトでの禁忌情報は極めて限定的である。",
+        "糖尿病性末梢神経障害者への注意喚起が推奨される。"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "industry_report",
+      "title": "Acupressure Mats for Pain: What the Real Evidence Shows",
+      "locator": "https://mindbodyhow.blog/acupressure-mats-pain-real-evidence-shows-45386",
+      "url": "https://mindbodyhow.blog/acupressure-mats-pain-real-evidence-shows-45386",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "「鍼治療と同等の治癒効果」や「特定疾患の治療」を目的とした指圧マットの使用は、科学的根拠との乖離が大きい"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "academic_paper",
+      "title": "Acupuncture for the Treatment of Pain – A Mega-Placebo? – Frontiers in Neuroscience",
+      "locator": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.01110/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.01110/full",
+      "access_date": "2019",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "プラセボ効果は排除できないが、それ自体が臨床的に無意味ではない"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "academic_paper",
+      "title": "Acupuncture treatment for pain: systematic review of randomised clinical trials (BMJ)",
+      "locator": "https://www.bmj.com/content/338/bmj.a3115",
+      "url": "https://www.bmj.com/content/338/bmj.a3115",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットの効果がプラセボに主に由来する場合でも、主観的リラクゼーション・安眠誘導としての実用的価値はゼロではない。ただし、「プラセボでも有用」という論理でエビデンス評価を引き上げることは不適切であり..."
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "industry_report",
+      "title": "All About Acupressure Mats – Morningside Acupuncture NYC",
+      "locator": "https://www.morningsideacupuncturenyc.com/blog/all-about-acupressure-mats",
+      "url": "https://www.morningsideacupuncturenyc.com/blog/all-about-acupressure-mats",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "「鍼治療の代替」として指圧マットの効能を主張することは科学的に過大評価である"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "community_data",
+      "title": "Amazon.co.jp Shakti Japan 製品レビュー",
+      "locator": "Amazon.co.jp",
+      "url": "https://Amazon.co.jp",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "2 years",
+        "participant_count": 200,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "オンラインレビュー・体験記のユーザー満足度は概ね高い（4.0〜4.5/5.0相当）。しかし、これらの評価はサバイバーバイアス（脱落者はレビューを書かない）、購入後正当化バイアス（高額製品ゆえの認知的不..."
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "news_article",
+      "title": "Are Acupressure Mats Safe: Essential Facts",
+      "locator": "https://bodymassager.org/are-acupressure-mats-safe/",
+      "url": "https://bodymassager.org/are-acupressure-mats-safe/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 3,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "妊娠中の使用前に医師への相談が推奨される。",
+        "小児使用の年齢制限設定は任意で行うことができる。",
+        "未成年への無監督使用は禁止されるべきである（皮膚損傷リスク）。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "official_document",
+      "title": "Behind the scenes in Varanasi - ShaktiMat DE Blog",
+      "locator": "https://shaktimat.de/a/l/en/blogs/news/hinter-den-kulissen-in-varanasi-unser-besuch-in-der-gratitude-factory",
+      "url": "https://shaktimat.de/a/l/en/blogs/news/hinter-den-kulissen-in-varanasi-unser-besuch-in-der-gratitude-factory",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "価格差（安価品との差額：約12,000〜21,000円）の「倫理プレミアム」は、受益者が明確であり市場標準として合理的だが、効能のみの観点では正当化されない"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "official_document",
+      "title": "ClinicalTrials.gov NCT06755463 – APEX-MS Study",
+      "locator": "https://clinicaltrials.gov/study/NCT06755463",
+      "url": "https://clinicaltrials.gov/study/NCT06755463",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "β-エンドルフィン分泌促進に関するマット特有の直接的証拠は2025年時点で存在しない"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "academic_paper",
+      "title": "Cochrane reviews on acupuncture therapy for pain: A snapshot",
+      "locator": "https://www.sciencedirect.com/science/article/pii/S1550830719304549",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1550830719304549",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "シャクティマット（指圧マット）は、主観的ストレス軽減・リラクゼーション促進・短期的な筋肉痛緩和において限定的ながらも一貫した効果を示すウェルネスツールであるが、「科学的に証明された治療効果」とは言えな..."
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "academic_paper",
+      "title": "Cochrane: Acupuncture for chronic non-specific low-back pain",
+      "locator": "https://www.cochrane.org/evidence/CD013814_acupuncture-chronic-non-specific-low-back-pain-lbp",
+      "url": "https://www.cochrane.org/evidence/CD013814_acupuncture-chronic-non-specific-low-back-pain-lbp",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットによる慢性疾患の治療・治癒については根拠がなく、期待すべきでない。",
+        "鍼灸・指圧全般に関するCochrane系統的レビューの大勢は「効果を示すエビデンスはあるが、確実性が低〜中程度であり、決定的とは言えない」という結論であり、指圧マット固有のCochraneレビューは存..."
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "industry_report",
+      "title": "Do Acupressure Mats Work and Are They the Same as Acupuncture?",
+      "locator": "https://www.summitacuphilly.com/post/do-acupressure-mats-work-and-are-they-the-same-as-acupuncture",
+      "url": "https://www.summitacuphilly.com/post/do-acupressure-mats-work-and-are-they-the-same-as-acupuncture",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットが再現できるのは「広域体表刺激」であり、鍼治療の「深部・点的刺激」は再現不可能である"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "EU GPSR 2023/988",
+      "locator": "EU GPSR 2023/988",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "循環器疾患・DVTリスク者への禁忌を製品に明示することは必須要件である。",
+        "開放創・皮膚感染部位への使用禁止を製品に明示することは必須要件である。"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "academic_paper",
+      "title": "Effects of acupressure versus physical therapy on Enkephalin and Endorphin levels in Scalene Myofascial Pain Syndrome patients – RCT",
+      "locator": "https://www.researchgate.net/profile/Riziq-Allah-Gaowgzeh/publication/357393675_Effects_of_acupressure_versus_physical_therapy_on_Enkephalin_and_Endorphin_levels_in_Scalene_Myofascial_Pain_Syndrome_patients_A_randomized_controlled_trial/links/61cbfa44b6b5667157b1ac4d/Effects-of-acupressure-versus-physical-therapy-on-Enkephalin-and-Endorphin-levels-in-Scalene-Myofascial_Pain_Syndrome_patients_A-randomized-controlled-trial.pdf",
+      "url": "https://www.researchgate.net/profile/Riziq-Allah-Gaowgzeh/publication/357393675_Effects_of_acupressure_versus_physical_therapy_on_Enkephalin_and_Endorphin_levels_in_Scalene_Myofascial_Pain_Syndrome_patients_A_randomized_controlled_trial/links/61cbfa44b6b5667157b1ac4d/Effects-of-acupressure-versus-physical-therapy-on-Enkephalin-and-Endorphin-levels-in-Scalene-Myofascial_Pain_Syndrome_patients_A-randomized-controlled-trial.pdf",
+      "access_date": "2021",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "指圧（手技）ではβ-エンドルフィン・エンケファリンの血中上昇が実証されているが、指圧マット（プラスチックスパイク）特有のエビデンスは存在しない"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "academic_paper",
+      "title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise (MDPI)",
+      "locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+      "url": "https://www.mdpi.com/2076-3417/11/11/5211",
+      "access_date": "2021",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "初期の「痛み」は安価品の方が減少するケースがあるが、これは逆説的に「効果の低下」を意味しうる",
+        "指圧マットは慢性疼痛（腰痛・首痛）の緩和に寄与する可能性がある"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "academic_paper",
+      "title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise for Chronic Low Back Pain",
+      "locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+      "url": "https://www.mdpi.com/2076-3417/11/11/5211",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットは治療的運動と組み合わせた場合に、慢性腰痛の疼痛軽減・機能改善・QoL向上に追加的効果を示す。ただし単独での治療効果は検証されていない。",
+        "短期的な筋肉痛・腰痛緩和（補助療法として）の効能は「限定的に支持」されるが、単独療法としては未検証である。"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "academic_paper",
+      "title": "Efficacy of an Acupressure Mat in Association with Therapeutic Exercise – MDPI Applied Sciences",
+      "locator": "https://www.mdpi.com/2076-3417/11/11/5211",
+      "url": "https://www.mdpi.com/2076-3417/11/11/5211",
+      "access_date": "2021",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "局所血流増加は皮膚温度上昇として観察可能であり生理学的現象として実在するが、指圧マット固有の特異的効果ではなく非特異的効果の可能性が高い"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "industry_report",
+      "title": "Expensive vs. cheap: testing two acupressure mats - Galaxus",
+      "locator": "https://www.galaxus.ch/en/page/expensive-vs-cheap-testing-two-acupressure-mats-26772",
+      "url": "https://www.galaxus.ch/en/page/expensive-vs-cheap-testing-two-acupressure-mats-26772",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "素材の違いは「機能性」「安全性」「耐久性」の3軸で体系的に優劣をつけている"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "academic_paper",
+      "title": "Gate Control Theory – ScienceDirect Topics",
+      "locator": "https://www.sciencedirect.com/topics/medicine-and-dentistry/gate-control-theory",
+      "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/gate-control-theory",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ゲートコントロール理論（Gate Control Theory）による鎮痛は生理学的に妥当であり、指圧マットの鎮痛効果の説明として神経解剖学的に整合性がある",
+        "指圧マットには神経生理学的に合理的な基盤が存在し、詐欺的製品ではない"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "official_document",
+      "title": "How it's made - Shakti Mat USA",
+      "locator": "https://shaktimat.com/pages/how-its-made",
+      "url": "https://shaktimat.com/pages/how-its-made",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Shaktimatの倫理的生産は独立した第三者監査により一部検証されており、「自己申告型」の倫理ブランドより信頼性が高い"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "news_article",
+      "title": "I Used an Acupressure Mat Every Night for Two Weeks",
+      "locator": "https://creators.yahoo.com/lifestyle/story/i-used-an-acupressure-mat-every-night-for-two-weeksit-finally-cured-my-neck-and-shoulder-pain-200127529.html",
+      "url": "https://creators.yahoo.com/lifestyle/story/i-used-an-acupressure-mat-every-night-for-two-weeksit-finally-cured-my-neck-and-shoulder-pain-200127529.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットの習慣化プロセスには「魔の初週」という明確な離脱ゾーンが存在し、これを乗り越えた層は高い継続率を示す"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "official_document",
+      "title": "Pranamat ECO Official",
+      "locator": "https://pranamat.com/",
+      "url": "https://pranamat.com/",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "競合製品との価格差は素材とブランド方針に起因する"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "unknown",
+      "title": "PubMed/Cochrane検索結果（該当研究なし）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットの長期使用（1年以上）に関する安全性データ、効果逓減（脱感作）データ、皮膚への蓄積的影響データは存在しない。すべてのRCTは数週間〜3ヶ月の短期評価である。"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "community_data",
+      "title": "Reddit: Honest Opinions on Acupressure Mats",
+      "locator": "https://www.reddit.com/r/Yoga/comments/l3y7m6/shakti_mat_worth_it/",
+      "url": "https://www.reddit.com/r/Yoga/comments/l3y7m6/shakti_mat_worth_it/",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "否定的な評価は「初期の痛み」と「価格」に関連する"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "community_data",
+      "title": "Reddit: Shakti Mat Review & Comparison",
+      "locator": "https://www.reddit.com/r/sciatica/comments/kbzy8f/",
+      "url": "https://www.reddit.com/r/sciatica/comments/kbzy8f/",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "3 years",
+        "participant_count": 50,
+        "expert_presence": false,
+        "reproducibility": true
+      },
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "肯定的な評価は「睡眠導入」と「疼痛緩和」に集中している",
+        "脱落率の定量データは公表されていないが、「初日〜5日以内に離脱する層」と「2週間継続した層」の間には体験質の分断線がある"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "academic_paper",
+      "title": "Regular use of acupressure mats reduces perceived stress at subjective level",
+      "locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+      "url": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "リラクゼーション・主観的ストレス軽減の効能は「限定的に支持」されるが、リラクゼーション行為自体と同等の可能性が大きい。",
+        "指圧マットの定期使用は主観的ストレスの低減とリラクゼーション感の向上をもたらす。ただし、生理学的指標（血圧・心拍数）への有意な変化は確認されていない。"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "academic_paper",
+      "title": "Regular use of acupressure mats reduces perceived stress – Wiley/APHW",
+      "locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+      "url": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+      "access_date": "2023",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "就寝前の短時間使用による主観的リラクゼーション・睡眠導入の促進が、指圧マットの効果としてRCT水準で最も再現性が高い",
+        "現行のエビデンスでは指圧マットの効果のうちプラセボ・非特異的成分の割合は大きく、特異的生理効果との分離が困難である"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_type": "academic_paper",
+      "title": "Regular use of acupressure mats reduces perceived stress",
+      "locator": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+      "url": "https://iaap-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12490",
+      "access_date": "2016",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "リラクゼーション効果と主観的な睡眠の質向上は認められるが、客観的指標への影響は限定的である"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_type": "official_document",
+      "title": "Shakti Mat Japan Official Store",
+      "locator": "https://shaktimat.co.jp/",
+      "url": "https://shaktimat.co.jp/",
+      "access_date": "2025-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "Shaktimat（シャクティマット）は高品質な素材と倫理的製造を特徴とする中～高価格帯の指圧マットである"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_type": "official_document",
+      "title": "Shaktimat公式サイト",
+      "locator": "https://shaktimat.co.jp/",
+      "url": "https://shaktimat.co.jp/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Shaktimat（日本価格：約22,500円）は安価な代替品（2,000〜6,000円）の4〜10倍の価格だが、この差を正当化する独立比較データは存在しない。合理的に主張できるのは、オーガニックコッ..."
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_type": "academic_paper",
+      "title": "Sham Acupressure Controls Used in Randomized Controlled Trials – PLoS ONE",
+      "locator": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0132989&type=printable",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0132989&type=printable",
+      "access_date": "2015",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マット研究全体に構造的なバイアスリスクが存在する"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_type": "news_article",
+      "title": "Testing Acupressure Mats: What We Learned - Healthline",
+      "locator": "https://www.healthline.com/health/acupressure-mat",
+      "url": "https://www.healthline.com/health/acupressure-mat",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "初回使用時は短時間（5〜10分）から段階的に延長することが推奨される。",
+        "衛生管理（定期洗浄）の推奨は任意で行うことができる。"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_type": "industry_report",
+      "title": "The Best Acupressure Mats, Tested By Experts (2026) - Garage Gym Reviews",
+      "locator": "https://www.garagegymreviews.com/best-acupressure-mat",
+      "url": "https://www.garagegymreviews.com/best-acupressure-mat",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "「安価品でも同じ指圧効果が得られる」という主張は部分的に正しいが、長期的リスクと不均一な圧力分布を無視している"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_type": "official_document",
+      "title": "Which mat suits you? - ShaktiMat DE",
+      "locator": "https://shaktimat.de/a/l/en/pages/produktvergleich",
+      "url": "https://shaktimat.de/a/l/en/pages/produktvergleich",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "スパイク数・配置の設計哲学が本家と安価品で根本的に異なり、「刺激密度の制御」という概念自体が安価品には存在しない"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_type": "unknown",
+      "title": "メーカー・レビューサイトの説明（指圧マットへのGate Control Theory適用）",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "指圧マットのスパイクがAβ線維を優先的に活性化し、Gate Control Theoryに基づく鎮痛を引き起こすという説明は、確立された神経科学理論からの類推に過ぎず、指圧マット特有の実験で直接検証さ..."
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_type": "unknown",
+      "title": "統合レビューの結論（本文書）",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Shaktimatへの総合推奨度は「条件付き推奨（Conditional Recommendation）」であり、「リラクゼーションツール」として購入し「治療器具」として期待しないことが前提条件となる..."
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_type": "official_document",
+      "title": "薬機法第68条（昭和35年法律第145号）",
+      "locator": "薬機法第68条（昭和35年法律第145号）",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "「治療」「治癒」等の医療効能を科学的根拠なく標榜してはならない（薬機法第68条）。",
+        "「腰痛を治す」等の医療的効能表示（無承認の場合）は禁止されるべきである。"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_type": "official_document",
+      "title": "薬機法第68条（昭和35年法律第145号）未承認医薬品等の広告禁止",
+      "locator": "薬機法第68条（昭和35年法律第145号）",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "shaktimat.co.jpは「鍼と指圧の利点を融合したマット」「肩こり・首こり・腰痛の緩和」「自律神経の調整」「血行促進」等の表現を使用しており、雑品としての販売であれば薬機法第68条（未承認医薬..."
+      ]
+    }
+  ]
+}

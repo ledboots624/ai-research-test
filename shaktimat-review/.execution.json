@@ -1,0 +1,109 @@
+{
+  "version": "2.2.0",
+  "topic": "shaktimat-review",
+  "description": "シャクティマットの効能・評価リサーチ",
+  "completed_at": "2026-03-14T12:22:43Z",
+  "duration_seconds": 1952,
+  "duration_human": "32m33s",
+  "steps": [
+    {
+      "id": "info-gathering-basic",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "Shaktimatおよび競合する指圧マット（Acupressure Mat）に関する基本情報の収集。1. 公式サイトおよび主要ECサイトでの製品仕様・価格。2. 謳われている主な効能（リラクゼーション、睡眠改善、鎮痛等）。3. 学術データベースや信頼できる健康情報サイトにおける『指圧マット』の科学的研究・論文の有無。4. ユーザーレビューの傾向（肯定・否定の主な理由）。情報源をURL付きで明記すること。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/shaktimat-review/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 7108,
+      "evidence_extracted": true
+    },
+    {
+      "id": "analysis-efficacy",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "指圧マットの生理学的メカニズムとエビデンスの深層分析。収集された情報を基に、鍼治療（Acupuncture）や指圧（Acupressure）の原理がマット形状でどの程度再現されるか、エンドルフィン分泌や血流改善の科学的根拠を評価する。プラセボ効果の可能性と実際の生理学的変化を区別し、医学的な効能の確信度（High/Medium/Low）を判定する。",
+      "depends_on": [
+        "info-gathering-basic"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/shaktimat-review/02-deep-analysis-claude-sonnet-4.6.md",
+      "output_bytes": 15218,
+      "evidence_extracted": true
+    },
+    {
+      "id": "analysis-market-ethics",
+      "step": 3,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "製品価値と競合比較の分析。1. 本家Shaktimatと安価な類似品（Amazon等の安価なコピー商品）との違い（針の数、材質、耐久性）。2. Shaktimatが強調する倫理的生産（フェアトレード、手作り）が価格差に見合う価値かどうかの評価。3. ユーザー体験の時系列分析（初期の痛みから習慣化までのプロセスと脱落率）。",
+      "depends_on": [
+        "info-gathering-basic"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/shaktimat-review/03-deep-analysis-claude-sonnet-4.6.md",
+      "output_bytes": 17610,
+      "evidence_extracted": true
+    },
+    {
+      "id": "critical-review",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "これまでの分析に対する批判的検証。1. 効能主張における過剰広告（疑似科学）の指摘。2. ユーザーレビューにおけるバイアス（購入後の正当化バイアスやアフィリエイトの影響）。3. 医学的リスク（皮膚トラブル、循環器系疾患がある場合の禁忌）の見落としがないか。4. 『高価な正規品』を推奨する論理がマーケティングに踊らされていないかの確認。",
+      "depends_on": [
+        "analysis-efficacy",
+        "analysis-market-ethics"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/shaktimat-review/04-critic-review-claude-sonnet-4.6.md",
+      "output_bytes": 22978,
+      "evidence_extracted": false
+    },
+    {
+      "id": "final-integration",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップを統合し、購入検討者への最終結論を導出する。科学的根拠のある効能、期待すべきでない過剰な期待、安価な代替品ではなくShaktimatを選ぶべき具体的なユーザー層（倫理観、耐久性重視等）を定義する。最終的な推奨度と、購入前に確認すべきチェックリスト（痛みの許容度等）を提示する。",
+      "depends_on": [
+        "critical-review"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/shaktimat-review/05-integration-review-claude-opus-4.6.md",
+      "output_bytes": 35471,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 12874
+    },
+    {
+      "file": "sources.json",
+      "bytes": 32122
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 6103
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 533756
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 773690
+    },
+    {
+      "file": "slides.html",
+      "bytes": 147893
+    },
+    {
+      "file": "slides.md",
+      "bytes": 9475
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1527895
+    }
+  ],
+  "context_file": "context-shaktimat.json"
+}
