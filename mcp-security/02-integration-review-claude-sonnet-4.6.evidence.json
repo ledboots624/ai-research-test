@@ -1,0 +1,239 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T00:34:10Z",
+  "claims": [
+    {
+      "claim": "MCP（Model Context Protocol）は LLM とツールを繋ぐ事実上の標準プロトコルとして急速に普及している",
+      "evidence": "not_stated（Executive Summary での言及のみ。具体的な普及率データは明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "「信頼できないコンテンツ・機密データ・外部通信手段」の三要素が揃う「Lethal Trifecta」状態は、プロンプトインジェクション経由のデータ流出を現実的な脅威とする",
+      "evidence": "Executive Summary で言及。Finding 2 において、ファイル読み込みツール＋メール送信ツールを持つエージェントが悪意あるファイル内容を読み込み、攻撃者アドレスに自動送信させられた事例報告により裏付けられている",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Lethal Trifecta: Securing MCP against data flow attacks – Glama.ai",
+        "source_locator": "https://glama.ai",
+        "access_date": "2025"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "OWASP が 2025 年に MCP Top 10 を公開したことで、MCP に関する脆弱性分類が体系化された",
+      "evidence": "OWASP MCP Top 10 の存在および各 Finding における分類番号（#2, #3, #6, #7, #8, #9, #10 等）への引用によって裏付けられる",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OWASP MCP Top 10",
+        "source_locator": "https://owasp.org/www-project-mcp-top-10/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "プロトコル仕様レベルの認証・アテステーション欠如は未解決のままである",
+      "evidence": "Finding 5 にて Capability Attestation の欠如・Unauthenticated Sampling・Shadow MCP Servers リスクが指摘されている。AttestMCP 拡張提案は存在するが 2026 年 3 月時点で標準仕様には未採用",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "https://arxiv.org/abs/2601.17549",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "CVE-2025-6514・CVE-2025-49596 等として実被害が記録されており、MCP セキュリティリスクは理論的リスクから実害フェーズへ移行している",
+      "evidence": "CVE-2025-6514（認証設定の誤りによるセッションハイジャック）および CVE-2025-49596（入力検証不備による RCE）が既知脆弱性データベースに記録されている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Known Vulnerabilities – MCP Security",
+        "source_locator": "https://modelcontextprotocol-security.io/known-vulnerabilities/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "悪意あるツール定義や外部データ（メール・ファイル・カレンダー）を介したプロンプトインジェクションにより、エージェントはユーザーの同意なしに任意のツールを実行させられる。OWASP MCP Top 10 では Intent Flow Subversion（#6）・Tool Poisoning（#3）として分類されている",
+      "evidence": "ツール description フィールドへの悪意ある命令埋め込み（Tool Poisoning）および外部コンテンツからの Indirect Prompt Injection が確認されている。Microsoft Developer Blog が Indirect Prompt Injection への公式防御手法を公開。OWASP MCP Top 10 への収録により業界横断的な合意形成がなされている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OWASP MCP Top 10",
+        "source_locator": "https://owasp.org/www-project-mcp-top-10/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "LLM は自然言語処理の性質上ツール説明（description フィールド）を信頼するため、Tool Poisoning 攻撃に対して構造的に脆弱である",
+      "evidence": "Finding 1 Evidence として明示。ツール description フィールドに悪意ある命令を埋め込む Tool Poisoning は、LLM がツール説明を信頼することを悪用する",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Protecting against indirect prompt injection attacks in MCP – Microsoft Developer Blog",
+        "source_locator": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/understanding-and-mitigating-security-risks-in-mcp-implementations/4404667",
+        "access_date": "2025"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MCP エージェントが「信頼できない外部コンテンツへのアクセス」「機密データへのアクセス」「外部送信手段（メール・HTTP 等）」の 3 要素を同時に持つ場合、プロンプトインジェクション一発で機密データが流出しうる。これは MCP の典型的な構成で発生しうる",
+      "evidence": "ファイル読み込みツール＋メール送信ツールを持つエージェントが悪意あるファイル内容を読み込み、攻撃者アドレスに自動送信させられた事例が報告されている。汎用エージェント構成では 3 要素同時存在が日常的設計となっており、リスクが常在化している。OWASP Top 10 では Context Injection & Over-Sharing（#10）として分類",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Lethal Trifecta: Securing MCP against data flow attacks – Glama.ai",
+        "source_locator": "https://glama.ai",
+        "access_date": "2025"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MCP サーバーに広範な OAuth スコープが付与されている場合（フルアクセス等）、攻撃者はサーバーを代理人として悪用しユーザーの意図を超えた操作を実行できる（Confused Deputy 問題）。OWASP Top 10 の Privilege Escalation via Scope Creep（#2）・Insufficient Authentication & Authorization（#7）に相当する",
+      "evidence": "開発者の利便性優先でフルスコープトークンを採用するケースが多い（業界慣行）。クライアントごとの同意粒度が粗い場合、一度承認されたサーバーが想定外のリソースにアクセスする可能性がある。CVE-2025-6514 として認証設定の誤りによるセッションハイジャックが実際に記録されている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Security Best Practices – Model Context Protocol Documentation",
+        "source_locator": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+        "access_date": "2025"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "npm・pip 等で配布されるサードパーティ MCP サーバーへの悪意ある改ざん・依存関係混乱（Dependency Confusion）攻撃は、ローカル実行環境でのファイルシステム侵害や RCE（任意コード実行）に直結する",
+      "evidence": "CVE-2025-49596：MCP ツールエンドポイントへの入力検証不備による RCE が記録済み。MCP サーバーはローカルプロセスとして実行されることが多く OS レベルの権限でコード実行が可能な構造。オープンソース公開が主流のため悪意ある fork や依存パッケージへの注入が容易。OWASP Top 10 では Software Supply Chain Attacks & Dependency Tampering（#4）として分類",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "CVE-2025-49596, Known Vulnerabilities – MCP Security",
+        "source_locator": "https://modelcontextprotocol-security.io/known-vulnerabilities/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MCP 仕様自体に、サーバーが宣言する機能・権限を検証するアテステーション機構が存在せず、サーバー間連鎖（Multi-hop MCP）における信頼伝播も未定義のまま。これは実装側での補完が不可能な根本的欠陥である",
+      "evidence": "Capability Attestation の欠如（接続先サーバーが主張する機能・権限を独立検証する手段がない）、Unauthenticated Sampling（送信元認証機構がないため Server-to-Client プロンプトインジェクションが成立しうる）、Shadow MCP Servers（OWASP Top 10 #9）リスクが指摘されている。AttestMCP 拡張提案は存在するが 2026 年 3 月時点で標準仕様には未採用。主要ソース（arXiv:2601.17549v1）は査読前論文の可能性あり",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "https://arxiv.org/abs/2601.17549",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "MCP の双方向通信で送信元を認証する仕組みがないため、Server-to-Client プロンプトインジェクション（Unauthenticated Sampling）が成立しうる",
+      "evidence": "Finding 5 Evidence として明示。MCP 仕様レベルでの送信元認証機構の欠如が指摘されている",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "New Prompt Injection Attack Vectors Through MCP Sampling – Palo Alto Networks Unit 42",
+        "source_locator": "https://unit42.paloaltonetworks.com",
+        "access_date": "2025"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "未管理・不正な MCP サーバーが信頼済みとして登録されるリスク（Shadow MCP Servers）が存在する",
+      "evidence": "OWASP MCP Top 10 #9 として分類されている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OWASP MCP Top 10 #9",
+        "source_locator": "https://owasp.org/www-project-mcp-top-10/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "MCP ツール呼び出しの詳細なログが取得・保存されていない場合、侵害後の原因分析・フォレンジックが著しく困難になる。これはセキュリティインシデント対応能力の根本的な低下を意味する",
+      "evidence": "OWASP MCP Top 10 の Lack of Audit and Telemetry（#8）として明示的に分類されている。ツール呼び出しはモデルの内部判断によって実行されるため従来の API ゲートウェイログだけでは追跡が困難。多くの MCP 実装でデフォルトログ設定が不十分であることが指摘されている。ただし実装状況の調査は不十分",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OWASP MCP Top 10 #8",
+        "source_locator": "https://owasp.org/www-project-mcp-top-10/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "AttestMCP は MCP のアテステーション欠如に対する有力な解決策として提示されているが、標準化・採用の現実的な見通しは未公表であり「有効な解決策」と「未採用の提案」という二面性がある",
+      "evidence": "arXiv 論文（arXiv:2601.17549v1）では AttestMCP を有力な解決策として提示。2026 年 3 月時点で標準仕様には未採用（未確定）。arXiv 論文は査読前の可能性あり",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "https://arxiv.org/abs/2601.17549",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "MCP 仕様の欠陥に対する修正責任の帰属が不明確であり、「プロトコル仕様の欠陥」か「実装者の責任」かの線引きについて公式ドキュメントと学術論文で見解が分かれる",
+      "evidence": "公式ドキュメント（modelcontextprotocol.io）は実装側の Best Practices を強調する一方、学術論文（arXiv:2601.17549v1）は仕様自体の改訂を訴えている",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "https://arxiv.org/abs/2601.17549",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "MCP のセキュリティリスクは理論的な懸念段階を超え、CVE として実記録される実害フェーズに移行している",
+      "evidence": "CVE-2025-6514（セッションハイジャック）および CVE-2025-49596（RCE）が既知脆弱性として記録されている。複数の独立した情報源（OWASP・CVE データベース・業界レポート）により高確信度で裏付けられている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Known Vulnerabilities – MCP Security",
+        "source_locator": "https://modelcontextprotocol-security.io/known-vulnerabilities/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "プロンプトインジェクション・Lethal Trifecta・過剰権限・サプライチェーン攻撃の 4 リスクは複数の独立ソースにより裏付けられており、即時対応が必要な現実的脅威である",
+      "evidence": "Finding 1〜4 がそれぞれ OWASP MCP Top 10・CVE データベース・複数の業界レポートによって高確信度で独立して裏付けられている",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OWASP MCP Top 10",
+        "source_locator": "https://owasp.org/www-project-mcp-top-10/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "プロトコル仕様レベルのアテステーション欠如とその解決策（AttestMCP 等）の標準化状況については未確定であり、中長期的な仕様改訂の動向を継続監視する必要がある",
+      "evidence": "Finding 5 の主要ソース（arXiv:2601.17549v1）が査読前論文の可能性があること、AttestMCP の採用タイムラインが未公表であることから中確信度と判定",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "https://arxiv.org/abs/2601.17549",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "Multi-hop MCP（複数 MCP サーバーが連鎖するシナリオ）での信頼境界の定義が仕様に存在しない",
+      "evidence": "Unresolved Issues セクションで「複数 MCP サーバーが連鎖するシナリオでの信頼境界の定義が仕様に存在しない」と明示。理論的には指摘されているが実環境での再現実験データは限られている",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "https://arxiv.org/abs/2601.17549",
+        "access_date": "2026"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "Token Mismanagement は OWASP MCP Top 10 の最高リスク（#1）に分類されているが、実際のインシデント率の定量データは取得されていない",
+      "evidence": "Unresolved Issues セクションで明示。OWASP Top 10 #1 として最高リスク分類はされているが、実際のインシデント率の定量データが未取得",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "OWASP MCP Top 10",
+        "source_locator": "https://owasp.org/www-project-mcp-top-10/",
+        "access_date": "2026-03-14"
+      },
+      "confidence": "medium"
+    }
+  ]
+}

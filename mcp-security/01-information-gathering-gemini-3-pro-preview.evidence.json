@@ -1,0 +1,140 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T00:30:55Z",
+  "claims": [
+    {
+      "claim": "MCP（Model Context Protocol）はLLMと外部ツールを接続する標準プロトコルとして普及しているが、従来のAPIリスクに加え、プロンプトインジェクションによる自律的な攻撃やプロトコル固有の構造的脆弱性を抱えている。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "「Lethal Trifecta（信頼できないコンテンツ・プライベートデータ・外部通信チャネルの組み合わせ）」によるデータ流出と、過剰な権限付与による「Confused Deputy」問題がMCPの主要な懸念事項である。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "攻撃者はツール定義や外部データを操作し、エージェントに意図しないツール実行を強制できる。",
+      "evidence": "Tool Poisoning（悪意のあるツール説明文によりLLMに不適切なタイミングでツールを呼び出させる手法）およびIndirect Prompt Injection（メール・カレンダー・ファイルなどの外部入力に隠された命令により、ユーザーの同意なしにデータ送信やツール実行を行わせる手法）が確認されている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Protecting against indirect prompt injection attacks in MCP",
+        "source_locator": "Microsoft Developer Blog, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "攻撃者はツール定義や外部データを操作し、エージェントに意図しないツール実行を強制できる。",
+      "evidence": "Tool Poisoning（悪意のあるツール説明文によりLLMに不適切なタイミングでツールを呼び出させる手法）およびIndirect Prompt Injection（メール・カレンダー・ファイルなどの外部入力に隠された命令により、ユーザーの同意なしにデータ送信やツール実行を行わせる手法）が確認されている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "MCP Security Cheat Sheet",
+        "source_locator": "OWASP, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "LLMが機密データと外部送信可能なツール（メール送信など）の両方にアクセスできる場合、データ流出のリスクが極めて高い。",
+      "evidence": "Lethal Trifecta：「信頼できないコンテンツへのアクセス」「機密データへのアクセス」「外部への送信手段」の3要素が揃うと、プロンプトインジェクションにより機密情報が外部に送信される危険性が生じる。具体例として、ファイル読み込みツールとメール送信ツールを持つエージェントが、悪意あるファイルを読み込んだ結果、その内容を攻撃者にメール送信させられるケースが報告されている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "The Lethal Trifecta: Securing MCP against data flow attacks",
+        "source_locator": "Glama.ai, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "LLMが機密データと外部送信可能なツール（メール送信など）の両方にアクセスできる場合、データ流出のリスクが極めて高い。",
+      "evidence": "Lethal Trifecta：「信頼できないコンテンツへのアクセス」「機密データへのアクセス」「外部への送信手段」の3要素が揃うと、プロンプトインジェクションにより機密情報が外部に送信される危険性が生じる。具体例として、ファイル読み込みツールとメール送信ツールを持つエージェントが、悪意あるファイルを読み込んだ結果、その内容を攻撃者にメール送信させられるケースが報告されている。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Model Context Protocol: How to Reduce Security Risks",
+        "source_locator": "Splx.ai, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MCPサーバーの権限管理が不十分な場合、ユーザーの意図を超えた操作が可能になる「Confused Deputy」問題が発生する。",
+      "evidence": "Over-privileged Tokens：MCPサーバーがユーザーごとの細かいスコープではなく広範なOAuthトークン（例：読み取り専用でなくフルアクセス）で動作する場合、攻撃者はサーバーの権限を悪用できる。Granularity Issues：クライアントごとの同意（Consent）が粒度細かく制御されていない場合、一度承認されたサーバーが想定外のデータにアクセスする可能性がある。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Security Best Practices",
+        "source_locator": "Model Context Protocol Documentation, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MCPサーバーの権限管理が不十分な場合、ユーザーの意図を超えた操作が可能になる「Confused Deputy」問題が発生する。",
+      "evidence": "Over-privileged Tokens：MCPサーバーがユーザーごとの細かいスコープではなく広範なOAuthトークン（例：読み取り専用でなくフルアクセス）で動作する場合、攻撃者はサーバーの権限を悪用できる。Granularity Issues：クライアントごとの同意（Consent）が粒度細かく制御されていない場合、一度承認されたサーバーが想定外のデータにアクセスする可能性がある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "MCP Security Cheat Sheet",
+        "source_locator": "OWASP, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "信頼できないサードパーティ製MCPサーバーやプラグインの導入が、システム侵害の直接的な経路となる。",
+      "evidence": "MCPサーバーはオープンソース（npm, pip等）で配布されることが多く、悪意のあるパッケージや正規パッケージへの侵害がリスクとなる。ローカルで実行される侵害されたMCPサーバーは、ファイルシステムの読み書きや任意のコード実行（RCE）につながる恐れがある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "11 Emerging AI Security Risks with MCP",
+        "source_locator": "Checkmarx, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "信頼できないサードパーティ製MCPサーバーやプラグインの導入が、システム侵害の直接的な経路となる。",
+      "evidence": "MCPサーバーはオープンソース（npm, pip等）で配布されることが多く、悪意のあるパッケージや正規パッケージへの侵害がリスクとなる。ローカルで実行される侵害されたMCPサーバーは、ファイルシステムの読み書きや任意のコード実行（RCE）につながる恐れがある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "MCP Tools: Attack Vectors and Defense Recommendations",
+        "source_locator": "Elastic Security Labs, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "MCPの仕様自体に、認証や信頼性の検証機能が不足している。",
+      "evidence": "Lack of Capability Attestation（サーバーが宣言する機能や権限を検証する仕組みがない）、Unauthenticated Sampling（双方向通信において送信元の認証保証がなく、Server-to-ClientのプロンプトインジェクションがServer側から可能）、Implicit Trust Propagation（複数のMCPサーバーが連鎖する場合、一つの悪意あるサーバーがダウンストリーム全体の判断に影響を及ぼす）。特定の研究に基づく指摘であり、仕様全体を網羅した検証ではない可能性がある。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "Breaking the Protocol: Security Analysis of the MCP Specification",
+        "source_locator": "arXiv:2601.17549v1, 2026",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "MCPの仕様自体に、認証や信頼性の検証機能が不足している。",
+      "evidence": "Lack of Capability Attestation（サーバーが宣言する機能や権限を検証する仕組みがない）、Unauthenticated Sampling（双方向通信において送信元の認証保証がなく、Server-to-ClientのプロンプトインジェクションがServer側から可能）、Implicit Trust Propagation（複数のMCPサーバーが連鎖する場合、一つの悪意あるサーバーがダウンストリーム全体の判断に影響を及ぼす）。特定の研究に基づく指摘であり、仕様全体を網羅した検証ではない可能性がある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "New Prompt Injection Attack Vectors Through MCP Sampling",
+        "source_locator": "Palo Alto Networks Unit 42, 2025",
+        "access_date": "unknown"
+      },
+      "confidence": "medium"
+    }
+  ]
+}
