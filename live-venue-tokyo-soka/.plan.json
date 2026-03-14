@@ -1,0 +1,55 @@
+{
+  "topic": "live-venue-tokyo-soka",
+  "description": "東京都内および埼玉県草加市周辺における、ロック・ブルース・フォーク等の生演奏が可能な店舗（ライブバー、ライブハウス、オープンマイク等）のリサーチと出演戦略の策定",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "step-1-gathering",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "東京都内および埼玉県草加市周辺で、ロック・ブルース・フォーク・弾き語りに適したライブバー、ライブハウス、セッションバーを広範に検索する。特にオープンマイクやジャムセッションの開催頻度、店舗の規模（キャパシティ）、公式サイトやSNSでの最新の活動状況（現在も営業しているか）を重点的に収集し、情報源（URL）を明記すること。",
+      "depends_on": []
+    },
+    {
+      "id": "step-2-analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集された店舗リストに基づき、各店舗の「演奏の敷居（プロ志向か、初心者歓迎か）」「常連客の雰囲気」「機材の充実度（アンプ、ドラム等の有無）」を深層分析する。特に草加エリアと都内エリアの客層の違いや、飛び入り参加のしやすさを比較し、エビデンス（口コミや過去のイベントログ）に基づいて評価する。",
+      "depends_on": [
+        "step-1-gathering"
+      ]
+    },
+    {
+      "id": "step-3-strategy",
+      "step": 3,
+      "role": "technical-strategy",
+      "model": "gpt-5.3-codex",
+      "prompt_focus": "特定された店舗に出演するための具体的なプロセスを構造化する。ノルマの有無、出演料の相場、予約方法（Webフォームか電話か来店か）、必要な準備物（デモ音源の形式、セットリストの提出要件など）を整理し、効率的に出演枠を獲得するためのフローチャートやチェックリストを策定する。",
+      "depends_on": [
+        "step-2-analysis"
+      ]
+    },
+    {
+      "id": "step-4-critic",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "提案された店舗リストと出演戦略に対し、批判的レビューを行う。情報が古い可能性はないか、隠れたコスト（チャージバック条件の厳しさ等）が見落とされていないか、特定のジャンルやコミュニティにバイアスが偏っていないかを検証し、リスク要因を洗い出す。",
+      "depends_on": [
+        "step-3-strategy"
+      ]
+    },
+    {
+      "id": "step-5-integration",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの情報を統合し、前提条件（東京・草加、指定ジャンル）に最も合致する「おすすめ店舗ベストリスト」と「出演への具体的アクションプラン」を確定させる。批判的レビューでの指摘事項を反映し、確実性の高い情報を優先して最終レポートとしてまとめる。",
+      "depends_on": [
+        "step-4-critic"
+      ]
+    }
+  ]
+}

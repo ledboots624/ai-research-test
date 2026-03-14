@@ -1,0 +1,394 @@
+{
+  "step": 2,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-14T11:19:54Z",
+  "claims": [
+    {
+      "claim": "COOL BARは草加・八潮エリアで最も「参加へのハードルが低い」公演型スポットであり、初心者・経験者が混在する真の意味でのオープンマイクを実現している。",
+      "evidence": "1セット3曲交代制（参加費1,500円）という明確なルールが初心者の「何をすればいいか」という不安を構造的に解消。公式サイトおよびオープンマイクナビに「弾き語り、バンド、ソロ、話術など多様な表現」と明記。スタッフや常連によるサポート文化が口コミ複数件で確認され、「初めてでも安心」という評価が反復出現。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "COOL BAR 公式サイト",
+        "source_locator": "https://www.coolbar0924.org/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "COOLSメンバープロデュースという「ロック系の権威」を背景に持つ一方で、常連・初来店者ともにフレンドリーな関係性が構築されており、排他性は低い。",
+      "evidence": "「伝説のロックバンドCOOLS」のメンバー監修という由来が空間に歴史感を与えつつ、「アットホーム」「誰もが打ち解けやすい」という口コミが複数の独立した情報源で一致。DISCO NIGHTや80年代ヒット曲イベントを月次開催し特定ジャンル愛好家が固定客化しているが、オープンマイク開催日は異なる層と混在する設計。参加者は地域住民が中心で「近所の顔見知り」が多いと推定（八潮市オンラインでの地元メディア複数報道より）。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "やしおん DISCO NIGHT 2024/11/9 レポート",
+        "source_locator": "https://yashion.jp/report/16381/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "草加・八潮エリアの同規模店舗の中では突出して機材が充実しており、フルバンド対応が可能な本格ライブハウス水準に達している。",
+      "evidence": "ドラムセット・PAシステム・ギター/ベースアンプ・照明設備が完備。カラオケ（LIVEDAM）も併設。ステージは複数人のバンド演奏を余裕を持って収容できるサイズ。リハーサル・個人練習への貸し出しにも対応しており、機材の実用性・信頼性が高い。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "COOL BAR 公式サイト",
+        "source_locator": "https://www.coolbar0924.org/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "COOL BARの木曜オープンマイクは「飛び入り参加」に最も近い形式で、事前予約不要・当日参加が基本設計。草加エリア最高スコア。",
+      "evidence": "「当日参加受付」形式。エントリー制でありながら当日の飛び込みが想定された設計。参加費1,500円という固定料金は「いきなり来て演奏する」コストとして低い水準。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "COOL BAR イベントページ",
+        "source_locator": "https://www.coolbar0924.org/event-list",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Jazz Bar Sugar Hillは基本はジャズ・ボサノバ・ラテンを中心とした「観客型ライブバー」だが、定期セッション（特に日曜「真っ昼間セッション」）は非ジャズ演奏者にも開放されている可能性がある。ただし出演には技術的なミニマム基準が暗黙的に存在する。",
+      "evidence": "公式スケジュールにはプロ・セミプロミュージシャンの有料公演が主軸を占めており、完全な初心者歓迎とは言い難い。セッション形式の日はジャズの標準語法（コード進行の共有等）が期待される可能性が高い。ミュージックチャージが3,000〜4,000円（2024年時点）と高く「試しに来る」には費用感がやや高い。一方で「20代割引」「Happy 20s Treat」など若年層・初心者への歓迎施策も存在する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Sugar Hill 公式サイト",
+        "source_locator": "https://sugarhill.jp/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Jazz Bar Sugar Hillは幅広い年齢層（20代〜シニア）が共存し、地上階・明るい内装という物理的設計が「ジャズクラブ特有の排他性」を緩和している。",
+      "evidence": "口コミに「大人の隠れ家」「一人でも居心地が良かった」「都心まで行かなくても本格的なジャズが楽しめる」という評価が複数確認。家族連れ・子連れ参加も昼のライブで見られ、ライブ初心者でも安心という評価が反復。ただし常連の演奏者層はジャズ・ラテン系に傾いており、ロック・フォーク専門の演奏者が自然に溶け込めるかは未確定（推測を含む）。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "グルコミ Sugar Hill",
+        "source_locator": "https://apese.net/?id=10320076",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Jazz Bar Sugar Hillはキャパシティ約35〜40席の小規模設備であり、PA・照明はライブバー水準。セッション参加は事前問い合わせが現実的で、「飛び入り」の敷居は高い。",
+      "evidence": "セッション開催日の詳細な機材リストは公式に未公開。キャパシティ・開催スケジュールは公式で確認。出演者は公式スケジュール経由の事前ブッキングが主流。（機材詳細は情報源不足）",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Sugar Hill Schedule",
+        "source_locator": "https://sugarhill.jp/schedule/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Rock Bar BAUHAUSは「参加型ロックバー」の中で最も演奏ハードルが高く、プロ・セミプロ水準が事実上の参加基準として機能している。",
+      "evidence": "1981年創業の老舗で、ハウスバンドは70〜90年代クラシックロックを高い完成度でカバーするプロ集団（TripAdvisorスコア平均4.5/5以上）。飛び入りコーナーは「常連で腕に自信があれば参加可能」という記述が複数の体験ブログに見られ「初心者も歓迎」とは明確に異なる文脈。プロミュージシャンが不定期に飛び入り出演する事例が報告されており演奏水準の相場が高い。外国人比率が高く英語圏の旅行者・在住者も常連化しており、グローバル水準の演奏が期待される空間となっている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Rock Bar BAUHAUS 公式",
+        "source_locator": "https://rockbarbauhaus.com/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Rock Bar BAUHAUSの機材はプロ水準で全ての楽器がハウス備品として準備され、手ぶら参加可能。常連は国際色豊かなロック上級者で構成されており、「仲間に加わる」感覚より「審査される」感覚に近い可能性がある。",
+      "evidence": "ギター・ベース・ドラムセット・マイクをハウスが提供。楽器持参も可。常連客同士が気軽に盛り上がる記述あり（公式サイト、HotPepper）。ただし演奏参加と観客鑑賞は明確に分離されており、「演奏したい」ニーズには高いスキルゲートが存在する。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Rock Bar BAUHAUS 公式",
+        "source_locator": "https://rockbarbauhaus.com/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Rock Bar BAUHAUSにおける飛び入り参加は「制度として存在する」が、事前確認と一定以上の演奏レベルが実質的な前提条件である。未経験者・初心者には推奨できない。",
+      "evidence": "直接の証拠記述なし。同セクション内で確認された演奏ハードルの高さ（ハウスバンドのプロ水準・常連による実力審査的雰囲気・プロミュージシャンの飛び入り事例）から推論。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Space WithのイベントRockin' Tonightは都内ロックセッションの中で最も間口が広く設計されており、初心者からプロ級まで同一セッションに参加できる稀有なイベントである。",
+      "evidence": "主催者コンセプトが「ビギナーから上級者まで皆が一緒に楽しく演奏できる」と明言。エントリー制（事前リクエスト掲示板）により初参加者が「何を演奏するか」を事前に可視化でき参加準備が容易。参加者は「30〜50代の社会人ミュージシャン中心」で生活リズムが近い層が主体であることが示唆される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Space With セッションページ",
+        "source_locator": "https://www.spacewith.co.jp/system/session.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Space Withの機材はフルバンド対応の本格水準で、楽器レンタルも明示。常連は「仕事帰りの社会人音楽愛好家」層で構成されており、技術よりも楽しむ姿勢を重視する文化がある。",
+      "evidence": "ドラムセット・ギターアンプ・ベースアンプ・キーボードが常設、楽器レンタルも公式に明記。体験ブログに「プロ級の強者もいるが、全体的にフレンドリーで和気あいあい」という記述が確認された。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Space With セッションページ",
+        "source_locator": "https://www.spacewith.co.jp/system/session.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "中野Bright Brownは老舗ブルースバーとして、セッション参加の敷居は「技術的に中程度・心理的に低い」という稀なバランスを実現している。",
+      "evidence": "「初心者歓迎」を公式・口コミの両方で発信しており、スタッフ・店長・常連によるフォロー文化が明確に存在する。セッションチャージ¥800＋オーダーと都内ブルースバーの中では低コスト設定。ただしブルース（12小節コード進行の共有が前提）というジャンル特性上、全くの未経験者には一定の基礎知識が必要であることも示唆される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Bright Brown 公式サイト",
+        "source_locator": "https://brightbrownnakano.wixsite.com/brightbrown",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Bright Brownの店内は「大きな家族」と表現されるほど親密な常連コミュニティが形成されているが、一見客も拒絶されず、むしろ温かく迎え入れる文化がある。機材はコンパクトながらセッション用途に最適化されている。",
+      "evidence": "「家庭的」「仕事帰りの一人参加にちょうどいい」「大きな家族のよう」という表現が複数の独立した口コミで一致して登場。店内は小規模（住宅密集地のため音量も抑制傾向）だが、ドラムセット・アンプ・キーボードは完備。LiveWalker掲載情報でも機材の基本的な充実度が確認される。（機材の詳細リストは未公開情報あり）",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "グルコミ BrightBrown",
+        "source_locator": "https://apese.net/?id=10270435",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "フォーク酒場 昭和は「演奏スキルよりも昭和フォークへの愛」が参加の前提条件であり、技術的敷居は低いが「レパートリーの適合性」が文化的ゲートキーパーとして機能している。",
+      "evidence": "ギター貸出あり、手ぶら参加可。楽器が弾けない人もスタッフ・常連が演奏サポートする文化あり。客層は40〜60代男性が中心で昭和歌謡・フォークソングが共通語。「最初は勇気がいるが、雰囲気が温かくすぐ馴染める」という体験談が反復出現。ロック・ブルース系のレパートリーとの相性については未確定（推測含む）。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "食べログ フォーク酒場 昭和",
+        "source_locator": "https://tabelog.com/tokyo/A1310/A131002/13105386/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "草加・八潮エリアのライブ参加者は「地域定住型の趣味としての音楽愛好者」が主体であり、東京都内は「都市型音楽キャリア追求者」と「趣味型愛好者」が混在する二層構造を持つ。",
+      "evidence": "草加・八潮エリアは地元在住・定住の社会人・主婦層が主体で目的は楽しむ・表現する・繋がることであり、口コミ拡散は地域メディア中心、技術水準の幅は初心者〜中級者と広い。東京都内は仕事帰りの社会人や音楽活動継続中の層が混在し技術向上・人脈形成・活動実績を目的とする層も存在、SNS・ライブレビューサイト中心に情報拡散、店舗によって技術水準の幅が大きく異なる。複数口コミの総合的解釈に基づく。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "やしおん COOLBAR紹介記事",
+        "source_locator": "https://yashion.jp/shop/3246/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "飛び入り参加のしやすさは「制度設計（オープンマイク vs セッション vs 固定バンド）」と「技術的期待値」の二軸で決まり、店舗間で大きく異なる。",
+      "evidence": "店舗別総合スコア比較：COOL BAR（八潮）★★★★★（オープンマイク当日参加・技術的期待値低〜中・心理的ハードル低）、Space With（飯田橋）★★★★（セッション事前エントリー推奨・初心者歓迎・ハードル低〜中）、Bright Brown（中野）★★★☆（セッション事前確認推奨・ブルース基礎必要・ハードル低）、フォーク酒場 昭和（神田）★★★☆（曲目適合性が必要・技術より曲目知識・ハードル中）、Sugar Hill（草加）★★☆（セッション日あり要問い合わせ・ジャズ語法期待・ハードル中）、BAUHAUS（六本木）★★☆（飛び入りコーナーあり要実力・技術的期待値高・ハードル高）。複数の質的情報の総合判断であり定量的根拠ではない。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "各店舗Sources統合参照（community_data 複数ソース）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "機材の充実度は「ライブハウス業態か否か」よりも「バンド演奏を主軸に設計されているか」によって大きく分かれる。",
+      "evidence": "店舗別機材比較：COOL BAR・Space With・BAUHAUSはドラム・アンプ類・PA・楽器レンタルがすべて◎でライブハウス水準。Bright Brownはドラム・アンプ類・PA○で用途に最適化。Sugar Hillはドラム△（ジャズ向け設計）で詳細非公開。フォーク酒場 昭和はドラム△で打楽器が限定的だがギター貸出◎と業態特化設計。Sugar Hill・フォーク酒場 昭和のドラム有無については公式未記載。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "各店舗Sources統合参照（official_document + community_data 複数ソース）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "草加・八潮エリアにおいて、事前予約なし・当日飛び込みで「演奏できる」環境はCOOL BARの木曜オープンマイクのみが確実。Sugar Hillはセッションのジャンルマッチングがリスクとなるためステップ2として位置づけるべき。",
+      "evidence": "Sugar Hillのセッション参加にはジャズの語法的な基礎が事実上期待されており、ロック・フォーク・ブルースの弾き語り演者がいきなり参加するとミスマッチが生じる可能性がある。COOL BARで実績・知名度を積んだ後、Sugar Hillのジャムセッション担当者に個別コンタクトを取るアプローチが現実的と判断。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "東京都内への進出は「技術向上・実力試し（BAUHAUS）」「セッション人脈形成（Space With / Bright Brown）」「弾き語り・認知獲得（フォーク酒場 昭和）」の3機能を別々の店舗に割り当てる戦略が最も効率的。",
+      "evidence": "BAUHAUSは自分の演奏が都内プロ水準にどこまで通じるかを測る試験場として機能するが、初回からの飛び込み演奏はリスクが高く観客として通いながら関係を構築するフェーズが必要。Space Withは「仕事帰りの社会人ロック愛好家」というプロフィールに最も親和性が高く月1回エントリーで継続的人脈を形成できる。Bright BrownはチャージΥ800という低コストが試行回数を増やしブルース系ネットワークへの参入口として最適。フォーク酒場 昭和は昭和フォーク・フォークロック系レパートリーを持つ場合に40〜60代固定客を通じた仲間意識のあるファン獲得が可能。個人のレパートリー・目的次第で優先順位が変動する。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "草加・八潮エリアのライブシーンは口コミの拡散が地域メディア（やしおん等）・地元SNSに依存しており、都内よりも「顔の見えるコミュニティ」形成が早い可能性がある。",
+      "evidence": "COOL BARに関連する複数のレポート記事が「八潮市オンライン（やしおん）」という地域密着メディアに掲載されており、イベント参加者が地域内で可視化されやすい構造が存在する。都内の店舗はSNS・TripAdvisorといった広域プラットフォームでの評価が主軸であり「地域の顔」になることは困難。地域メディア効果の定量的根拠なし、推測的提言。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "やしおん 各種レポート",
+        "source_locator": "https://yashion.jp/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "unknown",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "low",
+      "requirement_level": "WANT",
+      "standard_references": []
+    }
+  ]
+}

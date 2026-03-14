@@ -1,0 +1,729 @@
+{
+  "generated_at": "2026-03-14T11:49:56Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 37,
+  "tier_summary": {
+    "tier1": 15,
+    "tier2": 10,
+    "tier3": 5,
+    "tier4": 7
+  },
+  "primary_source_count": 17,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "official_document",
+      "title": "BAUHAUS 公式サイト",
+      "locator": "https://rockbarbauhaus.com/?lang=ja",
+      "url": "https://rockbarbauhaus.com/?lang=ja",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "BAUHAUS はプロバンド常駐のロックバーで「飛び入りコーナー」があるが、入場料4,400円（1D込）は反復訪問のコスト障壁が大きい。飛び入りは店側バンドの約200曲のレパートリー内に限定され、常連..."
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "official_document",
+      "title": "Bright Brown Home",
+      "locator": "https://brightbrownnakano.wixsite.com/brightbrown",
+      "url": "https://brightbrownnakano.wixsite.com/brightbrown",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "Bright Brown（中野）は東京のブルースセッションの聖地の一つで、初心者からベテランまで幅広く受け入れています。"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "official_document",
+      "title": "Bright Brown スケジュール",
+      "locator": "https://brightbrownnakano.wixsite.com/brightbrown/schedule",
+      "url": "https://brightbrownnakano.wixsite.com/brightbrown/schedule",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "前ステップで「飯田橋」と記載されていた Bright Brown の正確な所在地は東京都中野区中野5-59-9（JR中野駅北口徒歩2分）。毎週木曜にブルースセッション（チャージ1,000円＋ミニマム1..."
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "official_document",
+      "title": "Bright Brown 公式サイト",
+      "locator": "https://brightbrownnakano.wixsite.com/brightbrown",
+      "url": "https://brightbrownnakano.wixsite.com/brightbrown",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "中野Bright Brownは老舗ブルースバーとして、セッション参加の敷居は「技術的に中程度・心理的に低い」という稀なバランスを実現している。"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "official_document",
+      "title": "COOL BAR イベントページ",
+      "locator": "https://www.coolbar0924.org/event-list",
+      "url": "https://www.coolbar0924.org/event-list",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "COOL BARの木曜オープンマイクは「飛び入り参加」に最も近い形式で、事前予約不要・当日参加が基本設計。草加エリア最高スコア。"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "official_document",
+      "title": "COOL BAR 公式",
+      "locator": "https://www.coolbar0924.org/",
+      "url": "https://www.coolbar0924.org/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "最短で出演実績を作るなら、参加費型で参加手順が公開されている枠（COOL BAR / Space With / Bright Brown）を先に回すのが最も成功確率が高い。"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "official_document",
+      "title": "COOL BAR 公式サイト",
+      "locator": "https://www.coolbar0924.org/",
+      "url": "https://www.coolbar0924.org/",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 4,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:deep-analysis:claude-sonnet-4.6",
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "COOL BARは草加・八潮エリアで最も「参加へのハードルが低い」公演型スポットであり、初心者・経験者が混在する真の意味でのオープンマイクを実現している。",
+        "COOL BAR（八潮市）は草加エリア近隣で最も確実に「ロック・ポップス・弾き語り」のオープンマイクに参加できる最重要スポットです。",
+        "前ステップで「COOL BAR 中野」と記載されていた店舗は埼玉県八潮市（上馬場7-5）所在であり、草加駅から東武スカイツリーラインで1駅（約5分）の距離にある。毎週木曜日にオープンマイクを開催してお...",
+        "草加・八潮エリアの同規模店舗の中では突出して機材が充実しており、フルバンド対応が可能な本格ライブハウス水準に達している。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "official_document",
+      "title": "Cafe じみへん公式",
+      "locator": "https://cafejimihen.jimdofree.com/",
+      "url": "https://cafejimihen.jimdofree.com/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Cafe じみへんは60〜70年代フォーク＆ロック専門のカフェバーで、ジャンル不問のオープンマイクを定期開催。参加費1,000円＋2ドリンク（約2,400円〜）。アコギ・バンジョー・マンドリン・電子ピ..."
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "official_document",
+      "title": "Catfish Tokyo 公式",
+      "locator": "https://www.catfishtokyo.com/",
+      "url": "https://www.catfishtokyo.com/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "蒲田の Catfish Tokyo は本格ブルースバーで、毎週金曜に「T.G.I.F. ブルースセッション」（参加費1,000円＋1D）を開催。出演者・バンドも常時募集中でノルマなし。キャパ約35席。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "official_document",
+      "title": "JASRAC ライブハウスにおける生演奏",
+      "locator": "https://www.jasrac.or.jp/aboutus/detail/livehouse.html",
+      "url": "https://www.jasrac.or.jp/aboutus/detail/livehouse.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 3,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "JASRAC 未管理かつ著作権存続中の楽曲を、権利者の許諾なく無断で演奏してはならない。",
+        "ライブハウス・ライブバーがJASRAC包括契約を締結している場合、出演者がカバー曲を演奏する際の著作権手続きは原則として店舗側が処理する。ただし、外部主催イベントや配信を伴う場合は別途申請が必要な場合...",
+        "配信を伴う出演の場合は、JASRAC の配信利用許諾を別途取得しなければならない。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "official_document",
+      "title": "JIROKICHI 公式",
+      "locator": "https://jirokichi.net/",
+      "url": "https://jirokichi.net/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "東京の主要ロック・フォーク拠点である下北沢（SHELTER、VOICE FACTORY、近松）、高円寺（JIROKICHI）、吉祥寺（MANDA-LA、ROCK JOINT GB、WARP）は出演者を..."
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "official_document",
+      "title": "Live&Rest Bar Cub 公式",
+      "locator": "https://barcub.jimdofree.com/",
+      "url": "https://barcub.jimdofree.com/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "北千住（草加から東武スカイツリーライン約15分）には、Live&Rest Bar Cub（オープンマイク・セッション開催）、ランチェリー（日替わり生演奏）、Birdland（ジャズセッション）が存在す..."
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "official_document",
+      "title": "MAGES デモ募集要項",
+      "locator": "https://mages.co.jp/mailform/magesmusicaudition/",
+      "url": "https://mages.co.jp/mailform/magesmusicaudition/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "提出物を標準化すると、問い合わせ往復回数を減らし、枠獲得速度を上げられる。"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_type": "unknown",
+      "title": "Requirement Level Matrix（統合レビュー内）",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "ライブバー・ライブハウスへの出演時、出演者は入場料・ドリンク代等の店舗規定料金を支払わなければならない。",
+        "各店舗の参加ルール（曲数制限・時間制限等）を遵守しなければならない。"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_type": "official_document",
+      "title": "Rock Bar BAUHAUS Events",
+      "locator": "https://rockbarbauhaus.com/category/events/",
+      "url": "https://rockbarbauhaus.com/category/events/",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "BAUHAUS（六本木）は70〜90年代のクラシックロックを中心とした、非常にレベルの高い「飛び入り参加型」ライブハウスです。"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_type": "official_document",
+      "title": "Rock Bar BAUHAUS 公式",
+      "locator": "https://rockbarbauhaus.com/",
+      "url": "https://rockbarbauhaus.com/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Rock Bar BAUHAUSの機材はプロ水準で全ての楽器がハウス備品として準備され、手ぶら参加可能。常連は国際色豊かなロック上級者で構成されており、「仲間に加わる」感覚より「審査される」感覚に近い...",
+        "Rock Bar BAUHAUSは「参加型ロックバー」の中で最も演奏ハードルが高く、プロ・セミプロ水準が事実上の参加基準として機能している。"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_type": "official_document",
+      "title": "Space With Official",
+      "locator": "https://www.spacewith.co.jp/",
+      "url": "https://www.spacewith.co.jp/",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "Space With（飯田橋）はロック好きの社会人が集まるセッションイベント「Rockin' Tonight」が有名です。"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_type": "official_document",
+      "title": "Space With セッションページ",
+      "locator": "https://www.spacewith.co.jp/system/session.html",
+      "url": "https://www.spacewith.co.jp/system/session.html",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Space WithのイベントRockin' Tonightは都内ロックセッションの中で最も間口が広く設計されており、初心者からプロ級まで同一セッションに参加できる稀有なイベントである。",
+        "Space Withの機材はフルバンド対応の本格水準で、楽器レンタルも明示。常連は「仕事帰りの社会人音楽愛好家」層で構成されており、技術よりも楽しむ姿勢を重視する文化がある。"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_type": "official_document",
+      "title": "Sugar Hill Schedule",
+      "locator": "https://sugarhill.jp/schedule/",
+      "url": "https://sugarhill.jp/schedule/",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview",
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Jazz Bar Sugar Hillはキャパシティ約35〜40席の小規模設備であり、PA・照明はライブバー水準。セッション参加は事前問い合わせが現実的で、「飛び入り」の敷居は高い。",
+        "Jazz Bar Sugar Hill（草加市）は草加を代表するジャズクラブですが、日曜昼のセッション等はジャンルレスに参加できる可能性があります。"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_type": "official_document",
+      "title": "Sugar Hill 公式",
+      "locator": "https://sugarhill.jp/",
+      "url": "https://sugarhill.jp/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 2,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex",
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "Sugar Hill はジャズ・ボサノバ・ラテン中心の生演奏店であり、ロック・ブルース・フォーク出演者がそのまま持ち込むにはジャンル不適合のリスクがある。MC 3,000〜4,000円＋飲食代。セッシ...",
+        "ノルマ有無・出演料（ギャラ）は、対象店舗の公開情報だけでは不足が多く、出演確定前の個別確認が必須。"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_type": "official_document",
+      "title": "Sugar Hill 公式サイト",
+      "locator": "https://sugarhill.jp/",
+      "url": "https://sugarhill.jp/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Jazz Bar Sugar Hillは基本はジャズ・ボサノバ・ラテンを中心とした「観客型ライブバー」だが、定期セッション（特に日曜「真っ昼間セッション」）は非ジャズ演奏者にも開放されている可能性があ..."
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_type": "official_document",
+      "title": "Topaz Fest Official",
+      "locator": "https://www.topazfest.com/",
+      "url": "https://www.topazfest.com/",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "Topaz Fest（草加市）は獨協大学前駅近くの日曜限定イベントスペースで、アコースティック等のライブ出演の機会があります。"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_type": "official_document",
+      "title": "e-Gov 著作権法",
+      "locator": "https://laws.e-gov.go.jp/law/345AC0000000048",
+      "url": "https://laws.e-gov.go.jp/law/345AC0000000048",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "店舗出演では、著作権処理の責任主体（会場包括契約か主催者申請か）を確定しないまま進めるべきでない。"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_type": "community_data",
+      "title": "やしおん COOLBAR紹介記事",
+      "locator": "https://yashion.jp/shop/3246/",
+      "url": "https://yashion.jp/shop/3246/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "草加・八潮エリアのライブ参加者は「地域定住型の趣味としての音楽愛好者」が主体であり、東京都内は「都市型音楽キャリア追求者」と「趣味型愛好者」が混在する二層構造を持つ。"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_type": "community_data",
+      "title": "やしおん DISCO NIGHT 2024/11/9 レポート",
+      "locator": "https://yashion.jp/report/16381/",
+      "url": "https://yashion.jp/report/16381/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "COOLSメンバープロデュースという「ロック系の権威」を背景に持つ一方で、常連・初来店者ともにフレンドリーな関係性が構築されており、排他性は低い。"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_type": "community_data",
+      "title": "やしおん 各種レポート",
+      "locator": "https://yashion.jp/",
+      "url": "https://yashion.jp/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "草加・八潮エリアのライブシーンは口コミの拡散が地域メディア（やしおん等）・地元SNSに依存しており、都内よりも「顔の見えるコミュニティ」形成が早い可能性がある。"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_type": "community_data",
+      "title": "グルコミ BrightBrown",
+      "locator": "https://apese.net/?id=10270435",
+      "url": "https://apese.net/?id=10270435",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Bright Brownの店内は「大きな家族」と表現されるほど親密な常連コミュニティが形成されているが、一見客も拒絶されず、むしろ温かく迎え入れる文化がある。機材はコンパクトながらセッション用途に最適..."
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_type": "community_data",
+      "title": "グルコミ Sugar Hill",
+      "locator": "https://apese.net/?id=10320076",
+      "url": "https://apese.net/?id=10320076",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "Jazz Bar Sugar Hillは幅広い年齢層（20代〜シニア）が共存し、地上階・明るい内装という物理的設計が「ジャズクラブ特有の排他性」を緩和している。"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_type": "official_document",
+      "title": "フォーク酒場 昭和 公式",
+      "locator": "https://showa.info/",
+      "url": "https://showa.info/",
+      "access_date": "2025-04-12",
+      "reliability_tier": "tier1",
+      "primary_source": true,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "フォーク酒場 昭和（神田）は「みんなが主役」を掲げる、弾き語り愛好家のための定番スポットです。"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_type": "industry_report",
+      "title": "ライブハウスのノルマとは？",
+      "locator": "https://independent-artist.net/1063/",
+      "url": "https://independent-artist.net/1063/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "東京の一般的なライブハウス市場では、チケットノルマ＋チケットバック型の説明が複数ソースで一致しており、資金計画を先に作るべき。"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_type": "unknown",
+      "title": "上記 Findings/Matrix/Flow の各ソース一式",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "本テーマ（東京＋草加周辺、ロック/ブルース/フォーク）では、3段階戦略（Phase 1: 低障壁枠で実績化、Phase 2: 実績同封で中障壁枠へ相談、Phase 3: BAUHAUS来店から関係構築..."
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_type": "industry_report",
+      "title": "初めてのブッキングライブ出演手順",
+      "locator": "https://kaede-music.net/blog/bookinglive-beginner/",
+      "url": "https://kaede-music.net/blog/bookinglive-beginner/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "「低障壁枠で実績化 → 実績を添えて中〜高障壁枠へ提案」の二段階が、最も再現性の高い獲得経路。"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_type": "community_data",
+      "title": "各店舗Sources統合参照（community_data 複数ソース）",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "飛び入り参加のしやすさは「制度設計（オープンマイク vs セッション vs 固定バンド）」と「技術的期待値」の二軸で決まり、店舗間で大きく異なる。"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_type": "official_document",
+      "title": "各店舗Sources統合参照（official_document + community_data 複数ソース）",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "機材の充実度は「ライブハウス業態か否か」よりも「バンド演奏を主軸に設計されているか」によって大きく分かれる。"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_type": "unknown",
+      "title": "推定情報源",
+      "locator": "unknown",
+      "url": null,
+      "access_date": "unknown",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:technical-strategy:gpt-5.3-codex"
+      ],
+      "claim_summaries": [
+        "条件不明店舗には、定型質問を送ることで「未確定項目（ノルマ・ギャラ）」を短時間で確定できる。"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_type": "official_document",
+      "title": "越谷 LIVE ABBEY ROAD スケジュール",
+      "locator": "https://liveabbeyroad.com/schedule/",
+      "url": "https://liveabbeyroad.com/schedule/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "5:integration-review:claude-opus-4.6"
+      ],
+      "claim_summaries": [
+        "越谷 LIVE ABBEY ROAD は草加駅から東武スカイツリーライン約15分の位置にあり、ロック＆ブルースセッションおよびブッキングライブを定期開催している。出演者募集を常時行っており、セッション..."
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_type": "community_data",
+      "title": "食べログ フォーク酒場 昭和",
+      "locator": "https://tabelog.com/tokyo/A1310/A131002/13105386/",
+      "url": "https://tabelog.com/tokyo/A1310/A131002/13105386/",
+      "access_date": "2026-03-14",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "unknown",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "フォーク酒場 昭和は「演奏スキルよりも昭和フォークへの愛」が参加の前提条件であり、技術的敷居は低いが「レパートリーの適合性」が文化的ゲートキーパーとして機能している。"
+      ]
+    }
+  ]
+}

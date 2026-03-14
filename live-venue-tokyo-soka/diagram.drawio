@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="draw.io">
+  <diagram id="LiveVenueStrategy" name="Live Venue Strategy Tokyo Soka">
+    <mxGraphModel background="#ffffff" dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- TITLE BAR -->
+        <mxCell id="title" value="ライブハウス・出演戦略リサーチ：東京都内＆草加周辺 (Rock/Blues/Folk)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=22;fontStyle=1;shadow=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- GROUP 1: FINDINGS / AREA CHARACTERISTICS (Background) -->
+        <mxCell id="group_bg_findings" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;dashed=1;shadow=0;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="360" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="header_findings" value="地域特性と現状分析 (Findings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4a5568;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Soka Area -->
+        <mxCell id="node_soka" value="草加・八潮エリア&#xa;【地域密着・イベント型】&#xa;店舗数は少ないがコミュニティが濃い&#xa;特定の曜日(木曜等)に活動が集中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2d3748;fontSize=12;shadow=1;arcSize=8;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="320" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Soka Key Venue (COOL BAR) -->
+        <mxCell id="node_coolbar" value="★最重要拠点: COOL BAR (八潮)&#xa;・毎週木曜オープンマイク (19:00~)&#xa;・参加費 1,500円 / 3曲交代&#xa;・初心者歓迎・フルバンド機材あり" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2d3748;fontSize=12;fontStyle=1;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Tokyo Area -->
+        <mxCell id="node_tokyo" value="東京都内エリア&#xa;【ジャンル特化・常設型】&#xa;Rock/Blues/Folkの専門バーが多数&#xa;毎日セッションが開催されている" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2d3748;fontSize=12;shadow=1;arcSize=8;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="320" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Tokyo Venues -->
+        <mxCell id="node_tokyo_venues" value="推奨店舗 (武者修行先)&#xa;・Space With (飯田橋): Rockin' Tonight&#xa;・Bright Brown (中野): Blues Session" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#2d3748;fontSize=12;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- EDGE: Soka to COOL BAR -->
+        <mxCell id="edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;" edge="1" parent="1" source="node_soka" target="node_coolbar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- EDGE: Tokyo to Tokyo Venues -->
+        <mxCell id="edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;" edge="1" parent="1" source="node_tokyo" target="node_tokyo_venues">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- GROUP 2: STRATEGY / ROADMAP (Background) -->
+        <mxCell id="group_bg_strategy" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;dashed=1;shadow=0;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="360" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="header_strategy" value="出演戦略ロードマップ (Strategic Roadmap)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2f855a;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Phase 1 -->
+        <mxCell id="node_phase1" value="Phase 1: 実績構築 (Entry)&#xa;「参加費型」の枠で場数を踏む&#xa;Target: COOL BAR (八潮)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#2d3748;fontSize=12;fontStyle=1;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Phase 2 -->
+        <mxCell id="node_phase2" value="Phase 2: 武者修行 (Challenge)&#xa;都内の専門バー・セッションへ参加&#xa;Target: Space With / Bright Brown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#2d3748;fontSize=12;fontStyle=1;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- NODE: Phase 3 -->
+        <mxCell id="node_phase3" value="Phase 3: 拠点拡大 (Expansion)&#xa;ファン獲得・ブッキングライブ出演&#xa;自主企画イベントの開催へ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#2d3748;fontSize=12;fontStyle=1;shadow=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- EDGE: Coolbar to Phase 1 -->
+        <mxCell id="edge_link_1" value="Best Starting Point" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#38a169;curved=1;fontColor=#2f855a;fontSize=10;" edge="1" parent="1" source="node_coolbar" target="node_phase1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- EDGE: Phase 1 to Phase 2 -->
+        <mxCell id="edge_p1_p2" value="自信がついたら" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;fontSize=10;" edge="1" parent="1" source="node_phase1" target="node_phase2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- EDGE: Phase 2 to Phase 3 -->
+        <mxCell id="edge_p2_p3" value="コネクション確立後" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;curved=1;fontSize=10;" edge="1" parent="1" source="node_phase2" target="node_phase3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- FOOTER -->
+        <mxCell id="footer" value="結論: 草加(COOL BAR)で足場を固め、都内で武者修行する「ハイブリッド戦略」が最短ルート" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;shadow=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="760" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

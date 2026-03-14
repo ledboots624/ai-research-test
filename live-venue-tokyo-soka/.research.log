@@ -1,0 +1,52 @@
+[2026-03-14 20:11:29 INFO] === AI Research Agent v2.2.0 ===
+[2026-03-14 20:11:29 INFO] トピック: live-venue-tokyo-soka
+[2026-03-14 20:11:29 INFO] 説明: 生演奏できるお店をリサーチ
+[2026-03-14 20:11:29 INFO] コンテキスト: context-live-venue.json → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/.context.json
+[2026-03-14 20:11:29 INFO] ワークスペース: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/
+[2026-03-14 20:11:29 INFO] パイプライン実行開始: 5ステップ (開始: Step 1)
+[2026-03-14 20:11:30 INFO] モデル呼び出し: gemini-3-pro-preview → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-14 20:13:28 INFO] モデル応答完了: gemini-3-pro-preview (1m58s) → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-14 20:13:28 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-14 20:16:08 INFO] Evidence JSON 生成（python3 fallback）: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-14 20:16:08 INFO] Step 1 完了 (4m38s): information-gathering by gemini-3-pro-preview
+[2026-03-14 20:16:08 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-14 20:19:54 INFO] モデル応答完了: claude-sonnet-4.6 (3m46s) → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-14 20:19:54 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/02-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-14 20:25:54 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/02-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-14 20:25:54 INFO] Step 2 完了 (9m46s): deep-analysis by claude-sonnet-4.6
+[2026-03-14 20:25:54 INFO] モデル呼び出し: gpt-5.3-codex → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/03-technical-strategy-gpt-5.3-codex.md
+[2026-03-14 20:34:33 INFO] モデル応答完了: gpt-5.3-codex (8m39s) → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/03-technical-strategy-gpt-5.3-codex.md
+[2026-03-14 20:34:33 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/03-technical-strategy-gpt-5.3-codex.evidence.json
+[2026-03-14 20:36:39 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/03-technical-strategy-gpt-5.3-codex.evidence.json
+[2026-03-14 20:36:39 INFO] Step 3 完了 (10m45s): technical-strategy by gpt-5.3-codex
+[2026-03-14 20:36:39 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/04-critic-review-claude-sonnet-4.6.md
+[2026-03-14 20:39:17 INFO] モデル応答完了: claude-sonnet-4.6 (2m38s) → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/04-critic-review-claude-sonnet-4.6.md
+[2026-03-14 20:39:17 INFO] Step 4 完了 (2m38s): critic-review by claude-sonnet-4.6
+[2026-03-14 20:39:17 INFO] モデル呼び出し: claude-opus-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/05-integration-review-claude-opus-4.6.md
+[2026-03-14 20:46:05 INFO] モデル応答完了: claude-opus-4.6 (6m48s) → /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/05-integration-review-claude-opus-4.6.md
+[2026-03-14 20:46:05 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/05-integration-review-claude-opus-4.6.evidence.json
+[2026-03-14 20:49:56 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/05-integration-review-claude-opus-4.6.evidence.json
+[2026-03-14 20:49:56 INFO] Step 5 完了 (10m39s): integration-review by claude-opus-4.6
+[2026-03-14 20:49:56 INFO] 全ステップ完了
+[2026-03-14 20:49:56 INFO] Validation 実行中...
+[2026-03-14 20:49:56 INFO] Validation 完了: PARTIAL (claims: 55, high: 28, medium: 25, low: 2, tier1: 22, tier2: 12, tier3: 6, tier4: 15, primary: 24, req_must: 5, req_should: 11, std_direct: 6, std_partial: 1, std_gap: 0)
+[2026-03-14 20:49:56 INFO] パイプライン実行時間: 38m27s
+[2026-03-14 20:49:56 INFO] Sources Registry 生成中...
+[2026-03-14 20:49:56 INFO] Sources Registry 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/sources.json (37 sources)
+[2026-03-14 20:49:56 INFO] sources.json 生成: 0s
+[2026-03-14 20:49:56 INFO] README 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/README.md
+[2026-03-14 20:49:56 INFO] README 生成: 0s
+[2026-03-14 20:49:56 INFO] 図解生成中... (model: gemini-3-pro-preview, format: draw.io XML)
+[2026-03-14 20:50:44 INFO] draw.io XML 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/diagram.drawio
+[2026-03-14 20:50:44 INFO] SVG/PNG 変換中... (draw.io CLI)
+[2026-03-14 20:50:44 INFO] SVG 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/diagram.svg
+[2026-03-14 20:50:46 INFO] PNG 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/diagram.png
+[2026-03-14 20:50:46 INFO] diagram 生成: 50s
+[2026-03-14 20:50:46 INFO] スライド生成中... (model: gemini-3-pro-preview)
+[2026-03-14 20:52:10 INFO] スライドMD 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/slides.md
+[2026-03-14 20:52:10 INFO] スライド変換中... (marp-cli)
+[2026-03-14 20:52:11 INFO] HTML スライド生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/slides.html
+[2026-03-14 20:52:13 INFO] PDF スライド生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/live-venue-tokyo-soka/slides.pdf
+[2026-03-14 20:52:13 INFO] slides 生成: 1m27s
+[2026-03-14 20:52:13 INFO] 総実行時間: 40m44s
+[2026-03-14 20:52:13 INFO] .execution.json 生成完了

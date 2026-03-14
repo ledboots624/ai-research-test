@@ -1,0 +1,255 @@
+{
+  "step": 5,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T11:46:05Z",
+  "claims": [
+    {
+      "claim": "前ステップで「COOL BAR 中野」と記載されていた店舗は埼玉県八潮市（上馬場7-5）所在であり、草加駅から東武スカイツリーラインで1駅（約5分）の距離にある。毎週木曜日にオープンマイクを開催しており、1組3曲交代制・1セット1,500円で参加可能。草加在住者にとってアクセス・コスト両面で最も合理的な初動拠点である。",
+      "evidence": "COOL BAR 公式サイトに所在地（埼玉県八潮市上馬場7-5）、オープンマイク開催日（毎週木曜19:00〜）、料金（1セット1,500円）が明記。オープンマイクナビにも同様の情報が掲載（SRC-002）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "COOL BAR 公式サイト",
+        "source_locator": "https://www.coolbar0924.org/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "越谷 LIVE ABBEY ROAD は草加駅から東武スカイツリーライン約15分の位置にあり、ロック＆ブルースセッションおよびブッキングライブを定期開催している。出演者募集を常時行っており、セッション参加費は2,000〜3,000円（1D付）。ハウス機材（ドラム・アンプ・キーボード・マイク）完備。",
+      "evidence": "公式サイトスケジュールに「ROCK & BLUES セッション」「出演者募集中」の記載。mixi イベントページに2025年2月開催のセッション告知あり（SRC-004）。ただし2026年3月時点での最新開催状況は未確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "越谷 LIVE ABBEY ROAD スケジュール",
+        "source_locator": "https://liveabbeyroad.com/schedule/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Cafe じみへんは60〜70年代フォーク＆ロック専門のカフェバーで、ジャンル不問のオープンマイクを定期開催。参加費1,000円＋2ドリンク（約2,400円〜）。アコギ・バンジョー・マンドリン・電子ピアノ常設で手ぶら参加可。初心者歓迎、2曲回し制。",
+      "evidence": "公式サイトに料金・営業時間・常設楽器の記載。オープンマイクナビに詳細情報あり（SRC-006：discussion_age 3+年、参加者数50+推定、expert_presence true、reproducibility true）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Cafe じみへん公式",
+        "source_locator": "https://cafejimihen.jimdofree.com/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "蒲田の Catfish Tokyo は本格ブルースバーで、毎週金曜に「T.G.I.F. ブルースセッション」（参加費1,000円＋1D）を開催。出演者・バンドも常時募集中でノルマなし。キャパ約35席。",
+      "evidence": "公式サイトにセッション・出演募集・メールアドレス（catfishtokyo18@gmail.com）の記載。食べログ・Supernice!（SRC-008）にキャパ・設備情報。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Catfish Tokyo 公式",
+        "source_locator": "https://www.catfishtokyo.com/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "前ステップで「飯田橋」と記載されていた Bright Brown の正確な所在地は東京都中野区中野5-59-9（JR中野駅北口徒歩2分）。毎週木曜にブルースセッション（チャージ1,000円＋ミニマム1,000円）を開催。2025年7月にも「武蔵野ジュークジョイント・ブルースセッション」の開催を確認。",
+      "evidence": "公式サイト（Wix）にスケジュール掲載。Jazz in Japan（SRC-010）、Retty（SRC-030）、amebloブログに営業情報あり。ただしWixサイトの更新頻度・鮮度が不透明で、2026年3月時点の最新状況は未確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Bright Brown スケジュール",
+        "source_locator": "https://brightbrownnakano.wixsite.com/brightbrown/schedule",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "BAUHAUS はプロバンド常駐のロックバーで「飛び入りコーナー」があるが、入場料4,400円（1D込）は反復訪問のコスト障壁が大きい。飛び入りは店側バンドの約200曲のレパートリー内に限定され、常連化・演奏技量の評価を経てステージ参加の機会が増える構造。3回訪問で13,200円超の投資が必要。",
+      "evidence": "ホットペッパー（SRC-013）・食べログ・体験ブログ（SRC-012）に料金・飛び入り条件の記載。複数の体験記事で「常連になるとチャンスが増える」と証言。飛び入り条件は体験談ベースで公式明文化されていない。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "BAUHAUS 公式サイト",
+        "source_locator": "https://rockbarbauhaus.com/?lang=ja",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MAY",
+      "standard_references": []
+    },
+    {
+      "claim": "東京の主要ロック・フォーク拠点である下北沢（SHELTER、VOICE FACTORY、近松）、高円寺（JIROKICHI）、吉祥寺（MANDA-LA、ROCK JOINT GB、WARP）は出演者を常時募集しているが、音源・プロフィール提出が必須であり、一定の活動実績・集客力が求められる。JIROKICHIは2025年で創業50周年を迎えるセミプロ〜プロ主体の会場。MANDA-LA は比較的オープンで、チャージ1,000円＋2オーダーのオープンマイクも定期開催。",
+      "evidence": "各店舗公式サイト（SRC-014〜SRC-019）に出演者募集ページ・ブッキング問い合わせフォームの存在を確認。複数の公式サイトで確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "JIROKICHI 公式",
+        "source_locator": "https://jirokichi.net/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "Sugar Hill はジャズ・ボサノバ・ラテン中心の生演奏店であり、ロック・ブルース・フォーク出演者がそのまま持ち込むにはジャンル不適合のリスクがある。MC 3,000〜4,000円＋飲食代。セッションイベントはあるが、ジャンル受入れ方針は未確認。",
+      "evidence": "公式サイトにジャンル記載（ジャズ/ラテン中心）。セッションイベントの具体的ジャンル制限は不明であり、ジャンル適合性の判断は推定を含む。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Sugar Hill 公式",
+        "source_locator": "https://sugarhill.jp/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "ライブハウス・ライブバーがJASRAC包括契約を締結している場合、出演者がカバー曲を演奏する際の著作権手続きは原則として店舗側が処理する。ただし、外部主催イベントや配信を伴う場合は別途申請が必要な場合がある。著作権法第38条の非営利例外は「非営利・無料・無報酬」の3条件すべてを満たす必要があり、ライブバー・ライブハウスでの通常出演にはほぼ適用されない。",
+      "evidence": "JASRAC 公式 FAQ（SRC-022）に「ライブハウスに出演する場合、店側が包括契約していれば出演者の個別手続きは不要」と明記。著作権法第38条の適用条件は法令原文および JASRAC 解説ページ（SRC-021、SRC-023）で確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "JASRAC ライブハウスにおける生演奏",
+        "source_locator": "https://www.jasrac.or.jp/aboutus/detail/livehouse.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "著作権法",
+          "section": "第22条（演奏権）",
+          "mapping": "direct"
+        },
+        {
+          "standard": "著作権法",
+          "section": "第38条（非営利例外）",
+          "mapping": "partial"
+        }
+      ]
+    },
+    {
+      "claim": "北千住（草加から東武スカイツリーライン約15分）には、Live&Rest Bar Cub（オープンマイク・セッション開催）、ランチェリー（日替わり生演奏）、Birdland（ジャズセッション）が存在する。草加からのアクセスが良好で、埼玉方面からの通いやすさという点で検討に値する。",
+      "evidence": "各店公式サイト・ポータルサイト（SRC-024: Live&Rest Bar Cub 公式、SRC-025: ランチェリー公式）に営業情報あり。ただし営業継続状況の最新確認は未実施。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Live&Rest Bar Cub 公式",
+        "source_locator": "https://barcub.jimdofree.com/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "ライブバー・ライブハウスへの出演時、出演者は入場料・ドリンク代等の店舗規定料金を支払わなければならない。",
+      "evidence": "not_stated（Requirement Level Matrix において MUST として明記されているが、個別の出典は示されていない。業界の一般的慣行および各店舗規定に基づく要件として記載）。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "Requirement Level Matrix（統合レビュー内）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "各店舗の参加ルール（曲数制限・時間制限等）を遵守しなければならない。",
+      "evidence": "not_stated（Requirement Level Matrix において MUST として明記されているが、個別の出典は示されていない。各店舗のハウスルールに基づく要件として記載）。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "Requirement Level Matrix（統合レビュー内）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "配信を伴う出演の場合は、JASRAC の配信利用許諾を別途取得しなければならない。",
+      "evidence": "JASRAC 公式サイト（SRC-021）および FAQ（SRC-022）において、配信は店舗包括契約の対象外となる場合があることが示されている。著作権法上の配信権（公衆送信権）は演奏権と別個に管理される。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "JASRAC ライブハウスにおける生演奏",
+        "source_locator": "https://www.jasrac.or.jp/aboutus/detail/livehouse.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST",
+      "standard_references": [
+        {
+          "standard": "著作権法",
+          "section": "第23条（公衆送信権）",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "JASRAC 未管理かつ著作権存続中の楽曲を、権利者の許諾なく無断で演奏してはならない。",
+      "evidence": "著作権法第22条（演奏権）により、著作権存続中の楽曲の公演には権利者の許諾が必要。JASRAC 包括契約は JASRAC 管理楽曲のみをカバーするため、未管理楽曲には適用されない（SRC-021〜023）。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "JASRAC ライブハウスにおける生演奏",
+        "source_locator": "https://www.jasrac.or.jp/aboutus/detail/livehouse.html",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "著作権法",
+          "section": "第22条（演奏権）",
+          "mapping": "direct"
+        }
+      ]
+    }
+  ]
+}

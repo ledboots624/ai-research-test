@@ -1,0 +1,152 @@
+{
+  "step": 3,
+  "role": "technical-strategy",
+  "model": "gpt-5.3-codex",
+  "extracted_at": "2026-03-14T11:34:33Z",
+  "claims": [
+    {
+      "claim": "最短で出演実績を作るなら、参加費型で参加手順が公開されている枠（COOL BAR / Space With / Bright Brown）を先に回すのが最も成功確率が高い。",
+      "evidence": "COOL BARは木曜オープンマイク、3曲交代・1,500円の明示ルール。Space With「Rockin' Tonight」は演奏エントリー制・1,800円（ドリンク別）を明示。Bright Brownは木曜セッション1,000円＋ミニマムオーダー1,000円を明示。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "COOL BAR 公式",
+        "source_locator": "https://www.coolbar0924.org/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "ノルマ有無・出演料（ギャラ）は、対象店舗の公開情報だけでは不足が多く、出演確定前の個別確認が必須。",
+      "evidence": "Sugar Hill / BAUHAUS / 昭和は、来店チャージ・連絡先は公開される一方で、出演者向け契約条件（ノルマ、バック率、ギャラ計算式）は公開が限定的。BAUHAUSの飛び入りは公式よりも体験系情報に依存しやすく、条件の不確実性が高い。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Sugar Hill 公式",
+        "source_locator": "https://sugarhill.jp/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "MUST",
+      "standard_references": []
+    },
+    {
+      "claim": "東京の一般的なライブハウス市場では、チケットノルマ＋チケットバック型の説明が複数ソースで一致しており、資金計画を先に作るべき。",
+      "evidence": "チケット単価1,500〜2,500円 × 10〜20枚相当のノルマ説明が複数メディアで反復。バック率・超過分還元ルールは会場ごとの差が大きい。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "ライブハウスのノルマとは？",
+        "source_locator": "https://independent-artist.net/1063/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "店舗出演では、著作権処理の責任主体（会場包括契約か主催者申請か）を確定しないまま進めるべきでない。",
+      "evidence": "JASRAC公式は、ライブハウス包括契約運用と主催形態差を説明。著作権法第22条（演奏権）と第38条（非営利例外）により、商用ライブは原則許諾領域。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "e-Gov 著作権法",
+        "source_locator": "https://laws.e-gov.go.jp/law/345AC0000000048",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "MUST_NOT",
+      "standard_references": [
+        {
+          "standard": "著作権法",
+          "section": "第22条（演奏権）",
+          "mapping": "direct"
+        },
+        {
+          "standard": "著作権法",
+          "section": "第38条（非営利演奏等）",
+          "mapping": "direct"
+        },
+        {
+          "standard": "JASRAC運用",
+          "section": "ライブハウス包括契約",
+          "mapping": "direct"
+        }
+      ]
+    },
+    {
+      "claim": "「低障壁枠で実績化 → 実績を添えて中〜高障壁枠へ提案」の二段階が、最も再現性の高い獲得経路。",
+      "evidence": "低障壁枠は参加手順・料金公開が明確。高障壁枠は条件公開不足が多く、実績同封で交渉材料を増やす必要がある。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "初めてのブッキングライブ出演手順",
+        "source_locator": "https://kaede-music.net/blog/bookinglive-beginner/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "提出物を標準化すると、問い合わせ往復回数を減らし、枠獲得速度を上げられる。",
+      "evidence": "応募系窓口はプロフィール・音源URL・連絡先を共通要求する傾向。オープンマイク/ブッキングの初参加ガイドは、事前のセットリスト・機材確認を強く推奨。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "MAGES デモ募集要項",
+        "source_locator": "https://mages.co.jp/mailform/magesmusicaudition/",
+        "access_date": "2026-03-14",
+        "reliability_tier": "tier2",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "条件不明店舗には、定型質問を送ることで「未確定項目（ノルマ・ギャラ）」を短時間で確定できる。",
+      "evidence": "対象店舗の公開情報は、来店料金と連絡先の情報が中心で出演契約情報が薄い。先に質問項目を固定すると比較可能なデータに変換しやすい。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "推定情報源",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "本テーマ（東京＋草加周辺、ロック/ブルース/フォーク）では、3段階戦略（Phase 1: 低障壁枠で実績化、Phase 2: 実績同封で中障壁枠へ相談、Phase 3: BAUHAUS来店から関係構築）が最も効率的。",
+      "evidence": "低障壁枠の公開条件が明確で初速を作りやすい。中〜高障壁枠は条件不確定が多く、実績と定型質問で交渉すべき。BAUHAUSは初回から出演前提でなく関係構築前提で臨む必要がある。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "上記 Findings/Matrix/Flow の各ソース一式",
+        "source_locator": "unknown",
+        "access_date": "unknown",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    }
+  ]
+}

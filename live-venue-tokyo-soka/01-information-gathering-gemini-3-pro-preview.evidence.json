@@ -1,0 +1,200 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T11:13:28Z",
+  "claims": [
+    {
+      "claim": "草加市周辺は「地域密着型の小規模コミュニティ」が中心であり、特定の曜日に開催されるイベント（オープンマイク等）への参加が鍵となります。一方、東京都内はジャンル（ロック・ブルース・フォーク）ごとに確立された「専門バー」が多数存在し、毎日何らかのセッションが行われています。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "草加エリアでは近隣の八潮市を含めた広域での活動を視野に入れ、都内では自身のジャンルに特化した店舗へ「武者修行」的に参加する併用戦略が有効です。",
+      "evidence": "not_stated（レポート全体の調査結果を踏まえた著者の戦略的推奨として記述されているが、具体的な根拠データは明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    },
+    {
+      "claim": "COOL BAR（八潮市）は草加エリア近隣で最も確実に「ロック・ポップス・弾き語り」のオープンマイクに参加できる最重要スポットです。",
+      "evidence": "毎週木曜日 19:00よりオープンマイクを開催。参加費は1セット1,500円（3曲交代制）。ライブハウス級の機材があり、フルバンドから弾き語りまで対応可能。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "COOL BAR 公式サイト",
+        "source_locator": "https://www.coolbar0924.org/",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Jazz Bar Sugar Hill（草加市）は草加を代表するジャズクラブですが、日曜昼のセッション等はジャンルレスに参加できる可能性があります。",
+      "evidence": "基本はジャズ・ラテン・ボサノバが中心。「真っ昼間セッション」（日曜14:30〜）など、初心者歓迎のジャムセッションを定期開催。キャパシティは約36〜40席。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Sugar Hill Schedule",
+        "source_locator": "https://sugarhill.jp/schedule/",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Topaz Fest（草加市）は獨協大学前駅近くの日曜限定イベントスペースで、アコースティック等のライブ出演の機会があります。",
+      "evidence": "日曜限定営業のライブ＆イベントスペース。生演奏ライブやコラボ企画を実施。出演には事前問い合わせが必要。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Topaz Fest Official",
+        "source_locator": "https://www.topazfest.com/",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Space With（飯田橋）はロック好きの社会人が集まるセッションイベント「Rockin' Tonight」が有名です。",
+      "evidence": "毎月第4木曜日にロックセッションを開催。キャパシティは約40〜80名。リクエスト掲示板での事前曲エントリーが可能。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Space With Official",
+        "source_locator": "https://www.spacewith.co.jp/",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "BAUHAUS（六本木）は70〜90年代のクラシックロックを中心とした、非常にレベルの高い「飛び入り参加型」ライブハウスです。",
+      "evidence": "外国人客も多く、毎晩プロ・セミプロレベルのハウスバンドが演奏。客席からの飛び入り演奏（要実力・事前確認推奨）が可能。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Rock Bar BAUHAUS Events",
+        "source_locator": "https://rockbarbauhaus.com/category/events/",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "Bright Brown（中野）は東京のブルースセッションの聖地の一つで、初心者からベテランまで幅広く受け入れています。",
+      "evidence": "定期的にブルースセッションを開催。スケジュールは公式サイトで公開。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "Bright Brown Home",
+        "source_locator": "https://brightbrownnakano.wixsite.com/brightbrown",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "フォーク酒場 昭和（神田）は「みんなが主役」を掲げる、弾き語り愛好家のための定番スポットです。",
+      "evidence": "ギター貸出あり、手ぶらで参加可能。昭和フォークを中心とした選曲が多く、年齢層は高めだが敷居は低い。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "フォーク酒場 昭和 公式",
+        "source_locator": "https://showa.info/",
+        "access_date": "2025-04-12",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "草加市内には「飛び込みで毎日演奏できるバー」はほぼ存在しません。",
+      "evidence": "not_stated（レポート全体の調査結果からの総括的結論として記述されているが、具体的な根拠データは明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "都内はレベルが高い店舗が多いですが、その分フィードバックも得られます。",
+      "evidence": "not_stated（レポート全体の調査結果からの結論として記述されているが、具体的な根拠データは明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "店舗の存続状況は流動的であり、特に小規模なライブバーはSNS（X, Instagram）での当日告知が主となるため、訪問前に必ず最新の投稿を確認する必要があります。",
+      "evidence": "not_stated（一般的な業界慣行・経験則として記述されているが、具体的な根拠データは明示されていない）",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": "SHOULD",
+      "standard_references": []
+    }
+  ]
+}
