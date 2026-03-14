@@ -1,0 +1,36 @@
+{
+  "validated_at": "2026-03-14T16:15:01Z",
+  "result": "NO_DATA",
+  "total_claims": 0,
+  "claims_without_evidence": 0,
+  "evidence_without_source": 0,
+  "claims_without_confidence": 0,
+  "confidence_distribution": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "reliability_tier_distribution": {
+    "tier1": 0,
+    "tier2": 0,
+    "tier3": 0,
+    "tier4": 0
+  },
+  "primary_source": {
+    "true": 0,
+    "false": 0
+  },
+  "requirement_level_distribution": {
+    "MUST": 0,
+    "SHOULD": 0,
+    "MAY": 0,
+    "WANT": 0,
+    "MUST_NOT": 0,
+    "null": 0
+  },
+  "standard_mapping_distribution": {
+    "direct": 0,
+    "partial": 0,
+    "gap": 0
+  }
+}

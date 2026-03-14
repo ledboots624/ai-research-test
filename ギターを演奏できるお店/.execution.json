@@ -1,0 +1,69 @@
+{
+  "version": "2.2.0",
+  "topic": "ギターを演奏できるお店",
+  "description": "ギターを演奏できるお店（お店リサーチ）",
+  "completed_at": "2026-03-14T16:18:23Z",
+  "duration_seconds": 202,
+  "duration_human": "3m22s",
+  "steps": [
+    {
+      "id": "research",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "ギターを演奏できるお店に関する情報を簡潔に収集する。要点を箇条書きで整理し、情報源を明記すること。網羅性より速度を優先。",
+      "depends_on": [],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ギターを演奏できるお店/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 1,
+      "evidence_extracted": true
+    },
+    {
+      "id": "review",
+      "step": 2,
+      "role": "integration-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集された情報を分析し、要点をまとめる。主要な発見、結論、推奨事項を簡潔にまとめること。不確実な点は「未確定」とマークすること。",
+      "depends_on": [
+        "research"
+      ],
+      "output_file": "/Users/shige/work/test-claude/remote-test/public/research-test/ギターを演奏できるお店/02-integration-review-claude-sonnet-4.6.md",
+      "output_bytes": 18039,
+      "evidence_extracted": false
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 6110
+    },
+    {
+      "file": "sources.json",
+      "bytes": 244
+    },
+    {
+      "file": "diagram.drawio",
+      "bytes": 5894
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 438237
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 733459
+    },
+    {
+      "file": "slides.html",
+      "bytes": 151632
+    },
+    {
+      "file": "slides.md",
+      "bytes": 8190
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1298860
+    }
+  ],
+  "context_file": "context-research.json"
+}
