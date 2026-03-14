@@ -1,0 +1,134 @@
+{
+  "step": 1,
+  "role": "information-gathering",
+  "model": "gemini-3-pro-preview",
+  "extracted_at": "2026-03-14T02:34:08Z",
+  "claims": [
+    {
+      "claim": "2022年改正により、漏洩時の報告義務化、第三者提供・越境移転の規制が厳格化された。2025年3月には生成AI利用に特化した新ガイドラインが策定される。",
+      "evidence": "全ての事業者に対し、漏洩発生時の個人情報保護委員会への報告と本人通知が義務化された。法定刑の引き上げ（法人重科：最大1億円以下の罰金）が導入済み。2025年3月目標として「生成AIサービスの利用に関する個人情報保護ガイドライン」により、AI学習・利用時の個人情報保護ルールが明確化される予定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "個人情報保護委員会 令和4年改正法",
+        "source_locator": "ppc.go.jp",
+        "access_date": "2022",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "識別符号（ID/パスワード）の不正取得・保管行為に加え、フィッシング行為への規制が強化されている。",
+      "evidence": "警察庁・経産省等は毎年「不正アクセス行為の発生状況」を公表し、2025〜2026年にかけても技術的検証と法執行の強化が進められている。開発者には多要素認証（MFA）の実装や脆弱性対策が強く求められる。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "警察庁 不正アクセス禁止法に係る調査・研究",
+        "source_locator": "npa.go.jp",
+        "access_date": "2024",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "クラウド型電子契約（立会人型）の法的有効性が確立し、利用が拡大している。",
+      "evidence": "電子署名法第3条の解釈に関わるQ&A（総務省・法務省・経産省）により、事業者が利用者の指示を受けて署名を行う形式も法的効力を持つことが明確化された。",
+      "source": {
+        "source_type": "industry_report",
+        "source_title": "Qiita システム開発法律まとめ",
+        "source_locator": "qiita.com",
+        "access_date": "2024",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "2026年に向け、「能動的サイバー防御（Active Cyber Defense）」への政策転換が進み、重要インフラおよびそのサプライチェーン企業への義務が拡大する。",
+      "evidence": "従来の「受動的防御」から、国が攻撃予兆を検知・排除する「能動的防御」へ法的枠組みを整備中。2026年より、政府機関・重要インフラだけでなく、その委託先・サプライチェーン企業にもセキュリティ評価制度が適用される見込み。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "2026年最新 サイバーセキュリティ基本法改正の全貌",
+        "source_locator": "security.kotora.jp",
+        "access_date": "2025",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "2025年8月に「令和7年版」として改訂され、ISO/IEC 27001:2022（JIS Q 27001:2023）と整合する形で管理策が刷新された。",
+      "evidence": "組織的・人的・物理的・技術的の4区分に管理策を再編。クラウドセキュリティ、脅威インテリジェンス、情報削除などの新規管理策が追加された。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "経済産業省 システム管理基準",
+        "source_locator": "meti.go.jp",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "2023年（令和5年）4月の改訂に加え、2024年12月に「財務報告に係るIT統制ガイダンス（追補版）」が公表された。",
+      "evidence": "2024年12月追補版として、DX推進、アジャイル開発、AI利用、クラウド利用等の環境変化に対応し、財務報告におけるIT全般統制（ITGC）の評価指針を具体化。従来の一律的な統制ではなく、リスクベースでの柔軟な評価が可能となるよう例示が見直された。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "経済産業省 システム管理基準 追補版",
+        "source_locator": "meti.go.jp",
+        "access_date": "2024-12-25",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "「ソフトウェア品質説明のための制度ガイドライン」（2013年）が基幹文書として存続しているが、実務的には個別のセキュリティガイドラインや「つながる世界の開発指針」等が参照される。",
+      "evidence": "包括的な品質ガイドラインの最新版改訂はないが、IPAは「AI事業者ガイドライン」等の特定領域で補完している。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "IPA ガイドライン一覧",
+        "source_locator": "ipa.go.jp",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "2024年4月の第1版制定後、2025年1月に「第2版（Ver. 2.0）」へ改定された。ソフトロー（法的拘束力なし）路線を維持しつつ、ガバナンス要件が具体化された。",
+      "evidence": "主な改定点として、AIエージェント・フィジカルAI等の新技術定義の追加、生成AI特有のリスク（ハルシネーション等）への対策例示、開発者・提供者・利用者の責任分界の明確化。欧州AI法（EU AI Act）との相互運用性を意識しつつ、イノベーション阻害を避けるため罰則付き法規制は見送られている。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "総務省・経産省 AI事業者ガイドライン改定案",
+        "source_locator": "soumu.go.jp",
+        "access_date": "2025-01",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "「情報解析目的（第30条の4）」によりAI学習は原則適法だが、2025年以降、透明性確保や権利保護のための法改正議論が加速している。",
+      "evidence": "現行法では、営利・非営利問わず学習利用は原則可能。ただし「著作権者の利益を不当に害する場合」は例外。クリエイター保護の観点から、「学習データの事前同意」や「オプトアウト手段の義務化」等の議論が文化審議会等で進行中。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "日本政府のAI規制進捗レポート",
+        "source_locator": "generativeai.tokyo",
+        "access_date": "2025",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    }
+  ]
+}

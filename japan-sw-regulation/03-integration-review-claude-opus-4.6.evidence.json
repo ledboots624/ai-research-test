@@ -1,0 +1,167 @@
+{
+  "step": 3,
+  "role": "integration-review",
+  "model": "claude-opus-4.6",
+  "extracted_at": "2026-03-14T02:47:39Z",
+  "claims": [
+    {
+      "claim": "日本のソフトウェア開発規制環境は2025〜2026年に構造的転換点を迎えており、従来の「事後対応・ソフトロー中心」から「事前防御・エンフォースメント強化」へ規制パラダイムが移行しつつある。",
+      "evidence": "サイバー対処能力強化法（2025年5月成立）、AI推進法（2025年6月公布）、個人情報保護法2026年改正方針（課徴金制度新設予定）という3つの立法・政策が同時進行していることが根拠として挙げられている。ただし規制の実効性は今後制定される政省令・ガイドラインに大きく依存しており、不確実性が高い過渡期にあるとされる。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "AI推進法は罰則なきプロモーション法であり、前ステップ（deep-analysis）が指摘した「ハードロー化」は過大評価であった。",
+      "evidence": "AI推進法の正式名称は「人工知能関連技術の研究開発及び活用の推進に関する法律」であり、法的拘束力のある義務や罰則が存在しないことが確認されている。Executive Summaryにおける統合評価として記述されており、Finding 2の詳細分析に基づく。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "内閣府 AI推進法掲載ページ",
+        "source_locator": "www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "「重要電子計算機に対する不正な行為による被害の防止に関する法律」（令和7年法律第42号）は2025年5月16日に成立・同年5月23日に公布済みであり、段階的に施行される。information-gatheringステップの「政策転換が進行中」という記述は過去の状況であり、deep-analysisステップの指摘どおり法律として成立済みである。",
+      "evidence": "成立日：2025年5月16日（参院本会議）、公布日：2025年5月23日。施行スケジュール：サイバー通信情報監理委員会設置は2026年4月1日施行予定、主要規定は公布から1年6ヶ月以内（2026年10月頃）、通信情報利用規定は公布から2年6ヶ月以内（2027年末頃）。主要内容：①基幹インフラ事業者のインシデント報告義務、②通信情報の取得・利用の法的枠組み、③攻撃元サーバへの侵入・無害化権限、④独立監視機関（サイバー通信情報監理委員会）設置。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "内閣官房 サイバー安全保障に関する取組",
+        "source_locator": "cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "deep-analysisステップが「AI新法により透明性義務が法律レベルで求められる」と記述したことは重大な誤認である。正式名称「人工知能関連技術の研究開発及び活用の推進に関する法律」（AI推進法）は、罰則なきプロモーション法であり、EU AI Actのような規制法ではない。",
+      "evidence": "正式名称：人工知能関連技術の研究開発及び活用の推進に関する法律（2025年6月4日公布、主要規定は即日施行、AI戦略本部は2025年9月1日設置）。法の性質：AI研究開発・活用の「推進」が主目的。透明性は「原則（endeavor義務）」として記載されるが、法的拘束力のある透明性義務や罰則は存在しない。エンフォースメント：行政指導・名称公表（レピュテーション圧力）が主な手段。著作権侵害等は既存法で処理。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "内閣府 AI推進法掲載ページ",
+        "source_locator": "www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "AI事業者ガイドラインの正式バージョンはVer 1.0（2024年4月）→ Ver 1.01（2024年11月）→ Ver 1.1（2025年3月28日）である。information-gatheringステップの「Ver. 2.0」は誤り、deep-analysisステップの「Ver. 1.1相当」は概ね正確だが時期が不正確（「2025年1月」ではなく2025年3月28日）。",
+      "evidence": "総務省・経産省公式掲載ページで確認。Living Documentとして随時更新予定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "総務省 AI事業者ガイドライン掲載ページ",
+        "source_locator": "soumu.go.jp/main_sosiki/kenkyu/ai_network/02ryutsu20_04000019.html",
+        "access_date": "2025-03",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "個人情報保護法2026年改正において、課徴金制度新設・子ども情報保護強化（規制強化）とAI学習への個人データ利用緩和（規制緩和）が同一改正内に並存する。法案は2026年3月時点で未提出である。",
+      "evidence": "課徴金制度：違反で得た利益相当額の納付命令（1000人超・悪質違反対象）。規制緩和：AI開発等における本人同意不要化（条件付き）。規制強化：16歳未満の法定代理人同意、顔特徴データのオプトアウト禁止。「権利利益を害するおそれが少ない」基準が未確定。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "個人情報保護委員会「3年ごと見直し制度改正方針」",
+        "source_locator": "ppc.go.jp/personalinfo/3nengotominaoshi/",
+        "access_date": "2026-01-09",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "著作権法第30条の4によるオプトアウト型は維持されている。クリエイター団体のオプトイン転換要求と文化庁ガイドライン整備が同時進行中である。AI推進法は著作権透明性の直接義務を課していない。",
+      "evidence": "文化審議会「AIと著作権に関する考え方」（2024年3月）、19団体共同声明（2025年10月）、2026年文化庁ガイドライン最終取りまとめ進行中。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "文化庁「AIと著作権について」",
+        "source_locator": "bunka.go.jp/seisaku/chosakuken/aiandcopyright.html",
+        "access_date": "2024-2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "生成AI搭載ソフトウェアの品質評価基準が公式に存在しない空白状態である。ただし日本はISO/IEC JTC1/SC42にP-memberとして積極参加し、ISO/IEC 42001等の国際標準策定に貢献中である。",
+      "evidence": "IPA公式ガイドライン一覧での不存在確認。SC42での日本の編集者・コンビーナ役割の確認。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "IPA 情報セキュリティ関連ガイド",
+        "source_locator": "ipa.go.jp/security/guide/index.html",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "立会人型電子契約の法的効力は明確化済みである。重大な法改正議論は進行していない。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "Qiita「システム開発法律まとめ」",
+        "source_locator": "qiita.com",
+        "access_date": "2024",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "不明",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium"
+    },
+    {
+      "claim": "情報セキュリティ管理基準令和7年版がISO/IEC 27001:2022と整合しており、新規管理策が追加されている。",
+      "evidence": "not_stated",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "経産省 情報セキュリティ管理基準",
+        "source_locator": "meti.go.jp",
+        "access_date": "2025",
+        "reliability_tier": "tier1",
+        "primary_source": true,
+        "community_score": null
+      },
+      "confidence": "high"
+    },
+    {
+      "claim": "「ソフトローからハードローへの一方向的移行」という前ステップの描写は単純化しすぎである。実態は領域別の非均一な進行であり、サイバーセキュリティ分野では明確なハードロー化が進む一方、AI規制はソフトロー基調を維持している。",
+      "evidence": "Finding 1（サイバー対処能力強化法の成立）とFinding 2（AI推進法の促進法としての性質）の比較分析から導出。サイバー分野はハードロー化が明確（法律成立・罰則あり）、AI分野は罰則なきソフトロー（AI推進法・AI事業者ガイドライン）が中心。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier1",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high"
+    }
+  ]
+}

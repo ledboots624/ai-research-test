@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram name="Japan Software Regulation Landscape" id="jp-sw-reg-2026">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title Bar -->
+        <mxCell id="title" value="日本のソフトウェア開発法規制ランドスケープ：2025-2026年の転換点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Background Groups (Visual only, flat structure) -->
+        <!-- Group 1: Paradigm Shift (Left) -->
+        <mxCell id="bg_context" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#cbd5e0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="300" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="head_context" value="パラダイムシフト" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0aec0;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Group 2: Key Regulations (Center) -->
+        <mxCell id="bg_reg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#bee3f8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="400" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="head_reg" value="重要法規制・ガイドライン" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3182ce;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Group 3: Impact & Action (Right) -->
+        <mxCell id="bg_action" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#c6f6d5;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="340" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="head_action" value="開発者への影響とアクション" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#38a169;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Nodes: Context -->
+        <mxCell id="ctx1" value="事後対応型規制&#xa;(Legacy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf2f7;strokeColor=#a0aec0;fontColor=#718096;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx2" value="事前防御・能動的防御へ&#xa;(Active Defense)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=#1a202c;fontColor=#ffffff;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx3" value="AIガバナンスの具体化&#xa;(2025-2026)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#000000;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Nodes: Regulations -->
+        <mxCell id="reg1" value="【最重要】サイバー対処能力強化法&#xa;(2025年5月成立)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;strokeWidth=3;fontColor=#000000;fontSize=13;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="reg_detail1" value="官民連携強化・通信監視権限&#xa;攻撃元サーバへの侵入・無害化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3182ce;fontColor=#4a5568;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="reg2" value="個人情報保護法 (APPI) 改正&#xa;(2022年施行・2026年改正予定)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#000000;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="340" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="reg3" value="AI推進法 (2025年6月)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;fontColor=#000000;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="340" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="reg4" value="不正アクセス禁止法&#xa;(フィッシング規制強化)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#c53030;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="580" width="340" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Nodes: Actions -->
+        <mxCell id="act1" value="【義務】インシデント報告体制&#xa;重要インフラ・個人情報漏洩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#000000;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="act2" value="厳格なアクセス制御&#xa;多要素認証 (MFA) の実装" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#000000;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="320" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="act3" value="AIガバナンス・倫理規定&#xa;(ソフトロー対応)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#000000;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="450" width="280" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="act4" value="サプライチェーンリスク管理&#xa;(脆弱性対応・SBOM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#e53e3e;fontColor=#c53030;fontSize=12;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="580" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Edges -->
+        <mxCell id="e1" value="転換" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;" edge="1" parent="1" source="ctx1" target="ctx2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="e2" value="法制化" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;" edge="1" parent="1" source="ctx2" target="reg1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e3" value="指針" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;" edge="1" parent="1" source="ctx3" target="reg3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e4" value="要請" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;" edge="1" parent="1" source="reg1" target="act1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="e5" value="義務化" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;" edge="1" parent="1" source="reg2" target="act2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e6" value="推奨" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;" edge="1" parent="1" source="reg3" target="act3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e7" value="対策" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e53e3e;" edge="1" parent="1" source="reg4" target="act4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Bar -->
+        <mxCell id="footer" value="結論: 規制は「罰則強化」と「事前防御」へシフト。2027年の完全施行を見据えた体制構築が急務。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="0" y="740" width="1200" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

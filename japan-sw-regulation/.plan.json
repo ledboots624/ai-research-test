@@ -1,0 +1,32 @@
+{
+  "topic": "japan-sw-regulation",
+  "description": "ソフトウェア開発における日本の法規制とガイドライン。個人情報保護法、不正アクセス禁止法、電子署名法、ソフトウェア品質ガイドライン（IPA等）、セキュリティ基準、AI関連規制動向を包括的に調査",
+  "generated_by": "default-standard",
+  "mode": "standard",
+  "steps": [
+    {
+      "id": "research",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "japan-sw-regulationに関する包括的な情報収集。背景、現状、主要な論点を整理する。情報源を可能な限り明記すること。",
+      "depends_on": []
+    },
+    {
+      "id": "analysis",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集された情報の深層分析。矛盾点、ギャップ、重要な洞察を抽出する。各主張にエビデンスと確信度を付与すること。",
+      "depends_on": ["research"]
+    },
+    {
+      "id": "review",
+      "step": 3,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの成果を統合し、エビデンスに基づく結論と推奨事項をまとめる。不確実な点は明示的に「未確定」とマークすること。",
+      "depends_on": ["research", "analysis"]
+    }
+  ]
+}
