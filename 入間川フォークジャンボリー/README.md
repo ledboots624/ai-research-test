@@ -22,7 +22,7 @@
 
 ## 本資料について
 
-本資料は **AI Research Agent** により自動生成されたリサーチ結果です。複数のAIモデル（Gemini, Claude, GPT）がリレー方式で調査・分析・検証を行い、エビデンスベースの構造化された調査資料を生成しています。
+本資料は **[AI Research Agent](https://github.com/ledboots624/ai-research-agent)** により自動生成されたリサーチ結果です。複数のAIモデル（claude-opus-4.6, claude-sonnet-4.6, gemini-3-pro-preview）がリレー方式で調査・分析・検証を行い、エビデンスベースの構造化された調査資料を生成しています。
 
 ### 生成プロセス
 
@@ -58,7 +58,7 @@
 | 項目 | 値 |
 |------|-----|
 | **生成方法** | planner |
-| **実行日時** | 2026-03-15 15:42:14 |
+| **実行日時** | 2026-03-15 23:23:01 |
 | **ツール** | AI Research Agent v2.2.0 |
 | **手法** | Evidence-based Multi-Model Pipeline |
 
@@ -96,8 +96,7 @@
 
 ---
 
-
-_...（全93行。詳細は[情報収集の全文](./01-information-gathering-gemini-3-pro-preview.md)を参照）_
+_...（全93行。詳細は[情報収集の全文](./steps/01-information-gathering-gemini-3-pro-preview.md)を参照）_
 
 ### Step 2: 深層分析（claude-sonnet-4.6）
 
@@ -122,7 +121,7 @@ _...（全93行。詳細は[情報収集の全文](./01-information-gathering-ge
 - 第1回約2,000〜3,000人 → 第3回2万人超と急拡大
 - 発案者・笠木透は「自分たちの手でコンサートをやろう」という DIY 精神を掲げ、アマチュアの飛び入り参加枠を設けた
 
-_...（全476行。詳細は[深層分析の全文](./02-deep-analysis-claude-sonnet-4.6.md)を参照）_
+_...（全476行。詳細は[深層分析の全文](./steps/02-deep-analysis-claude-sonnet-4.6.md)を参照）_
 
 ### Step 3: 深層分析（claude-sonnet-4.6）
 
@@ -146,8 +145,9 @@ _...（全476行。詳細は[深層分析の全文](./02-deep-analysis-claude-so
 ─────────────────────────────────────────────
 笠木透（中津川発起人）         細野晴臣・小坂忠
     ↓ 精神的影響                   ↓ 地域的磁場形成
+```
 
-_...（全401行。詳細は[深層分析の全文](./03-deep-analysis-claude-sonnet-4.6.md)を参照）_
+_...（全401行。詳細は[深層分析の全文](./steps/03-deep-analysis-claude-sonnet-4.6.md)を参照）_
 
 ### Step 4: 品質検証レビュー（claude-sonnet-4.6）
 
@@ -172,7 +172,7 @@ _...（全401行。詳細は[深層分析の全文](./03-deep-analysis-claude-so
 | SHOULD | 0件 | 同上 |
 | MAY | 0件 | 同上 |
 
-_...（全294行。詳細は[品質検証レビューの全文](./04-critic-review-claude-sonnet-4.6.md)を参照）_
+_...（全294行。詳細は[品質検証レビューの全文](./steps/04-critic-review-claude-sonnet-4.6.md)を参照）_
 
 ### Step 5: 統合レビュー（claude-opus-4.6）
 
@@ -197,7 +197,7 @@ Now I have all the research data, critic review, and fresh verification results.
 - **副問2**: 入間市・狭山市という土地の地理的・文化的特性は、イベント誕生の必要条件だったか。
 - **副問3**: 日本のフォーク運動史・野外フェス文化史の中で、このイベントはどこに位置づけられるか。
 
-_...（全386行。詳細は[統合レビューの全文](./05-integration-review-claude-opus-4.6.md)を参照）_
+_...（全386行。詳細は[統合レビューの全文](./steps/05-integration-review-claude-opus-4.6.md)を参照）_
 
 ---
 
