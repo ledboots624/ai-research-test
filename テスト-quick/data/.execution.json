@@ -1,0 +1,61 @@
+{
+  "version": "2.2.0",
+  "topic": "テスト",
+  "description": "テスト調査",
+  "completed_at": "2026-03-15T02:32:56Z",
+  "duration_seconds": 434,
+  "duration_human": "7m14s",
+  "steps": [
+    {
+      "id": "research",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "テストに関する情報を簡潔に収集する。要点を箇条書きで整理し、情報源を明記すること。網羅性より速度を優先。",
+      "depends_on": [],
+      "output_file": "/tmp/test-structure/テスト/steps/01-information-gathering-gemini-3-pro-preview.md",
+      "output_bytes": 4041,
+      "evidence_extracted": true
+    },
+    {
+      "id": "review",
+      "step": 2,
+      "role": "integration-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集された情報を分析し、要点をまとめる。主要な発見、結論、推奨事項を簡潔にまとめること。不確実な点は「未確定」とマークすること。",
+      "depends_on": [
+        "research"
+      ],
+      "output_file": "/tmp/test-structure/テスト/steps/02-integration-review-claude-sonnet-4.6.md",
+      "output_bytes": 15477,
+      "evidence_extracted": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "README.md",
+      "bytes": 10864
+    },
+    {
+      "file": "sources.json",
+      "bytes": 8132
+    },
+    {
+      "file": "diagram.png",
+      "bytes": 512417
+    },
+    {
+      "file": "diagram.svg",
+      "bytes": 895901
+    },
+    {
+      "file": "slides.html",
+      "bytes": 110879
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 33449
+    }
+  ],
+  "context_file": "context-research.json"
+}

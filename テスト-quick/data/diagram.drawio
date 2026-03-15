@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="draw.io">
+  <diagram id="iruma-folk-jamboree-history" name="Iruma Folk Jamboree History">
+    <mxGraphModel background="#ffffff" dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title Bar -->
+        <mxCell id="title" value="入間市フォークジャンボリーの歴史体系と文化的意義" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="880" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Section: Background (Left) -->
+        <mxCell id="header_bg" value="起源・背景" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=none;fontColor=#4a5568;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_context" value="1970年代の文化的土壌&#xa;狭山・入間「アメリカ村」&#xa;ハイドパーク・カルチャー&#xa;(はっぴいえんど等)" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#2d3748;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_founder" value="発起人：松永祥一 (松しょう)&#xa;1970年代フォーク「がむがむ」&#xa;「Live Cafe 松」オーナー&#xa;手作り音楽文化の提唱" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;fontColor=#2d3748;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Section: The Event (Center) -->
+        <mxCell id="header_event" value="入間川フォークジャンボリー" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bee3f8;strokeColor=none;fontColor=#2c5282;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_main_event" value="入間川フォークジャンボリー&#xa;(1994年〜2008年)&#xa;会場：あたらしき野公園&#xa;野外ステージ" style="rounded=1;arcSize=8;shadow=1;fontSize=16;fontStyle=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;strokeWidth=3;fontColor=#2d3748;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="280" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_stats" value="開催実績の金字塔&#xa;• 月例開催 → 隔月開催&#xa;• 14年間で通算100回達成&#xa;• 地域密着型の継続性" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#2d3748;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="280" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node_style" value="運営哲学：DIY精神&#xa;• ボランティア運営委員会&#xa;• 反商業主義・非営利&#xa;• フォーク運動の現代的継承" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;fontColor=#2d3748;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Section: Legacy (Right) -->
+        <mxCell id="header_legacy" value="結末と遺産" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=none;fontColor=#822727;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_end" value="第100回での「完結」 (2008)&#xa;社会的衰退ではなく&#xa;主催者の意志による区切り&#xa;「大団円」としての幕引き" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;fontColor=#2d3748;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="225" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="node_successor" value="後継：入間サウンドヘヴン&#xa;文化と精神の継承&#xa;地域フェス文化への定着" style="rounded=1;arcSize=8;shadow=1;fontSize=12;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;fontColor=#2d3748;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="240" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Edges -->
+        <!-- Context -> Event -->
+        <mxCell id="edge1" value="思想的ルーツ" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;fontSize=11;" edge="1" parent="1" source="node_context" target="node_main_event">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Founder -> Event -->
+        <mxCell id="edge2" value="発起・主催" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#a0aec0;fontSize=11;" edge="1" parent="1" source="node_founder" target="node_main_event">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Event -> Stats -->
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#3182ce;" edge="1" parent="1" source="node_main_event" target="node_stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Stats -> Style -->
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#3182ce;" edge="1" parent="1" source="node_stats" target="node_style">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Event -> End -->
+        <mxCell id="edge5" value="14年の歴史" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3182ce;fontSize=11;" edge="1" parent="1" source="node_main_event" target="node_end">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- End -> Successor -->
+        <mxCell id="edge6" value="精神の継承" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#38a169;fontSize=11;" edge="1" parent="1" source="node_end" target="node_successor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="Conclusion: 一個人の熱意から始まったイベントは、100回の継続を通じて地域固有の音楽文化遺産となった" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d3748;strokeColor=none;fontColor=#ffffff;fontSize=12;fontStyle=2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="880" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

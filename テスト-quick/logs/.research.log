@@ -1,0 +1,41 @@
+[2026-03-15 11:25:42 INFO] === AI Research Agent v2.2.0 ===
+[2026-03-15 11:25:42 INFO] トピック: テスト
+[2026-03-15 11:25:42 INFO] 説明: テスト調査
+[2026-03-15 11:25:42 INFO] コンテキスト: context-research.json → /tmp/test-structure/テスト/data/.context.json
+[2026-03-15 11:25:42 INFO] ワークスペース: /tmp/test-structure/テスト/
+[2026-03-15 11:25:42 INFO] パイプライン実行開始: 2ステップ (開始: Step 1)
+[2026-03-15 11:25:42 INFO] モデル呼び出し: gemini-3-pro-preview → /tmp/test-structure/テスト/steps/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-15 11:27:04 INFO] モデル応答完了: gemini-3-pro-preview (1m22s) → /tmp/test-structure/テスト/steps/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-15 11:27:04 INFO] Evidence 抽出: /tmp/test-structure/テスト/steps/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-15 11:27:51 INFO] Evidence JSON 生成: /tmp/test-structure/テスト/steps/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-15 11:27:51 INFO] Step 1 完了 (2m9s): information-gathering by gemini-3-pro-preview
+[2026-03-15 11:27:51 INFO] モデル呼び出し: claude-sonnet-4.6 → /tmp/test-structure/テスト/steps/02-integration-review-claude-sonnet-4.6.md
+[2026-03-15 11:29:33 INFO] モデル応答完了: claude-sonnet-4.6 (1m42s) → /tmp/test-structure/テスト/steps/02-integration-review-claude-sonnet-4.6.md
+[2026-03-15 11:29:33 INFO] Evidence 抽出: /tmp/test-structure/テスト/steps/02-integration-review-claude-sonnet-4.6.evidence.json
+[2026-03-15 11:30:49 INFO] Evidence JSON 生成: /tmp/test-structure/テスト/steps/02-integration-review-claude-sonnet-4.6.evidence.json
+[2026-03-15 11:30:49 INFO] Step 2 完了 (2m58s): integration-review by claude-sonnet-4.6
+[2026-03-15 11:30:49 INFO] 全ステップ完了
+[2026-03-15 11:30:49 INFO] Validation 実行中...
+[2026-03-15 11:30:50 INFO] Validation 完了: PASS (claims: 9, high: 6, medium: 3, low: 0, tier1: 0, tier2: 2, tier3: 3, tier4: 4, primary: 4, req_must: 0, req_should: 0, std_direct: 0, std_partial: 0, std_gap: 0)
+[2026-03-15 11:30:50 INFO] パイプライン実行時間: 5m8s
+[2026-03-15 11:30:50 INFO] Sources Registry 生成中...
+[2026-03-15 11:30:50 INFO] Sources Registry 生成完了: /tmp/test-structure/テスト/data/sources.json (8 sources)
+[2026-03-15 11:30:50 INFO] sources.json 生成: 0s
+[2026-03-15 11:30:50 INFO] README 生成完了: /tmp/test-structure/テスト/README.md
+[2026-03-15 11:30:50 INFO] README 生成: 0s
+[2026-03-15 11:30:50 INFO] 図解生成中... (model: gemini-3-pro-preview, format: draw.io XML)
+[2026-03-15 11:31:36 INFO] draw.io XML 生成完了: /tmp/test-structure/テスト/data/diagram.drawio
+[2026-03-15 11:31:36 INFO] SVG/PNG 変換中... (draw.io CLI)
+[2026-03-15 11:31:37 INFO] SVG 生成完了: /tmp/test-structure/テスト/diagram.svg
+[2026-03-15 11:31:38 INFO] PNG 生成完了: /tmp/test-structure/テスト/diagram.png
+[2026-03-15 11:31:38 INFO] diagram 生成: 48s
+[2026-03-15 11:31:38 INFO] スライド生成中... (model: gemini-3-pro-preview)
+[2026-03-15 11:32:53 WARN] スライドMD のフォーマットが不正な可能性があります
+[2026-03-15 11:32:53 INFO] Diagram スライドが未検出。フォールバック挿入します
+[2026-03-15 11:32:53 INFO] Diagram スライドを末尾に挿入
+[2026-03-15 11:32:53 INFO] スライド変換中... (marp-cli)
+[2026-03-15 11:32:54 INFO] HTML スライド生成完了: /tmp/test-structure/テスト/slides.html
+[2026-03-15 11:32:56 INFO] PDF スライド生成完了: /tmp/test-structure/テスト/slides.pdf
+[2026-03-15 11:32:56 INFO] slides 生成: 1m18s
+[2026-03-15 11:32:56 INFO] 総実行時間: 7m14s
+[2026-03-15 11:32:56 INFO] .execution.json 生成完了

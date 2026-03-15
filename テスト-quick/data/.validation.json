@@ -1,0 +1,36 @@
+{
+  "validated_at": "2026-03-15T02:30:50Z",
+  "result": "PASS",
+  "total_claims": 9,
+  "claims_without_evidence": 0,
+  "evidence_without_source": 0,
+  "claims_without_confidence": 0,
+  "confidence_distribution": {
+    "high": 6,
+    "medium": 3,
+    "low": 0
+  },
+  "reliability_tier_distribution": {
+    "tier1": 0,
+    "tier2": 2,
+    "tier3": 3,
+    "tier4": 4
+  },
+  "primary_source": {
+    "true": 4,
+    "false": 5
+  },
+  "requirement_level_distribution": {
+    "MUST": 0,
+    "SHOULD": 0,
+    "MAY": 0,
+    "WANT": 0,
+    "MUST_NOT": 0,
+    "null": 9
+  },
+  "standard_mapping_distribution": {
+    "direct": 0,
+    "partial": 0,
+    "gap": 0
+  }
+}

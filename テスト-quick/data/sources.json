@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-03-15T02:30:50Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 8,
+  "tier_summary": {
+    "tier1": 0,
+    "tier2": 2,
+    "tier3": 3,
+    "tier4": 3
+  },
+  "primary_source_count": 3,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "academic_paper",
+      "title": "1970年代の米軍基地文化に関する一考察（慶應義塾大学）",
+      "locator": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php?koara_id=AA11358103-20170701-0099",
+      "url": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php?koara_id=AA11358103-20170701-0099",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間・狭山エリアは1970年代に米軍ジョンソン基地跡「アメリカ村」を中心とした特異な米国文化圏を形成し、細野晴臣・はっぴいえんど等日本フォーク・ロックの源流と深く関わる地域文化的背景を持つ"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "academic_paper",
+      "title": "A Study on US Military Base Culture in the 1970s: Focusing on 'Sayama American Village'",
+      "locator": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php?koara_id=AA11358103-20170701-0099",
+      "url": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php?koara_id=AA11358103-20170701-0099",
+      "access_date": "2024-03-15",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "While the event started in 1994, its spiritual roots lie in the 1970s 'All Japan Folk Jamboree' and ..."
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "community_data",
+      "title": "Ayumi of Iruma Sound Heaven",
+      "locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "url": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "access_date": "2024-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "The 'Irumagawa Folk Jamboree' was a grassroots outdoor music event held in Iruma City, Saitama Prefe..."
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "community_data",
+      "title": "Gam Gam - Wikipedia",
+      "locator": "https://ja.wikipedia.org/wiki/%E3%81%8C%E3%82%80%E3%81%8C%E3%82%80",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%8C%E3%82%80%E3%81%8C%E3%82%80",
+      "access_date": "2024-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "Shoichi Matsunaga (1953-), a musician and former leader of the 1970s folk group 'Gam Gam', launched ..."
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "community_data",
+      "title": "Official Blog \"Irublo\"",
+      "locator": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+      "url": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+      "access_date": "2024-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "1:information-gathering:gemini-3-pro-preview"
+      ],
+      "claim_summaries": [
+        "The event evolved from a solo stage to an organized committee system, concluding at its 100th sessio..."
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "community_data",
+      "title": "がむがむ - Wikipedia",
+      "locator": "https://ja.wikipedia.org/wiki/%E3%81%8C%E3%82%80%E3%81%8C%E3%82%80",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%8C%E3%82%80%E3%81%8C%E3%82%80",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "不明",
+        "participant_count": null,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "松しょう氏（1953年生）は1970年代フォークグループ「がむがむ」元メンバーであり、解散後は音楽業界・ライブカフェ経営を経て1994年に本イベントを個人企画として立ち上げた"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "community_data",
+      "title": "入間サウンドヘヴンのあゆみ",
+      "locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "url": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier4",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": null,
+        "expert_presence": true,
+        "reproducibility": false
+      },
+      "reference_count": 2,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーは1994年〜2008年、埼玉県入間市「あたらしき野公園」野外ステージで月例（後に隔月）開催された草の根フォーク野外イベントである",
+        "本イベントは1960〜70年代の「自分の言葉で歌う」「反商業主義」フォーク精神と全共闘世代の文化的遺産を1990年代以降に継承した存在として位置づけられる"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "community_data",
+      "title": "公式ブログ「いるぶろ」",
+      "locator": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+      "url": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier4",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": null,
+        "participant_count": null,
+        "expert_presence": true,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "2:integration-review:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "終焉は社会的・運営的衰退ではなく、松しょう氏が第100回という節目に「一つの章を閉じる」意思決定を行ったことによる"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "step": 2,
+  "role": "integration-review",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-15T02:29:33Z",
+  "claims": [
+    {
+      "claim": "入間川フォークジャンボリーは1994年〜2008年、埼玉県入間市「あたらしき野公園」野外ステージで月例（後に隔月）開催された草の根フォーク野外イベントである",
+      "evidence": "1994年2月スタート、1998年第50回以降隔月化、2008年8月第100回で終了。組織はボランティア委員会運営、主要制作会社不在のDIY体制",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier4",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": null,
+          "expert_presence": true,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "松しょう氏（1953年生）は1970年代フォークグループ「がむがむ」元メンバーであり、解散後は音楽業界・ライブカフェ経営を経て1994年に本イベントを個人企画として立ち上げた",
+      "evidence": "1970年「赤テン」としてデュオデビュー→「がむがむ」（エクスプレス/東芝EMI）リーダー→1976年解散→新興音楽出版社勤務→狭山市「ライブカフェ松」開店→1994年ジャンボリー発起",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "がむがむ - Wikipedia",
+        "source_locator": "https://ja.wikipedia.org/wiki/%E3%81%8C%E3%82%80%E3%81%8C%E3%82%80",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "不明",
+          "participant_count": null,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間・狭山エリアは1970年代に米軍ジョンソン基地跡「アメリカ村」を中心とした特異な米国文化圏を形成し、細野晴臣・はっぴいえんど等日本フォーク・ロックの源流と深く関わる地域文化的背景を持つ",
+      "evidence": "慶應義塾大学の学術論文「1970年代の米軍基地文化に関する一考察——狭山アメリカ村を中心に」が地域文化圏の存在を裏付ける。ただし松しょう氏の動機との直接的関連は文脈推定",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "1970年代の米軍基地文化に関する一考察（慶應義塾大学）",
+        "source_locator": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php?koara_id=AA11358103-20170701-0099",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "終焉は社会的・運営的衰退ではなく、松しょう氏が第100回という節目に「一つの章を閉じる」意思決定を行ったことによる",
+      "evidence": "公式ブログ「いるぶろ」記録によれば、松しょう氏は意図的にキリ番（100回）での終幕を選択。後継イベント「入間サウンドヘヴン」が同精神を継続",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "公式ブログ「いるぶろ」",
+        "source_locator": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier4",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": null,
+          "expert_presence": true,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "本イベントは1960〜70年代の「自分の言葉で歌う」「反商業主義」フォーク精神と全共闘世代の文化的遺産を1990年代以降に継承した存在として位置づけられる",
+      "evidence": "中津川フォークジャンボリーとの思想的連続性（DIY・ボランティア運営・反大企業制作）、松しょう氏自身が70年代フォーク当事者であること。思想的連続性は文脈推論であり松しょう氏の直接発言による一次確認なし",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier4",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": null,
+          "participant_count": null,
+          "expert_presence": true,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}
