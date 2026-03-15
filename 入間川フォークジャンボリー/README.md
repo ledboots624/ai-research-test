@@ -27,13 +27,18 @@
 | [最終レポート（統合レビュー）](./steps/05-integration-review-claude-opus-4.6.md) | 全調査結果を統合した最終結論 |
 | [批判的レビュー](./steps/04-critic-review-claude-sonnet-4.6.md) | 論理矛盾・エビデンス不足・バイアスの検証 |
 | [情報源一覧](./data/sources.json) | 全ソースの集約リスト（Source ID・URL・信頼性評価） |
+| [関係図（PNG）](./diagram.png) | リサーチ結果の視覚的サマリー |
+| [関係図（SVG）](./diagram.svg) | 高解像度ベクター版 |
+| [関係図（編集用）](./data/diagram.drawio) | draw.io で開いて編集可能 |
+| [プレゼンスライド（PDF）](./slides.pdf) | プレゼンテーション用スライド |
+| [プレゼンスライド（HTML）](./slides.html) | ブラウザで閲覧可能なスライド |
 
 ## メタデータ
 
 | 項目 | 値 |
 |------|-----|
 | **生成方法** | planner |
-| **実行日時** | 2026-03-15 12:54:02 |
+| **実行日時** | 2026-03-15 15:29:54 |
 | **ツール** | AI Research Agent v2.2.0 |
 | **手法** | Evidence-based Multi-Model Pipeline |
 
