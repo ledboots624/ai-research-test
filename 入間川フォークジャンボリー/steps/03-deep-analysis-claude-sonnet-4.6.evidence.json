@@ -1,0 +1,351 @@
+{
+  "step": 3,
+  "role": "deep-analysis",
+  "model": "claude-sonnet-4.6",
+  "extracted_at": "2026-03-15T03:31:18Z",
+  "claims": [
+    {
+      "claim": "入間川フォークジャンボリーの人的ネットワークは「松しょう氏」を頂点とする三層構造を持ち、各層が役割を分担することでイベントの14年間を支えた。このネットワークは血縁ではなく「音楽への共鳴」によって結合した、現代的意味での「緩やかなコミュニティ」の典型例である。",
+      "evidence": "第0層（思想的先行者：笠木透・細野晴臣等）・第1層（創設者・主宰：松しょう）・第2層（実行委員会：ゆっこらんど、柳澤英太郎、こうすけ等）・第3層（参加者・出演者コミュニティ）の構造が、それぞれ思想提供・主宰・運営・参加という役割を分担。飛び入り参加枠や西武沿線広域ネットワークを通じて構成された。実行委員会構造はhigh信頼性だが、タマ伸也等第3層の全体像は代表例のみ確認のためmedium評価。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ - ゆっこらんど official",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "松しょう氏はイベントの「主催者」であるより「触媒」として機能した。第1回から自らステージに立ち続けた点が、「主催者も演者である」という平等性のシンボルとなった。",
+      "evidence": "初回は松しょう氏のソロ弾き語りのみで主催と出演が一体化。1994年後半にゆっこらんど氏を実行委員長として招いた後も「出演者としても参加する主催者」であり続けた。「らいぶかふぇまつ」を通じた既存人脈保有により第1回から半年以内の組織化が可能だった。2008年に「100回で終える」という意思決定を単独で行い「触媒であり最終決定者」という両面性を示した。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "「ラジオ」と「音楽」を心から愛されていた方の偲ぶ会に参加させていただいて。｜note",
+        "source_locator": "https://note.com/yukkolandmusic/n/ndc9b6b79b123",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "ゆっこらんど（鈴木敬子）氏は、松しょう氏の「熱」を持続可能な「制度」に変換した人物であり、入間川フォークジャンボリー14年間の実質的な制度的支柱だった。",
+      "evidence": "1994年後半〜2023年7月まで約29年間にわたって運営に関与（フォークジャンボリー14年＋後継の入間サウンドヘヴン15年）。「いるじゃんタイムス」発行による口承文化のテキスト化。松しょう氏終了後も「入間サウンドヘヴン」立ち上げの中心メンバーとして継続の実質的担保となった。テーマ曲「サウンドヘヴン」（作詞・作曲：鈴木敬子）を制作・演奏し文化的記号を創造。2023年7月の退会をnoteで公式発表し透明性と文書化を徹底した。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "【重要なお知らせ】ゆっこらんど「入間サウンドヘヴン」実行委員会退会の件 - いるぶろ",
+        "source_locator": "https://blog.goo.ne.jp/iruten/e/edb43dc1c5006bd99301c9f6cb36f573",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "1998〜2007年の柳澤英太郎実行委員長期は、ジャンボリーが「個人主催イベント」から「地域の定着した文化行事」へと転換した制度成熟期に対応する。",
+      "evidence": "第50回（1998年）を契機に実行委員長に就任。2007年まで9年間という最長の委員長在任期間。カフェ開業のため退任し音楽文化活動から地域経済活動へのキャリア移行という地方コミュニティの典型的軌跡を示した。退任後のコミュニティとの関与は未確認（low信頼性）。在任期間・退任理由はhigh信頼性。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "タマ伸也氏（ポカスカジャン）のブログ「タマログ」に残された出演記録は、第3層参加者の典型的な体験を「外部の目」で記録した貴重な文化的証言である。",
+      "evidence": "お笑いコンビ・ポカスカジャンのメンバーとして吉本興業に所属しつつ、フォーク/シンガーソングライターとしても独立した音楽活動を展開。入間川フォークジャンボリーに出演した記録をブログで公開（ameblo）。「アットホームな野外ライブ」「交流の温かさ」という証言は外部者視点からイベントの本質を記録している。出演事実はhigh信頼性だが証言の代表性はmedium信頼性。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間川フォークジャンボリー | タマ伸也オフィシャルブログ「タマログ」",
+        "source_locator": "https://ameblo.jp/tamamidnight/entry-12218419410.html",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーのネットワークは、社会学的な「弱い紐帯の強さ」（Mark Granovetter, 1973）の典型的事例として理解できる。強い絆よりも「音楽が好き」という緩やかな共通点で繋がれた多様な人々の集合が、情報拡散と新参者の参入を促進した。",
+      "evidence": "飛び入り参加枠による「知り合いでなくても出演できる」開放性。「いるじゃんタイムス」による情報の紙媒体拡散による弱い紐帯の維持。打ち上げ・手料理持ち寄りの慣習による「演奏後の人間関係」の制度化。西武沿線広域（入間・所沢・狭山・川越）からの参加者による単一地域を超えたネットワーク形成。タマ伸也のような「よく知らないが参加した著名人」の存在によるネットワークの多様性。ただし「弱い紐帯」理論との対照は分析的適用であり直接の実証データはない。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーは、日本の野外フェス文化の「メインライン系譜」とは異なる「傍流の継承者」として機能した。フジロックが欧米型大型商業フェスの移植であったのに対し、入間川ジャンボリーは中津川フォークジャンボリーの精神を「ローカル・スケール・継続」という異なる方法論で実践した。",
+      "evidence": "全日本フォークジャンボリー（中津川、1969）を原点として、春一番（1971）・入間川（1994）は精神的継承者として位置づけられる。フジロック（1997）・ロック・イン・ジャパン（2000）は欧米型移植・別系統。東大論文（岡田2004）はフォーク期の反商業的フェス→フジロック以降のライフスタイル型フェスへの根本的性格変化を指摘。入間川フォークジャンボリーはこの変化に抵抗し1994〜2008年まで反商業的フェスの立場を固守した。系譜的位置づけはhigh信頼性だが「傍流継承者」という評価軸は分析的でmedium信頼性。",
+      "source": {
+        "source_type": "academic_paper",
+        "source_title": "東京大学論文「音楽/貨幣/ハビトゥス」岡田2004",
+        "source_locator": "https://www.l.u-tokyo.ac.jp/~slogos/archive/28/okada2004.pdf",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier2",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーとフジロック・フェスティバル（1997年〜）の間に直接的な人的・組織的継承関係は存在しない。ただし両者は「野外で音楽を自由に享受する」という文化的感性が1990年代日本社会に潜在的に蓄積されていたことの証左であり、「同一の土壌から別の植物が育った」関係として理解できる。",
+      "evidence": "フジロックは音楽プロモーター・日高正博（SMASH）が英国グラストンベリー・フェスティバルをモデルに設立。日高氏はフォークジャンボリー世代とは異なるロック・プロモーター出身のキャリア。「中津川が作った野外フェスへの土壌がなければフジロックの受容もなかった」という間接的評価は研究者間に存在するが因果証明は困難（medium信頼性）。入間川フォークジャンボリーはフジロックが大規模化・商業化の道を選んだ同時期に「小規模・非商業・継続」という真逆の選択をした。直接的継承なしという事実はhigh信頼性、「土壌共有」という解釈はlow信頼性。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "音楽フェスの歴史と目的｜日本に夏フェス文化が根付いた理由と海外フェスとの関連",
+        "source_locator": "https://originology.xyz/natsufes-kigen/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーと春一番コンサートは、中津川フォークジャンボリーの精神を継承した「傍流」の双璧だが、その形態は対照的であり、この対比が入間川ジャンボリーの固有性を際立たせる。",
+      "evidence": "春一番は1971年開始・数千人・都市型・プロ中心・専門家（福岡風太）主催・2025年最終回・血縁継承（息子・福岡嵐）。入間川は1994年開始・数十〜百人・超ローカル・アマチュア主体・一般人（松しょう氏）主催・2008年意思的完結・コミュニティ継承（入間サウンドヘヴン）。春一番は「アーティストの系譜」、入間川は「誰でも立てるステージの精神」という中津川ジャンボリー精神の異なる側面を継承した。春一番の歴史的事実はhigh信頼性、入間川との対比分析は筆者による構造的比較でmedium信頼性。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "大阪で始まった音楽フェス「春一番（ハルイチ）」を知っているか | Fanto Magazine",
+        "source_locator": "https://www.fanto.jp/article/music-fes-haruichi/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーの最大の文化史的貢献は「有名でなくてもステージに立ち続けられる場を14年間・100回維持した」という事実そのものであり、これは1990〜2000年代の郊外都市における市民芸術活動の先駆的モデルとして評価される。",
+      "evidence": "①毎月開催という「非日常ではなく日常の延長」形式で音楽を生活の一部へ引き下ろした実践。②狭山・入間・所沢・川越エリアのアマチュアが「人生初のステージ」を踏む登竜門機能。③雨天も開催するという姿勢が「消えないことの信頼性」を価値とした。④2008年終了後2ヶ月以内に「入間サウンドヘヴン」が発足したという即時継承がイベントのコミュニティ依存の構造を証明した。4点の個別事実は確認済みだが「郊外市民芸術モデル」という総合的文化評価は分析的でmedium信頼性。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴン公式ブログ「いるぶろ」",
+        "source_locator": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーが現代の大規模音楽シーンに「直接の影響」を与えた証拠は現時点では確認できない。しかし「間接的影響」として、このイベントで音楽を始めた・続けた参加者が、後の地域音楽コミュニティを形成した可能性は高い。",
+      "evidence": "タマ伸也（ポカスカジャン）の出演記録は「プロへの足がかり」機能を示唆するが入間川への参加がキャリアに直接影響したかどうかは未確認。「入間サウンドヘヴン」への継承は現在進行形の音楽コミュニティとして地域に存続。がむがむの再結成ライブ（2023〜24年）は文化圏での活動継続を示す。「入間川フォークジャンボリーを通じてキャリアを確立したプロアーティスト」の確認可能なケースは現時点で資料から見つかっていない。直接的なメジャーシーンへの影響はlow信頼性、地域音楽コミュニティへの持続的影響はmedium信頼性。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "not_stated",
+        "source_locator": "not_stated",
+        "access_date": "unknown",
+        "reliability_tier": "tier4",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーの終焉（2008年8月・第100回）は、単一の原因によるものではなく、「能動的完結」「組織的疲弊の蓄積」「文化環境の変化」という三種の要因が複合的に絡んだ帰結である。最大の要因は松しょう氏の意思的決断であることが確認されており、これを「衰退」と呼ぶのは誤りである。",
+      "evidence": "複数ソース（ゆっこらんど公式サイト・「いるぶろ」）が松しょう氏の意志による終了を一致して確認。柳澤英太郎氏の2007年退任や組織的疲弊は補助的要因として推定される。外部環境（騒音規制等）は証拠不足で主因にはならないと評価されている。各要因の詳細はSection 3-2〜3-4に詳述。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ - ゆっこらんど official",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「100回」という数字は偶然の区切りではなく、松しょう氏が設定した意図的な完結点だった可能性が高い。",
+      "evidence": "松しょう氏の意志による終了であることは複数ソースが一致して確認。第100回に記念Tシャツを制作（まちこ氏によるイラスト）し「卒業式」として演出。終了の2ヶ月後（2008年10月）に「入間サウンドヘヴン」が即時発足し松しょう氏自身がイベントを閉幕させた後コミュニティの継続を別の人々に委ねた。中津川ジャンボリーが「3回で未完に終わった幻」だったのに対し100回という完結数を選んだことは「完成した作品として記憶されたかった」という分析的解釈と整合性がある。松しょう氏は終了後も音楽活動を継続（JOMON HEADS参加、がむがむ再結成ライブ等）し健康悪化や活動停止が原因ではない。終了が意図的決断という事実はhigh信頼性、動機解釈はlow信頼性。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "14年間の継続運営における組織的疲弊と、主要メンバーのライフステージ変化が、松しょう氏の「終了」意思決定を後押しした可能性がある。",
+      "evidence": "2007年2月に柳澤英太郎氏がカフェ開業のため退任（9年間の実行委員長が交代し運営体制の再構築が必要に）。こうすけ氏が委員長就任し体制移行期の安定化に注力。2007〜2008年が松しょう氏の内的決断期と推定される（推測）。2008年8月第100回終了は柳澤氏退任から1年半後の区切り。月例開催を14年間維持することの物理的・精神的負担は相当であったと推測されるが「疲弊が終了の直接原因」という松しょう氏自身の発言は現時点で未確認。柳澤氏退任の事実はmedium信頼性、組織疲弊が終了に影響したという推定はlow信頼性。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "入間サウンドヘヴンのあゆみ",
+        "source_locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "low",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "「新しきを知る公園」の騒音規制強化や行政的制約が終了の原因となったという説は、証拠不足で否定的評価が妥当である。",
+      "evidence": "新しきを知る公園における騒音規制強化の記述は2012年頃の出来事として示唆されるがフォークジャンボリー終了（2008年）より4年後のこと。入間川フォークジャンボリー終了後も「入間サウンドヘヴン」が同公園で2023年まで継続開催できた事実から2008年時点での場の使用に制約があったとは考えにくい。行政からの圧力や使用禁止処分を示す公式記録は確認されていない。「らいぶかふぇまつ」の閉店（2010年9月）も終了の2年後で直接的因果なし。",
+      "source": {
+        "source_type": "official_document",
+        "source_title": "入間市 騒音・振動・悪臭 ／ 入間市",
+        "source_locator": "https://www.city.iruma.saitama.jp/",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier1",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "high",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間サウンドヘヴンの活動縮小（2022年以降）は、入間川フォークジャンボリーの終了とは別の問題であり、その主因は「コアメンバーの不可逆的離脱の累積」にある。",
+      "evidence": "2021年11月：たっちゃん逝去（長年の実行委員・不可逆・精神的打撃大）。2022年10月：「諸事情により中止」とブログで公告し定期開催の終わりの始まりとなった。2023年7月：ゆっこらんど氏退会（29年間の中核メンバー・実質的組織運営力の低下）。2023年〜：こうすけ氏・ヒロウエキ氏が継続模索し体制再構築期（不定期化）。2024〜2025年：正式な終了宣言なく事実上の休止状態。この休止は「創設者の意志による計画的終了」ではなく「支えてきた人々の喪失による自然消滅的停止」という性格を持つ。各事実はhigh信頼性、休止の主因分析はmedium信頼性。",
+      "source": {
+        "source_type": "community_data",
+        "source_title": "【重要なお知らせ】ゆっこらんど退会の件 - いるぶろ",
+        "source_locator": "https://blog.goo.ne.jp/iruten/e/edb43dc1c5006bd99301c9f6cb36f573",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": true,
+        "community_score": {
+          "discussion_age": "not_stated",
+          "participant_count": 0,
+          "expert_presence": false,
+          "reproducibility": false
+        }
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "三つのフォーク系フェスの終焉様式の比較から、それぞれの組織文化の根本的差異が浮かび上がる。全日本フォークジャンボリーは「外圧による崩壊」、春一番コンサートは「創設者の死による天命的終幕」、入間川フォークジャンボリーは「主催者の意思的完結」という終焉の種類の差異がある。",
+      "evidence": "全日本フォークジャンボリーは商業化への反発・ステージ占拠により予測困難な内部崩壊で終了、直後に春一番が継承。春一番は福岡風太が「自分が亡くなれば終わる」と公言し逝去後2025年最終回として息子・福岡嵐が血縁継承。入間川は「100回で終える」という計画的区切りにより主催者の意思的完結でコミュニティ継承（入間サウンドヘヴン）。「主催者の死や外圧ではなく自ら筆を置いた」フェスは日本の野外音楽史上において非常に少数。各フェスの終焉事実はhigh信頼性、「完成した市民の記録」という評価は分析的でmedium信頼性。",
+      "source": {
+        "source_type": "news_article",
+        "source_title": "春一番 (コンサート) - Wikipedia",
+        "source_locator": "https://ja.wikipedia.org/wiki/%E6%98%A5%E4%B8%80%E7%95%AA_(%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88)",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    },
+    {
+      "claim": "入間川フォークジャンボリーは、日本の音楽文化史において「郊外の自主管理文化圏の確立」「意思的完結という稀有なモデル」「狭山アメリカ村の遺産との接続」という三点で独自の位置を占める。",
+      "evidence": "①1990年代に「フジロックの商業化路線」でも「春一番の著名人路線」でもない「無名者が月に一度、駅前の公園で歌い続ける」路線を14年間・100回維持し「音楽は有名人のものではなく生活者のものである」という命題を行動で証明した。②多くの地域文化イベントが「自然消滅」または「主催者の死」によって終わるのに対し創設者が100回という数字を選んで自ら幕を引き「始まりがあれば終わりを設計することもできる」という視点を提示した。③1970年代に細野晴臣らが「生活の中の音楽」「DIY録音」を実践した同一の文化圏（狭山・入間エリア）で20年後に松しょう氏が「生活の中のステージ」という別形式の実践を行った連続性が地域文化史的に重要。各要素の事実的根拠は存在するが「独自性の言語化」は総合的分析評価でmedium信頼性。",
+      "source": {
+        "source_type": "unknown",
+        "source_title": "前段の各節（総合評価）",
+        "source_locator": "not_stated",
+        "access_date": "2026-03-15",
+        "reliability_tier": "tier3",
+        "primary_source": false,
+        "community_score": null
+      },
+      "confidence": "medium",
+      "requirement_level": null,
+      "standard_references": []
+    }
+  ]
+}

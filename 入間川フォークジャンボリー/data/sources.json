@@ -1,0 +1,287 @@
+{
+  "generated_at": "2026-03-15T03:54:02Z",
+  "generator": "AI Research Agent v2.2.0",
+  "total_sources": 13,
+  "tier_summary": {
+    "tier1": 1,
+    "tier2": 1,
+    "tier3": 10,
+    "tier4": 1
+  },
+  "primary_source_count": 5,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_type": "community_data",
+      "title": "「ラジオ」と「音楽」を心から愛されていた方の偲ぶ会に参加させていただいて。｜note",
+      "locator": "https://note.com/yukkolandmusic/n/ndc9b6b79b123",
+      "url": "https://note.com/yukkolandmusic/n/ndc9b6b79b123",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "松しょう氏はイベントの「主催者」であるより「触媒」として機能した。第1回から自らステージに立ち続けた点が、「主催者も演者である」という平等性のシンボルとなった。"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_type": "community_data",
+      "title": "【重要なお知らせ】ゆっこらんど「入間サウンドヘヴン」実行委員会退会の件 - いるぶろ",
+      "locator": "https://blog.goo.ne.jp/iruten/e/edb43dc1c5006bd99301c9f6cb36f573",
+      "url": "https://blog.goo.ne.jp/iruten/e/edb43dc1c5006bd99301c9f6cb36f573",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "ゆっこらんど（鈴木敬子）氏は、松しょう氏の「熱」を持続可能な「制度」に変換した人物であり、入間川フォークジャンボリー14年間の実質的な制度的支柱だった。"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_type": "community_data",
+      "title": "【重要なお知らせ】ゆっこらんど退会の件 - いるぶろ",
+      "locator": "https://blog.goo.ne.jp/iruten/e/edb43dc1c5006bd99301c9f6cb36f573",
+      "url": "https://blog.goo.ne.jp/iruten/e/edb43dc1c5006bd99301c9f6cb36f573",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間サウンドヘヴンの活動縮小（2022年以降）は、入間川フォークジャンボリーの終了とは別の問題であり、その主因は「コアメンバーの不可逆的離脱の累積」にある。"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_type": "community_data",
+      "title": "入間サウンドヘヴンのあゆみ - ゆっこらんど official",
+      "locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "url": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 2,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーの人的ネットワークは「松しょう氏」を頂点とする三層構造を持ち、各層が役割を分担することでイベントの14年間を支えた。このネットワークは血縁ではなく「音楽への共鳴」によって結合...",
+        "入間川フォークジャンボリーの終焉（2008年8月・第100回）は、単一の原因によるものではなく、「能動的完結」「組織的疲弊の蓄積」「文化環境の変化」という三種の要因が複合的に絡んだ帰結である。最大の要..."
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_type": "community_data",
+      "title": "入間サウンドヘヴンのあゆみ",
+      "locator": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "url": "https://rosalandrecord.jimdofree.com/profile-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/%E5%85%A5%E9%96%93%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%98%E3%83%B4%E3%83%B3%E3%81%AE%E3%81%82%E3%82%86%E3%81%BF/",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 4,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "14年間の継続運営における組織的疲弊と、主要メンバーのライフステージ変化が、松しょう氏の「終了」意思決定を後押しした可能性がある。",
+        "1998〜2007年の柳澤英太郎実行委員長期は、ジャンボリーが「個人主催イベント」から「地域の定着した文化行事」へと転換した制度成熟期に対応する。",
+        "「100回」という数字は偶然の区切りではなく、松しょう氏が設定した意図的な完結点だった可能性が高い。",
+        "入間川フォークジャンボリーのネットワークは、社会学的な「弱い紐帯の強さ」（Mark Granovetter, 1973）の典型的事例として理解できる。強い絆よりも「音楽が好き」という緩やかな共通点で繋..."
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_type": "community_data",
+      "title": "入間サウンドヘヴン公式ブログ「いるぶろ」",
+      "locator": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+      "url": "https://blog.goo.ne.jp/iruten/e/53c677a532e17b492ea0dde53c0e7de4",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": true,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーの最大の文化史的貢献は「有名でなくてもステージに立ち続けられる場を14年間・100回維持した」という事実そのものであり、これは1990〜2000年代の郊外都市における市民芸術..."
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_type": "community_data",
+      "title": "入間川フォークジャンボリー | タマ伸也オフィシャルブログ「タマログ」",
+      "locator": "https://ameblo.jp/tamamidnight/entry-12218419410.html",
+      "url": "https://ameblo.jp/tamamidnight/entry-12218419410.html",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier4",
+      "primary_source": false,
+      "community_score": {
+        "discussion_age": "not_stated",
+        "participant_count": 0,
+        "expert_presence": false,
+        "reproducibility": false
+      },
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "タマ伸也氏（ポカスカジャン）のブログ「タマログ」に残された出演記録は、第3層参加者の典型的な体験を「外部の目」で記録した貴重な文化的証言である。"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_type": "official_document",
+      "title": "入間市 騒音・振動・悪臭 ／ 入間市",
+      "locator": "https://www.city.iruma.saitama.jp/",
+      "url": "https://www.city.iruma.saitama.jp/",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier1",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "「新しきを知る公園」の騒音規制強化や行政的制約が終了の原因となったという説は、証拠不足で否定的評価が妥当である。"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_type": "unknown",
+      "title": "前段の各節（総合評価）",
+      "locator": "not_stated",
+      "url": null,
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーは、日本の音楽文化史において「郊外の自主管理文化圏の確立」「意思的完結という稀有なモデル」「狭山アメリカ村の遺産との接続」という三点で独自の位置を占める。"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_type": "news_article",
+      "title": "大阪で始まった音楽フェス「春一番（ハルイチ）」を知っているか | Fanto Magazine",
+      "locator": "https://www.fanto.jp/article/music-fes-haruichi/",
+      "url": "https://www.fanto.jp/article/music-fes-haruichi/",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーと春一番コンサートは、中津川フォークジャンボリーの精神を継承した「傍流」の双璧だが、その形態は対照的であり、この対比が入間川ジャンボリーの固有性を際立たせる。"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_type": "news_article",
+      "title": "春一番 (コンサート) - Wikipedia",
+      "locator": "https://ja.wikipedia.org/wiki/%E6%98%A5%E4%B8%80%E7%95%AA_(%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88)",
+      "url": "https://ja.wikipedia.org/wiki/%E6%98%A5%E4%B8%80%E7%95%AA_(%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88)",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "三つのフォーク系フェスの終焉様式の比較から、それぞれの組織文化の根本的差異が浮かび上がる。全日本フォークジャンボリーは「外圧による崩壊」、春一番コンサートは「創設者の死による天命的終幕」、入間川フォー..."
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_type": "academic_paper",
+      "title": "東京大学論文「音楽/貨幣/ハビトゥス」岡田2004",
+      "locator": "https://www.l.u-tokyo.ac.jp/~slogos/archive/28/okada2004.pdf",
+      "url": "https://www.l.u-tokyo.ac.jp/~slogos/archive/28/okada2004.pdf",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier2",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーは、日本の野外フェス文化の「メインライン系譜」とは異なる「傍流の継承者」として機能した。フジロックが欧米型大型商業フェスの移植であったのに対し、入間川ジャンボリーは中津川フォ..."
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_type": "news_article",
+      "title": "音楽フェスの歴史と目的｜日本に夏フェス文化が根付いた理由と海外フェスとの関連",
+      "locator": "https://originology.xyz/natsufes-kigen/",
+      "url": "https://originology.xyz/natsufes-kigen/",
+      "access_date": "2026-03-15",
+      "reliability_tier": "tier3",
+      "primary_source": false,
+      "community_score": null,
+      "reference_count": 1,
+      "referenced_by": [
+        "3:deep-analysis:claude-sonnet-4.6"
+      ],
+      "claim_summaries": [
+        "入間川フォークジャンボリーとフジロック・フェスティバル（1997年〜）の間に直接的な人的・組織的継承関係は存在しない。ただし両者は「野外で音楽を自由に享受する」という文化的感性が1990年代日本社会に..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="draw.io">
+  <diagram name="IrumaFolkJamboree" id="diagram_1">
+    <mxGraphModel background="#ffffff" dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="入間川フォークジャンボリー：地域文化の14年と100回の軌跡" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;fontColor=#ffffff;fontSize=22;fontStyle=1;arcSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sec1" value="精神的ルーツと発端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4a5568;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="root1" value="【原風景】&#xa;全日本フォークジャンボリー&#xa;(1969-1971 中津川)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;shadow=1;arcSize=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vision" value="【発起人】松しょう氏の決断&#xa;「有名人より自分たちの手で」&#xa;「年1回より毎月開催」" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;shadow=1;arcSize=8;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sec2" value="入間川フォークジャンボリー (1994-2008)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2b6cb0;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="core" value="【開催実績】&#xa;期間：1994年2月〜2008年8月&#xa;回数：全100回 (14年間)&#xa;会場：入間市「新しきを知る公園」" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ebf4ff;strokeColor=#3182ce;strokeWidth=3;shadow=1;arcSize=8;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="style" value="【独自スタイル】&#xa;・完全アマチュア参加型&#xa;・毎月開催の継続性&#xa;・手作り・DIY運営" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;shadow=1;arcSize=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="community" value="【コミュニティ形成】&#xa;出演者・観客の境界なし&#xa;松しょう氏を中心とした&#xa;緩やかなネットワーク" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff4;strokeColor=#38a169;shadow=1;arcSize=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sec3" value="社会的背景と課題" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c53030;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="140" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="context" value="【地域的背景】&#xa;入間・狭山エリアの文化土壌&#xa;(米軍ハウス文化/フラット)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fafc;strokeColor=#a0aec0;shadow=1;arcSize=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge" value="【運営の課題】&#xa;・個人(松しょう氏)への負担集中&#xa;・会場確保の困難さ&#xa;・継続への意志と限界" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fed7d7;strokeColor=#e53e3e;shadow=1;arcSize=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="860" y="320" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="legacy_bar" value="未来への継承：個人の情熱から地域文化インフラへ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d3748;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="1120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legacy" value="【後継：入間サウンドヘヴン】&#xa;2008年10月開始〜現在&#xa;住民主導の実行委員会形式へ移行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffff0;strokeColor=#d69e2e;shadow=1;arcSize=8;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="660" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="精神的継承" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="root1" target="vision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="1994年 実現" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="vision" target="core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="特徴" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="core" target="style">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="成果" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="style" target="community">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="地理的要因" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="context" target="core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="課題克服と転換" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="challenge" target="legacy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="コミュニティの存続" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="community" target="legacy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

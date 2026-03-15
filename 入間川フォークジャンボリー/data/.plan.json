@@ -1,0 +1,57 @@
+{
+  "topic": "入間川フォークジャンボリー",
+  "description": "発起人・松しょう氏を中心とした入間市フォークジャンボリーの歴史と社会的文脈の体系的調査",
+  "generated_by": "planner",
+  "steps": [
+    {
+      "id": "S1_InitialGathering",
+      "step": 1,
+      "role": "information-gathering",
+      "model": "gemini-3-pro-preview",
+      "prompt_focus": "「入間市フォークジャンボリー」「入間川フォークジャンボリー」および発起人「松しょう」氏に関する基礎情報の網羅的収集。開催年・場所・回数・出演者リストの特定、松しょう氏のプロフィール・インタビュー・発言録の検索。当時の雑誌記事、地方紙、回顧録などの一次・二次資料の所在確認。",
+      "depends_on": []
+    },
+    {
+      "id": "S2_TimelineContext",
+      "step": 2,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "収集情報を基にした「誕生から終焉」までの詳細な時系列年表の構築。特に「なぜ入間だったのか」という地理的・社会的背景（米軍ジョンソン基地/狭山基地との関係、当時の反戦・学生運動の気運、地元コミュニティの動向）と、松しょう氏の個人的動機（思想・原体験）との接合点の分析。",
+      "depends_on": [
+        "S1_InitialGathering"
+      ]
+    },
+    {
+      "id": "S3_NetworkLegacy",
+      "step": 3,
+      "role": "deep-analysis",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "イベントに関わった人物（アーティスト、運営スタッフ、地域住民）の相関図・ネットワークの構築。および、このイベントが日本の野外フェス文化（後のフジロック等）や現代音楽シーンに与えた具体的な影響と、文化史的評価の言語化。イベント終焉の複合的要因の分析。",
+      "depends_on": [
+        "S1_InitialGathering",
+        "S2_TimelineContext"
+      ]
+    },
+    {
+      "id": "S4_CriticalReview",
+      "step": 4,
+      "role": "critic-review",
+      "model": "claude-sonnet-4.6",
+      "prompt_focus": "構築された歴史・年表・人物像に対する批判的検証。松しょう氏の美化や「伝説化」によるバイアスの検出、証言の矛盾点の洗い出し、資料の裏付けが不足している箇所の指摘。特に「中津川フォークジャンボリー」との混同や、事実誤認がないかの厳密なチェック。",
+      "depends_on": [
+        "S2_TimelineContext",
+        "S3_NetworkLegacy"
+      ]
+    },
+    {
+      "id": "S5_FinalIntegration",
+      "step": 5,
+      "role": "integration-review",
+      "model": "claude-opus-4.6",
+      "prompt_focus": "全ステップの分析・検証結果を統合し、一般読者に伝わる平易かつ物語性のある歴史記述として構成。松しょう氏の人物像を軸に、入間という土地の記憶、時代の熱量、そして現代への遺産を論理的に、かつ情緒的な共感を呼ぶ形でまとめる。",
+      "depends_on": [
+        "S4_CriticalReview"
+      ]
+    }
+  ]
+}

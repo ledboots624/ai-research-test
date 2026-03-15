@@ -1,0 +1,52 @@
+[2026-03-15 12:04:42 INFO] === AI Research Agent v2.2.0 ===
+[2026-03-15 12:04:42 INFO] トピック: 入間川フォークジャンボリー
+[2026-03-15 12:04:42 INFO] 説明: 入間川フォークジャンボリー（歴史）
+[2026-03-15 12:04:42 INFO] コンテキスト: /Users/shige/work/test-claude/remote-test/ai-research-agent/context-research.json → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/data/.context.json
+[2026-03-15 12:04:42 INFO] ワークスペース: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/
+[2026-03-15 12:04:42 INFO] パイプライン実行開始: 5ステップ (開始: Step 1)
+[2026-03-15 12:04:42 INFO] モデル呼び出し: gemini-3-pro-preview → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-15 12:06:44 INFO] モデル応答完了: gemini-3-pro-preview (2m2s) → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-15 12:06:44 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/01-information-gathering-gemini-3-pro-preview.evidence.json
+[2026-03-15 12:08:28 WARN] Evidence JSON 抽出失敗: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/01-information-gathering-gemini-3-pro-preview.md
+[2026-03-15 12:08:28 INFO] Step 1 完了 (3m46s): information-gathering by gemini-3-pro-preview
+[2026-03-15 12:08:28 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-15 12:14:00 INFO] モデル応答完了: claude-sonnet-4.6 (5m32s) → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-15 12:14:00 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/02-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-15 12:23:17 WARN] Evidence JSON 抽出失敗: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/02-deep-analysis-claude-sonnet-4.6.md
+[2026-03-15 12:23:17 INFO] Step 2 完了 (14m49s): deep-analysis by claude-sonnet-4.6
+[2026-03-15 12:23:17 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/03-deep-analysis-claude-sonnet-4.6.md
+[2026-03-15 12:31:18 INFO] モデル応答完了: claude-sonnet-4.6 (8m1s) → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/03-deep-analysis-claude-sonnet-4.6.md
+[2026-03-15 12:31:18 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/03-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-15 12:37:47 INFO] Evidence JSON 生成: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/03-deep-analysis-claude-sonnet-4.6.evidence.json
+[2026-03-15 12:37:47 INFO] Step 3 完了 (14m30s): deep-analysis by claude-sonnet-4.6
+[2026-03-15 12:37:47 INFO] モデル呼び出し: claude-sonnet-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/04-critic-review-claude-sonnet-4.6.md
+[2026-03-15 12:41:13 INFO] モデル応答完了: claude-sonnet-4.6 (3m26s) → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/04-critic-review-claude-sonnet-4.6.md
+[2026-03-15 12:41:13 INFO] Step 4 完了 (3m26s): critic-review by claude-sonnet-4.6
+[2026-03-15 12:41:13 INFO] モデル呼び出し: claude-opus-4.6 → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/05-integration-review-claude-opus-4.6.md
+[2026-03-15 12:48:16 INFO] モデル応答完了: claude-opus-4.6 (7m3s) → /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/05-integration-review-claude-opus-4.6.md
+[2026-03-15 12:48:16 INFO] Evidence 抽出: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/05-integration-review-claude-opus-4.6.evidence.json
+[2026-03-15 12:54:02 WARN] Evidence JSON 抽出失敗: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/steps/05-integration-review-claude-opus-4.6.md
+[2026-03-15 12:54:02 INFO] Step 5 完了 (12m49s): integration-review by claude-opus-4.6
+[2026-03-15 12:54:02 INFO] 全ステップ完了
+[2026-03-15 12:54:02 INFO] Validation 実行中...
+[2026-03-15 12:54:02 INFO] Validation 完了: PARTIAL (claims: 18, high: 4, medium: 12, low: 2, tier1: 1, tier2: 1, tier3: 14, tier4: 2, primary: 9, req_must: 0, req_should: 0, std_direct: 0, std_partial: 0, std_gap: 0)
+[2026-03-15 12:54:02 INFO] パイプライン実行時間: 49m20s
+[2026-03-15 12:54:02 INFO] Sources Registry 生成中...
+[2026-03-15 12:54:02 INFO] Sources Registry 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/data/sources.json (13 sources)
+[2026-03-15 12:54:02 INFO] sources.json 生成: 0s
+[2026-03-15 12:54:02 INFO] README 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/README.md
+[2026-03-15 12:54:02 INFO] README 生成: 0s
+[2026-03-15 12:54:02 INFO] 図解生成中... (model: gemini-3-pro-preview, format: draw.io XML)
+[2026-03-15 12:55:47 INFO] draw.io XML 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/data/diagram.drawio
+[2026-03-15 12:55:47 INFO] SVG/PNG 変換中... (draw.io CLI)
+[2026-03-15 12:55:47 INFO] SVG 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/diagram.svg
+[2026-03-15 12:55:49 INFO] PNG 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/diagram.png
+[2026-03-15 12:55:49 INFO] diagram 生成: 1m47s
+[2026-03-15 12:55:49 INFO] スライド生成中... (model: gemini-3-pro-preview)
+[2026-03-15 12:56:35 INFO] スライドMD 生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/data/slides.md
+[2026-03-15 12:56:35 INFO] スライド変換中... (marp-cli)
+[2026-03-15 12:56:36 INFO] HTML スライド生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/slides.html
+[2026-03-15 12:56:38 INFO] PDF スライド生成完了: /Users/shige/work/test-claude/remote-test/public/research-test/入間川フォークジャンボリー/slides.pdf
+[2026-03-15 12:56:38 INFO] slides 生成: 49s
+[2026-03-15 12:56:38 INFO] 総実行時間: 51m56s
+[2026-03-15 12:56:39 INFO] .execution.json 生成完了
